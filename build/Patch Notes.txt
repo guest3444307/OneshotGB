@@ -1,0 +1,6 @@
+2.0.0 Update
+Name: Gbstudio V3 port
+______________________
+Bugfixes relating to V3 bugs
+	Fixing broken trigger (the exit to the living room was broken for whatever reason, making it bigger fixed it!)
+	
