@@ -1,7 +1,7 @@
 {
     "name": "Oneshot GB Demo",
     "author": "Max Nexus",
-    "notes": "ONESHOT GB DEMO\n_________________________\n\nStarted: 1/17/2021\nH1: 2/8/2021- 7/3/2021 (Stopped at Computer Cutscene)\nH2:7/9/2021 -7/16/2021 (Stopped at CG_WAKE_5 Redrawn)\n(counting by days worked)\nWorked on:\n7/17/2021: Worked on some release assets and general bugfixing\n7/21/2021:changed timer script to wait\n7/22/2021: Niko Bulb sprite made and added into game and bugfixes\n7/23/2021: Bug Fixes\nFinished 7/27/2021 1.0;\nSome Attempts around GBStudio V3 (the date was lost!) (fixed some issues with triggers at the password enter area) (i hate it that attach script is no longer saved across scenes, like why!)\n1/6/22: Minor Bug fix (just one",
+    "notes": "ONESHOT GB DEMO\n_________________________\n\nStarted: 1/17/2021\nH1: 2/8/2021- 7/3/2021 (Stopped at Computer Cutscene)\nH2:7/9/2021 -7/16/2021 (Stopped at CG_WAKE_5 Redrawn)\n(counting by days worked)\nWorked on:\n7/17/2021: Worked on some release assets and general bugfixing\n7/21/2021:changed timer script to wait\n7/22/2021: Niko Bulb sprite made and added into game and bugfixes\n7/23/2021: Bug Fixes\nFinished 7/27/2021 1.0;\nSome Attempts around GBStudio V3 (the date was lost!) (fixed some issues with triggers at the password enter area) (i hate it that attach script is no longer saved across scenes, like why!)\n1/6/22: Minor Bug fix (just one)\n1/10/22: new text files added\n1/11/22: Implemented a fix on the lack of persistence of attach script by adding it to all scenes that need it, not efficent but what can i do!",
     "_version": "3.0.0",
     "_release": "1",
     "scenes": [
@@ -1627,8 +1627,8 @@
             "playerHit2Script": [],
             "playerHit3Script": [],
             "id": "1dca4bb1-8352-469f-9b56-aaa12cb3ecb8",
-            "x": 273.39639526792433,
-            "y": 446.41644912930036,
+            "x": 290.0117806634034,
+            "y": 442.7241412636385,
             "actors": [
                 {
                     "name": "Niko Bed 2",
@@ -3113,7 +3113,8 @@
                     "args": {
                         "customEventId": "871e135c-43db-4533-86fd-394ae9113d0b",
                         "__name": "Menu (start button) before exit",
-                        "$variable[1]$": "1"
+                        "$variable[1]$": "1",
+                        "__comment": true
                     },
                     "children": {
                         "script": [
@@ -11366,7 +11367,16 @@
                 0
             ],
             "tileColors": [],
-            "script": [],
+            "script": [
+                {
+                    "command": "EVENT_CALL_CUSTOM_EVENT",
+                    "args": {
+                        "customEventId": "871e135c-43db-4533-86fd-394ae9113d0b",
+                        "$variable[1]$": "1"
+                    },
+                    "id": "f6c75325-0569-41d1-b6fe-82de2ba5accc"
+                }
+            ],
             "playerHit1Script": [],
             "playerHit2Script": [],
             "playerHit3Script": [],
@@ -19547,7 +19557,16 @@
             "paletteIds": [],
             "collisions": [],
             "tileColors": [],
-            "script": [],
+            "script": [
+                {
+                    "command": "EVENT_CALL_CUSTOM_EVENT",
+                    "args": {
+                        "customEventId": "871e135c-43db-4533-86fd-394ae9113d0b",
+                        "$variable[1]$": "1"
+                    },
+                    "id": "151f5207-2c90-4a9c-876a-df6979e7b0e7"
+                }
+            ],
             "playerHit1Script": [],
             "playerHit2Script": [],
             "playerHit3Script": [],
@@ -21371,6 +21390,14 @@
                             }
                         ]
                     }
+                },
+                {
+                    "command": "EVENT_CALL_CUSTOM_EVENT",
+                    "args": {
+                        "customEventId": "871e135c-43db-4533-86fd-394ae9113d0b",
+                        "$variable[1]$": "1"
+                    },
+                    "id": "688ce68d-46ae-42c9-88b0-2ca6d264d663"
                 }
             ],
             "playerHit1Script": [],
@@ -27899,7 +27926,16 @@
                 0
             ],
             "tileColors": [],
-            "script": [],
+            "script": [
+                {
+                    "command": "EVENT_CALL_CUSTOM_EVENT",
+                    "args": {
+                        "customEventId": "871e135c-43db-4533-86fd-394ae9113d0b",
+                        "$variable[1]$": "1"
+                    },
+                    "id": "b2639972-075b-48b4-8fc8-c5470cd588ea"
+                }
+            ],
             "playerHit1Script": [],
             "playerHit2Script": [],
             "playerHit3Script": [],
@@ -32418,7 +32454,16 @@
                 0
             ],
             "tileColors": [],
-            "script": [],
+            "script": [
+                {
+                    "command": "EVENT_CALL_CUSTOM_EVENT",
+                    "args": {
+                        "customEventId": "871e135c-43db-4533-86fd-394ae9113d0b",
+                        "$variable[1]$": "1"
+                    },
+                    "id": "3a889ae5-f8fd-432b-adf2-808c30ac6572"
+                }
+            ],
             "playerHit1Script": [],
             "playerHit2Script": [],
             "playerHit3Script": [],
@@ -33304,6 +33349,14 @@
                         "spriteSheetId": "80e3c3db-38da-48e9-bd21-7d09280dbbf2",
                         "persist": true
                     }
+                },
+                {
+                    "command": "EVENT_CALL_CUSTOM_EVENT",
+                    "args": {
+                        "customEventId": "871e135c-43db-4533-86fd-394ae9113d0b",
+                        "$variable[1]$": "1"
+                    },
+                    "id": "6d964883-ccad-41a1-b73e-711c1a1326bb"
                 }
             ],
             "playerHit1Script": [],
@@ -48724,9 +48777,9 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": "selected",
-        "worldScrollX": 647.2000122070312,
-        "worldScrollY": 1350.4000244140625,
-        "zoom": 254.16665649414062,
+        "worldScrollX": 0,
+        "worldScrollY": 0,
+        "zoom": 54.166664123535156,
         "customColorsEnabled": false,
         "sgbEnabled": false,
         "customHead": "",
@@ -48754,9 +48807,9 @@
         "defaultUIPaletteId": "default-ui",
         "playerPaletteId": "",
         "navigatorSplitSizes": [
-            255,
-            202,
-            283
+            216,
+            171,
+            240
         ],
         "showNavigator": true,
         "defaultFontId": "4a784ac1-5b89-4f75-82db-9684475f8582",
