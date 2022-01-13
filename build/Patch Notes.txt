@@ -2,5 +2,6 @@
 Name: Gbstudio V3 port
 ______________________
 Bugfixes relating to V3 bugs
-	Fixing broken trigger (the exit to the living room was broken for whatever reason, making it bigger fixed it!)
+	Speed lowered due to bugs with triggers
+	Fixed niko showing up for a second in the start of the cg cutscene! (actually didnt right now, but i know how to fix it!)
 	
