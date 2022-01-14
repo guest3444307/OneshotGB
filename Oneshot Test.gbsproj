@@ -1,7 +1,7 @@
 {
     "name": "Oneshot GB Demo",
     "author": "Max Nexus",
-    "notes": "ONESHOT GB DEMO\n_________________________\n\nStarted: 1/17/2021\nH1: 2/8/2021- 7/3/2021 (Stopped at Computer Cutscene)\nH2:7/9/2021 -7/16/2021 (Stopped at CG_WAKE_5 Redrawn)\n(counting by days worked)\nWorked on:\n7/17/2021: Worked on some release assets and general bugfixing\n7/21/2021:changed timer script to wait\n7/22/2021: Niko Bulb sprite made and added into game and bugfixes\n7/23/2021: Bug Fixes\nFinished 7/27/2021 1.0;\nSome Attempts around GBStudio V3 (the date was lost!) (fixed some issues with triggers at the password enter area) (i hate it that attach script is no longer saved across scenes, like why!)\n1/6/22: Minor Bug fix (just one)\n1/10/22: new text files added\n1/11/22: Implemented a fix on the lack of persistence of attach script by adding it to all scenes that need it, not efficent but what can i do! I also set up some plans into the New inventory system (code rework, maybe try out the new dialog prompt since ive seen cool things in the discord!\n1/12/22: Menu works now! also readded the dev sprite, returned speed to 1 from 1.5 to fix trigger bug discovered why the fireplace bug is happening, maybe ill finally speak in the discord since i have no clue about this",
+    "notes": "ONESHOT GB DEMO\n_________________________\n\nStarted: 1/17/2021\nH1: 2/8/2021- 7/3/2021 (Stopped at Computer Cutscene)\nH2:7/9/2021 -7/16/2021 (Stopped at CG_WAKE_5 Redrawn)\n(counting by days worked)\nWorked on:\n7/17/2021: Worked on some release assets and general bugfixing\n7/21/2021:changed timer script to wait\n7/22/2021: Niko Bulb sprite made and added into game and bugfixes\n7/23/2021: Bug Fixes\nFinished 7/27/2021 1.0;\nSome Attempts around GBStudio V3 (the date was lost!) (fixed some issues with triggers at the password enter area) (i hate it that attach script is no longer saved across scenes, like why!)\n1/6/22: Minor Bug fix (just one)\n1/10/22: new text files added\n1/11/22: Implemented a fix on the lack of persistence of attach script by adding it to all scenes that need it, not efficent but what can i do! I also set up some plans into the New inventory system (code rework, maybe try out the new dialog prompt since ive seen cool things in the discord!\n1/12/22: Menu works now! also readded the dev sprite, returned speed to 1 from 1.5 to fix trigger bug discovered why the fireplace bug is happening, maybe ill finally speak in the discord since i have no clue about this\n1/14/22: Nothing today, just took a crack at the sprite issue and I've got nothing, for some reason it just happens, maybe a 8x16 piece doesn't work? or maybe the niko sprite is broken, 3.0 has its issues.",
     "_version": "3.0.0",
     "_release": "1",
     "scenes": [
@@ -44172,7 +44172,7 @@
             "canvasHeight": 16,
             "boundsX": 0,
             "boundsY": 0,
-            "boundsWidth": 16,
+            "boundsWidth": 8,
             "boundsHeight": 16,
             "animSpeed": 15
         },
@@ -48969,9 +48969,9 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": "selected",
-        "worldScrollX": 3372.800048828125,
-        "worldScrollY": 203.1999969482422,
-        "zoom": 400,
+        "worldScrollX": 403.20001220703125,
+        "worldScrollY": 1160,
+        "zoom": 275,
         "customColorsEnabled": false,
         "sgbEnabled": false,
         "customHead": "",
