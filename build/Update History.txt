@@ -1,2 +1,2 @@
 1.0.0: Release!
-2.0.0: GBStudio V3 port (not released yet)
+2.0.0: GBStudio V3 port and DemoV2 (not released yet)
