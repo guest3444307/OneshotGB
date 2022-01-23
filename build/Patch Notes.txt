@@ -4,4 +4,4 @@ ______________________
 Bugfixes relating to V3 bugs
 	Speed lowered due to bugs with triggers
 	Fixed niko showing up for a second in the start of the cg cutscene! (actually didnt right now, but i know how to fix it!)
-	
+	Workaround to the Niko_Bulb sprite breaking things found and used)

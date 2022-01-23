@@ -1,7 +1,7 @@
 {
     "name": "Oneshot GB Demo",
     "author": "Max Nexus",
-    "notes": "ONESHOT GB DEMO\n_________________________\n\nStarted: 1/17/2021\nH1: 2/8/2021- 7/3/2021 (Stopped at Computer Cutscene)\nH2:7/9/2021 -7/16/2021 (Stopped at CG_WAKE_5 Redrawn)\n(counting by days worked)\nWorked on:\n7/17/2021: Worked on some release assets and general bugfixing\n7/21/2021:changed timer script to wait\n7/22/2021: Niko Bulb sprite made and added into game and bugfixes\n7/23/2021: Bug Fixes\nFinished 7/27/2021 1.0;\nSome Attempts around GBStudio V3 (the date was lost!) (fixed some issues with triggers at the password enter area) (i hate it that attach script is no longer saved across scenes, like why!)\n1/6/22: Minor Bug fix (just one)\n1/10/22: new text files added\n1/11/22: Implemented a fix on the lack of persistence of attach script by adding it to all scenes that need it, not efficent but what can i do! I also set up some plans into the New inventory system (code rework, maybe try out the new dialog prompt since ive seen cool things in the discord!\n1/12/22: Menu works now! also readded the dev sprite, returned speed to 1 from 1.5 to fix trigger bug discovered why the fireplace bug is happening, maybe ill finally speak in the discord since i have no clue about this\n1/14/22: Nothing today, just took a crack at the sprite issue and I've got nothing, for some reason it just happens, maybe a 8x16 piece doesn't work? or maybe the niko sprite is broken, 3.0 has its issues.",
+    "notes": "ONESHOT GB DEMO\n_________________________\n\nStarted: 1/17/2021\nH1: 2/8/2021- 7/3/2021 (Stopped at Computer Cutscene)\nH2:7/9/2021 -7/16/2021 (Stopped at CG_WAKE_5 Redrawn)\n(counting by days worked)\nWorked on:\n7/17/2021: Worked on some release assets and general bugfixing\n7/21/2021:changed timer script to wait\n7/22/2021: Niko Bulb sprite made and added into game and bugfixes\n7/23/2021: Bug Fixes\nFinished 7/27/2021 1.0;\nSome Attempts around GBStudio V3 (the date was lost!) (fixed some issues with triggers at the password enter area) (i hate it that attach script is no longer saved across scenes, like why!)\n1/6/22: Minor Bug fix (just one)\n1/10/22: new text files added\n1/11/22: Implemented a fix on the lack of persistence of attach script by adding it to all scenes that need it, not efficent but what can i do! I also set up some plans into the New inventory system (code rework, maybe try out the new dialog prompt since ive seen cool things in the discord!\n1/12/22: Menu works now! also readded the dev sprite, returned speed to 1 from 1.5 to fix trigger bug discovered why the fireplace bug is happening, maybe ill finally speak in the discord since i have no clue about this\n1/14/22: Nothing today, just took a crack at the sprite issue and I've got nothing, for some reason it just happens, maybe a 8x16 piece doesn't work? or maybe the niko sprite is broken, 3.0 has its issues.\n1/21/22: god damn it, i really should ask the discord for help, i tried just replacing the sprite that got replaced and it just bloody messed with a different sprite, the only solution i see is to replace every sprite every time, it seems to be tied to replacing the player sprite (why!!! also noticed a difference in speed between color when trying to see if that would fix anything suggesting poor performance (should've seen that coming with how poorly optimized this is!)",
     "_version": "3.0.0",
     "_release": "1",
     "scenes": [
@@ -1201,7 +1201,7 @@
                     "args": {
                         "variable": "2",
                         "__collapseElse": false,
-                        "__collapse": false
+                        "__collapse": true
                     },
                     "children": {
                         "true": [
@@ -1625,6 +1625,66 @@
                                             }
                                         }
                                     ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "23a44f39-63a9-41a6-9567-f16f055ccc71",
+                    "command": "EVENT_IF_VALUE",
+                    "args": {
+                        "variable": "8",
+                        "operator": "==",
+                        "comparator": 8,
+                        "__collapseElse": false,
+                        "__collapse": false
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "id": "c70b6f45-79d2-4560-88a5-9ba5647a5903",
+                                "command": "EVENT_PLAYER_SET_SPRITE",
+                                "args": {
+                                    "spriteSheetId": "80e3c3db-38da-48e9-bd21-7d09280dbbf2",
+                                    "persist": true,
+                                    "__comment": true
+                                }
+                            },
+                            {
+                                "command": "EVENT_ACTOR_SET_SPRITE",
+                                "args": {
+                                    "actorId": "player",
+                                    "spriteSheetId": "80e3c3db-38da-48e9-bd21-7d09280dbbf2",
+                                    "__collapse": false
+                                },
+                                "id": "0f5fb61a-4d4a-40e4-90ce-1d96d6c730d8"
+                            },
+                            {
+                                "command": "EVENT_ACTOR_SET_SPRITE",
+                                "args": {
+                                    "actorId": "7b3158bb-dfe4-48af-9d7e-00c52409a0d6",
+                                    "spriteSheetId": "9d915669-f12d-425a-9c95-a23fe9998d04",
+                                    "__collapse": true
+                                },
+                                "id": "e3830db0-6828-4cc3-b648-1de601a9b8c0"
+                            },
+                            {
+                                "command": "EVENT_ACTOR_SET_SPRITE",
+                                "args": {
+                                    "actorId": "898198f7-16e7-4ca8-a922-a88c1709f309",
+                                    "spriteSheetId": "1c82b41d-3a0a-4eec-b69c-16b0f0f60f39"
+                                },
+                                "id": "85a3d13a-45f0-479d-8081-88606e1c776e"
+                            }
+                        ],
+                        "false": [
+                            {
+                                "id": "ca710a48-aaf4-44ed-9d29-572c821db849",
+                                "command": "EVENT_PLAYER_SET_SPRITE",
+                                "args": {
+                                    "spriteSheetId": "fcc12505-44cf-4595-94ae-a955dca57387",
+                                    "persist": true
                                 }
                             }
                         ]
@@ -2570,6 +2630,22 @@
                                             "persist": true
                                         },
                                         "id": "ab7667d4-8821-448a-8e75-bfc98b89b0dd"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_SET_SPRITE",
+                                        "args": {
+                                            "actorId": "7b3158bb-dfe4-48af-9d7e-00c52409a0d6",
+                                            "spriteSheetId": "9d915669-f12d-425a-9c95-a23fe9998d04"
+                                        },
+                                        "id": "26fdc67e-3c36-4ee8-94c7-74bc18fa25fa"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_SET_SPRITE",
+                                        "args": {
+                                            "actorId": "898198f7-16e7-4ca8-a922-a88c1709f309",
+                                            "spriteSheetId": "1c82b41d-3a0a-4eec-b69c-16b0f0f60f39"
+                                        },
+                                        "id": "b6ea014d-cd2b-4ad9-9748-c7c84bb084da"
                                     }
                                 ],
                                 "false": []
@@ -2618,35 +2694,6 @@
                     "id": "fbce52d3-990c-4729-87a9-90e4147d3239",
                     "x": 7,
                     "y": 13
-                },
-                {
-                    "name": "",
-                    "frame": 0,
-                    "animate": false,
-                    "spriteSheetId": "80e3c3db-38da-48e9-bd21-7d09280dbbf2",
-                    "direction": "down",
-                    "moveSpeed": 1,
-                    "animSpeed": 15,
-                    "paletteId": "",
-                    "isPinned": false,
-                    "collisionGroup": "",
-                    "script": [],
-                    "startScript": [
-                        {
-                            "command": "EVENT_ACTOR_HIDE",
-                            "args": {
-                                "actorId": "$self$"
-                            },
-                            "id": "8b5b67f2-14a6-4d20-b0b0-f0d060dff941"
-                        }
-                    ],
-                    "updateScript": [],
-                    "hit1Script": [],
-                    "hit2Script": [],
-                    "hit3Script": [],
-                    "id": "2f9a015d-3e7d-4d31-a6a3-3c51eb9fb8f6",
-                    "x": 18,
-                    "y": 19
                 }
             ],
             "triggers": [
@@ -22413,11 +22460,21 @@
                                         "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
                                         "args": {
                                             "actorId": "$self$",
-                                            "speed": 15
+                                            "speed": 15,
+                                            "__collapse": false
                                         }
                                     }
                                 ],
-                                "false": []
+                                "false": [
+                                    {
+                                        "id": "0ac91614-d922-43cd-9978-ad728d4cb82e",
+                                        "command": "EVENT_ACTOR_SET_SPRITE",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "spriteSheetId": "683b8bc7-cc28-478e-b7c8-3bbf302cd1e6"
+                                        }
+                                    }
+                                ]
                             }
                         }
                     ],
@@ -49075,8 +49132,8 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": "selected",
-        "worldScrollX": 217.60000610351562,
-        "worldScrollY": 952,
+        "worldScrollX": 292.79998779296875,
+        "worldScrollY": 1002.4000244140625,
         "zoom": 212.5,
         "customColorsEnabled": false,
         "sgbEnabled": false,

@@ -3,5 +3,5 @@ ____________________
 
 Need to fix the problem with the fact that attach script to button no longer presists, so i need to add it back in manually! (Fixed!)
 would help to rework the inventory system, as its not optimized at all, it lags hard now for whatever reason and its hell to work with.
-theres a bug with the fireplace, for whatever reason it changed its sprite to niko (2 frames of fire, then look left niko, and then look right niko), but only for 2 of the four frames, happens when the nikobulb sprite comes up
+theres a bug with the fireplace, for whatever reason it changed its sprite to niko (2 frames of fire, then look left niko, and then look right niko), but only for 2 of the four frames, happens when the nikobulb sprite comes up (Fixed mostly)
 Niko's sprite becomes missing for whatever reason when entering the dev room, V3 is buggy but i'm willing to bargin for the improvements! saving and loading fixes this but it leads to the niko redesign sprite disappearing for no particular reason!, so im now beer (D.A.R.E. beware!)
