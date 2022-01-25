@@ -1,7 +1,7 @@
 {
     "name": "Oneshot GB Demo",
     "author": "Max Nexus",
-    "notes": "ONESHOT GB DEMO\n_________________________\n\nStarted: 1/17/2021\nH1: 2/8/2021- 7/3/2021 (Stopped at Computer Cutscene)\nH2:7/9/2021 -7/16/2021 (Stopped at CG_WAKE_5 Redrawn)\n(counting by days worked)\nWorked on:\n7/17/2021: Worked on some release assets and general bugfixing\n7/21/2021:changed timer script to wait\n7/22/2021: Niko Bulb sprite made and added into game and bugfixes\n7/23/2021: Bug Fixes\nFinished 7/27/2021 1.0;\nSome Attempts around GBStudio V3 (the date was lost!) (fixed some issues with triggers at the password enter area) (i hate it that attach script is no longer saved across scenes, like why!)\n1/6/22: Minor Bug fix (just one)\n1/10/22: new text files added\n1/11/22: Implemented a fix on the lack of persistence of attach script by adding it to all scenes that need it, not efficent but what can i do! I also set up some plans into the New inventory system (code rework, maybe try out the new dialog prompt since ive seen cool things in the discord!\n1/12/22: Menu works now! also readded the dev sprite, returned speed to 1 from 1.5 to fix trigger bug discovered why the fireplace bug is happening, maybe ill finally speak in the discord since i have no clue about this\n1/14/22: Nothing today, just took a crack at the sprite issue and I've got nothing, for some reason it just happens, maybe a 8x16 piece doesn't work? or maybe the niko sprite is broken, 3.0 has its issues.\n1/21/22: god damn it, i really should ask the discord for help, i tried just replacing the sprite that got replaced and it just bloody messed with a different sprite, the only solution i see is to replace every sprite every time, it seems to be tied to replacing the player sprite (why!!! also noticed a difference in speed between color when trying to see if that would fix anything suggesting poor performance (should've seen that coming with how poorly optimized this is!)\n1/22/22 (part 1): IVE GOD DAMN CRACKED THE BLODDY CODE, ITS THAT BULB SPRITE, ILL TRY FIXING IT NOW!!!\n1/22/22 (part 2): finally i mostly fixed it, all it took was arbitarily matching the sprite sheet, and 1 frame of glitchy sprite for it to inexplicibly work, well now its time to implement a new inventory system\n1/23/22: instead of working on a new inventory system i went and worked on the next map, BARRENS! nothing there really, just the map, i tried out some new techniques + the whole http://cache.andre-michelle.com/tools/html/tileset-extractor.html website to do it, and i got it done in about the time it originally took me to do just the living room (i did the living room by hand completly in paint.net, only going into tiled if its too big i think i should call this a moderate update since we are outside the house now.\n1/24/22: Added a few Niko Faces for fun, improved the one already there at least, not actually added, anything new.\n1/25/22: Added more Niko faces and modified some",
+    "notes": "ONESHOT GB DEMO V1.0.0\n_________________________\n\nStarted: 1/17/2021\nH1: 2/8/2021- 7/3/2021 (Stopped at Computer Cutscene)\nH2:7/9/2021 -7/16/2021 (Stopped at CG_WAKE_5 Redrawn)\n(counting by days worked)\nWorked on:\n7/17/2021: Worked on some release assets and general bugfixing\n7/21/2021:changed timer script to wait\n7/22/2021: Niko Bulb sprite made and added into game and bugfixes\n7/23/2021: Bug Fixes\nFinished 7/27/2021 1.0;\n_________________________\nONESHOT GB DEMO V2.0.0\n_________________________\nSome Attempts around GBStudio V3 (the date was lost!) (fixed some issues with triggers at the password enter area) (i hate it that attach script is no longer saved across scenes, like why!)\n1/6/22: Minor Bug fix (just one)\n1/10/22: new text files added\n1/11/22: Implemented a fix on the lack of persistence of attach script by adding it to all scenes that need it, not efficent but what can i do! I also set up some plans into the New inventory system (code rework, maybe try out the new dialog prompt since ive seen cool things in the discord!\n1/12/22: Menu works now! also readded the dev sprite, returned speed to 1 from 1.5 to fix trigger bug discovered why the fireplace bug is happening, maybe ill finally speak in the discord since i have no clue about this\n1/14/22: Nothing today, just took a crack at the sprite issue and I've got nothing, for some reason it just happens, maybe a 8x16 piece doesn't work? or maybe the niko sprite is broken, 3.0 has its issues.\n1/21/22: god damn it, i really should ask the discord for help, i tried just replacing the sprite that got replaced and it just bloody messed with a different sprite, the only solution i see is to replace every sprite every time, it seems to be tied to replacing the player sprite (why!!! also noticed a difference in speed between color when trying to see if that would fix anything suggesting poor performance (should've seen that coming with how poorly optimized this is!)\n1/22/22 (part 1): IVE GOD DAMN CRACKED THE BLODDY CODE, ITS THAT BULB SPRITE, ILL TRY FIXING IT NOW!!!\n1/22/22 (part 2): finally i mostly fixed it, all it took was arbitarily matching the sprite sheet, and 1 frame of glitchy sprite for it to inexplicibly work, well now its time to implement a new inventory system\n1/23/22: instead of working on a new inventory system i went and worked on the next map, BARRENS! nothing there really, just the map, i tried out some new techniques + the whole http://cache.andre-michelle.com/tools/html/tileset-extractor.html website to do it, and i got it done in about the time it originally took me to do just the living room (i did the living room by hand completly in paint.net, only going into tiled if its too big i think i should call this a moderate update since we are outside the house now.\n1/24/22: Added a few Niko Faces for fun, improved the one already there at least, not actually added, anything new.\n1/25/22: Added more Niko faces and modified some\n1/25/22 part 2: Added a new bg to the new inventory system and did slight work on it, i also found out why the menu was so much slower than before!",
     "_version": "3.0.0",
     "_release": "1",
     "scenes": [
@@ -2836,8 +2836,8 @@
             "playerHit2Script": [],
             "playerHit3Script": [],
             "id": "daab327e-2053-4e30-afa3-5a385c78fc90",
-            "x": 225.6288874190255,
-            "y": 208.31506940777976,
+            "x": 60,
+            "y": 209.4579265506369,
             "actors": [],
             "triggers": [],
             "type": "TOPDOWN",
@@ -2890,8 +2890,8 @@
             "playerHit2Script": [],
             "playerHit3Script": [],
             "id": "2a26a686-20cf-4a44-8745-9bd9d766696f",
-            "x": 393.74293219368474,
-            "y": 210.34287339066626,
+            "x": 240.60007505082754,
+            "y": 214.9143019620948,
             "actors": [],
             "triggers": [],
             "paletteIds": [
@@ -2943,8 +2943,8 @@
             "playerHit2Script": [],
             "playerHit3Script": [],
             "id": "f2e8f6ed-65b6-42df-aab2-78266bee4b80",
-            "x": 563,
-            "y": 209.1428570681202,
+            "x": 417.857142857143,
+            "y": 220.5714284966916,
             "actors": [],
             "triggers": [],
             "paletteIds": [
@@ -2995,8 +2995,8 @@
             "playerHit2Script": [],
             "playerHit3Script": [],
             "id": "b019f8a0-0314-4d7f-910a-d3a75e4f80a0",
-            "x": 731,
-            "y": 211,
+            "x": 908.1428571428575,
+            "y": 222.42857142857142,
             "actors": [],
             "triggers": [],
             "paletteIds": [
@@ -3527,8 +3527,8 @@
             "playerHit2Script": [],
             "playerHit3Script": [],
             "id": "ef322113-4f26-4310-92d1-b6167a7d78bc",
-            "x": 897,
-            "y": 212.1428570681202,
+            "x": 914.1428571428572,
+            "y": 408.71428563954885,
             "actors": [],
             "triggers": [],
             "paletteIds": [
@@ -3538,7 +3538,7 @@
             "type": "TOPDOWN"
         },
         {
-            "name": "Item Screen 1",
+            "name": "Item Screen 1 OLD",
             "backgroundId": "79528b4e-c371-41b3-9f06-379049ebde9d",
             "width": 20,
             "height": 18,
@@ -3558,7 +3558,8 @@
                                 "command": "EVENT_IF_TRUE",
                                 "args": {
                                     "variable": "L5",
-                                    "__collapseElse": false
+                                    "__collapseElse": false,
+                                    "__collapse": true
                                 },
                                 "children": {
                                     "true": [],
@@ -3606,6 +3607,32 @@
                                     "falseText": "New Inv"
                                 },
                                 "id": "4727e05a-f621-48d3-9d4a-bbd6f4652a88"
+                            },
+                            {
+                                "command": "EVENT_IF_TRUE",
+                                "args": {
+                                    "variable": "L5",
+                                    "__collapseElse": false,
+                                    "__collapse": true
+                                },
+                                "children": {
+                                    "true": [],
+                                    "false": [
+                                        {
+                                            "command": "EVENT_SWITCH_SCENE",
+                                            "args": {
+                                                "sceneId": "84da39a8-e8f7-4bbd-a29b-444987698ca1",
+                                                "x": 0,
+                                                "y": 0,
+                                                "direction": "",
+                                                "fadeSpeed": "2",
+                                                "__collapse": false
+                                            },
+                                            "id": "d9124ae6-720f-4c4f-9d67-8c4e39ccbae9"
+                                        }
+                                    ]
+                                },
+                                "id": "109dbd3d-f4ef-42e9-99c7-7d93790329c6"
                             }
                         ]
                     },
@@ -3859,7 +3886,7 @@
                     "args": {
                         "variable": "4",
                         "__collapseElse": true,
-                        "__collapse": false
+                        "__collapse": true
                     },
                     "children": {
                         "true": [
@@ -4501,17 +4528,15 @@
                             "type": "number",
                             "value": 0
                         },
-                        "__collapse": false
+                        "__collapse": true
                     }
                 },
                 {
-                    "id": "44c2ddac-5267-4e81-b893-ad3bee98bcfe",
-                    "command": "EVENT_ACTOR_SET_SPRITE",
+                    "command": "EVENT_ACTOR_HIDE",
                     "args": {
-                        "actorId": "$self$",
-                        "spriteSheetId": "b166b6fa-9418-4943-9572-637dcde6b42f",
-                        "__collapse": true
-                    }
+                        "actorId": "$self$"
+                    },
+                    "id": "6a76f616-ac8d-4d82-adbf-27e8982d9b81"
                 }
             ],
             "playerHit1Script": [],
@@ -11299,10 +11324,10 @@
             "type": "TOPDOWN"
         },
         {
-            "name": "Item Screen 2",
-            "backgroundId": "79528b4e-c371-41b3-9f06-379049ebde9d",
+            "name": "Item Screen 2 NEW",
+            "backgroundId": "3db90f4a-e413-41c4-8fde-5b7de60863be",
             "width": 20,
-            "height": 18,
+            "height": 77,
             "collisions": [],
             "tileColors": [],
             "script": [
@@ -11518,7 +11543,7 @@
                         "variable": "8",
                         "operator": "==",
                         "comparator": 0,
-                        "__collapseElse": false,
+                        "__collapseElse": true,
                         "__collapse": true
                     },
                     "children": {
@@ -11603,14 +11628,29 @@
                             }
                         ]
                     }
+                },
+                {
+                    "command": "EVENT_SET_INPUT_SCRIPT",
+                    "args": {
+                        "input": [
+                            "up"
+                        ],
+                        "override": true,
+                        "__scriptTabs": "press",
+                        "__comment": true
+                    },
+                    "children": {
+                        "true": []
+                    },
+                    "id": "53f3fabe-0fce-4102-b96d-d5af9962c1f0"
                 }
             ],
             "playerHit1Script": [],
             "playerHit2Script": [],
             "playerHit3Script": [],
             "id": "84da39a8-e8f7-4bbd-a29b-444987698ca1",
-            "x": 710.7429389947454,
-            "y": 38.571429318797904,
+            "x": 708.4572247090312,
+            "y": 30,
             "actors": [
                 {
                     "name": "",
@@ -11732,50 +11772,52 @@
                     "startScript": [],
                     "updateScript": [
                         {
-                            "command": "EVENT_SET_TIMER_SCRIPT",
+                            "id": "237e2d88-d61d-43e8-b253-12d99e138164",
+                            "command": "EVENT_ACTOR_SET_DIRECTION",
                             "args": {
-                                "duration": 0.5,
-                                "__scriptTabs": "end",
-                                "__collapse": false
-                            },
-                            "children": {
-                                "script": [
-                                    {
-                                        "id": "360130eb-b3aa-4700-a8c3-f5da784b42d5",
-                                        "command": "EVENT_ACTOR_SET_POSITION_RELATIVE",
-                                        "args": {
-                                            "actorId": "$self$",
-                                            "x": 0,
-                                            "y": -1,
-                                            "__collapse": true
-                                        }
-                                    },
-                                    {
-                                        "command": "EVENT_SET_TIMER_SCRIPT",
-                                        "args": {
-                                            "duration": 0.5,
-                                            "__scriptTabs": "end",
-                                            "__collapse": true
-                                        },
-                                        "children": {
-                                            "script": [
-                                                {
-                                                    "id": "b7c64e3b-de5f-423d-b17e-681da969fc8b",
-                                                    "command": "EVENT_ACTOR_SET_POSITION_RELATIVE",
-                                                    "args": {
-                                                        "actorId": "$self$",
-                                                        "x": 0,
-                                                        "y": 1,
-                                                        "__collapse": true
-                                                    }
-                                                }
-                                            ]
-                                        },
-                                        "id": "d1c46aaf-d9b3-4ee5-96b2-399fd2a5be28"
-                                    }
-                                ]
-                            },
-                            "id": "204f0089-a693-4e67-9fbe-4ab774fedce2"
+                                "actorId": "$self$",
+                                "direction": {
+                                    "type": "direction",
+                                    "value": "up"
+                                },
+                                "__collapse": true
+                            }
+                        },
+                        {
+                            "id": "10fc71a7-546f-4b1b-b745-fa1d9ea66e9b",
+                            "command": "EVENT_ACTOR_SET_POSITION_RELATIVE",
+                            "args": {
+                                "actorId": "$self$",
+                                "x": 0,
+                                "y": -1,
+                                "__collapse": true
+                            }
+                        },
+                        {
+                            "id": "f0faeebb-38fb-4ca4-a00f-c5545ea8cda0",
+                            "command": "EVENT_WAIT",
+                            "args": {
+                                "time": 0.5,
+                                "__collapse": true
+                            }
+                        },
+                        {
+                            "id": "9f03bbf6-305d-4d0f-b5ae-b9d380bf1b15",
+                            "command": "EVENT_ACTOR_SET_POSITION_RELATIVE",
+                            "args": {
+                                "actorId": "$self$",
+                                "x": 0,
+                                "y": 1,
+                                "__collapse": true
+                            }
+                        },
+                        {
+                            "id": "06d81d33-60b9-4827-8771-ae42c6b9a056",
+                            "command": "EVENT_WAIT",
+                            "args": {
+                                "time": 0.5,
+                                "__collapse": true
+                            }
                         }
                     ],
                     "hit1Script": [],
@@ -11787,7 +11829,8 @@
                 }
             ],
             "triggers": [],
-            "type": "TOPDOWN"
+            "type": "TOPDOWN",
+            "autoFadeEventCollapse": true
         },
         {
             "name": "Start Dark Bathroom",
@@ -13169,8 +13212,8 @@
             "playerHit2Script": [],
             "playerHit3Script": [],
             "id": "799c43b2-a4b9-40bc-a7fe-ecf17ab97cc7",
-            "x": 698.0315958678223,
-            "y": 402.38712610155665,
+            "x": 1110.6030244392507,
+            "y": 534.9585546729855,
             "actors": [
                 {
                     "name": "Blue Number screen",
@@ -36925,8 +36968,8 @@
             "playerHit2Script": [],
             "playerHit3Script": [],
             "id": "deb582a7-1860-417d-b43c-833b69bb7760",
-            "x": 520.5936227786057,
-            "y": 990.6065554598168,
+            "x": 820.022194207177,
+            "y": 1079.7494126026734,
             "actors": [
                 {
                     "name": "Interaction 1 SPRITE",
@@ -45955,8 +45998,8 @@
                 0
             ],
             "id": "0a9d64c6-ca74-4e25-9160-6f0ac93834ab",
-            "x": 332,
-            "y": 1616,
+            "x": 60,
+            "y": 1290.2857142857144,
             "actors": [
                 {
                     "name": "",
@@ -46067,6 +46110,16 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "Menus\\Item Screen TEMP.png",
+            "tileColors": []
+        },
+        {
+            "id": "3db90f4a-e413-41c4-8fde-5b7de60863be",
+            "name": "Menus\\NewInvMenu",
+            "width": 20,
+            "height": 77,
+            "imageWidth": 160,
+            "imageHeight": 616,
+            "filename": "Menus\\NewInvMenu.png",
             "tileColors": []
         },
         {
@@ -57910,6 +57963,10 @@
             "name": "Start Basement stair open"
         },
         {
+            "id": "29",
+            "name": "VariableUpDown 0-13"
+        },
+        {
             "id": "898198f7-16e7-4ca8-a922-a88c1709f309__L0",
             "name": "Remote Control Item"
         },
@@ -58069,9 +58126,9 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": "selected",
-        "worldScrollX": 633,
-        "worldScrollY": 0,
-        "zoom": 87.5,
+        "worldScrollX": 1179.199951171875,
+        "worldScrollY": 216.8000030517578,
+        "zoom": 275,
         "customColorsEnabled": false,
         "sgbEnabled": false,
         "customHead": "",
@@ -58099,9 +58156,9 @@
         "defaultUIPaletteId": "default-ui",
         "playerPaletteId": "",
         "navigatorSplitSizes": [
-            216,
-            171,
-            241
+            255,
+            202,
+            284
         ],
         "showNavigator": true,
         "defaultFontId": "4a784ac1-5b89-4f75-82db-9684475f8582",
