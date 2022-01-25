@@ -1,7 +1,7 @@
 {
     "name": "Oneshot GB Demo",
     "author": "Max Nexus",
-    "notes": "ONESHOT GB DEMO\n_________________________\n\nStarted: 1/17/2021\nH1: 2/8/2021- 7/3/2021 (Stopped at Computer Cutscene)\nH2:7/9/2021 -7/16/2021 (Stopped at CG_WAKE_5 Redrawn)\n(counting by days worked)\nWorked on:\n7/17/2021: Worked on some release assets and general bugfixing\n7/21/2021:changed timer script to wait\n7/22/2021: Niko Bulb sprite made and added into game and bugfixes\n7/23/2021: Bug Fixes\nFinished 7/27/2021 1.0;\nSome Attempts around GBStudio V3 (the date was lost!) (fixed some issues with triggers at the password enter area) (i hate it that attach script is no longer saved across scenes, like why!)\n1/6/22: Minor Bug fix (just one)\n1/10/22: new text files added\n1/11/22: Implemented a fix on the lack of persistence of attach script by adding it to all scenes that need it, not efficent but what can i do! I also set up some plans into the New inventory system (code rework, maybe try out the new dialog prompt since ive seen cool things in the discord!\n1/12/22: Menu works now! also readded the dev sprite, returned speed to 1 from 1.5 to fix trigger bug discovered why the fireplace bug is happening, maybe ill finally speak in the discord since i have no clue about this\n1/14/22: Nothing today, just took a crack at the sprite issue and I've got nothing, for some reason it just happens, maybe a 8x16 piece doesn't work? or maybe the niko sprite is broken, 3.0 has its issues.\n1/21/22: god damn it, i really should ask the discord for help, i tried just replacing the sprite that got replaced and it just bloody messed with a different sprite, the only solution i see is to replace every sprite every time, it seems to be tied to replacing the player sprite (why!!! also noticed a difference in speed between color when trying to see if that would fix anything suggesting poor performance (should've seen that coming with how poorly optimized this is!)\n1/22/22 (part 1): IVE GOD DAMN CRACKED THE BLODDY CODE, ITS THAT BULB SPRITE, ILL TRY FIXING IT NOW!!!\n1/22/22 (part 2): finally i mostly fixed it, all it took was arbitarily matching the sprite sheet, and 1 frame of glitchy sprite for it to inexplicibly work, well now its time to implement a new inventory system\n1/23/22: instead of working on a new inventory system i went and worked on the next map, BARRENS! nothing there really, just the map, i tried out some new techniques + the whole http://cache.andre-michelle.com/tools/html/tileset-extractor.html website to do it, and i got it done in about the time it originally took me to do just the living room (i did the living room by hand completly in paint.net, only going into tiled if its too big i think i should call this a moderate update since we are outside the house now.",
+    "notes": "ONESHOT GB DEMO\n_________________________\n\nStarted: 1/17/2021\nH1: 2/8/2021- 7/3/2021 (Stopped at Computer Cutscene)\nH2:7/9/2021 -7/16/2021 (Stopped at CG_WAKE_5 Redrawn)\n(counting by days worked)\nWorked on:\n7/17/2021: Worked on some release assets and general bugfixing\n7/21/2021:changed timer script to wait\n7/22/2021: Niko Bulb sprite made and added into game and bugfixes\n7/23/2021: Bug Fixes\nFinished 7/27/2021 1.0;\nSome Attempts around GBStudio V3 (the date was lost!) (fixed some issues with triggers at the password enter area) (i hate it that attach script is no longer saved across scenes, like why!)\n1/6/22: Minor Bug fix (just one)\n1/10/22: new text files added\n1/11/22: Implemented a fix on the lack of persistence of attach script by adding it to all scenes that need it, not efficent but what can i do! I also set up some plans into the New inventory system (code rework, maybe try out the new dialog prompt since ive seen cool things in the discord!\n1/12/22: Menu works now! also readded the dev sprite, returned speed to 1 from 1.5 to fix trigger bug discovered why the fireplace bug is happening, maybe ill finally speak in the discord since i have no clue about this\n1/14/22: Nothing today, just took a crack at the sprite issue and I've got nothing, for some reason it just happens, maybe a 8x16 piece doesn't work? or maybe the niko sprite is broken, 3.0 has its issues.\n1/21/22: god damn it, i really should ask the discord for help, i tried just replacing the sprite that got replaced and it just bloody messed with a different sprite, the only solution i see is to replace every sprite every time, it seems to be tied to replacing the player sprite (why!!! also noticed a difference in speed between color when trying to see if that would fix anything suggesting poor performance (should've seen that coming with how poorly optimized this is!)\n1/22/22 (part 1): IVE GOD DAMN CRACKED THE BLODDY CODE, ITS THAT BULB SPRITE, ILL TRY FIXING IT NOW!!!\n1/22/22 (part 2): finally i mostly fixed it, all it took was arbitarily matching the sprite sheet, and 1 frame of glitchy sprite for it to inexplicibly work, well now its time to implement a new inventory system\n1/23/22: instead of working on a new inventory system i went and worked on the next map, BARRENS! nothing there really, just the map, i tried out some new techniques + the whole http://cache.andre-michelle.com/tools/html/tileset-extractor.html website to do it, and i got it done in about the time it originally took me to do just the living room (i did the living room by hand completly in paint.net, only going into tiled if its too big i think i should call this a moderate update since we are outside the house now.\n1/24/22: Added a few Niko Faces for fun, improved the one already there at least, not actually added, anything new.",
     "_version": "3.0.0",
     "_release": "1",
     "scenes": [
@@ -22528,7 +22528,7 @@
                     "args": {
                         "variable": "L0",
                         "__collapseElse": false,
-                        "__collapse": true
+                        "__collapse": false
                     },
                     "children": {
                         "true": [],
@@ -22561,7 +22561,7 @@
                         "operator": "==",
                         "comparator": 8,
                         "__collapseElse": false,
-                        "__collapse": false
+                        "__collapse": true
                     },
                     "children": {
                         "true": [
@@ -46006,7 +46006,8 @@
             "height": 80,
             "imageWidth": 504,
             "imageHeight": 640,
-            "filename": "Barrens\\DocksGB.png"
+            "filename": "Barrens\\DocksGB.png",
+            "tileColors": []
         },
         {
             "id": "85e39429-9954-4e3a-91d5-2d14d7a85ce5",
@@ -49908,6 +49909,514 @@
                             "frames": [
                                 {
                                     "id": "8e319f94-7129-49bc-8f0e-91bc41e375a5",
+                                    "tiles": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "numTiles": 2,
+            "canvasWidth": 16,
+            "canvasHeight": 16,
+            "boundsX": 0,
+            "boundsY": 0,
+            "boundsWidth": 16,
+            "boundsHeight": 16,
+            "animSpeed": 15
+        },
+        {
+            "id": "69a6ca62-4c37-4807-a92e-ca8085aa54a5",
+            "name": "Faces\\NikoEyebrowConfused",
+            "numFrames": 1,
+            "type": "static",
+            "filename": "Faces\\NikoEyebrowConfused.png",
+            "checksum": "1a90dbafaad5a7c5c492f7d081f85e3e33767ac4",
+            "width": 16,
+            "height": 16,
+            "states": [
+                {
+                    "id": "27064582-c859-4ced-8e20-b7316acc4663",
+                    "name": "",
+                    "animationType": "fixed",
+                    "flipLeft": false,
+                    "animations": [
+                        {
+                            "id": "6c9a8ed8-5ed2-4d04-a966-c0954ceba603",
+                            "frames": [
+                                {
+                                    "id": "ac661b7f-01e2-43c2-a838-8a031a55fa9a",
+                                    "tiles": [
+                                        {
+                                            "id": "6793e2d0-332a-4966-85ec-0ff11c4cc5ba",
+                                            "x": 0,
+                                            "y": 0,
+                                            "sliceX": 0,
+                                            "sliceY": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "palette": 0,
+                                            "paletteIndex": 0,
+                                            "objPalette": "OBP0",
+                                            "priority": false
+                                        },
+                                        {
+                                            "id": "dc41ed9d-486e-4466-86e0-15fcdbbe0b1c",
+                                            "x": 8,
+                                            "y": 0,
+                                            "sliceX": 8,
+                                            "sliceY": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "palette": 0,
+                                            "paletteIndex": 0,
+                                            "objPalette": "OBP0",
+                                            "priority": false
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "e2111f2e-2df0-43e6-b1e4-aeef7f2030f7",
+                            "frames": [
+                                {
+                                    "id": "bb7f37f4-bb77-4ed1-83ec-9fed51b358e9",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "bf6d98b6-2681-4875-9b01-ed9bf161f5ea",
+                            "frames": [
+                                {
+                                    "id": "567c93f9-7e71-492e-8587-07755a43b725",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "57460320-5e1d-4349-bc1f-913025711332",
+                            "frames": [
+                                {
+                                    "id": "9f9d16cf-0709-40f4-9f4a-d529615a22d5",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "6177b82b-8a86-48b9-8e35-0c4299806d34",
+                            "frames": [
+                                {
+                                    "id": "6d936126-ef8a-44cc-bbde-0c01d26878e2",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "44bb5aaa-7067-4473-ba1d-b8e9ca6fdd92",
+                            "frames": [
+                                {
+                                    "id": "638d6ba9-899e-4466-95a3-7afbd9855420",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "7b3f8be4-1c03-46c7-b18d-a24a0e44701f",
+                            "frames": [
+                                {
+                                    "id": "29d99945-bda1-45a4-8b10-2e6720e21c56",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "c8b4f330-4c74-4884-ae57-81f28a821eb8",
+                            "frames": [
+                                {
+                                    "id": "fee0cfea-9b03-4707-a305-55a292dcd8a5",
+                                    "tiles": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "numTiles": 2,
+            "canvasWidth": 16,
+            "canvasHeight": 16,
+            "boundsX": 0,
+            "boundsY": 0,
+            "boundsWidth": 16,
+            "boundsHeight": 16,
+            "animSpeed": 15
+        },
+        {
+            "id": "b3e2d34d-e5e5-43c0-b9e7-1a8063bbfa06",
+            "name": "Faces\\NikoLaugh",
+            "numFrames": 1,
+            "type": "static",
+            "filename": "Faces\\NikoLaugh.png",
+            "checksum": "693a931b3bb44ef036ca171fd86a367d17ac4d7e",
+            "width": 16,
+            "height": 16,
+            "states": [
+                {
+                    "id": "b0d7ac07-80d5-4e9e-acc1-585d3d2015ef",
+                    "name": "",
+                    "animationType": "fixed",
+                    "flipLeft": false,
+                    "animations": [
+                        {
+                            "id": "ded9d762-aeaf-458a-9953-0bff9e7a19a7",
+                            "frames": [
+                                {
+                                    "id": "d1d6a5ee-3bc0-4b1d-a948-8514cf525bbd",
+                                    "tiles": [
+                                        {
+                                            "id": "164f2f5e-7de7-4a4a-8ee7-cb267dd8aff2",
+                                            "x": 0,
+                                            "y": 0,
+                                            "sliceX": 0,
+                                            "sliceY": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "palette": 0,
+                                            "paletteIndex": 0,
+                                            "objPalette": "OBP0",
+                                            "priority": false
+                                        },
+                                        {
+                                            "id": "8d36e17b-8127-4258-8ef6-57ac9005e677",
+                                            "x": 8,
+                                            "y": 0,
+                                            "sliceX": 8,
+                                            "sliceY": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "palette": 0,
+                                            "paletteIndex": 0,
+                                            "objPalette": "OBP0",
+                                            "priority": false
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "1d48feb6-7630-436b-8581-09d6ccec8915",
+                            "frames": [
+                                {
+                                    "id": "56f5581d-2369-40dc-8071-ae11f5c57608",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "4309bc86-48ba-4c10-99c8-67c5e156dc1e",
+                            "frames": [
+                                {
+                                    "id": "30266e92-55e7-45e5-98b6-9b35600086c4",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "3751a05d-a51f-44ec-8d01-222962c337ee",
+                            "frames": [
+                                {
+                                    "id": "d8736e7a-13b2-4227-9552-ca36a5fd79cb",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "e2cd8f5c-923e-4bd6-a7f4-e4f9da2480e9",
+                            "frames": [
+                                {
+                                    "id": "09818fa0-5aa0-4c16-b05b-57437d773afe",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "71765656-0389-42d4-b6bd-cee007ec039b",
+                            "frames": [
+                                {
+                                    "id": "28a38883-12df-429f-9ed8-58df67fa2c1f",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "5b50f76d-055f-4549-b428-e11f60ddd105",
+                            "frames": [
+                                {
+                                    "id": "b4a1b8b9-1e06-46d2-9064-9aca8ad47709",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "62e43184-a340-414f-bb2c-ad85d507f72f",
+                            "frames": [
+                                {
+                                    "id": "8d6a412e-8d5f-4c4a-bcc8-937fdefbedb5",
+                                    "tiles": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "numTiles": 2,
+            "canvasWidth": 16,
+            "canvasHeight": 16,
+            "boundsX": 0,
+            "boundsY": 0,
+            "boundsWidth": 16,
+            "boundsHeight": 16,
+            "animSpeed": 15
+        },
+        {
+            "id": "48e6d08d-d123-4cee-9a1b-7ae8f311faf9",
+            "name": "Faces\\NikoLookLeft",
+            "numFrames": 1,
+            "type": "static",
+            "filename": "Faces\\NikoLookLeft.png",
+            "checksum": "a662b10fd6eaec3556093b6e244b1b172ceee684",
+            "width": 16,
+            "height": 16,
+            "states": [
+                {
+                    "id": "80767c4a-c7fc-4734-93b0-3131325bfce1",
+                    "name": "",
+                    "animationType": "fixed",
+                    "flipLeft": false,
+                    "animations": [
+                        {
+                            "id": "001745ea-d6d5-4661-95f0-6bf92967381b",
+                            "frames": [
+                                {
+                                    "id": "ffe5f94d-7fab-4fb5-8757-13453527e717",
+                                    "tiles": [
+                                        {
+                                            "id": "b317e8a8-518f-4efb-a431-15c24915ebc0",
+                                            "x": 0,
+                                            "y": 0,
+                                            "sliceX": 0,
+                                            "sliceY": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "palette": 0,
+                                            "paletteIndex": 0,
+                                            "objPalette": "OBP0",
+                                            "priority": false
+                                        },
+                                        {
+                                            "id": "9db96466-c334-4b74-abed-78a49c941774",
+                                            "x": 8,
+                                            "y": 0,
+                                            "sliceX": 8,
+                                            "sliceY": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "palette": 0,
+                                            "paletteIndex": 0,
+                                            "objPalette": "OBP0",
+                                            "priority": false
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "45841af7-ac99-4536-b364-6885a99d768c",
+                            "frames": [
+                                {
+                                    "id": "fdc805ea-5d7c-4195-8bdd-3d614b418a94",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "50c15a97-e1b7-46e3-8938-8a9cf0db4ab9",
+                            "frames": [
+                                {
+                                    "id": "a338bde1-5459-476c-a141-fb6727e6c386",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "3620d57f-e624-4222-9004-811d0f328f80",
+                            "frames": [
+                                {
+                                    "id": "bed966b7-d74c-4b14-93c2-94da04f10f03",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "aeae2b77-039f-4904-90e3-3e9c5e2d25c0",
+                            "frames": [
+                                {
+                                    "id": "020f09d6-a7e4-4b48-a91d-b1cdf3cf4342",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "ca15aa78-3ba1-450d-919d-97bd3ff87fee",
+                            "frames": [
+                                {
+                                    "id": "cebb433e-0f52-4218-8197-2a6a336b27e8",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "1892825e-d80b-419b-b256-72b3c55fabd8",
+                            "frames": [
+                                {
+                                    "id": "e2866dcf-1cdb-4531-a348-c779480252ab",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "b06808a6-bb33-4bb1-8705-504761aca2d6",
+                            "frames": [
+                                {
+                                    "id": "1f547670-84b9-4f83-96c7-66d794ce57a9",
+                                    "tiles": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "numTiles": 2,
+            "canvasWidth": 16,
+            "canvasHeight": 16,
+            "boundsX": 0,
+            "boundsY": 0,
+            "boundsWidth": 16,
+            "boundsHeight": 16,
+            "animSpeed": 15
+        },
+        {
+            "id": "4778bfb1-7006-4f13-8ee2-afede6c71b5a",
+            "name": "Faces\\NikoLookRight",
+            "numFrames": 1,
+            "type": "static",
+            "filename": "Faces\\NikoLookRight.png",
+            "checksum": "e1e425b1d7b48aea724c4edd5ac4a42b0ca73bb5",
+            "width": 16,
+            "height": 16,
+            "states": [
+                {
+                    "id": "8ddfeded-2838-426e-bf9b-f4fb1f345507",
+                    "name": "",
+                    "animationType": "fixed",
+                    "flipLeft": false,
+                    "animations": [
+                        {
+                            "id": "fed126fe-0a8b-4f24-8c0d-f71aec9379be",
+                            "frames": [
+                                {
+                                    "id": "2b2f9c6d-3f3d-4ec6-a985-106945eae1e0",
+                                    "tiles": [
+                                        {
+                                            "id": "214ea584-771b-4844-a3ca-7e56d692dbc5",
+                                            "x": 0,
+                                            "y": 0,
+                                            "sliceX": 0,
+                                            "sliceY": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "palette": 0,
+                                            "paletteIndex": 0,
+                                            "objPalette": "OBP0",
+                                            "priority": false
+                                        },
+                                        {
+                                            "id": "6c8ea3a4-923e-4953-b2bd-8a6333166204",
+                                            "x": 8,
+                                            "y": 0,
+                                            "sliceX": 8,
+                                            "sliceY": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "palette": 0,
+                                            "paletteIndex": 0,
+                                            "objPalette": "OBP0",
+                                            "priority": false
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "18f312ae-9200-456e-a683-33d63ea268a4",
+                            "frames": [
+                                {
+                                    "id": "c2e47fe9-0312-4986-a6b4-4bf98c204a6c",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "61555271-e7e6-4c45-936a-c08bf7ad2cbe",
+                            "frames": [
+                                {
+                                    "id": "460f1f60-9e84-40e9-8335-cf10edaf3987",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "f3ca517f-99fe-416b-acb9-1558db4835f3",
+                            "frames": [
+                                {
+                                    "id": "e6880dc8-352d-4a0b-be0c-be800eeff980",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "26ed11c0-73c9-40bd-8c6f-54a4ae13f03a",
+                            "frames": [
+                                {
+                                    "id": "980dfa3c-1d30-4697-9e99-8695cb7e927c",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "af08710b-a64e-4c8a-b4ed-bfb0f8f3e2c7",
+                            "frames": [
+                                {
+                                    "id": "f6600a48-fb59-42c9-b691-77bbbb528ad0",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "e6366ddc-bbe8-4057-ab20-77e5e7ef48b6",
+                            "frames": [
+                                {
+                                    "id": "dc312536-8fc5-4a49-baf6-4c629576c1d1",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "8e3930b5-180b-40cd-b9b3-529bdd51ebc8",
+                            "frames": [
+                                {
+                                    "id": "551419dd-0169-4419-bc0e-52f8640ff9b0",
                                     "tiles": []
                                 }
                             ]
@@ -56163,8 +56672,8 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": "selected",
-        "worldScrollX": 0,
-        "worldScrollY": 1199.199951171875,
+        "worldScrollX": 633,
+        "worldScrollY": 0,
         "zoom": 87.5,
         "customColorsEnabled": false,
         "sgbEnabled": false,
@@ -56193,9 +56702,9 @@
         "defaultUIPaletteId": "default-ui",
         "playerPaletteId": "",
         "navigatorSplitSizes": [
-            255,
-            202,
-            284
+            216,
+            171,
+            241
         ],
         "showNavigator": true,
         "defaultFontId": "4a784ac1-5b89-4f75-82db-9684475f8582",
