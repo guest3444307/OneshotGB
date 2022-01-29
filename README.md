@@ -9,6 +9,7 @@ Update format
 
 Minor: Bugfixes
 Moderate:New visual content, little to no new content, Aka nothing playable
+Working Progress: Working on content which once finished, will be considered "Major"
 Major: Playable content, like a continuation of the story, or a new inventory system
 
 2.0.0 demo promises
