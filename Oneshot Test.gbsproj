@@ -1,7 +1,7 @@
 {
     "name": "Oneshot GB Demo",
     "author": "Max Nexus",
-    "notes": "ONESHOT GB DEMO V1.0.0\n_________________________\n\nStarted: 1/17/2021\nH1: 2/8/2021- 7/3/2021 (Stopped at Computer Cutscene)\nH2:7/9/2021 -7/16/2021 (Stopped at CG_WAKE_5 Redrawn)\n(counting by days worked)\nWorked on:\n7/17/2021: Worked on some release assets and general bugfixing\n7/21/2021:changed timer script to wait\n7/22/2021: Niko Bulb sprite made and added into game and bugfixes\n7/23/2021: Bug Fixes\nFinished 7/27/2021 1.0;\n_________________________\nONESHOT GB DEMO V2.0.0\n_________________________\nSome Attempts around GBStudio V3 (the date was lost!) (fixed some issues with triggers at the password enter area) (i hate it that attach script is no longer saved across scenes, like why!)\n1/6/22: Minor Bug fix (just one)\n1/10/22: new text files added\n1/11/22: Implemented a fix on the lack of persistence of attach script by adding it to all scenes that need it, not efficent but what can i do! I also set up some plans into the New inventory system (code rework, maybe try out the new dialog prompt since ive seen cool things in the discord!\n1/12/22: Menu works now! also readded the dev sprite, returned speed to 1 from 1.5 to fix trigger bug discovered why the fireplace bug is happening, maybe ill finally speak in the discord since i have no clue about this\n1/14/22: Nothing today, just took a crack at the sprite issue and I've got nothing, for some reason it just happens, maybe a 8x16 piece doesn't work? or maybe the niko sprite is broken, 3.0 has its issues.\n1/21/22: god damn it, i really should ask the discord for help, i tried just replacing the sprite that got replaced and it just bloody messed with a different sprite, the only solution i see is to replace every sprite every time, it seems to be tied to replacing the player sprite (why!!! also noticed a difference in speed between color when trying to see if that would fix anything suggesting poor performance (should've seen that coming with how poorly optimized this is!)\n1/22/22 (part 1): IVE GOD DAMN CRACKED THE BLODDY CODE, ITS THAT BULB SPRITE, ILL TRY FIXING IT NOW!!!\n1/22/22 (part 2): finally i mostly fixed it, all it took was arbitarily matching the sprite sheet, and 1 frame of glitchy sprite for it to inexplicibly work, well now its time to implement a new inventory system\n1/23/22: instead of working on a new inventory system i went and worked on the next map, BARRENS! nothing there really, just the map, i tried out some new techniques + the whole http://cache.andre-michelle.com/tools/html/tileset-extractor.html website to do it, and i got it done in about the time it originally took me to do just the living room (i did the living room by hand completly in paint.net, only going into tiled if its too big i think i should call this a moderate update since we are outside the house now.\n1/24/22: Added a few Niko Faces for fun, improved the one already there at least, not actually added, anything new.\n1/25/22: Added more Niko faces and modified some\n1/25/22 part 2: Added a new bg to the new inventory system and did slight work on it, i also found out why the menu was so much slower than before!\n1/28/22: Worked a bit on the arrow in the inventory system! it works a bit better.",
+    "notes": "ONESHOT GB DEMO V1.0.0\n_________________________\n\nStarted: 1/17/2021\nH1: 2/8/2021- 7/3/2021 (Stopped at Computer Cutscene)\nH2:7/9/2021 -7/16/2021 (Stopped at CG_WAKE_5 Redrawn)\n(counting by days worked)\nWorked on:\n7/17/2021: Worked on some release assets and general bugfixing\n7/21/2021:changed timer script to wait\n7/22/2021: Niko Bulb sprite made and added into game and bugfixes\n7/23/2021: Bug Fixes\nFinished 7/27/2021 1.0;\n_________________________\nONESHOT GB DEMO V2.0.0\n_________________________\nSome Attempts around GBStudio V3 (the date was lost!) (fixed some issues with triggers at the password enter area) (i hate it that attach script is no longer saved across scenes, like why!)\n1/6/22: Minor Bug fix (just one)\n1/10/22: new text files added\n1/11/22: Implemented a fix on the lack of persistence of attach script by adding it to all scenes that need it, not efficent but what can i do! I also set up some plans into the New inventory system (code rework, maybe try out the new dialog prompt since ive seen cool things in the discord!\n1/12/22: Menu works now! also readded the dev sprite, returned speed to 1 from 1.5 to fix trigger bug discovered why the fireplace bug is happening, maybe ill finally speak in the discord since i have no clue about this\n1/14/22: Nothing today, just took a crack at the sprite issue and I've got nothing, for some reason it just happens, maybe a 8x16 piece doesn't work? or maybe the niko sprite is broken, 3.0 has its issues.\n1/21/22: god damn it, i really should ask the discord for help, i tried just replacing the sprite that got replaced and it just bloody messed with a different sprite, the only solution i see is to replace every sprite every time, it seems to be tied to replacing the player sprite (why!!! also noticed a difference in speed between color when trying to see if that would fix anything suggesting poor performance (should've seen that coming with how poorly optimized this is!)\n1/22/22 (part 1): IVE GOD DAMN CRACKED THE BLODDY CODE, ITS THAT BULB SPRITE, ILL TRY FIXING IT NOW!!!\n1/22/22 (part 2): finally i mostly fixed it, all it took was arbitarily matching the sprite sheet, and 1 frame of glitchy sprite for it to inexplicibly work, well now its time to implement a new inventory system\n1/23/22: instead of working on a new inventory system i went and worked on the next map, BARRENS! nothing there really, just the map, i tried out some new techniques + the whole http://cache.andre-michelle.com/tools/html/tileset-extractor.html website to do it, and i got it done in about the time it originally took me to do just the living room (i did the living room by hand completly in paint.net, only going into tiled if its too big i think i should call this a moderate update since we are outside the house now.\n1/24/22: Added a few Niko Faces for fun, improved the one already there at least, not actually added, anything new.\n1/25/22: Added more Niko faces and modified some\n1/25/22 part 2: Added a new bg to the new inventory system and did slight work on it, i also found out why the menu was so much slower than before!\n1/28/22: Worked a bit on the arrow in the inventory system! it works a bit better.\n2/4/22: Worked a bit on the inventory system, no new content, just touched up on the project.",
     "_version": "3.0.0",
     "_release": "1",
     "scenes": [
@@ -4565,7 +4565,7 @@
                                 "operator": "==",
                                 "comparator": 1,
                                 "__collapseElse": false,
-                                "__collapse": false
+                                "__collapse": true
                             },
                             "children": {
                                 "true": [
@@ -6976,7 +6976,7 @@
                                 "operator": "==",
                                 "comparator": 1,
                                 "__collapseElse": false,
-                                "__collapse": true
+                                "__collapse": false
                             },
                             "children": {
                                 "true": [
@@ -7177,7 +7177,7 @@
                                     "a"
                                 ],
                                 "__collapseElse": false,
-                                "__collapse": true
+                                "__collapse": false
                             },
                             "children": {
                                 "true": [
@@ -7189,7 +7189,7 @@
                                             "operator": "==",
                                             "comparator": "0",
                                             "__collapseElse": true,
-                                            "__collapse": true
+                                            "__collapse": false
                                         },
                                         "children": {
                                             "true": [
@@ -7201,7 +7201,7 @@
                                                         "operator": "==",
                                                         "comparator": 1,
                                                         "__collapseElse": false,
-                                                        "__collapse": true
+                                                        "__collapse": false
                                                     },
                                                     "children": {
                                                         "true": [
@@ -10666,7 +10666,8 @@
                                         "id": "d64bb073-156e-4f2f-8801-9857a7806668",
                                         "command": "EVENT_INC_VALUE",
                                         "args": {
-                                            "variable": "27"
+                                            "variable": "27",
+                                            "__collapse": false
                                         }
                                     }
                                 ]
@@ -57772,22 +57773,27 @@
                     "name": "Item slot check for item"
                 }
             },
-            "actors": {},
+            "actors": {
+                "0": {
+                    "id": "0",
+                    "name": "Actor A"
+                }
+            },
             "script": [
                 {
                     "command": "EVENT_SWITCH",
                     "args": {
                         "variable": "0",
                         "choices": 8,
-                        "__collapseCase0": true,
+                        "__collapseCase0": false,
                         "value0": 1,
-                        "__collapseCase1": true,
+                        "__collapseCase1": false,
                         "value1": 2,
-                        "__collapseCase2": true,
+                        "__collapseCase2": false,
                         "value2": 3,
-                        "__collapseCase3": true,
+                        "__collapseCase3": false,
                         "value3": 4,
-                        "__collapseCase4": true,
+                        "__collapseCase4": false,
                         "value4": 5,
                         "__collapseCase5": true,
                         "value5": 6,
@@ -57811,14 +57817,60 @@
                         "value14": 15,
                         "__collapseCase15": false,
                         "value15": 16,
-                        "__collapseElse": false
+                        "__collapseElse": false,
+                        "__collapse": false
                     },
                     "children": {
-                        "true0": [],
-                        "true1": [],
-                        "true2": [],
-                        "true3": [],
-                        "true4": [],
+                        "true0": [
+                            {
+                                "command": "EVENT_ACTOR_SET_SPRITE",
+                                "args": {
+                                    "actorId": "0",
+                                    "spriteSheetId": "1c82b41d-3a0a-4eec-b69c-16b0f0f60f39"
+                                },
+                                "id": "97905e20-2121-4b67-b909-24a824ac2976"
+                            }
+                        ],
+                        "true1": [
+                            {
+                                "command": "EVENT_ACTOR_SET_SPRITE",
+                                "args": {
+                                    "actorId": "0",
+                                    "spriteSheetId": "29f27432-e8b7-43bf-bbbd-9c1a09e73ace"
+                                },
+                                "id": "2df4c8eb-076f-4552-b94b-4bde064d7ddb"
+                            }
+                        ],
+                        "true2": [
+                            {
+                                "command": "EVENT_ACTOR_SET_SPRITE",
+                                "args": {
+                                    "actorId": "0",
+                                    "spriteSheetId": "76aea42e-750d-4a2b-9a1c-232f39270c96"
+                                },
+                                "id": "94b4f034-a13f-4b65-919a-e0c24d121678"
+                            }
+                        ],
+                        "true3": [
+                            {
+                                "command": "EVENT_ACTOR_SET_SPRITE",
+                                "args": {
+                                    "actorId": "0",
+                                    "spriteSheetId": "2db1fcd9-3d6e-4f65-9d03-aaad706ba658"
+                                },
+                                "id": "4cfb7ffa-47f5-422f-b094-2a31187b3f43"
+                            }
+                        ],
+                        "true4": [
+                            {
+                                "command": "EVENT_ACTOR_SET_SPRITE",
+                                "args": {
+                                    "actorId": "0",
+                                    "spriteSheetId": "e42c8f9c-a406-4afa-8ec8-c013586963fe"
+                                },
+                                "id": "3e1ea2f7-9c8e-4795-821f-871159ebe0b9"
+                            }
+                        ],
                         "true5": [],
                         "true6": [],
                         "true7": [],
@@ -58301,9 +58353,9 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": "selected",
-        "worldScrollX": 1644.800048828125,
-        "worldScrollY": 150.39999389648438,
-        "zoom": 337.5,
+        "worldScrollX": 920.7999877929688,
+        "worldScrollY": 14.399999618530273,
+        "zoom": 200,
         "customColorsEnabled": false,
         "sgbEnabled": false,
         "customHead": "",

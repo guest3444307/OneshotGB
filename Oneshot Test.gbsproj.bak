@@ -1,7 +1,7 @@
 {
     "name": "Oneshot GB Demo",
     "author": "Max Nexus",
-    "notes": "ONESHOT GB DEMO V1.0.0\n_________________________\n\nStarted: 1/17/2021\nH1: 2/8/2021- 7/3/2021 (Stopped at Computer Cutscene)\nH2:7/9/2021 -7/16/2021 (Stopped at CG_WAKE_5 Redrawn)\n(counting by days worked)\nWorked on:\n7/17/2021: Worked on some release assets and general bugfixing\n7/21/2021:changed timer script to wait\n7/22/2021: Niko Bulb sprite made and added into game and bugfixes\n7/23/2021: Bug Fixes\nFinished 7/27/2021 1.0;\n_________________________\nONESHOT GB DEMO V2.0.0\n_________________________\nSome Attempts around GBStudio V3 (the date was lost!) (fixed some issues with triggers at the password enter area) (i hate it that attach script is no longer saved across scenes, like why!)\n1/6/22: Minor Bug fix (just one)\n1/10/22: new text files added\n1/11/22: Implemented a fix on the lack of persistence of attach script by adding it to all scenes that need it, not efficent but what can i do! I also set up some plans into the New inventory system (code rework, maybe try out the new dialog prompt since ive seen cool things in the discord!\n1/12/22: Menu works now! also readded the dev sprite, returned speed to 1 from 1.5 to fix trigger bug discovered why the fireplace bug is happening, maybe ill finally speak in the discord since i have no clue about this\n1/14/22: Nothing today, just took a crack at the sprite issue and I've got nothing, for some reason it just happens, maybe a 8x16 piece doesn't work? or maybe the niko sprite is broken, 3.0 has its issues.\n1/21/22: god damn it, i really should ask the discord for help, i tried just replacing the sprite that got replaced and it just bloody messed with a different sprite, the only solution i see is to replace every sprite every time, it seems to be tied to replacing the player sprite (why!!! also noticed a difference in speed between color when trying to see if that would fix anything suggesting poor performance (should've seen that coming with how poorly optimized this is!)\n1/22/22 (part 1): IVE GOD DAMN CRACKED THE BLODDY CODE, ITS THAT BULB SPRITE, ILL TRY FIXING IT NOW!!!\n1/22/22 (part 2): finally i mostly fixed it, all it took was arbitarily matching the sprite sheet, and 1 frame of glitchy sprite for it to inexplicibly work, well now its time to implement a new inventory system\n1/23/22: instead of working on a new inventory system i went and worked on the next map, BARRENS! nothing there really, just the map, i tried out some new techniques + the whole http://cache.andre-michelle.com/tools/html/tileset-extractor.html website to do it, and i got it done in about the time it originally took me to do just the living room (i did the living room by hand completly in paint.net, only going into tiled if its too big i think i should call this a moderate update since we are outside the house now.\n1/24/22: Added a few Niko Faces for fun, improved the one already there at least, not actually added, anything new.\n1/25/22: Added more Niko faces and modified some\n1/25/22 part 2: Added a new bg to the new inventory system and did slight work on it, i also found out why the menu was so much slower than before!",
+    "notes": "ONESHOT GB DEMO V1.0.0\n_________________________\n\nStarted: 1/17/2021\nH1: 2/8/2021- 7/3/2021 (Stopped at Computer Cutscene)\nH2:7/9/2021 -7/16/2021 (Stopped at CG_WAKE_5 Redrawn)\n(counting by days worked)\nWorked on:\n7/17/2021: Worked on some release assets and general bugfixing\n7/21/2021:changed timer script to wait\n7/22/2021: Niko Bulb sprite made and added into game and bugfixes\n7/23/2021: Bug Fixes\nFinished 7/27/2021 1.0;\n_________________________\nONESHOT GB DEMO V2.0.0\n_________________________\nSome Attempts around GBStudio V3 (the date was lost!) (fixed some issues with triggers at the password enter area) (i hate it that attach script is no longer saved across scenes, like why!)\n1/6/22: Minor Bug fix (just one)\n1/10/22: new text files added\n1/11/22: Implemented a fix on the lack of persistence of attach script by adding it to all scenes that need it, not efficent but what can i do! I also set up some plans into the New inventory system (code rework, maybe try out the new dialog prompt since ive seen cool things in the discord!\n1/12/22: Menu works now! also readded the dev sprite, returned speed to 1 from 1.5 to fix trigger bug discovered why the fireplace bug is happening, maybe ill finally speak in the discord since i have no clue about this\n1/14/22: Nothing today, just took a crack at the sprite issue and I've got nothing, for some reason it just happens, maybe a 8x16 piece doesn't work? or maybe the niko sprite is broken, 3.0 has its issues.\n1/21/22: god damn it, i really should ask the discord for help, i tried just replacing the sprite that got replaced and it just bloody messed with a different sprite, the only solution i see is to replace every sprite every time, it seems to be tied to replacing the player sprite (why!!! also noticed a difference in speed between color when trying to see if that would fix anything suggesting poor performance (should've seen that coming with how poorly optimized this is!)\n1/22/22 (part 1): IVE GOD DAMN CRACKED THE BLODDY CODE, ITS THAT BULB SPRITE, ILL TRY FIXING IT NOW!!!\n1/22/22 (part 2): finally i mostly fixed it, all it took was arbitarily matching the sprite sheet, and 1 frame of glitchy sprite for it to inexplicibly work, well now its time to implement a new inventory system\n1/23/22: instead of working on a new inventory system i went and worked on the next map, BARRENS! nothing there really, just the map, i tried out some new techniques + the whole http://cache.andre-michelle.com/tools/html/tileset-extractor.html website to do it, and i got it done in about the time it originally took me to do just the living room (i did the living room by hand completly in paint.net, only going into tiled if its too big i think i should call this a moderate update since we are outside the house now.\n1/24/22: Added a few Niko Faces for fun, improved the one already there at least, not actually added, anything new.\n1/25/22: Added more Niko faces and modified some\n1/25/22 part 2: Added a new bg to the new inventory system and did slight work on it, i also found out why the menu was so much slower than before!\n1/28/22: Worked a bit on the arrow in the inventory system! it works a bit better.",
     "_version": "3.0.0",
     "_release": "1",
     "scenes": [
@@ -4534,7 +4534,8 @@
                 {
                     "command": "EVENT_ACTOR_HIDE",
                     "args": {
-                        "actorId": "$self$"
+                        "actorId": "$self$",
+                        "__collapse": true
                     },
                     "id": "6a76f616-ac8d-4d82-adbf-27e8982d9b81"
                 }
@@ -5361,7 +5362,7 @@
                                 "operator": "==",
                                 "comparator": 1,
                                 "__collapseElse": false,
-                                "__collapse": true
+                                "__collapse": false
                             },
                             "children": {
                                 "true": [
@@ -10195,7 +10196,7 @@
                     "hit2Script": [],
                     "hit3Script": [],
                     "id": "3ad5482d-19ae-4193-8a06-716aeb339dc6",
-                    "x": 18,
+                    "x": 17,
                     "y": 16
                 },
                 {
@@ -10218,7 +10219,7 @@
                             "args": {
                                 "duration": 0.25,
                                 "__scriptTabs": "end",
-                                "__collapse": true,
+                                "__collapse": false,
                                 "__comment": true
                             },
                             "children": {
@@ -11532,124 +11533,298 @@
                     "command": "EVENT_COMMENT",
                     "args": {
                         "text": "Below is the item check switch",
-                        "__collapse": true
+                        "__collapse": false
                     },
                     "id": "3218adcd-b75a-4688-b0a0-59a3beb8fea1"
-                },
-                {
-                    "id": "5813eeb0-9c68-43ca-8cc8-82600a443142",
-                    "command": "EVENT_IF_VALUE",
-                    "args": {
-                        "variable": "8",
-                        "operator": "==",
-                        "comparator": 0,
-                        "__collapseElse": true,
-                        "__collapse": true
-                    },
-                    "children": {
-                        "true": [
-                            {
-                                "id": "b70040d6-961e-42e4-823c-cad44979a801",
-                                "command": "EVENT_SET_FALSE",
-                                "args": {
-                                    "variable": "4",
-                                    "__collapse": true
-                                }
-                            }
-                        ],
-                        "false": [
-                            {
-                                "id": "4fdfccc0-4e42-4bb5-a4ef-069371980820",
-                                "command": "EVENT_IF_VALUE",
-                                "args": {
-                                    "variable": "9",
-                                    "operator": "==",
-                                    "comparator": 0,
-                                    "__collapseElse": false,
-                                    "__collapse": false
-                                },
-                                "children": {
-                                    "true": [
-                                        {
-                                            "id": "7fc17a79-034b-493c-b2a4-b022469e05e2",
-                                            "command": "EVENT_SET_FALSE",
-                                            "args": {
-                                                "variable": "10"
-                                            }
-                                        }
-                                    ],
-                                    "false": [
-                                        {
-                                            "id": "038734b7-1c36-4dcd-84d2-df5e6336fa09",
-                                            "command": "EVENT_IF_VALUE",
-                                            "args": {
-                                                "variable": "23",
-                                                "operator": "==",
-                                                "comparator": 0,
-                                                "__collapseElse": false
-                                            },
-                                            "children": {
-                                                "true": [
-                                                    {
-                                                        "id": "980f7711-135c-4510-b3fb-412a25000432",
-                                                        "command": "EVENT_SET_FALSE",
-                                                        "args": {
-                                                            "variable": "22"
-                                                        }
-                                                    }
-                                                ],
-                                                "false": [
-                                                    {
-                                                        "id": "8be5f0a4-0353-4a94-adb9-95299ed55752",
-                                                        "command": "EVENT_SET_TRUE",
-                                                        "args": {
-                                                            "variable": "22"
-                                                        }
-                                                    }
-                                                ]
-                                            }
-                                        },
-                                        {
-                                            "id": "21496e90-0caf-4a70-b2d9-217c46220c56",
-                                            "command": "EVENT_SET_TRUE",
-                                            "args": {
-                                                "variable": "10"
-                                            }
-                                        }
-                                    ]
-                                }
-                            },
-                            {
-                                "id": "cf239ba3-cd7c-42ff-9990-56e94438fec5",
-                                "command": "EVENT_SET_TRUE",
-                                "args": {
-                                    "variable": "4"
-                                }
-                            }
-                        ]
-                    }
                 },
                 {
                     "command": "EVENT_SET_INPUT_SCRIPT",
                     "args": {
                         "input": [
-                            "up"
+                            "left"
                         ],
                         "override": true,
                         "__scriptTabs": "press",
-                        "__comment": true
+                        "__comment": false,
+                        "__collapse": true
                     },
                     "children": {
-                        "true": []
+                        "true": [
+                            {
+                                "command": "EVENT_SWITCH",
+                                "args": {
+                                    "variable": "27",
+                                    "choices": 3,
+                                    "__collapseCase0": false,
+                                    "value0": 0,
+                                    "__collapseCase1": false,
+                                    "value1": 1,
+                                    "__collapseCase2": false,
+                                    "value2": 2,
+                                    "__collapseCase3": false,
+                                    "value3": 4,
+                                    "__collapseCase4": false,
+                                    "value4": 5,
+                                    "__collapseCase5": false,
+                                    "value5": 6,
+                                    "__collapseCase6": false,
+                                    "value6": 7,
+                                    "__collapseCase7": false,
+                                    "value7": 8,
+                                    "__collapseCase8": false,
+                                    "value8": 9,
+                                    "__collapseCase9": false,
+                                    "value9": 10,
+                                    "__collapseCase10": false,
+                                    "value10": 11,
+                                    "__collapseCase11": false,
+                                    "value11": 12,
+                                    "__collapseCase12": false,
+                                    "value12": 13,
+                                    "__collapseCase13": false,
+                                    "value13": 14,
+                                    "__collapseCase14": false,
+                                    "value14": 15,
+                                    "__collapseCase15": false,
+                                    "value15": 16,
+                                    "__collapseElse": false
+                                },
+                                "children": {
+                                    "true0": [
+                                        {
+                                            "command": "EVENT_SET_VALUE",
+                                            "args": {
+                                                "variable": "27",
+                                                "value": {
+                                                    "type": "number",
+                                                    "value": 2
+                                                }
+                                            },
+                                            "id": "fca62ca7-741f-417c-9e12-38907d68dc85"
+                                        },
+                                        {
+                                            "command": "EVENT_ACTOR_SET_POSITION_RELATIVE",
+                                            "args": {
+                                                "actorId": "1f3164d0-23d3-4d28-a8c3-7ff89340a554",
+                                                "x": 12,
+                                                "y": 0
+                                            },
+                                            "id": "18a39bb4-d6c8-46b3-8354-1e09a7a9364b"
+                                        }
+                                    ],
+                                    "true1": [
+                                        {
+                                            "command": "EVENT_SET_VALUE",
+                                            "args": {
+                                                "variable": "27",
+                                                "value": {
+                                                    "type": "number",
+                                                    "value": 0
+                                                },
+                                                "__collapse": false
+                                            },
+                                            "id": "a3c8028d-c02e-4e3e-9b75-2eb2f590221d"
+                                        },
+                                        {
+                                            "command": "EVENT_ACTOR_SET_POSITION_RELATIVE",
+                                            "args": {
+                                                "actorId": "1f3164d0-23d3-4d28-a8c3-7ff89340a554",
+                                                "x": -6,
+                                                "y": 0
+                                            },
+                                            "id": "786cea7b-f712-4f90-85d2-2ba98b86aad9"
+                                        }
+                                    ],
+                                    "true2": [
+                                        {
+                                            "command": "EVENT_SET_VALUE",
+                                            "args": {
+                                                "variable": "27",
+                                                "value": {
+                                                    "type": "number",
+                                                    "value": 1
+                                                }
+                                            },
+                                            "id": "66171f3b-58d9-457e-a790-a24983115f73"
+                                        },
+                                        {
+                                            "command": "EVENT_ACTOR_SET_POSITION_RELATIVE",
+                                            "args": {
+                                                "actorId": "1f3164d0-23d3-4d28-a8c3-7ff89340a554",
+                                                "x": -6,
+                                                "y": 0
+                                            },
+                                            "id": "3bf9ea6e-3ed5-4bb3-acce-1d3eccfacfff"
+                                        }
+                                    ],
+                                    "true3": [],
+                                    "true4": [],
+                                    "true5": [],
+                                    "true6": [],
+                                    "true7": [],
+                                    "true8": [],
+                                    "true9": [],
+                                    "true10": [],
+                                    "true11": [],
+                                    "true12": [],
+                                    "true13": [],
+                                    "true14": [],
+                                    "true15": [],
+                                    "false": []
+                                },
+                                "id": "cfe6d392-b8d2-4f4b-a3ca-f2b08c3faf0c"
+                            }
+                        ]
                     },
                     "id": "53f3fabe-0fce-4102-b96d-d5af9962c1f0"
+                },
+                {
+                    "command": "EVENT_SET_INPUT_SCRIPT",
+                    "args": {
+                        "input": [
+                            "right"
+                        ],
+                        "override": true,
+                        "__scriptTabs": "press",
+                        "__comment": false,
+                        "__collapse": true
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "command": "EVENT_SWITCH",
+                                "args": {
+                                    "variable": "27",
+                                    "choices": 3,
+                                    "__collapseCase0": false,
+                                    "value0": 0,
+                                    "__collapseCase1": false,
+                                    "value1": 1,
+                                    "__collapseCase2": false,
+                                    "value2": 2,
+                                    "__collapseCase3": false,
+                                    "value3": 4,
+                                    "__collapseCase4": false,
+                                    "value4": 5,
+                                    "__collapseCase5": false,
+                                    "value5": 6,
+                                    "__collapseCase6": false,
+                                    "value6": 7,
+                                    "__collapseCase7": false,
+                                    "value7": 8,
+                                    "__collapseCase8": false,
+                                    "value8": 9,
+                                    "__collapseCase9": false,
+                                    "value9": 10,
+                                    "__collapseCase10": false,
+                                    "value10": 11,
+                                    "__collapseCase11": false,
+                                    "value11": 12,
+                                    "__collapseCase12": false,
+                                    "value12": 13,
+                                    "__collapseCase13": false,
+                                    "value13": 14,
+                                    "__collapseCase14": false,
+                                    "value14": 15,
+                                    "__collapseCase15": false,
+                                    "value15": 16,
+                                    "__collapseElse": false
+                                },
+                                "children": {
+                                    "true0": [
+                                        {
+                                            "command": "EVENT_SET_VALUE",
+                                            "args": {
+                                                "variable": "27",
+                                                "value": {
+                                                    "type": "number",
+                                                    "value": 1
+                                                }
+                                            },
+                                            "id": "d908c920-e90e-4865-ba8e-67a461faab27"
+                                        },
+                                        {
+                                            "command": "EVENT_ACTOR_SET_POSITION_RELATIVE",
+                                            "args": {
+                                                "actorId": "1f3164d0-23d3-4d28-a8c3-7ff89340a554",
+                                                "x": 6,
+                                                "y": 0
+                                            },
+                                            "id": "112896cd-da90-4b4a-b863-67508a570c18"
+                                        }
+                                    ],
+                                    "true1": [
+                                        {
+                                            "command": "EVENT_SET_VALUE",
+                                            "args": {
+                                                "variable": "27",
+                                                "value": {
+                                                    "type": "number",
+                                                    "value": 2
+                                                },
+                                                "__collapse": false
+                                            },
+                                            "id": "45403962-968e-4d72-90cb-d48132d473e5"
+                                        },
+                                        {
+                                            "command": "EVENT_ACTOR_SET_POSITION_RELATIVE",
+                                            "args": {
+                                                "actorId": "1f3164d0-23d3-4d28-a8c3-7ff89340a554",
+                                                "x": 6,
+                                                "y": 0
+                                            },
+                                            "id": "48b62956-9d90-4ea1-bd78-49fda52f9073"
+                                        }
+                                    ],
+                                    "true2": [
+                                        {
+                                            "command": "EVENT_SET_VALUE",
+                                            "args": {
+                                                "variable": "27",
+                                                "value": {
+                                                    "type": "number",
+                                                    "value": 0
+                                                }
+                                            },
+                                            "id": "fed8bae8-56dc-4397-89ae-c054105e1be3"
+                                        },
+                                        {
+                                            "command": "EVENT_ACTOR_SET_POSITION_RELATIVE",
+                                            "args": {
+                                                "actorId": "1f3164d0-23d3-4d28-a8c3-7ff89340a554",
+                                                "x": -12,
+                                                "y": 0
+                                            },
+                                            "id": "105dad89-89d7-46c9-9f98-badb7362d381"
+                                        }
+                                    ],
+                                    "true3": [],
+                                    "true4": [],
+                                    "true5": [],
+                                    "true6": [],
+                                    "true7": [],
+                                    "true8": [],
+                                    "true9": [],
+                                    "true10": [],
+                                    "true11": [],
+                                    "true12": [],
+                                    "true13": [],
+                                    "true14": [],
+                                    "true15": [],
+                                    "false": []
+                                },
+                                "id": "9e0d970e-a075-4ae5-86f4-a9d836009e62"
+                            }
+                        ]
+                    },
+                    "id": "6000677d-551c-49f7-83c1-8f7b2d755183"
                 }
             ],
             "playerHit1Script": [],
             "playerHit2Script": [],
             "playerHit3Script": [],
             "id": "84da39a8-e8f7-4bbd-a29b-444987698ca1",
-            "x": 708.4572247090312,
+            "x": 706.4572247090312,
             "y": 30,
             "actors": [
                 {
@@ -58126,9 +58301,9 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": "selected",
-        "worldScrollX": 1179.199951171875,
-        "worldScrollY": 216.8000030517578,
-        "zoom": 275,
+        "worldScrollX": 1644.800048828125,
+        "worldScrollY": 150.39999389648438,
+        "zoom": 337.5,
         "customColorsEnabled": false,
         "sgbEnabled": false,
         "customHead": "",
