@@ -1,7 +1,7 @@
 {
     "name": "Oneshot GB Demo",
     "author": "Max Nexus",
-    "notes": "ONESHOT GB DEMO V1.0.0\n_________________________\n\nStarted: 1/17/2021\nH1: 2/8/2021- 7/3/2021 (Stopped at Computer Cutscene)\nH2:7/9/2021 -7/16/2021 (Stopped at CG_WAKE_5 Redrawn)\n(counting by days worked)\nWorked on:\n7/17/2021: Worked on some release assets and general bugfixing\n7/21/2021:changed timer script to wait\n7/22/2021: Niko Bulb sprite made and added into game and bugfixes\n7/23/2021: Bug Fixes\nFinished 7/27/2021 1.0;\n_________________________\nONESHOT GB DEMO V2.0.0\n_________________________\nSome Attempts around GBStudio V3 (the date was lost!) (fixed some issues with triggers at the password enter area) (i hate it that attach script is no longer saved across scenes, like why!)\n1/6/22: Minor Bug fix (just one)\n1/10/22: new text files added\n1/11/22: Implemented a fix on the lack of persistence of attach script by adding it to all scenes that need it, not efficent but what can i do! I also set up some plans into the New inventory system (code rework, maybe try out the new dialog prompt since ive seen cool things in the discord!\n1/12/22: Menu works now! also readded the dev sprite, returned speed to 1 from 1.5 to fix trigger bug discovered why the fireplace bug is happening, maybe ill finally speak in the discord since i have no clue about this\n1/14/22: Nothing today, just took a crack at the sprite issue and I've got nothing, for some reason it just happens, maybe a 8x16 piece doesn't work? or maybe the niko sprite is broken, 3.0 has its issues.\n1/21/22: god damn it, i really should ask the discord for help, i tried just replacing the sprite that got replaced and it just bloody messed with a different sprite, the only solution i see is to replace every sprite every time, it seems to be tied to replacing the player sprite (why!!! also noticed a difference in speed between color when trying to see if that would fix anything suggesting poor performance (should've seen that coming with how poorly optimized this is!)\n1/22/22 (part 1): IVE GOD DAMN CRACKED THE BLODDY CODE, ITS THAT BULB SPRITE, ILL TRY FIXING IT NOW!!!\n1/22/22 (part 2): finally i mostly fixed it, all it took was arbitarily matching the sprite sheet, and 1 frame of glitchy sprite for it to inexplicibly work, well now its time to implement a new inventory system\n1/23/22: instead of working on a new inventory system i went and worked on the next map, BARRENS! nothing there really, just the map, i tried out some new techniques + the whole http://cache.andre-michelle.com/tools/html/tileset-extractor.html website to do it, and i got it done in about the time it originally took me to do just the living room (i did the living room by hand completly in paint.net, only going into tiled if its too big i think i should call this a moderate update since we are outside the house now.\n1/24/22: Added a few Niko Faces for fun, improved the one already there at least, not actually added, anything new.\n1/25/22: Added more Niko faces and modified some\n1/25/22 part 2: Added a new bg to the new inventory system and did slight work on it, i also found out why the menu was so much slower than before!\n1/28/22: Worked a bit on the arrow in the inventory system! it works a bit better.\n2/4/22: Worked a bit on the inventory system, no new content, just touched up on the project.",
+    "notes": "ONESHOT GB DEMO V1.0.0\n_________________________\n\nStarted: 1/17/2021\nH1: 2/8/2021- 7/3/2021 (Stopped at Computer Cutscene)\nH2:7/9/2021 -7/16/2021 (Stopped at CG_WAKE_5 Redrawn)\n(counting by days worked)\nWorked on:\n7/17/2021: Worked on some release assets and general bugfixing\n7/21/2021:changed timer script to wait\n7/22/2021: Niko Bulb sprite made and added into game and bugfixes\n7/23/2021: Bug Fixes\nFinished 7/27/2021 1.0;\n_________________________\nONESHOT GB DEMO V2.0.0\n_________________________\nSome Attempts around GBStudio V3 (the date was lost!) (fixed some issues with triggers at the password enter area) (i hate it that attach script is no longer saved across scenes, like why!)\n1/6/22: Minor Bug fix (just one)\n1/10/22: new text files added\n1/11/22: Implemented a fix on the lack of persistence of attach script by adding it to all scenes that need it, not efficent but what can i do! I also set up some plans into the New inventory system (code rework, maybe try out the new dialog prompt since ive seen cool things in the discord!\n1/12/22: Menu works now! also readded the dev sprite, returned speed to 1 from 1.5 to fix trigger bug discovered why the fireplace bug is happening, maybe ill finally speak in the discord since i have no clue about this\n1/14/22: Nothing today, just took a crack at the sprite issue and I've got nothing, for some reason it just happens, maybe a 8x16 piece doesn't work? or maybe the niko sprite is broken, 3.0 has its issues.\n1/21/22: god damn it, i really should ask the discord for help, i tried just replacing the sprite that got replaced and it just bloody messed with a different sprite, the only solution i see is to replace every sprite every time, it seems to be tied to replacing the player sprite (why!!! also noticed a difference in speed between color when trying to see if that would fix anything suggesting poor performance (should've seen that coming with how poorly optimized this is!)\n1/22/22 (part 1): IVE GOD DAMN CRACKED THE BLODDY CODE, ITS THAT BULB SPRITE, ILL TRY FIXING IT NOW!!!\n1/22/22 (part 2): finally i mostly fixed it, all it took was arbitarily matching the sprite sheet, and 1 frame of glitchy sprite for it to inexplicibly work, well now its time to implement a new inventory system\n1/23/22: instead of working on a new inventory system i went and worked on the next map, BARRENS! nothing there really, just the map, i tried out some new techniques + the whole http://cache.andre-michelle.com/tools/html/tileset-extractor.html website to do it, and i got it done in about the time it originally took me to do just the living room (i did the living room by hand completly in paint.net, only going into tiled if its too big i think i should call this a moderate update since we are outside the house now.\n1/24/22: Added a few Niko Faces for fun, improved the one already there at least, not actually added, anything new.\n1/25/22: Added more Niko faces and modified some\n1/25/22 part 2: Added a new bg to the new inventory system and did slight work on it, i also found out why the menu was so much slower than before!\n1/28/22: Worked a bit on the arrow in the inventory system! it works a bit better.\n2/4/22: Worked a bit on the inventory system, no new content, just touched up on the project.\n2/12/22: Added my burden is light midi2mod converted to by OblivionAxis. hopefully they wont object to this",
     "_version": "3.0.0",
     "_release": "1",
     "scenes": [
@@ -375,9 +375,19 @@
             "tileColors": [],
             "script": [
                 {
+                    "command": "EVENT_MUSIC_PLAY",
+                    "args": {
+                        "musicId": "76761755-c92d-4828-ae2e-71c6ca50db6c",
+                        "loop": true,
+                        "__collapse": false
+                    },
+                    "id": "6af45dc8-24e1-4aca-a5fd-a98d545bda41"
+                },
+                {
                     "command": "EVENT_ACTOR_HIDE",
                     "args": {
-                        "actorId": "$self$"
+                        "actorId": "$self$",
+                        "__collapse": true
                     },
                     "id": "b06dcb6e-f98b-44d9-a25c-7bb7ab3b543a"
                 },
@@ -397,7 +407,7 @@
                         "option8": "",
                         "cancelOnB": false,
                         "layout": "menu",
-                        "__collapse": true
+                        "__collapse": false
                     }
                 },
                 {
@@ -412,6 +422,11 @@
                     },
                     "children": {
                         "true": [
+                            {
+                                "command": "EVENT_MUSIC_STOP",
+                                "args": {},
+                                "id": "99c494f7-e801-41d8-89a2-dd5862f5ec4e"
+                            },
                             {
                                 "id": "15c872f8-8229-435d-b70b-bb814b4eb069",
                                 "command": "EVENT_FADE_OUT",
@@ -446,6 +461,11 @@
                                 "children": {
                                     "true": [
                                         {
+                                            "command": "EVENT_MUSIC_STOP",
+                                            "args": {},
+                                            "id": "571e429a-66ac-4b97-b65e-87ea75101fbc"
+                                        },
+                                        {
                                             "id": "609271d9-a721-4d74-9c45-83fe6cd83922",
                                             "command": "EVENT_LOAD_DATA",
                                             "args": {
@@ -478,6 +498,11 @@
                                             "children": {
                                                 "true": [
                                                     {
+                                                        "command": "EVENT_MUSIC_STOP",
+                                                        "args": {},
+                                                        "id": "fb6a1cd1-6077-47e0-bdf6-8161b316fde3"
+                                                    },
+                                                    {
                                                         "id": "fe867408-a18d-4057-94c8-222da84e8a55",
                                                         "command": "EVENT_SWITCH_SCENE",
                                                         "args": {
@@ -502,6 +527,11 @@
                                                         },
                                                         "children": {
                                                             "true": [
+                                                                {
+                                                                    "command": "EVENT_MUSIC_STOP",
+                                                                    "args": {},
+                                                                    "id": "fc497407-1be7-4e5e-89a6-3ca41dadc780"
+                                                                },
                                                                 {
                                                                     "id": "f4d7ff9f-d9b5-473e-9dba-cb3ae352d250",
                                                                     "command": "EVENT_SWITCH_SCENE",
@@ -784,7 +814,8 @@
                 "",
                 ""
             ],
-            "type": "TOPDOWN"
+            "type": "TOPDOWN",
+            "autoFadeEventCollapse": true
         },
         {
             "name": "Start Dark BedRoom",
@@ -57912,6 +57943,13 @@
             "type": "mod"
         },
         {
+            "id": "76761755-c92d-4828-ae2e-71c6ca50db6c",
+            "name": "My Burden Is Light",
+            "filename": "My Burden Is Light.mod",
+            "settings": {},
+            "type": "mod"
+        },
+        {
             "id": "5b09e1b9-eef9-4970-a691-769e92d06ce0",
             "name": "song_template",
             "filename": "song_template.uge",
@@ -58353,8 +58391,8 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": "selected",
-        "worldScrollX": 920.7999877929688,
-        "worldScrollY": 14.399999618530273,
+        "worldScrollX": 496,
+        "worldScrollY": 128.8000030517578,
         "zoom": 200,
         "customColorsEnabled": false,
         "sgbEnabled": false,
