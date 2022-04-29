@@ -1,7 +1,7 @@
 {
     "name": "Oneshot GB Demo",
     "author": "Max Nexus",
-    "notes": "ONESHOT GB DEMO V1.0.0\n_________________________\n\nStarted: 1/17/2021\nH1: 2/8/2021- 7/3/2021 (Stopped at Computer Cutscene)\nH2:7/9/2021 -7/16/2021 (Stopped at CG_WAKE_5 Redrawn)\n(counting by days worked)\nWorked on:\n7/17/2021: Worked on some release assets and general bugfixing\n7/21/2021:changed timer script to wait\n7/22/2021: Niko Bulb sprite made and added into game and bugfixes\n7/23/2021: Bug Fixes\nFinished 7/27/2021 1.0;\n_________________________\nONESHOT GB DEMO V2.0.0\n_________________________\nSome Attempts around GBStudio V3 (the date was lost!) (fixed some issues with triggers at the password enter area) (i hate it that attach script is no longer saved across scenes, like why!)\n1/6/22: Minor Bug fix (just one)\n1/10/22: new text files added\n1/11/22: Implemented a fix on the lack of persistence of attach script by adding it to all scenes that need it, not efficent but what can i do! I also set up some plans into the New inventory system (code rework, maybe try out the new dialog prompt since ive seen cool things in the discord!\n1/12/22: Menu works now! also readded the dev sprite, returned speed to 1 from 1.5 to fix trigger bug discovered why the fireplace bug is happening, maybe ill finally speak in the discord since i have no clue about this\n1/14/22: Nothing today, just took a crack at the sprite issue and I've got nothing, for some reason it just happens, maybe a 8x16 piece doesn't work? or maybe the niko sprite is broken, 3.0 has its issues.\n1/21/22: god damn it, i really should ask the discord for help, i tried just replacing the sprite that got replaced and it just bloody messed with a different sprite, the only solution i see is to replace every sprite every time, it seems to be tied to replacing the player sprite (why!!! also noticed a difference in speed between color when trying to see if that would fix anything suggesting poor performance (should've seen that coming with how poorly optimized this is!)\n1/22/22 (part 1): IVE GOD DAMN CRACKED THE BLODDY CODE, ITS THAT BULB SPRITE, ILL TRY FIXING IT NOW!!!\n1/22/22 (part 2): finally i mostly fixed it, all it took was arbitarily matching the sprite sheet, and 1 frame of glitchy sprite for it to inexplicibly work, well now its time to implement a new inventory system\n1/23/22: instead of working on a new inventory system i went and worked on the next map, BARRENS! nothing there really, just the map, i tried out some new techniques + the whole http://cache.andre-michelle.com/tools/html/tileset-extractor.html website to do it, and i got it done in about the time it originally took me to do just the living room (i did the living room by hand completly in paint.net, only going into tiled if its too big i think i should call this a moderate update since we are outside the house now.\n1/24/22: Added a few Niko Faces for fun, improved the one already there at least, not actually added, anything new.\n1/25/22: Added more Niko faces and modified some\n1/25/22 part 2: Added a new bg to the new inventory system and did slight work on it, i also found out why the menu was so much slower than before!\n1/28/22: Worked a bit on the arrow in the inventory system! it works a bit better.\n2/4/22: Worked a bit on the inventory system, no new content, just touched up on the project.\n2/12/22: Added my burden is light midi2mod converted to by OblivionAxis. hopefully they wont object to this\n4/12/22: Touched the project to make 1 change (specifically worked on the new item screen, it now detects whether or not you picked up a item in slot 1, you can tell by this gap in progress that i have some good work ethic! I can easily expand this to all three current item slots, though right now im questioning my current setup for this rework, and im considering returning the menu back to how the original worked (with the player actor moving the menu with triggers) instead of a binded solution to return the holding down functionality.\n4/13/22: More inventory stuff, interaction doesn't work but item slots 1-3 should show the proper items in the slot, also i have no clue how i did item slots before... I'm not joking i spent like 30 minutes looking for how i did it, and i could not figure it out. This is why im making a new inventory system from scratch, that old inventory system is a ancient dragon to fight against every single time since i did not use scripts, so every change i made i had to paste across everything, it was horrible and it was the cause of 90% of bugs in the game while debugging. (time at least, because when your nested if statements become so long that you have to literally drag the block based coding sidebar (not sure what to call it) to even see, you have a problem.) I was happy when i finished the inventory system since finally, i dont have to touch it anymore. Sorry for rambling, had to get that off my chest. Oh also in changes, if i did this right i set it to 14 actors on screen total in a scene just for the new inventory system, though im questioning if i need it to be like this or if i could just mimic a scrolling inventory system by changing all the actors instead of making a actual scrolling inventory system (though that would enter into hell territory!)\n4/14/22: ive gotten the new inventory system fully working in the Original demo area, ill have to test things out to get it working in the expanded demo, the current plans is to get a remastering of the Original demo out there, just as a goal as it's much simpler to do that, where i can next get to V2.1.0 (yes thats the idea if im keeping up with this numbering system!) I've always been thinking of this but now is the time ill put it into text. There ARE bugs since i havent fully tested it but it probably works, which is the goal.\n4/15/22: Should've checked more deeply but nope, its broken still, it's easy to just bring that data back as 15-20 minutes of checking had me find the issue but i want to make it easier to work on this in the future with scripts. So i did some work on that.\n4/16/22: Nevermind, I'll just copy and paste it, better to do it manually since theres only 1 inventory screen. More effort than needed. It works, its slightly bugged since it doesn't have it automatically change it, but i can fix that later. (man i have a lot to work and fix)",
+    "notes": "ONESHOT GB DEMO V1.0.0\n_________________________\n\nStarted: 1/17/2021\nH1: 2/8/2021- 7/3/2021 (Stopped at Computer Cutscene)\nH2:7/9/2021 -7/16/2021 (Stopped at CG_WAKE_5 Redrawn)\n(counting by days worked)\nWorked on:\n7/17/2021: Worked on some release assets and general bugfixing\n7/21/2021:changed timer script to wait\n7/22/2021: Niko Bulb sprite made and added into game and bugfixes\n7/23/2021: Bug Fixes\nFinished 7/27/2021 1.0;\n_________________________\nONESHOT GB DEMO V2.0.0\n_________________________\nSome Attempts around GBStudio V3 (the date was lost!) (fixed some issues with triggers at the password enter area) (i hate it that attach script is no longer saved across scenes, like why!)\n1/6/22: Minor Bug fix (just one)\n1/10/22: new text files added\n1/11/22: Implemented a fix on the lack of persistence of attach script by adding it to all scenes that need it, not efficent but what can i do! I also set up some plans into the New inventory system (code rework, maybe try out the new dialog prompt since ive seen cool things in the discord!\n1/12/22: Menu works now! also readded the dev sprite, returned speed to 1 from 1.5 to fix trigger bug discovered why the fireplace bug is happening, maybe ill finally speak in the discord since i have no clue about this\n1/14/22: Nothing today, just took a crack at the sprite issue and I've got nothing, for some reason it just happens, maybe a 8x16 piece doesn't work? or maybe the niko sprite is broken, 3.0 has its issues.\n1/21/22: god damn it, i really should ask the discord for help, i tried just replacing the sprite that got replaced and it just bloody messed with a different sprite, the only solution i see is to replace every sprite every time, it seems to be tied to replacing the player sprite (why!!! also noticed a difference in speed between color when trying to see if that would fix anything suggesting poor performance (should've seen that coming with how poorly optimized this is!)\n1/22/22 (part 1): IVE GOD DAMN CRACKED THE BLODDY CODE, ITS THAT BULB SPRITE, ILL TRY FIXING IT NOW!!!\n1/22/22 (part 2): finally i mostly fixed it, all it took was arbitarily matching the sprite sheet, and 1 frame of glitchy sprite for it to inexplicibly work, well now its time to implement a new inventory system\n1/23/22: instead of working on a new inventory system i went and worked on the next map, BARRENS! nothing there really, just the map, i tried out some new techniques + the whole http://cache.andre-michelle.com/tools/html/tileset-extractor.html website to do it, and i got it done in about the time it originally took me to do just the living room (i did the living room by hand completly in paint.net, only going into tiled if its too big i think i should call this a moderate update since we are outside the house now.\n1/24/22: Added a few Niko Faces for fun, improved the one already there at least, not actually added, anything new.\n1/25/22: Added more Niko faces and modified some\n1/25/22 part 2: Added a new bg to the new inventory system and did slight work on it, i also found out why the menu was so much slower than before!\n1/28/22: Worked a bit on the arrow in the inventory system! it works a bit better.\n2/4/22: Worked a bit on the inventory system, no new content, just touched up on the project.\n2/12/22: Added my burden is light midi2mod converted to by OblivionAxis. hopefully they wont object to this\n4/12/22: Touched the project to make 1 change (specifically worked on the new item screen, it now detects whether or not you picked up a item in slot 1, you can tell by this gap in progress that i have some good work ethic! I can easily expand this to all three current item slots, though right now im questioning my current setup for this rework, and im considering returning the menu back to how the original worked (with the player actor moving the menu with triggers) instead of a binded solution to return the holding down functionality.\n4/13/22: More inventory stuff, interaction doesn't work but item slots 1-3 should show the proper items in the slot, also i have no clue how i did item slots before... I'm not joking i spent like 30 minutes looking for how i did it, and i could not figure it out. This is why im making a new inventory system from scratch, that old inventory system is a ancient dragon to fight against every single time since i did not use scripts, so every change i made i had to paste across everything, it was horrible and it was the cause of 90% of bugs in the game while debugging. (time at least, because when your nested if statements become so long that you have to literally drag the block based coding sidebar (not sure what to call it) to even see, you have a problem.) I was happy when i finished the inventory system since finally, i dont have to touch it anymore. Sorry for rambling, had to get that off my chest. Oh also in changes, if i did this right i set it to 14 actors on screen total in a scene just for the new inventory system, though im questioning if i need it to be like this or if i could just mimic a scrolling inventory system by changing all the actors instead of making a actual scrolling inventory system (though that would enter into hell territory!)\n4/14/22: ive gotten the new inventory system fully working in the Original demo area, ill have to test things out to get it working in the expanded demo, the current plans is to get a remastering of the Original demo out there, just as a goal as it's much simpler to do that, where i can next get to V2.1.0 (yes thats the idea if im keeping up with this numbering system!) I've always been thinking of this but now is the time ill put it into text. There ARE bugs since i havent fully tested it but it probably works, which is the goal.\n4/15/22: Should've checked more deeply but nope, its broken still, it's easy to just bring that data back as 15-20 minutes of checking had me find the issue but i want to make it easier to work on this in the future with scripts. So i did some work on that.\n4/16/22: Nevermind, I'll just copy and paste it, better to do it manually since theres only 1 inventory screen. More effort than needed. It works, its slightly bugged since it doesn't have it automatically change it, but i can fix that later. (man i have a lot to work and fix)\n4/29/22: Alright i've added some changes to the new item system, i haven't checked fully but it should hopefully work basically i've done work to implement fixes for the item slot bugs and also some work to make the how item slots move less reliant on directly stated positions (so if needed the inventory can be more easily made to take advantage of multiple item slots in the different rows without having to rework all of it.",
     "_version": "3.0.0",
     "_release": "1",
     "scenes": [
@@ -2055,7 +2055,7 @@
                             "command": "EVENT_IF_TRUE",
                             "args": {
                                 "variable": "L0",
-                                "__collapseElse": false
+                                "__collapseElse": true
                             },
                             "children": {
                                 "true": [
@@ -10421,7 +10421,7 @@
                                 "operator": "==",
                                 "comparator": 0,
                                 "__collapseElse": false,
-                                "__collapse": false
+                                "__collapse": true
                             },
                             "children": {
                                 "true": [
@@ -11446,7 +11446,7 @@
                         "operator": "==",
                         "comparator": 0,
                         "__collapseElse": false,
-                        "__collapse": false,
+                        "__collapse": true,
                         "__comment": true
                     },
                     "children": {
@@ -11539,7 +11539,7 @@
                         ],
                         "override": true,
                         "__scriptTabs": "press",
-                        "__collapse": false
+                        "__collapse": true
                     },
                     "children": {
                         "true": [
@@ -11548,11 +11548,11 @@
                                 "args": {
                                     "variable": "29",
                                     "choices": 3,
-                                    "__collapseCase0": false,
+                                    "__collapseCase0": true,
                                     "value0": 1,
-                                    "__collapseCase1": false,
+                                    "__collapseCase1": true,
                                     "value1": 2,
-                                    "__collapseCase2": false,
+                                    "__collapseCase2": true,
                                     "value2": 3,
                                     "__collapseCase3": false,
                                     "value3": 4,
@@ -12011,192 +12011,33 @@
                                         }
                                     },
                                     {
-                                        "id": "008c0532-010a-40e9-a6b2-b68a1ed1c761",
                                         "command": "EVENT_IF_VALUE",
                                         "args": {
                                             "variable": "5",
-                                            "operator": "==",
-                                            "comparator": 2,
-                                            "__collapseElse": false,
-                                            "__collapse": true
+                                            "operator": ">",
+                                            "comparator": "0",
+                                            "__collapseElse": true,
+                                            "__collapse": false
                                         },
                                         "children": {
                                             "true": [
                                                 {
-                                                    "id": "4395e865-be91-45cd-bf4b-9187cc079158",
+                                                    "id": "008c0532-010a-40e9-a6b2-b68a1ed1c761",
                                                     "command": "EVENT_IF_VALUE",
                                                     "args": {
-                                                        "variable": "6",
+                                                        "variable": "5",
                                                         "operator": "==",
-                                                        "comparator": 3,
+                                                        "comparator": 2,
                                                         "__collapseElse": false,
-                                                        "__collapse": false
+                                                        "__collapse": true
                                                     },
                                                     "children": {
                                                         "true": [
                                                             {
-                                                                "id": "296d9cde-d94d-4d32-9c02-81f86b6a9332",
-                                                                "command": "EVENT_TEXT",
-                                                                "args": {
-                                                                    "text": [
-                                                                        "Combined into\nWet branch!"
-                                                                    ],
-                                                                    "avatarId": "ea5eae81-e866-4bcf-b01c-cd5a23e64df0",
-                                                                    "__collapse": true
-                                                                }
-                                                            },
-                                                            {
-                                                                "id": "3d13f30e-8dc2-43b7-a925-97b7dc14d34b",
+                                                                "id": "4395e865-be91-45cd-bf4b-9187cc079158",
                                                                 "command": "EVENT_IF_VALUE",
                                                                 "args": {
-                                                                    "variable": "8",
-                                                                    "operator": "==",
-                                                                    "comparator": 2,
-                                                                    "__collapseElse": false,
-                                                                    "__collapse": true
-                                                                },
-                                                                "children": {
-                                                                    "true": [
-                                                                        {
-                                                                            "id": "5e3cd8a1-b922-4cfc-94a2-42d858a03bb7",
-                                                                            "command": "EVENT_SET_VALUE",
-                                                                            "args": {
-                                                                                "variable": "8",
-                                                                                "value": {
-                                                                                    "type": "number",
-                                                                                    "value": 4
-                                                                                }
-                                                                            }
-                                                                        },
-                                                                        {
-                                                                            "id": "ceccd7e7-978d-46a3-aad5-9ad51f2dfb78",
-                                                                            "command": "EVENT_ACTOR_SET_SPRITE",
-                                                                            "args": {
-                                                                                "actorId": "cf1dbaa0-efd8-4e21-9bbd-3eece7e8a07e",
-                                                                                "spriteSheetId": "2db1fcd9-3d6e-4f65-9d03-aaad706ba658"
-                                                                            }
-                                                                        },
-                                                                        {
-                                                                            "id": "354c1ac1-7e1a-4bdd-9717-cee710f66f87",
-                                                                            "command": "EVENT_ACTOR_SET_SPRITE",
-                                                                            "args": {
-                                                                                "actorId": "3ad5482d-19ae-4193-8a06-716aeb339dc6",
-                                                                                "spriteSheetId": "b166b6fa-9418-4943-9572-637dcde6b42f"
-                                                                            }
-                                                                        },
-                                                                        {
-                                                                            "id": "4a83d26a-cc46-406f-9624-7127040f27ff",
-                                                                            "command": "EVENT_SET_VALUE",
-                                                                            "args": {
-                                                                                "variable": "5",
-                                                                                "value": {
-                                                                                    "type": "number",
-                                                                                    "value": 0
-                                                                                }
-                                                                            }
-                                                                        }
-                                                                    ],
-                                                                    "false": [
-                                                                        {
-                                                                            "id": "38b60298-c52d-4c7b-9e0e-9e1e9f904c10",
-                                                                            "command": "EVENT_IF_VALUE",
-                                                                            "args": {
-                                                                                "variable": "9",
-                                                                                "operator": "==",
-                                                                                "comparator": 2,
-                                                                                "__collapseElse": false,
-                                                                                "__collapse": false
-                                                                            },
-                                                                            "children": {
-                                                                                "true": [
-                                                                                    {
-                                                                                        "id": "eef02c4a-1b66-438e-bb94-d0affd654410",
-                                                                                        "command": "EVENT_SET_VALUE",
-                                                                                        "args": {
-                                                                                            "variable": "9",
-                                                                                            "value": {
-                                                                                                "type": "number",
-                                                                                                "value": 4
-                                                                                            }
-                                                                                        }
-                                                                                    },
-                                                                                    {
-                                                                                        "id": "156918de-fd47-415e-b0c3-4138d3e5388e",
-                                                                                        "command": "EVENT_ACTOR_SET_SPRITE",
-                                                                                        "args": {
-                                                                                            "actorId": "017d9fcb-1602-4f4a-9df2-795ee174525e",
-                                                                                            "spriteSheetId": "2db1fcd9-3d6e-4f65-9d03-aaad706ba658"
-                                                                                        }
-                                                                                    }
-                                                                                ],
-                                                                                "false": [
-                                                                                    {
-                                                                                        "id": "1a3eea82-35a0-4c5c-bed8-078d95dacdfb",
-                                                                                        "command": "EVENT_IF_VALUE",
-                                                                                        "args": {
-                                                                                            "variable": "23",
-                                                                                            "operator": "==",
-                                                                                            "comparator": 2,
-                                                                                            "__collapseElse": true,
-                                                                                            "__collapse": false
-                                                                                        },
-                                                                                        "children": {
-                                                                                            "true": [
-                                                                                                {
-                                                                                                    "id": "01eb5453-c2b7-4eac-b78e-47f449a186a9",
-                                                                                                    "command": "EVENT_ACTOR_SET_SPRITE",
-                                                                                                    "args": {
-                                                                                                        "actorId": "f40b301b-7530-44c0-b377-f8615087b83b",
-                                                                                                        "spriteSheetId": "2db1fcd9-3d6e-4f65-9d03-aaad706ba658",
-                                                                                                        "__collapse": false
-                                                                                                    }
-                                                                                                },
-                                                                                                {
-                                                                                                    "id": "7a140da4-5b44-4085-b800-b25dda6f4f4e",
-                                                                                                    "command": "EVENT_SET_VALUE",
-                                                                                                    "args": {
-                                                                                                        "variable": "23",
-                                                                                                        "value": {
-                                                                                                            "type": "number",
-                                                                                                            "value": 4
-                                                                                                        },
-                                                                                                        "__collapse": false
-                                                                                                    }
-                                                                                                },
-                                                                                                {
-                                                                                                    "id": "e3552e19-cc91-4e57-85ab-6a741bc7c60d",
-                                                                                                    "command": "EVENT_ACTOR_SET_SPRITE",
-                                                                                                    "args": {
-                                                                                                        "actorId": "3ad5482d-19ae-4193-8a06-716aeb339dc6",
-                                                                                                        "spriteSheetId": "b166b6fa-9418-4943-9572-637dcde6b42f"
-                                                                                                    }
-                                                                                                },
-                                                                                                {
-                                                                                                    "id": "989dc6df-594a-4bf7-b5b8-221f68e6615d",
-                                                                                                    "command": "EVENT_SET_VALUE",
-                                                                                                    "args": {
-                                                                                                        "variable": "5",
-                                                                                                        "value": {
-                                                                                                            "type": "number",
-                                                                                                            "value": 0
-                                                                                                        }
-                                                                                                    }
-                                                                                                }
-                                                                                            ],
-                                                                                            "false": []
-                                                                                        }
-                                                                                    }
-                                                                                ]
-                                                                            }
-                                                                        }
-                                                                    ]
-                                                                }
-                                                            },
-                                                            {
-                                                                "id": "f08f057a-b967-4941-86f9-173872ee718a",
-                                                                "command": "EVENT_IF_VALUE",
-                                                                "args": {
-                                                                    "variable": "8",
+                                                                    "variable": "6",
                                                                     "operator": "==",
                                                                     "comparator": 3,
                                                                     "__collapseElse": false,
@@ -12205,155 +12046,7 @@
                                                                 "children": {
                                                                     "true": [
                                                                         {
-                                                                            "id": "59bbafb8-8321-4107-bc93-0dee61966eb3",
-                                                                            "command": "EVENT_ACTOR_SET_SPRITE",
-                                                                            "args": {
-                                                                                "actorId": "$self$",
-                                                                                "spriteSheetId": "e42c8f9c-a406-4afa-8ec8-c013586963fe"
-                                                                            }
-                                                                        },
-                                                                        {
-                                                                            "id": "f9ea2aa5-f446-488f-aca6-28344d5b6d1a",
-                                                                            "command": "EVENT_SET_VALUE",
-                                                                            "args": {
-                                                                                "variable": "8",
-                                                                                "value": {
-                                                                                    "type": "number",
-                                                                                    "value": 5
-                                                                                }
-                                                                            }
-                                                                        }
-                                                                    ],
-                                                                    "false": [
-                                                                        {
-                                                                            "id": "ca975cb3-0476-4d26-b56f-c06e342aa3ca",
-                                                                            "command": "EVENT_IF_VALUE",
-                                                                            "args": {
-                                                                                "variable": "9",
-                                                                                "operator": "==",
-                                                                                "comparator": 3,
-                                                                                "__collapseElse": false
-                                                                            },
-                                                                            "children": {
-                                                                                "true": [
-                                                                                    {
-                                                                                        "id": "674a5efc-8903-4394-81bf-a54e23d139c5",
-                                                                                        "command": "EVENT_ACTOR_SET_SPRITE",
-                                                                                        "args": {
-                                                                                            "actorId": "017d9fcb-1602-4f4a-9df2-795ee174525e",
-                                                                                            "spriteSheetId": "e42c8f9c-a406-4afa-8ec8-c013586963fe"
-                                                                                        }
-                                                                                    },
-                                                                                    {
-                                                                                        "id": "5c6f58bc-2733-4bbe-8a6b-a9a8c3b99341",
-                                                                                        "command": "EVENT_SET_VALUE",
-                                                                                        "args": {
-                                                                                            "variable": "9",
-                                                                                            "value": {
-                                                                                                "type": "number",
-                                                                                                "value": 5
-                                                                                            }
-                                                                                        }
-                                                                                    }
-                                                                                ],
-                                                                                "false": [
-                                                                                    {
-                                                                                        "id": "5dfb913c-b6d6-4be2-87f7-eb5caad90382",
-                                                                                        "command": "EVENT_IF_VALUE",
-                                                                                        "args": {
-                                                                                            "variable": "23",
-                                                                                            "operator": "==",
-                                                                                            "comparator": 3,
-                                                                                            "__collapseElse": false,
-                                                                                            "__collapse": false
-                                                                                        },
-                                                                                        "children": {
-                                                                                            "true": [
-                                                                                                {
-                                                                                                    "id": "860e501d-524f-4126-aefd-58ba60068529",
-                                                                                                    "command": "EVENT_ACTOR_SET_SPRITE",
-                                                                                                    "args": {
-                                                                                                        "actorId": "f40b301b-7530-44c0-b377-f8615087b83b",
-                                                                                                        "spriteSheetId": "e42c8f9c-a406-4afa-8ec8-c013586963fe"
-                                                                                                    }
-                                                                                                },
-                                                                                                {
-                                                                                                    "id": "1db54d00-69e0-42df-8610-2ccc167ee71d",
-                                                                                                    "command": "EVENT_SET_VALUE",
-                                                                                                    "args": {
-                                                                                                        "variable": "23",
-                                                                                                        "value": {
-                                                                                                            "type": "number",
-                                                                                                            "value": 5
-                                                                                                        }
-                                                                                                    }
-                                                                                                }
-                                                                                            ],
-                                                                                            "false": []
-                                                                                        }
-                                                                                    }
-                                                                                ]
-                                                                            }
-                                                                        }
-                                                                    ]
-                                                                }
-                                                            },
-                                                            {
-                                                                "id": "379288ee-a4e6-4de0-8659-90a9b91ca97d",
-                                                                "command": "EVENT_SET_VALUE",
-                                                                "args": {
-                                                                    "variable": "5",
-                                                                    "value": {
-                                                                        "type": "number",
-                                                                        "value": 0
-                                                                    },
-                                                                    "__collapse": true
-                                                                }
-                                                            },
-                                                            {
-                                                                "id": "8a08f0ee-5897-43e3-a9b4-08627247c79e",
-                                                                "command": "EVENT_SET_VALUE",
-                                                                "args": {
-                                                                    "variable": "6",
-                                                                    "value": {
-                                                                        "type": "number",
-                                                                        "value": 0
-                                                                    },
-                                                                    "__collapse": true
-                                                                }
-                                                            }
-                                                        ],
-                                                        "false": []
-                                                    }
-                                                }
-                                            ],
-                                            "false": [
-                                                {
-                                                    "id": "8fd35cb6-ac89-42ba-afb0-dedaedbf5da8",
-                                                    "command": "EVENT_IF_VALUE",
-                                                    "args": {
-                                                        "variable": "5",
-                                                        "operator": "==",
-                                                        "comparator": 3,
-                                                        "__collapseElse": false,
-                                                        "__collapse": false
-                                                    },
-                                                    "children": {
-                                                        "true": [
-                                                            {
-                                                                "id": "c4b9fa22-6c68-40af-a66e-7c30fa78034c",
-                                                                "command": "EVENT_IF_VALUE",
-                                                                "args": {
-                                                                    "variable": "6",
-                                                                    "operator": "==",
-                                                                    "comparator": 2,
-                                                                    "__collapseElse": true,
-                                                                    "__collapse": false
-                                                                },
-                                                                "children": {
-                                                                    "true": [
-                                                                        {
-                                                                            "id": "a8acabe9-0997-47e4-ad6c-2f3ae4dbe146",
+                                                                            "id": "296d9cde-d94d-4d32-9c02-81f86b6a9332",
                                                                             "command": "EVENT_TEXT",
                                                                             "args": {
                                                                                 "text": [
@@ -12364,7 +12057,7 @@
                                                                             }
                                                                         },
                                                                         {
-                                                                            "id": "da07bb64-1ba4-4357-b5d1-89094a8cc521",
+                                                                            "id": "3d13f30e-8dc2-43b7-a925-97b7dc14d34b",
                                                                             "command": "EVENT_IF_VALUE",
                                                                             "args": {
                                                                                 "variable": "8",
@@ -12376,15 +12069,7 @@
                                                                             "children": {
                                                                                 "true": [
                                                                                     {
-                                                                                        "id": "11f55cfe-17c7-4211-8838-33fc7e2ecd43",
-                                                                                        "command": "EVENT_ACTOR_SET_SPRITE",
-                                                                                        "args": {
-                                                                                            "actorId": "$self$",
-                                                                                            "spriteSheetId": "2db1fcd9-3d6e-4f65-9d03-aaad706ba658"
-                                                                                        }
-                                                                                    },
-                                                                                    {
-                                                                                        "id": "f70c9468-9dac-4742-bd78-9ff6e989c9ad",
+                                                                                        "id": "5e3cd8a1-b922-4cfc-94a2-42d858a03bb7",
                                                                                         "command": "EVENT_SET_VALUE",
                                                                                         "args": {
                                                                                             "variable": "8",
@@ -12393,31 +12078,50 @@
                                                                                                 "value": 4
                                                                                             }
                                                                                         }
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "ceccd7e7-978d-46a3-aad5-9ad51f2dfb78",
+                                                                                        "command": "EVENT_ACTOR_SET_SPRITE",
+                                                                                        "args": {
+                                                                                            "actorId": "cf1dbaa0-efd8-4e21-9bbd-3eece7e8a07e",
+                                                                                            "spriteSheetId": "2db1fcd9-3d6e-4f65-9d03-aaad706ba658"
+                                                                                        }
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "354c1ac1-7e1a-4bdd-9717-cee710f66f87",
+                                                                                        "command": "EVENT_ACTOR_SET_SPRITE",
+                                                                                        "args": {
+                                                                                            "actorId": "3ad5482d-19ae-4193-8a06-716aeb339dc6",
+                                                                                            "spriteSheetId": "b166b6fa-9418-4943-9572-637dcde6b42f"
+                                                                                        }
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "4a83d26a-cc46-406f-9624-7127040f27ff",
+                                                                                        "command": "EVENT_SET_VALUE",
+                                                                                        "args": {
+                                                                                            "variable": "5",
+                                                                                            "value": {
+                                                                                                "type": "number",
+                                                                                                "value": 0
+                                                                                            }
+                                                                                        }
                                                                                     }
                                                                                 ],
                                                                                 "false": [
                                                                                     {
-                                                                                        "id": "bdaf6fff-e89e-4a35-b2bc-46ded17fe22f",
+                                                                                        "id": "38b60298-c52d-4c7b-9e0e-9e1e9f904c10",
                                                                                         "command": "EVENT_IF_VALUE",
                                                                                         "args": {
                                                                                             "variable": "9",
                                                                                             "operator": "==",
                                                                                             "comparator": 2,
-                                                                                            "__collapseElse": true,
+                                                                                            "__collapseElse": false,
                                                                                             "__collapse": false
                                                                                         },
                                                                                         "children": {
                                                                                             "true": [
                                                                                                 {
-                                                                                                    "id": "3d4a9cd5-91b2-4712-ab0e-667cd13bb836",
-                                                                                                    "command": "EVENT_ACTOR_SET_SPRITE",
-                                                                                                    "args": {
-                                                                                                        "actorId": "017d9fcb-1602-4f4a-9df2-795ee174525e",
-                                                                                                        "spriteSheetId": "2db1fcd9-3d6e-4f65-9d03-aaad706ba658"
-                                                                                                    }
-                                                                                                },
-                                                                                                {
-                                                                                                    "id": "a6742749-b334-48a3-8c7b-91011f144597",
+                                                                                                    "id": "eef02c4a-1b66-438e-bb94-d0affd654410",
                                                                                                     "command": "EVENT_SET_VALUE",
                                                                                                     "args": {
                                                                                                         "variable": "9",
@@ -12426,37 +12130,66 @@
                                                                                                             "value": 4
                                                                                                         }
                                                                                                     }
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "156918de-fd47-415e-b0c3-4138d3e5388e",
+                                                                                                    "command": "EVENT_ACTOR_SET_SPRITE",
+                                                                                                    "args": {
+                                                                                                        "actorId": "017d9fcb-1602-4f4a-9df2-795ee174525e",
+                                                                                                        "spriteSheetId": "2db1fcd9-3d6e-4f65-9d03-aaad706ba658"
+                                                                                                    }
                                                                                                 }
                                                                                             ],
                                                                                             "false": [
                                                                                                 {
-                                                                                                    "id": "58cf6a94-33f7-4c34-9aac-486fc47244cb",
+                                                                                                    "id": "1a3eea82-35a0-4c5c-bed8-078d95dacdfb",
                                                                                                     "command": "EVENT_IF_VALUE",
                                                                                                     "args": {
                                                                                                         "variable": "23",
                                                                                                         "operator": "==",
                                                                                                         "comparator": 2,
-                                                                                                        "__collapseElse": false,
-                                                                                                        "__collapse": true
+                                                                                                        "__collapseElse": true,
+                                                                                                        "__collapse": false
                                                                                                     },
                                                                                                     "children": {
                                                                                                         "true": [
                                                                                                             {
-                                                                                                                "id": "069dd57b-5917-47ea-9750-4166d09f785c",
+                                                                                                                "id": "01eb5453-c2b7-4eac-b78e-47f449a186a9",
                                                                                                                 "command": "EVENT_ACTOR_SET_SPRITE",
                                                                                                                 "args": {
                                                                                                                     "actorId": "f40b301b-7530-44c0-b377-f8615087b83b",
-                                                                                                                    "spriteSheetId": "2db1fcd9-3d6e-4f65-9d03-aaad706ba658"
+                                                                                                                    "spriteSheetId": "2db1fcd9-3d6e-4f65-9d03-aaad706ba658",
+                                                                                                                    "__collapse": false
                                                                                                                 }
                                                                                                             },
                                                                                                             {
-                                                                                                                "id": "1c8ebdd8-850e-4c8d-8dc5-90205ace8a55",
+                                                                                                                "id": "7a140da4-5b44-4085-b800-b25dda6f4f4e",
                                                                                                                 "command": "EVENT_SET_VALUE",
                                                                                                                 "args": {
                                                                                                                     "variable": "23",
                                                                                                                     "value": {
                                                                                                                         "type": "number",
                                                                                                                         "value": 4
+                                                                                                                    },
+                                                                                                                    "__collapse": false
+                                                                                                                }
+                                                                                                            },
+                                                                                                            {
+                                                                                                                "id": "e3552e19-cc91-4e57-85ab-6a741bc7c60d",
+                                                                                                                "command": "EVENT_ACTOR_SET_SPRITE",
+                                                                                                                "args": {
+                                                                                                                    "actorId": "3ad5482d-19ae-4193-8a06-716aeb339dc6",
+                                                                                                                    "spriteSheetId": "b166b6fa-9418-4943-9572-637dcde6b42f"
+                                                                                                                }
+                                                                                                            },
+                                                                                                            {
+                                                                                                                "id": "989dc6df-594a-4bf7-b5b8-221f68e6615d",
+                                                                                                                "command": "EVENT_SET_VALUE",
+                                                                                                                "args": {
+                                                                                                                    "variable": "5",
+                                                                                                                    "value": {
+                                                                                                                        "type": "number",
+                                                                                                                        "value": 0
                                                                                                                     }
                                                                                                                 }
                                                                                                             }
@@ -12471,7 +12204,7 @@
                                                                             }
                                                                         },
                                                                         {
-                                                                            "id": "8664ff1e-52d0-4a0f-bebc-806d0643e0c1",
+                                                                            "id": "f08f057a-b967-4941-86f9-173872ee718a",
                                                                             "command": "EVENT_IF_VALUE",
                                                                             "args": {
                                                                                 "variable": "8",
@@ -12483,7 +12216,7 @@
                                                                             "children": {
                                                                                 "true": [
                                                                                     {
-                                                                                        "id": "4b1bafad-26b3-494e-9a40-2c3f5d2c18ad",
+                                                                                        "id": "59bbafb8-8321-4107-bc93-0dee61966eb3",
                                                                                         "command": "EVENT_ACTOR_SET_SPRITE",
                                                                                         "args": {
                                                                                             "actorId": "$self$",
@@ -12491,7 +12224,7 @@
                                                                                         }
                                                                                     },
                                                                                     {
-                                                                                        "id": "30f4d482-24a6-4006-9677-b878f9f62e55",
+                                                                                        "id": "f9ea2aa5-f446-488f-aca6-28344d5b6d1a",
                                                                                         "command": "EVENT_SET_VALUE",
                                                                                         "args": {
                                                                                             "variable": "8",
@@ -12504,19 +12237,18 @@
                                                                                 ],
                                                                                 "false": [
                                                                                     {
-                                                                                        "id": "2832dc13-a3d5-4b86-bec3-0035030bb9c6",
+                                                                                        "id": "ca975cb3-0476-4d26-b56f-c06e342aa3ca",
                                                                                         "command": "EVENT_IF_VALUE",
                                                                                         "args": {
                                                                                             "variable": "9",
                                                                                             "operator": "==",
                                                                                             "comparator": 3,
-                                                                                            "__collapseElse": false,
-                                                                                            "__collapse": false
+                                                                                            "__collapseElse": false
                                                                                         },
                                                                                         "children": {
                                                                                             "true": [
                                                                                                 {
-                                                                                                    "id": "f87a7c51-b0b2-499d-b638-a92409b2e2b0",
+                                                                                                    "id": "674a5efc-8903-4394-81bf-a54e23d139c5",
                                                                                                     "command": "EVENT_ACTOR_SET_SPRITE",
                                                                                                     "args": {
                                                                                                         "actorId": "017d9fcb-1602-4f4a-9df2-795ee174525e",
@@ -12524,7 +12256,7 @@
                                                                                                     }
                                                                                                 },
                                                                                                 {
-                                                                                                    "id": "d30a6918-8b7f-46f2-a37a-da1deeda4f4c",
+                                                                                                    "id": "5c6f58bc-2733-4bbe-8a6b-a9a8c3b99341",
                                                                                                     "command": "EVENT_SET_VALUE",
                                                                                                     "args": {
                                                                                                         "variable": "9",
@@ -12537,7 +12269,7 @@
                                                                                             ],
                                                                                             "false": [
                                                                                                 {
-                                                                                                    "id": "69032f8d-c008-4e38-bccf-f7be2cd10714",
+                                                                                                    "id": "5dfb913c-b6d6-4be2-87f7-eb5caad90382",
                                                                                                     "command": "EVENT_IF_VALUE",
                                                                                                     "args": {
                                                                                                         "variable": "23",
@@ -12549,7 +12281,7 @@
                                                                                                     "children": {
                                                                                                         "true": [
                                                                                                             {
-                                                                                                                "id": "c114314b-b25d-4dbf-9ec2-f142eeee221c",
+                                                                                                                "id": "860e501d-524f-4126-aefd-58ba60068529",
                                                                                                                 "command": "EVENT_ACTOR_SET_SPRITE",
                                                                                                                 "args": {
                                                                                                                     "actorId": "f40b301b-7530-44c0-b377-f8615087b83b",
@@ -12557,7 +12289,7 @@
                                                                                                                 }
                                                                                                             },
                                                                                                             {
-                                                                                                                "id": "2e2b65f0-6642-4daf-8757-8d77b8d69614",
+                                                                                                                "id": "1db54d00-69e0-42df-8610-2ccc167ee71d",
                                                                                                                 "command": "EVENT_SET_VALUE",
                                                                                                                 "args": {
                                                                                                                     "variable": "23",
@@ -12578,7 +12310,7 @@
                                                                             }
                                                                         },
                                                                         {
-                                                                            "id": "b6642737-cdf6-4498-8b2e-b01739dcaf40",
+                                                                            "id": "379288ee-a4e6-4de0-8659-90a9b91ca97d",
                                                                             "command": "EVENT_SET_VALUE",
                                                                             "args": {
                                                                                 "variable": "5",
@@ -12590,14 +12322,15 @@
                                                                             }
                                                                         },
                                                                         {
-                                                                            "id": "3b878b1d-8773-427e-a4b8-bbd7b61f1507",
+                                                                            "id": "8a08f0ee-5897-43e3-a9b4-08627247c79e",
                                                                             "command": "EVENT_SET_VALUE",
                                                                             "args": {
                                                                                 "variable": "6",
                                                                                 "value": {
                                                                                     "type": "number",
                                                                                     "value": 0
-                                                                                }
+                                                                                },
+                                                                                "__collapse": true
                                                                             }
                                                                         }
                                                                     ],
@@ -12607,58 +12340,448 @@
                                                         ],
                                                         "false": [
                                                             {
-                                                                "id": "f17099d5-7f4b-41e2-90ff-f798637d8153",
+                                                                "id": "8fd35cb6-ac89-42ba-afb0-dedaedbf5da8",
                                                                 "command": "EVENT_IF_VALUE",
                                                                 "args": {
-                                                                    "variable": "6",
-                                                                    "operator": ">=",
-                                                                    "comparator": 1,
+                                                                    "variable": "5",
+                                                                    "operator": "==",
+                                                                    "comparator": 3,
                                                                     "__collapseElse": false,
                                                                     "__collapse": false
                                                                 },
                                                                 "children": {
                                                                     "true": [
                                                                         {
-                                                                            "id": "9f198048-4c95-46e9-81bb-89500c1ec0ca",
-                                                                            "command": "EVENT_TEXT",
-                                                                            "args": {
-                                                                                "text": [
-                                                                                    "[Can't Combine]"
-                                                                                ],
-                                                                                "avatarId": ""
-                                                                            }
-                                                                        },
-                                                                        {
-                                                                            "id": "10e8e751-be7c-4ca9-8997-7fdca645d760",
-                                                                            "command": "EVENT_SET_VALUE",
-                                                                            "args": {
-                                                                                "variable": "5",
-                                                                                "value": {
-                                                                                    "type": "number",
-                                                                                    "value": 0
-                                                                                }
-                                                                            }
-                                                                        },
-                                                                        {
-                                                                            "id": "c52ca5f6-a258-4fd4-9060-155033f50588",
-                                                                            "command": "EVENT_SET_VALUE",
+                                                                            "id": "c4b9fa22-6c68-40af-a66e-7c30fa78034c",
+                                                                            "command": "EVENT_IF_VALUE",
                                                                             "args": {
                                                                                 "variable": "6",
-                                                                                "value": {
-                                                                                    "type": "number",
-                                                                                    "value": 0
-                                                                                }
+                                                                                "operator": "==",
+                                                                                "comparator": 2,
+                                                                                "__collapseElse": true,
+                                                                                "__collapse": false
+                                                                            },
+                                                                            "children": {
+                                                                                "true": [
+                                                                                    {
+                                                                                        "id": "a8acabe9-0997-47e4-ad6c-2f3ae4dbe146",
+                                                                                        "command": "EVENT_TEXT",
+                                                                                        "args": {
+                                                                                            "text": [
+                                                                                                "Combined into\nWet branch!"
+                                                                                            ],
+                                                                                            "avatarId": "ea5eae81-e866-4bcf-b01c-cd5a23e64df0",
+                                                                                            "__collapse": true
+                                                                                        }
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "da07bb64-1ba4-4357-b5d1-89094a8cc521",
+                                                                                        "command": "EVENT_IF_VALUE",
+                                                                                        "args": {
+                                                                                            "variable": "8",
+                                                                                            "operator": "==",
+                                                                                            "comparator": 2,
+                                                                                            "__collapseElse": false,
+                                                                                            "__collapse": false
+                                                                                        },
+                                                                                        "children": {
+                                                                                            "true": [
+                                                                                                {
+                                                                                                    "id": "11f55cfe-17c7-4211-8838-33fc7e2ecd43",
+                                                                                                    "command": "EVENT_ACTOR_SET_SPRITE",
+                                                                                                    "args": {
+                                                                                                        "actorId": "$self$",
+                                                                                                        "spriteSheetId": "2db1fcd9-3d6e-4f65-9d03-aaad706ba658"
+                                                                                                    }
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "f70c9468-9dac-4742-bd78-9ff6e989c9ad",
+                                                                                                    "command": "EVENT_SET_VALUE",
+                                                                                                    "args": {
+                                                                                                        "variable": "8",
+                                                                                                        "value": {
+                                                                                                            "type": "number",
+                                                                                                            "value": 4
+                                                                                                        }
+                                                                                                    }
+                                                                                                }
+                                                                                            ],
+                                                                                            "false": [
+                                                                                                {
+                                                                                                    "id": "bdaf6fff-e89e-4a35-b2bc-46ded17fe22f",
+                                                                                                    "command": "EVENT_IF_VALUE",
+                                                                                                    "args": {
+                                                                                                        "variable": "9",
+                                                                                                        "operator": "==",
+                                                                                                        "comparator": 2,
+                                                                                                        "__collapseElse": true,
+                                                                                                        "__collapse": false
+                                                                                                    },
+                                                                                                    "children": {
+                                                                                                        "true": [
+                                                                                                            {
+                                                                                                                "id": "3d4a9cd5-91b2-4712-ab0e-667cd13bb836",
+                                                                                                                "command": "EVENT_ACTOR_SET_SPRITE",
+                                                                                                                "args": {
+                                                                                                                    "actorId": "017d9fcb-1602-4f4a-9df2-795ee174525e",
+                                                                                                                    "spriteSheetId": "2db1fcd9-3d6e-4f65-9d03-aaad706ba658"
+                                                                                                                }
+                                                                                                            },
+                                                                                                            {
+                                                                                                                "id": "a6742749-b334-48a3-8c7b-91011f144597",
+                                                                                                                "command": "EVENT_SET_VALUE",
+                                                                                                                "args": {
+                                                                                                                    "variable": "9",
+                                                                                                                    "value": {
+                                                                                                                        "type": "number",
+                                                                                                                        "value": 4
+                                                                                                                    }
+                                                                                                                }
+                                                                                                            }
+                                                                                                        ],
+                                                                                                        "false": [
+                                                                                                            {
+                                                                                                                "id": "58cf6a94-33f7-4c34-9aac-486fc47244cb",
+                                                                                                                "command": "EVENT_IF_VALUE",
+                                                                                                                "args": {
+                                                                                                                    "variable": "23",
+                                                                                                                    "operator": "==",
+                                                                                                                    "comparator": 2,
+                                                                                                                    "__collapseElse": false,
+                                                                                                                    "__collapse": true
+                                                                                                                },
+                                                                                                                "children": {
+                                                                                                                    "true": [
+                                                                                                                        {
+                                                                                                                            "id": "069dd57b-5917-47ea-9750-4166d09f785c",
+                                                                                                                            "command": "EVENT_ACTOR_SET_SPRITE",
+                                                                                                                            "args": {
+                                                                                                                                "actorId": "f40b301b-7530-44c0-b377-f8615087b83b",
+                                                                                                                                "spriteSheetId": "2db1fcd9-3d6e-4f65-9d03-aaad706ba658"
+                                                                                                                            }
+                                                                                                                        },
+                                                                                                                        {
+                                                                                                                            "id": "1c8ebdd8-850e-4c8d-8dc5-90205ace8a55",
+                                                                                                                            "command": "EVENT_SET_VALUE",
+                                                                                                                            "args": {
+                                                                                                                                "variable": "23",
+                                                                                                                                "value": {
+                                                                                                                                    "type": "number",
+                                                                                                                                    "value": 4
+                                                                                                                                }
+                                                                                                                            }
+                                                                                                                        }
+                                                                                                                    ],
+                                                                                                                    "false": []
+                                                                                                                }
+                                                                                                            }
+                                                                                                        ]
+                                                                                                    }
+                                                                                                }
+                                                                                            ]
+                                                                                        }
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "8664ff1e-52d0-4a0f-bebc-806d0643e0c1",
+                                                                                        "command": "EVENT_IF_VALUE",
+                                                                                        "args": {
+                                                                                            "variable": "8",
+                                                                                            "operator": "==",
+                                                                                            "comparator": 3,
+                                                                                            "__collapseElse": false,
+                                                                                            "__collapse": false
+                                                                                        },
+                                                                                        "children": {
+                                                                                            "true": [
+                                                                                                {
+                                                                                                    "id": "4b1bafad-26b3-494e-9a40-2c3f5d2c18ad",
+                                                                                                    "command": "EVENT_ACTOR_SET_SPRITE",
+                                                                                                    "args": {
+                                                                                                        "actorId": "$self$",
+                                                                                                        "spriteSheetId": "e42c8f9c-a406-4afa-8ec8-c013586963fe"
+                                                                                                    }
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "30f4d482-24a6-4006-9677-b878f9f62e55",
+                                                                                                    "command": "EVENT_SET_VALUE",
+                                                                                                    "args": {
+                                                                                                        "variable": "8",
+                                                                                                        "value": {
+                                                                                                            "type": "number",
+                                                                                                            "value": 5
+                                                                                                        }
+                                                                                                    }
+                                                                                                }
+                                                                                            ],
+                                                                                            "false": [
+                                                                                                {
+                                                                                                    "id": "2832dc13-a3d5-4b86-bec3-0035030bb9c6",
+                                                                                                    "command": "EVENT_IF_VALUE",
+                                                                                                    "args": {
+                                                                                                        "variable": "9",
+                                                                                                        "operator": "==",
+                                                                                                        "comparator": 3,
+                                                                                                        "__collapseElse": false,
+                                                                                                        "__collapse": false
+                                                                                                    },
+                                                                                                    "children": {
+                                                                                                        "true": [
+                                                                                                            {
+                                                                                                                "id": "f87a7c51-b0b2-499d-b638-a92409b2e2b0",
+                                                                                                                "command": "EVENT_ACTOR_SET_SPRITE",
+                                                                                                                "args": {
+                                                                                                                    "actorId": "017d9fcb-1602-4f4a-9df2-795ee174525e",
+                                                                                                                    "spriteSheetId": "e42c8f9c-a406-4afa-8ec8-c013586963fe"
+                                                                                                                }
+                                                                                                            },
+                                                                                                            {
+                                                                                                                "id": "d30a6918-8b7f-46f2-a37a-da1deeda4f4c",
+                                                                                                                "command": "EVENT_SET_VALUE",
+                                                                                                                "args": {
+                                                                                                                    "variable": "9",
+                                                                                                                    "value": {
+                                                                                                                        "type": "number",
+                                                                                                                        "value": 5
+                                                                                                                    }
+                                                                                                                }
+                                                                                                            }
+                                                                                                        ],
+                                                                                                        "false": [
+                                                                                                            {
+                                                                                                                "id": "69032f8d-c008-4e38-bccf-f7be2cd10714",
+                                                                                                                "command": "EVENT_IF_VALUE",
+                                                                                                                "args": {
+                                                                                                                    "variable": "23",
+                                                                                                                    "operator": "==",
+                                                                                                                    "comparator": 3,
+                                                                                                                    "__collapseElse": false,
+                                                                                                                    "__collapse": false
+                                                                                                                },
+                                                                                                                "children": {
+                                                                                                                    "true": [
+                                                                                                                        {
+                                                                                                                            "id": "c114314b-b25d-4dbf-9ec2-f142eeee221c",
+                                                                                                                            "command": "EVENT_ACTOR_SET_SPRITE",
+                                                                                                                            "args": {
+                                                                                                                                "actorId": "f40b301b-7530-44c0-b377-f8615087b83b",
+                                                                                                                                "spriteSheetId": "e42c8f9c-a406-4afa-8ec8-c013586963fe"
+                                                                                                                            }
+                                                                                                                        },
+                                                                                                                        {
+                                                                                                                            "id": "2e2b65f0-6642-4daf-8757-8d77b8d69614",
+                                                                                                                            "command": "EVENT_SET_VALUE",
+                                                                                                                            "args": {
+                                                                                                                                "variable": "23",
+                                                                                                                                "value": {
+                                                                                                                                    "type": "number",
+                                                                                                                                    "value": 5
+                                                                                                                                }
+                                                                                                                            }
+                                                                                                                        }
+                                                                                                                    ],
+                                                                                                                    "false": []
+                                                                                                                }
+                                                                                                            }
+                                                                                                        ]
+                                                                                                    }
+                                                                                                }
+                                                                                            ]
+                                                                                        }
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "b6642737-cdf6-4498-8b2e-b01739dcaf40",
+                                                                                        "command": "EVENT_SET_VALUE",
+                                                                                        "args": {
+                                                                                            "variable": "5",
+                                                                                            "value": {
+                                                                                                "type": "number",
+                                                                                                "value": 0
+                                                                                            },
+                                                                                            "__collapse": true
+                                                                                        }
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "3b878b1d-8773-427e-a4b8-bbd7b61f1507",
+                                                                                        "command": "EVENT_SET_VALUE",
+                                                                                        "args": {
+                                                                                            "variable": "6",
+                                                                                            "value": {
+                                                                                                "type": "number",
+                                                                                                "value": 0
+                                                                                            }
+                                                                                        }
+                                                                                    }
+                                                                                ],
+                                                                                "false": []
                                                                             }
                                                                         }
                                                                     ],
-                                                                    "false": []
+                                                                    "false": [
+                                                                        {
+                                                                            "id": "f17099d5-7f4b-41e2-90ff-f798637d8153",
+                                                                            "command": "EVENT_IF_VALUE",
+                                                                            "args": {
+                                                                                "variable": "6",
+                                                                                "operator": ">=",
+                                                                                "comparator": 1,
+                                                                                "__collapseElse": false,
+                                                                                "__collapse": false
+                                                                            },
+                                                                            "children": {
+                                                                                "true": [
+                                                                                    {
+                                                                                        "id": "9f198048-4c95-46e9-81bb-89500c1ec0ca",
+                                                                                        "command": "EVENT_TEXT",
+                                                                                        "args": {
+                                                                                            "text": [
+                                                                                                "[Can't Combine]"
+                                                                                            ],
+                                                                                            "avatarId": ""
+                                                                                        }
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "10e8e751-be7c-4ca9-8997-7fdca645d760",
+                                                                                        "command": "EVENT_SET_VALUE",
+                                                                                        "args": {
+                                                                                            "variable": "5",
+                                                                                            "value": {
+                                                                                                "type": "number",
+                                                                                                "value": 0
+                                                                                            }
+                                                                                        }
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "c52ca5f6-a258-4fd4-9060-155033f50588",
+                                                                                        "command": "EVENT_SET_VALUE",
+                                                                                        "args": {
+                                                                                            "variable": "6",
+                                                                                            "value": {
+                                                                                                "type": "number",
+                                                                                                "value": 0
+                                                                                            }
+                                                                                        }
+                                                                                    }
+                                                                                ],
+                                                                                "false": []
+                                                                            }
+                                                                        }
+                                                                    ]
                                                                 }
                                                             }
                                                         ]
                                                     }
+                                                },
+                                                {
+                                                    "command": "EVENT_COMMENT",
+                                                    "args": {
+                                                        "text": "Checks to see which item slots are in use to change so i dont change 18 slots at once!"
+                                                    },
+                                                    "id": "4755219d-086a-43bd-b42a-bb9a40f38bf3"
+                                                },
+                                                {
+                                                    "command": "EVENT_GROUP",
+                                                    "args": {
+                                                        "__collapse": false
+                                                    },
+                                                    "children": {
+                                                        "true": [
+                                                            {
+                                                                "command": "EVENT_IF_VALUE",
+                                                                "args": {
+                                                                    "variable": "8",
+                                                                    "operator": ">",
+                                                                    "comparator": 0,
+                                                                    "__collapseElse": true,
+                                                                    "__collapse": true
+                                                                },
+                                                                "children": {
+                                                                    "true": [
+                                                                        {
+                                                                            "command": "EVENT_CALL_CUSTOM_EVENT",
+                                                                            "args": {
+                                                                                "customEventId": "d7575eb0-5ce2-439b-a937-bc7dca63a837",
+                                                                                "$actor[0]$": "798b8669-db7a-4e05-b9e8-26c847b2accf",
+                                                                                "$variable[0]$": "8",
+                                                                                "__collapse": true
+                                                                            },
+                                                                            "id": "b2e6d2ef-276e-4b1a-ab6c-b04300194c7d"
+                                                                        }
+                                                                    ],
+                                                                    "false": []
+                                                                },
+                                                                "id": "03b06e6a-9388-4fdf-8e19-e48660ca7eec"
+                                                            },
+                                                            {
+                                                                "command": "EVENT_IF_VALUE",
+                                                                "args": {
+                                                                    "variable": "9",
+                                                                    "operator": ">",
+                                                                    "comparator": 0,
+                                                                    "__collapseElse": false,
+                                                                    "__collapse": true
+                                                                },
+                                                                "children": {
+                                                                    "true": [
+                                                                        {
+                                                                            "command": "EVENT_CALL_CUSTOM_EVENT",
+                                                                            "args": {
+                                                                                "customEventId": "d7575eb0-5ce2-439b-a937-bc7dca63a837",
+                                                                                "$actor[0]$": "9ab90d6f-e600-4d32-9022-e69ee03dec2d",
+                                                                                "$variable[0]$": "9",
+                                                                                "__collapse": true
+                                                                            },
+                                                                            "id": "6bf3a4ec-1cd7-4149-ba1b-b8eb448289e9"
+                                                                        }
+                                                                    ],
+                                                                    "false": []
+                                                                },
+                                                                "id": "69bdfe7e-7f62-4cf1-9d37-54e00dc8e93b"
+                                                            },
+                                                            {
+                                                                "command": "EVENT_IF_VALUE",
+                                                                "args": {
+                                                                    "variable": "8",
+                                                                    "operator": ">",
+                                                                    "comparator": 0,
+                                                                    "__collapseElse": true
+                                                                },
+                                                                "children": {
+                                                                    "true": [
+                                                                        {
+                                                                            "command": "EVENT_CALL_CUSTOM_EVENT",
+                                                                            "args": {
+                                                                                "customEventId": "d7575eb0-5ce2-439b-a937-bc7dca63a837",
+                                                                                "$actor[0]$": "e2da1030-8cd5-43b0-8036-65b91fe5048c",
+                                                                                "$variable[0]$": "23",
+                                                                                "__collapse": false
+                                                                            },
+                                                                            "id": "fedab688-e817-4add-b6d0-b3d4541577f9"
+                                                                        }
+                                                                    ],
+                                                                    "false": []
+                                                                },
+                                                                "id": "9cb8b7c2-fb88-43f0-a2d4-adfa766107a6"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "id": "a4490fc4-1dd9-46db-81b2-083810df7bc1"
                                                 }
-                                            ]
-                                        }
+                                            ],
+                                            "false": []
+                                        },
+                                        "id": "254884d4-214f-442e-9603-873710623df4"
+                                    },
+                                    {
+                                        "command": "EVENT_IF_TRUE",
+                                        "args": {
+                                            "variable": "L0",
+                                            "__collapseElse": true
+                                        },
+                                        "children": {
+                                            "true": [],
+                                            "false": []
+                                        },
+                                        "id": "b1b945ca-18aa-4e14-9c06-75469beecd9b"
                                     }
                                 ],
                                 "false": []
@@ -13133,6 +13256,15 @@
                     "trigger": "walk",
                     "script": [
                         {
+                            "command": "EVENT_ACTOR_SET_POSITION_RELATIVE",
+                            "args": {
+                                "actorId": "$self$",
+                                "x": -1,
+                                "y": 0
+                            },
+                            "id": "8e1596ff-ec91-48c7-bbdb-1f870ad85cde"
+                        },
+                        {
                             "id": "82b15e6e-e53c-47dc-9ef0-fc6bdfb2aebe",
                             "command": "EVENT_ACTOR_SET_POSITION",
                             "args": {
@@ -13145,7 +13277,8 @@
                                     "type": "number",
                                     "value": 7
                                 },
-                                "__collapse": false
+                                "__collapse": false,
+                                "__comment": true
                             }
                         },
                         {
@@ -13156,7 +13289,7 @@
                                 "operator": "==",
                                 "comparator": 2,
                                 "__collapseElse": false,
-                                "__collapse": true
+                                "__collapse": false
                             },
                             "children": {
                                 "true": [
@@ -13513,20 +13646,13 @@
                     "trigger": "walk",
                     "script": [
                         {
-                            "id": "d7d69e70-918b-46ae-9997-997c83ed9e0c",
-                            "command": "EVENT_ACTOR_SET_POSITION",
+                            "command": "EVENT_ACTOR_SET_POSITION_RELATIVE",
                             "args": {
                                 "actorId": "$self$",
-                                "x": {
-                                    "type": "number",
-                                    "value": 6
-                                },
-                                "y": {
-                                    "type": "number",
-                                    "value": 7
-                                },
-                                "__collapse": false
-                            }
+                                "x": 1,
+                                "y": 0
+                            },
+                            "id": "f5775b51-b6f2-4ec8-8124-37bfa0f85357"
                         },
                         {
                             "id": "4b950b1f-cb5a-4b42-b902-8abc84eaab18",
@@ -13600,8 +13726,18 @@
                                                             "type": "number",
                                                             "value": 7
                                                         },
-                                                        "__collapse": false
+                                                        "__collapse": false,
+                                                        "__comment": true
                                                     }
+                                                },
+                                                {
+                                                    "command": "EVENT_ACTOR_SET_POSITION_RELATIVE",
+                                                    "args": {
+                                                        "actorId": "1f3164d0-23d3-4d28-a8c3-7ff89340a554",
+                                                        "x": -6,
+                                                        "y": 0
+                                                    },
+                                                    "id": "f48ae40c-43cf-4e5a-a75b-30466a2e87b9"
                                                 }
                                             ],
                                             "false": [
@@ -13618,19 +13754,13 @@
                                                     "children": {
                                                         "true": [
                                                             {
-                                                                "id": "9fd6a8a7-30a3-46dc-b57e-2a61832523b2",
-                                                                "command": "EVENT_ACTOR_SET_POSITION",
+                                                                "command": "EVENT_ACTOR_SET_POSITION_RELATIVE",
                                                                 "args": {
                                                                     "actorId": "1f3164d0-23d3-4d28-a8c3-7ff89340a554",
-                                                                    "x": {
-                                                                        "type": "number",
-                                                                        "value": 3
-                                                                    },
-                                                                    "y": {
-                                                                        "type": "number",
-                                                                        "value": 7
-                                                                    }
-                                                                }
+                                                                    "x": -9,
+                                                                    "y": 0
+                                                                },
+                                                                "id": "784a8df5-dbdf-4e4d-9982-a43ea574c571"
                                                             }
                                                         ],
                                                         "false": [
@@ -13682,20 +13812,13 @@
                                                     "children": {
                                                         "true": [
                                                             {
-                                                                "id": "2aa49d3a-d654-4a90-9419-6fa8c3b7a058",
-                                                                "command": "EVENT_ACTOR_SET_POSITION",
+                                                                "command": "EVENT_ACTOR_SET_POSITION_RELATIVE",
                                                                 "args": {
                                                                     "actorId": "1f3164d0-23d3-4d28-a8c3-7ff89340a554",
-                                                                    "x": {
-                                                                        "type": "number",
-                                                                        "value": 9
-                                                                    },
-                                                                    "y": {
-                                                                        "type": "number",
-                                                                        "value": 7
-                                                                    },
-                                                                    "__collapse": false
-                                                                }
+                                                                    "x": 6,
+                                                                    "y": 0
+                                                                },
+                                                                "id": "1c750118-5e24-405b-b624-a5b727779564"
                                                             }
                                                         ],
                                                         "false": [
@@ -13712,19 +13835,13 @@
                                                                 "children": {
                                                                     "true": [
                                                                         {
-                                                                            "id": "a83f838c-1d44-4065-9c6b-ea7f4842804a",
-                                                                            "command": "EVENT_ACTOR_SET_POSITION",
+                                                                            "command": "EVENT_ACTOR_SET_POSITION_RELATIVE",
                                                                             "args": {
                                                                                 "actorId": "1f3164d0-23d3-4d28-a8c3-7ff89340a554",
-                                                                                "x": {
-                                                                                    "type": "number",
-                                                                                    "value": 9
-                                                                                },
-                                                                                "y": {
-                                                                                    "type": "number",
-                                                                                    "value": 7
-                                                                                }
-                                                                            }
+                                                                                "x": -6,
+                                                                                "y": 0
+                                                                            },
+                                                                            "id": "2d79682f-7890-4d3e-a7b0-ff918040a9c6"
                                                                         }
                                                                     ],
                                                                     "false": [
@@ -22077,7 +22194,7 @@
                                                                                                             "operator": "==",
                                                                                                             "comparator": 1,
                                                                                                             "__collapseElse": false,
-                                                                                                            "__collapse": true
+                                                                                                            "__collapse": false
                                                                                                         },
                                                                                                         "children": {
                                                                                                             "true": [
@@ -22146,7 +22263,7 @@
                                                                                                             "operator": "==",
                                                                                                             "comparator": 0,
                                                                                                             "__collapseElse": false,
-                                                                                                            "__collapse": true
+                                                                                                            "__collapse": false
                                                                                                         },
                                                                                                         "children": {
                                                                                                             "true": [
@@ -61389,7 +61506,7 @@
         },
         {
             "id": "4",
-            "name": "Item Slot 1"
+            "name": "(OUTDATED) Item Slot 1"
         },
         {
             "id": "5",
@@ -61413,7 +61530,7 @@
         },
         {
             "id": "10",
-            "name": "Item Slot 2"
+            "name": "(OUTDATED) Item Slot 2"
         },
         {
             "id": "11",
@@ -61610,6 +61727,10 @@
         {
             "id": "84da39a8-e8f7-4bbd-a29b-444987698ca1__L5",
             "name": "Item Checker"
+        },
+        {
+            "id": "b3b239fe-9ae8-401e-955d-9a3be63aaa5e__L0",
+            "name": "UpdateLazy"
         }
     ],
     "engineFieldValues": [
@@ -61651,8 +61772,8 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": "selected",
-        "worldScrollX": 112,
-        "worldScrollY": 534.4000244140625,
+        "worldScrollX": 372.79998779296875,
+        "worldScrollY": 0,
         "zoom": 87.5,
         "customColorsEnabled": false,
         "sgbEnabled": false,
@@ -61702,7 +61823,9 @@
         "favoriteEvents": [
             "EVENT_TEXT",
             "EVENT_SWITCH_SCENE",
-            "EVENT_SWITCH"
+            "EVENT_SWITCH",
+            "EVENT_IF_VALUE",
+            "EVENT_CALL_CUSTOM_EVENT"
         ],
         "playerSpriteSheetId": "fcc12505-44cf-4595-94ae-a955dca57387",
         "defaultFadeStyle": "white"
