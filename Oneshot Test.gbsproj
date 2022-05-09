@@ -1,7 +1,7 @@
 {
     "name": "Oneshot GB Demo",
     "author": "Max Nexus",
-    "notes": "ONESHOT GB DEMO V1.0.0\n_________________________\n\nStarted: 1/17/2021\nH1: 2/8/2021- 7/3/2021 (Stopped at Computer Cutscene)\nH2:7/9/2021 -7/16/2021 (Stopped at CG_WAKE_5 Redrawn)\n(counting by days worked)\nWorked on:\n7/17/2021: Worked on some release assets and general bugfixing\n7/21/2021:changed timer script to wait\n7/22/2021: Niko Bulb sprite made and added into game and bugfixes\n7/23/2021: Bug Fixes\nFinished 7/27/2021 1.0;\n_________________________\nONESHOT GB DEMO V2.0.0\n_________________________\nSome Attempts around GBStudio V3 (the date was lost!) (fixed some issues with triggers at the password enter area) (i hate it that attach script is no longer saved across scenes, like why!)\n1/6/22: Minor Bug fix (just one)\n1/10/22: new text files added\n1/11/22: Implemented a fix on the lack of persistence of attach script by adding it to all scenes that need it, not efficent but what can i do! I also set up some plans into the New inventory system (code rework, maybe try out the new dialog prompt since ive seen cool things in the discord!\n1/12/22: Menu works now! also readded the dev sprite, returned speed to 1 from 1.5 to fix trigger bug discovered why the fireplace bug is happening, maybe ill finally speak in the discord since i have no clue about this\n1/14/22: Nothing today, just took a crack at the sprite issue and I've got nothing, for some reason it just happens, maybe a 8x16 piece doesn't work? or maybe the niko sprite is broken, 3.0 has its issues.\n1/21/22: god damn it, i really should ask the discord for help, i tried just replacing the sprite that got replaced and it just bloody messed with a different sprite, the only solution i see is to replace every sprite every time, it seems to be tied to replacing the player sprite (why!!! also noticed a difference in speed between color when trying to see if that would fix anything suggesting poor performance (should've seen that coming with how poorly optimized this is!)\n1/22/22 (part 1): IVE GOD DAMN CRACKED THE BLODDY CODE, ITS THAT BULB SPRITE, ILL TRY FIXING IT NOW!!!\n1/22/22 (part 2): finally i mostly fixed it, all it took was arbitarily matching the sprite sheet, and 1 frame of glitchy sprite for it to inexplicibly work, well now its time to implement a new inventory system\n1/23/22: instead of working on a new inventory system i went and worked on the next map, BARRENS! nothing there really, just the map, i tried out some new techniques + the whole http://cache.andre-michelle.com/tools/html/tileset-extractor.html website to do it, and i got it done in about the time it originally took me to do just the living room (i did the living room by hand completly in paint.net, only going into tiled if its too big i think i should call this a moderate update since we are outside the house now.\n1/24/22: Added a few Niko Faces for fun, improved the one already there at least, not actually added, anything new.\n1/25/22: Added more Niko faces and modified some\n1/25/22 part 2: Added a new bg to the new inventory system and did slight work on it, i also found out why the menu was so much slower than before!\n1/28/22: Worked a bit on the arrow in the inventory system! it works a bit better.\n2/4/22: Worked a bit on the inventory system, no new content, just touched up on the project.\n2/12/22: Added my burden is light midi2mod converted to by OblivionAxis. hopefully they wont object to this\n4/12/22: Touched the project to make 1 change (specifically worked on the new item screen, it now detects whether or not you picked up a item in slot 1, you can tell by this gap in progress that i have some good work ethic! I can easily expand this to all three current item slots, though right now im questioning my current setup for this rework, and im considering returning the menu back to how the original worked (with the player actor moving the menu with triggers) instead of a binded solution to return the holding down functionality.\n4/13/22: More inventory stuff, interaction doesn't work but item slots 1-3 should show the proper items in the slot, also i have no clue how i did item slots before... I'm not joking i spent like 30 minutes looking for how i did it, and i could not figure it out. This is why im making a new inventory system from scratch, that old inventory system is a ancient dragon to fight against every single time since i did not use scripts, so every change i made i had to paste across everything, it was horrible and it was the cause of 90% of bugs in the game while debugging. (time at least, because when your nested if statements become so long that you have to literally drag the block based coding sidebar (not sure what to call it) to even see, you have a problem.) I was happy when i finished the inventory system since finally, i dont have to touch it anymore. Sorry for rambling, had to get that off my chest. Oh also in changes, if i did this right i set it to 14 actors on screen total in a scene just for the new inventory system, though im questioning if i need it to be like this or if i could just mimic a scrolling inventory system by changing all the actors instead of making a actual scrolling inventory system (though that would enter into hell territory!)\n4/14/22: ive gotten the new inventory system fully working in the Original demo area, ill have to test things out to get it working in the expanded demo, the current plans is to get a remastering of the Original demo out there, just as a goal as it's much simpler to do that, where i can next get to V2.1.0 (yes thats the idea if im keeping up with this numbering system!) I've always been thinking of this but now is the time ill put it into text. There ARE bugs since i havent fully tested it but it probably works, which is the goal.\n4/15/22: Should've checked more deeply but nope, its broken still, it's easy to just bring that data back as 15-20 minutes of checking had me find the issue but i want to make it easier to work on this in the future with scripts. So i did some work on that.\n4/16/22: Nevermind, I'll just copy and paste it, better to do it manually since theres only 1 inventory screen. More effort than needed. It works, its slightly bugged since it doesn't have it automatically change it, but i can fix that later. (man i have a lot to work and fix)\n4/29/22: Alright i've added some changes to the new item system, i haven't checked fully but it should hopefully work basically i've done work to implement fixes for the item slot bugs and also some work to make the how item slots move less reliant on directly stated positions (so if needed the inventory can be more easily made to take advantage of multiple item slots in the different rows without having to rework all of it.",
+    "notes": "ONESHOT GB DEMO V1.0.0\n_________________________\n\nStarted: 1/17/2021\nH1: 2/8/2021- 7/3/2021 (Stopped at Computer Cutscene)\nH2:7/9/2021 -7/16/2021 (Stopped at CG_WAKE_5 Redrawn)\n(counting by days worked)\nWorked on:\n7/17/2021: Worked on some release assets and general bugfixing\n7/21/2021:changed timer script to wait\n7/22/2021: Niko Bulb sprite made and added into game and bugfixes\n7/23/2021: Bug Fixes\nFinished 7/27/2021 1.0;\n_________________________\nONESHOT GB DEMO V2.0.0\n_________________________\nSome Attempts around GBStudio V3 (the date was lost!) (fixed some issues with triggers at the password enter area) (i hate it that attach script is no longer saved across scenes, like why!)\n1/6/22: Minor Bug fix (just one)\n1/10/22: new text files added\n1/11/22: Implemented a fix on the lack of persistence of attach script by adding it to all scenes that need it, not efficent but what can i do! I also set up some plans into the New inventory system (code rework, maybe try out the new dialog prompt since ive seen cool things in the discord!\n1/12/22: Menu works now! also readded the dev sprite, returned speed to 1 from 1.5 to fix trigger bug discovered why the fireplace bug is happening, maybe ill finally speak in the discord since i have no clue about this\n1/14/22: Nothing today, just took a crack at the sprite issue and I've got nothing, for some reason it just happens, maybe a 8x16 piece doesn't work? or maybe the niko sprite is broken, 3.0 has its issues.\n1/21/22: god damn it, i really should ask the discord for help, i tried just replacing the sprite that got replaced and it just bloody messed with a different sprite, the only solution i see is to replace every sprite every time, it seems to be tied to replacing the player sprite (why!!! also noticed a difference in speed between color when trying to see if that would fix anything suggesting poor performance (should've seen that coming with how poorly optimized this is!)\n1/22/22 (part 1): IVE GOD DAMN CRACKED THE BLODDY CODE, ITS THAT BULB SPRITE, ILL TRY FIXING IT NOW!!!\n1/22/22 (part 2): finally i mostly fixed it, all it took was arbitarily matching the sprite sheet, and 1 frame of glitchy sprite for it to inexplicibly work, well now its time to implement a new inventory system\n1/23/22: instead of working on a new inventory system i went and worked on the next map, BARRENS! nothing there really, just the map, i tried out some new techniques + the whole http://cache.andre-michelle.com/tools/html/tileset-extractor.html website to do it, and i got it done in about the time it originally took me to do just the living room (i did the living room by hand completly in paint.net, only going into tiled if its too big i think i should call this a moderate update since we are outside the house now.\n1/24/22: Added a few Niko Faces for fun, improved the one already there at least, not actually added, anything new.\n1/25/22: Added more Niko faces and modified some\n1/25/22 part 2: Added a new bg to the new inventory system and did slight work on it, i also found out why the menu was so much slower than before!\n1/28/22: Worked a bit on the arrow in the inventory system! it works a bit better.\n2/4/22: Worked a bit on the inventory system, no new content, just touched up on the project.\n2/12/22: Added my burden is light midi2mod converted to by OblivionAxis. hopefully they wont object to this\n4/12/22: Touched the project to make 1 change (specifically worked on the new item screen, it now detects whether or not you picked up a item in slot 1, you can tell by this gap in progress that i have some good work ethic! I can easily expand this to all three current item slots, though right now im questioning my current setup for this rework, and im considering returning the menu back to how the original worked (with the player actor moving the menu with triggers) instead of a binded solution to return the holding down functionality.\n4/13/22: More inventory stuff, interaction doesn't work but item slots 1-3 should show the proper items in the slot, also i have no clue how i did item slots before... I'm not joking i spent like 30 minutes looking for how i did it, and i could not figure it out. This is why im making a new inventory system from scratch, that old inventory system is a ancient dragon to fight against every single time since i did not use scripts, so every change i made i had to paste across everything, it was horrible and it was the cause of 90% of bugs in the game while debugging. (time at least, because when your nested if statements become so long that you have to literally drag the block based coding sidebar (not sure what to call it) to even see, you have a problem.) I was happy when i finished the inventory system since finally, i dont have to touch it anymore. Sorry for rambling, had to get that off my chest. Oh also in changes, if i did this right i set it to 14 actors on screen total in a scene just for the new inventory system, though im questioning if i need it to be like this or if i could just mimic a scrolling inventory system by changing all the actors instead of making a actual scrolling inventory system (though that would enter into hell territory!)\n4/14/22: ive gotten the new inventory system fully working in the Original demo area, ill have to test things out to get it working in the expanded demo, the current plans is to get a remastering of the Original demo out there, just as a goal as it's much simpler to do that, where i can next get to V2.1.0 (yes thats the idea if im keeping up with this numbering system!) I've always been thinking of this but now is the time ill put it into text. There ARE bugs since i havent fully tested it but it probably works, which is the goal.\n4/15/22: Should've checked more deeply but nope, its broken still, it's easy to just bring that data back as 15-20 minutes of checking had me find the issue but i want to make it easier to work on this in the future with scripts. So i did some work on that.\n4/16/22: Nevermind, I'll just copy and paste it, better to do it manually since theres only 1 inventory screen. More effort than needed. It works, its slightly bugged since it doesn't have it automatically change it, but i can fix that later. (man i have a lot to work and fix)\n4/29/22: Alright i've added some changes to the new item system, i haven't checked fully but it should hopefully work basically i've done work to implement fixes for the item slot bugs and also some work to make the how item slots move less reliant on directly stated positions (so if needed the inventory can be more easily made to take advantage of multiple item slots in the different rows without having to rework all of it.\n5/9/22: Currently working on making it so that you can't move the cursor over empty item slots, its currently buggy but im making progress on it.",
     "_version": "3.0.0",
     "_release": "1",
     "scenes": [
@@ -11309,7 +11309,7 @@
                         "operator": ">",
                         "comparator": "0",
                         "__collapseElse": false,
-                        "__collapse": true
+                        "__collapse": false
                     },
                     "children": {
                         "true": [
@@ -11324,7 +11324,15 @@
                                 "id": "61104624-784b-45ec-b621-5d16349e536d"
                             }
                         ],
-                        "false": []
+                        "false": [
+                            {
+                                "command": "EVENT_ACTOR_HIDE",
+                                "args": {
+                                    "actorId": "1f3164d0-23d3-4d28-a8c3-7ff89340a554"
+                                },
+                                "id": "9b8b744c-4731-478a-859f-c1f2f58bd499"
+                            }
+                        ]
                     },
                     "id": "0ebd7a06-a1ef-4f89-baef-57f4f25dd4e5"
                 },
@@ -13307,12 +13315,68 @@
                                 ],
                                 "false": [
                                     {
-                                        "id": "125f0bca-93d3-4264-ad37-cc7c7ff4d1e3",
-                                        "command": "EVENT_INC_VALUE",
+                                        "command": "EVENT_IF_VALUE",
                                         "args": {
-                                            "variable": "27",
-                                            "__collapse": false
-                                        }
+                                            "variable": "9",
+                                            "operator": "==",
+                                            "comparator": "0",
+                                            "__collapseElse": false,
+                                            "__collapse": false,
+                                            "__comment": false
+                                        },
+                                        "children": {
+                                            "true": [],
+                                            "false": [
+                                                {
+                                                    "command": "EVENT_IF_VALUE",
+                                                    "args": {
+                                                        "variable": "23",
+                                                        "operator": "==",
+                                                        "comparator": "0",
+                                                        "__collapseElse": false
+                                                    },
+                                                    "children": {
+                                                        "true": [
+                                                            {
+                                                                "command": "EVENT_IF_VALUE",
+                                                                "args": {
+                                                                    "variable": "27",
+                                                                    "operator": "==",
+                                                                    "comparator": 0,
+                                                                    "__collapseElse": true,
+                                                                    "__collapse": false
+                                                                },
+                                                                "children": {
+                                                                    "true": [
+                                                                        {
+                                                                            "command": "EVENT_INC_VALUE",
+                                                                            "args": {
+                                                                                "variable": "27"
+                                                                            },
+                                                                            "id": "3ce41402-5a9b-4588-9690-0dff2ed425e7"
+                                                                        }
+                                                                    ],
+                                                                    "false": []
+                                                                },
+                                                                "id": "8b318f34-e024-4d18-801c-f8122dff7cef"
+                                                            }
+                                                        ],
+                                                        "false": [
+                                                            {
+                                                                "id": "125f0bca-93d3-4264-ad37-cc7c7ff4d1e3",
+                                                                "command": "EVENT_INC_VALUE",
+                                                                "args": {
+                                                                    "variable": "27",
+                                                                    "__collapse": false
+                                                                }
+                                                            }
+                                                        ]
+                                                    },
+                                                    "id": "8159e409-bdf0-4435-b95c-7e10f1545969"
+                                                }
+                                            ]
+                                        },
+                                        "id": "2b517950-8ea4-4eac-a58f-d2fa4f994f19"
                                     }
                                 ]
                             }
@@ -13325,7 +13389,7 @@
                                 "operator": "==",
                                 "comparator": "0",
                                 "__collapseElse": false,
-                                "__collapse": true
+                                "__collapse": false
                             },
                             "children": {
                                 "true": [
@@ -13662,7 +13726,7 @@
                                 "operator": "==",
                                 "comparator": 0,
                                 "__collapseElse": false,
-                                "__collapse": true
+                                "__collapse": false
                             },
                             "children": {
                                 "true": [
@@ -13680,11 +13744,43 @@
                                 ],
                                 "false": [
                                     {
-                                        "id": "7bffd828-8e39-4dc4-8ddc-403678a0e123",
-                                        "command": "EVENT_DEC_VALUE",
+                                        "command": "EVENT_IF_VALUE",
                                         "args": {
-                                            "variable": "27"
-                                        }
+                                            "variable": "9",
+                                            "operator": "==",
+                                            "comparator": "0",
+                                            "__collapseElse": false,
+                                            "__collapse": false,
+                                            "__comment": false
+                                        },
+                                        "children": {
+                                            "true": [],
+                                            "false": [
+                                                {
+                                                    "command": "EVENT_IF_VALUE",
+                                                    "args": {
+                                                        "variable": "23",
+                                                        "operator": "==",
+                                                        "comparator": "0",
+                                                        "__collapseElse": false
+                                                    },
+                                                    "children": {
+                                                        "true": [],
+                                                        "false": [
+                                                            {
+                                                                "id": "7bffd828-8e39-4dc4-8ddc-403678a0e123",
+                                                                "command": "EVENT_DEC_VALUE",
+                                                                "args": {
+                                                                    "variable": "27"
+                                                                }
+                                                            }
+                                                        ]
+                                                    },
+                                                    "id": "61ac76cd-8f92-42d2-b946-21c53c056b7e"
+                                                }
+                                            ]
+                                        },
+                                        "id": "06a18c33-9636-44a7-96c4-28756dedb1e0"
                                     }
                                 ]
                             }
@@ -13697,7 +13793,7 @@
                                 "operator": "==",
                                 "comparator": "0",
                                 "__collapseElse": false,
-                                "__collapse": false
+                                "__collapse": true
                             },
                             "children": {
                                 "true": [
@@ -61772,7 +61868,7 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": "selected",
-        "worldScrollX": 372.79998779296875,
+        "worldScrollX": 372,
         "worldScrollY": 0,
         "zoom": 87.5,
         "customColorsEnabled": false,
@@ -61802,9 +61898,9 @@
         "defaultUIPaletteId": "default-ui",
         "playerPaletteId": "",
         "navigatorSplitSizes": [
-            255,
-            205,
-            281
+            221,
+            178,
+            244
         ],
         "showNavigator": true,
         "defaultFontId": "4a784ac1-5b89-4f75-82db-9684475f8582",
