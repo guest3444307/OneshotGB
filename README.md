@@ -19,7 +19,7 @@ Major: Playable content, like a continuation of the story, or a new inventory sy
 #2.0.0 demo promises
 
 Improved Inventory system backend since 8 items was about the limit my mind could handle if the nested if statements i used (i was sort of losing my mind)
-No color support!
+Experimental color support!
 
 #2.1.0 demo promises
 
