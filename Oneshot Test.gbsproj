@@ -1,7 +1,7 @@
 {
     "name": "Oneshot GB Demo",
     "author": "Max Nexus",
-    "notes": "ONESHOT GB DEMO V1.0.0\n_________________________\n\nStarted: 1/17/2021\nH1: 2/8/2021- 7/3/2021 (Stopped at Computer Cutscene)\nH2:7/9/2021 -7/16/2021 (Stopped at CG_WAKE_5 Redrawn)\n(counting by days worked)\nWorked on:\n7/17/2021: Worked on some release assets and general bugfixing\n7/21/2021:changed timer script to wait\n7/22/2021: Niko Bulb sprite made and added into game and bugfixes\n7/23/2021: Bug Fixes\nFinished 7/27/2021 1.0;\n_________________________\nONESHOT GB DEMO V2.0.0\n_________________________\nSome Attempts around GBStudio V3 (the date was lost!) (fixed some issues with triggers at the password enter area) (i hate it that attach script is no longer saved across scenes, like why!)\n1/6/22: Minor Bug fix (just one)\n1/10/22: new text files added\n1/11/22: Implemented a fix on the lack of persistence of attach script by adding it to all scenes that need it, not efficent but what can i do! I also set up some plans into the New inventory system (code rework, maybe try out the new dialog prompt since ive seen cool things in the discord!\n1/12/22: Menu works now! also readded the dev sprite, returned speed to 1 from 1.5 to fix trigger bug discovered why the fireplace bug is happening, maybe ill finally speak in the discord since i have no clue about this\n1/14/22: Nothing today, just took a crack at the sprite issue and I've got nothing, for some reason it just happens, maybe a 8x16 piece doesn't work? or maybe the niko sprite is broken, 3.0 has its issues.\n1/21/22: god damn it, i really should ask the discord for help, i tried just replacing the sprite that got replaced and it just bloody messed with a different sprite, the only solution i see is to replace every sprite every time, it seems to be tied to replacing the player sprite (why!!! also noticed a difference in speed between color when trying to see if that would fix anything suggesting poor performance (should've seen that coming with how poorly optimized this is!)\n1/22/22 (part 1): IVE GOD DAMN CRACKED THE BLODDY CODE, ITS THAT BULB SPRITE, ILL TRY FIXING IT NOW!!!\n1/22/22 (part 2): finally i mostly fixed it, all it took was arbitarily matching the sprite sheet, and 1 frame of glitchy sprite for it to inexplicibly work, well now its time to implement a new inventory system\n1/23/22: instead of working on a new inventory system i went and worked on the next map, BARRENS! nothing there really, just the map, i tried out some new techniques + the whole http://cache.andre-michelle.com/tools/html/tileset-extractor.html website to do it, and i got it done in about the time it originally took me to do just the living room (i did the living room by hand completly in paint.net, only going into tiled if its too big i think i should call this a moderate update since we are outside the house now.\n1/24/22: Added a few Niko Faces for fun, improved the one already there at least, not actually added, anything new.\n1/25/22: Added more Niko faces and modified some\n1/25/22 part 2: Added a new bg to the new inventory system and did slight work on it, i also found out why the menu was so much slower than before!\n1/28/22: Worked a bit on the arrow in the inventory system! it works a bit better.\n2/4/22: Worked a bit on the inventory system, no new content, just touched up on the project.\n2/12/22: Added my burden is light midi2mod converted to by OblivionAxis. hopefully they wont object to this\n4/12/22: Touched the project to make 1 change (specifically worked on the new item screen, it now detects whether or not you picked up a item in slot 1, you can tell by this gap in progress that i have some good work ethic! I can easily expand this to all three current item slots, though right now im questioning my current setup for this rework, and im considering returning the menu back to how the original worked (with the player actor moving the menu with triggers) instead of a binded solution to return the holding down functionality.\n4/13/22: More inventory stuff, interaction doesn't work but item slots 1-3 should show the proper items in the slot, also i have no clue how i did item slots before... I'm not joking i spent like 30 minutes looking for how i did it, and i could not figure it out. This is why im making a new inventory system from scratch, that old inventory system is a ancient dragon to fight against every single time since i did not use scripts, so every change i made i had to paste across everything, it was horrible and it was the cause of 90% of bugs in the game while debugging. (time at least, because when your nested if statements become so long that you have to literally drag the block based coding sidebar (not sure what to call it) to even see, you have a problem.) I was happy when i finished the inventory system since finally, i dont have to touch it anymore. Sorry for rambling, had to get that off my chest. Oh also in changes, if i did this right i set it to 14 actors on screen total in a scene just for the new inventory system, though im questioning if i need it to be like this or if i could just mimic a scrolling inventory system by changing all the actors instead of making a actual scrolling inventory system (though that would enter into hell territory!)\n4/14/22: ive gotten the new inventory system fully working in the Original demo area, ill have to test things out to get it working in the expanded demo, the current plans is to get a remastering of the Original demo out there, just as a goal as it's much simpler to do that, where i can next get to V2.1.0 (yes thats the idea if im keeping up with this numbering system!) I've always been thinking of this but now is the time ill put it into text. There ARE bugs since i havent fully tested it but it probably works, which is the goal.\n4/15/22: Should've checked more deeply but nope, its broken still, it's easy to just bring that data back as 15-20 minutes of checking had me find the issue but i want to make it easier to work on this in the future with scripts. So i did some work on that.\n4/16/22: Nevermind, I'll just copy and paste it, better to do it manually since theres only 1 inventory screen. More effort than needed. It works, its slightly bugged since it doesn't have it automatically change it, but i can fix that later. (man i have a lot to work and fix)\n4/29/22: Alright i've added some changes to the new item system, i haven't checked fully but it should hopefully work basically i've done work to implement fixes for the item slot bugs and also some work to make the how item slots move less reliant on directly stated positions (so if needed the inventory can be more easily made to take advantage of multiple item slots in the different rows without having to rework all of it.\n5/9/22: Currently working on making it so that you can't move the cursor over empty item slots, its currently buggy but im making progress on it.\n5/16/22: i figured out why the cursor kept being dropped lower than it should, it was because the only choice for being kept into the same slot was to drop to the lowest part (for example 3,8 which can cause the issue of it dropping down into another item slot.) I got the system i wanted sort of working only on the right version, i'll implement the left one next time.\n5/17/22: I finally finished how the left and right works in the inventory, I'll work on it more later, though now that im thinking about it, i dont really need the Inventory for 2.0.0 update as the 1.0 inventory still works fine, is bug free as far as i know, and works with what little the demo gives you at that point. I guess i could just migrate over all of my changes into the old screen and call it a day for the inventory, though that'll be for the next update i guess.\n5/21/22: Made attempts to fix Inventory system bug of the combining system. still nothing. Im not sure why it wont work.\n5/26/22: I might be jinxing myself, but i think i finally finished the inventory system! I literally can't think of anything else! WOOOOOOOO! i started to focus on this since april 12th, this is the closest thing i've ever had to a proper scedule for this project of weekly updates. I'll focus on fixing bugs in the area and implementing the new faces in scenes, I've already tried an experiment by changing Niko's eyes to green since it should hopefully look more like niko's actual eyes, i wish i could get something closer more naturally but unless i expand the sprite (which brings in new problems like possibly needing to rebuild the maps. I'll also try color support.\n5/27/22: I went and worked on the SGB border, right now there is a temp one based of an edited image of the window of the World Machine Edition.\n5/28/22: Basic GBC implementation, im experimenting with the color tool and such, I've made a few palletes and such for generic scenes, Right now im planning on making GBC specific scenes to make better use of colorize without making things look worse in the original GameBoy. Maybe there could be a part 2 later today, though that depends on my mood. Also decided to try to implement yellow to niko's eyes but that didn't work for whatever reason. I'll try a bit more later.\n5/28/22 Part 2: I did the Niko eyes thing (Though i'll have to finish it later as i've been working for a few hours, i need to pace myself, i have also implemented a mirror into my game,  the idea just overtook me for some reason, so i did it. It probably looks horrible in DMG since overlaying sprites over another doesn't work properly there, so i will have to implement a color check there. \n5/29/22: More Color support added, Also added checks for color to allow for the best possible experience on both consoles. Though i've likely introduced a bug with the stick, There isn't much of an issue due to the fact you can't save in the Start area.\n5/29/22 part 2: I worked more on color support, oh god the palletes, i've already made so many. And i just realized i'm saving over some of the original gb ones... I'll fix that later. Today just isn't my day tbh. To be specific on what i've worked on, i've added color to some of the lightbulb pickup scene, looks pretty good.\n5/30/22: Oh my god, i wish i had someone else do the coloring for me, like jesus  this is unironcially painful if i want it to look good, i spent like an hour on one just now. Its b2 (b0-2 GBC, right panel) , it took like 8 palletes for that, and lots of funny edits you can't see in color (like using black, the background color on places where you can't see the background, man this would look weird on DMG, not the weirdest as that belongs to wake4 (or 5, they are basically the same) Maybe i'll go and work on something else for now.\n6/1/22: Just a quick and short update, fixed the color of the Start area black, as i accidentaly messed it up. I've made attempts to go and fix the sprites on the stairs, though its only slightly better.\n6/3/22: Minor color touchup to B3, nothing much otherwise.\n6/4/22: More work on b3, sadly might have to go back and edit b2 to be simpler for parity reasons.\n6/6/22: tried to use fix the stairs, so they wont work for a while until i geth them working... I'm genuinely considering making these a cutscene.",
+    "notes": "ONESHOT GB DEMO V1.0.0\n_________________________\n\nStarted: 1/17/2021\nH1: 2/8/2021- 7/3/2021 (Stopped at Computer Cutscene)\nH2:7/9/2021 -7/16/2021 (Stopped at CG_WAKE_5 Redrawn)\n(counting by days worked)\nWorked on:\n7/17/2021: Worked on some release assets and general bugfixing\n7/21/2021:changed timer script to wait\n7/22/2021: Niko Bulb sprite made and added into game and bugfixes\n7/23/2021: Bug Fixes\nFinished 7/27/2021 1.0;\n_________________________\nONESHOT GB DEMO V2.0.0\n_________________________\nSome Attempts around GBStudio V3 (the date was lost!) (fixed some issues with triggers at the password enter area) (i hate it that attach script is no longer saved across scenes, like why!)\n1/6/22: Minor Bug fix (just one)\n1/10/22: new text files added\n1/11/22: Implemented a fix on the lack of persistence of attach script by adding it to all scenes that need it, not efficent but what can i do! I also set up some plans into the New inventory system (code rework, maybe try out the new dialog prompt since ive seen cool things in the discord!\n1/12/22: Menu works now! also readded the dev sprite, returned speed to 1 from 1.5 to fix trigger bug discovered why the fireplace bug is happening, maybe ill finally speak in the discord since i have no clue about this\n1/14/22: Nothing today, just took a crack at the sprite issue and I've got nothing, for some reason it just happens, maybe a 8x16 piece doesn't work? or maybe the niko sprite is broken, 3.0 has its issues.\n1/21/22: god damn it, i really should ask the discord for help, i tried just replacing the sprite that got replaced and it just bloody messed with a different sprite, the only solution i see is to replace every sprite every time, it seems to be tied to replacing the player sprite (why!!! also noticed a difference in speed between color when trying to see if that would fix anything suggesting poor performance (should've seen that coming with how poorly optimized this is!)\n1/22/22 (part 1): IVE GOD DAMN CRACKED THE BLODDY CODE, ITS THAT BULB SPRITE, ILL TRY FIXING IT NOW!!!\n1/22/22 (part 2): finally i mostly fixed it, all it took was arbitarily matching the sprite sheet, and 1 frame of glitchy sprite for it to inexplicibly work, well now its time to implement a new inventory system\n1/23/22: instead of working on a new inventory system i went and worked on the next map, BARRENS! nothing there really, just the map, i tried out some new techniques + the whole http://cache.andre-michelle.com/tools/html/tileset-extractor.html website to do it, and i got it done in about the time it originally took me to do just the living room (i did the living room by hand completly in paint.net, only going into tiled if its too big i think i should call this a moderate update since we are outside the house now.\n1/24/22: Added a few Niko Faces for fun, improved the one already there at least, not actually added, anything new.\n1/25/22: Added more Niko faces and modified some\n1/25/22 part 2: Added a new bg to the new inventory system and did slight work on it, i also found out why the menu was so much slower than before!\n1/28/22: Worked a bit on the arrow in the inventory system! it works a bit better.\n2/4/22: Worked a bit on the inventory system, no new content, just touched up on the project.\n2/12/22: Added my burden is light midi2mod converted to by OblivionAxis. hopefully they wont object to this\n4/12/22: Touched the project to make 1 change (specifically worked on the new item screen, it now detects whether or not you picked up a item in slot 1, you can tell by this gap in progress that i have some good work ethic! I can easily expand this to all three current item slots, though right now im questioning my current setup for this rework, and im considering returning the menu back to how the original worked (with the player actor moving the menu with triggers) instead of a binded solution to return the holding down functionality.\n4/13/22: More inventory stuff, interaction doesn't work but item slots 1-3 should show the proper items in the slot, also i have no clue how i did item slots before... I'm not joking i spent like 30 minutes looking for how i did it, and i could not figure it out. This is why im making a new inventory system from scratch, that old inventory system is a ancient dragon to fight against every single time since i did not use scripts, so every change i made i had to paste across everything, it was horrible and it was the cause of 90% of bugs in the game while debugging. (time at least, because when your nested if statements become so long that you have to literally drag the block based coding sidebar (not sure what to call it) to even see, you have a problem.) I was happy when i finished the inventory system since finally, i dont have to touch it anymore. Sorry for rambling, had to get that off my chest. Oh also in changes, if i did this right i set it to 14 actors on screen total in a scene just for the new inventory system, though im questioning if i need it to be like this or if i could just mimic a scrolling inventory system by changing all the actors instead of making a actual scrolling inventory system (though that would enter into hell territory!)\n4/14/22: ive gotten the new inventory system fully working in the Original demo area, ill have to test things out to get it working in the expanded demo, the current plans is to get a remastering of the Original demo out there, just as a goal as it's much simpler to do that, where i can next get to V2.1.0 (yes thats the idea if im keeping up with this numbering system!) I've always been thinking of this but now is the time ill put it into text. There ARE bugs since i havent fully tested it but it probably works, which is the goal.\n4/15/22: Should've checked more deeply but nope, its broken still, it's easy to just bring that data back as 15-20 minutes of checking had me find the issue but i want to make it easier to work on this in the future with scripts. So i did some work on that.\n4/16/22: Nevermind, I'll just copy and paste it, better to do it manually since theres only 1 inventory screen. More effort than needed. It works, its slightly bugged since it doesn't have it automatically change it, but i can fix that later. (man i have a lot to work and fix)\n4/29/22: Alright i've added some changes to the new item system, i haven't checked fully but it should hopefully work basically i've done work to implement fixes for the item slot bugs and also some work to make the how item slots move less reliant on directly stated positions (so if needed the inventory can be more easily made to take advantage of multiple item slots in the different rows without having to rework all of it.\n5/9/22: Currently working on making it so that you can't move the cursor over empty item slots, its currently buggy but im making progress on it.\n5/16/22: i figured out why the cursor kept being dropped lower than it should, it was because the only choice for being kept into the same slot was to drop to the lowest part (for example 3,8 which can cause the issue of it dropping down into another item slot.) I got the system i wanted sort of working only on the right version, i'll implement the left one next time.\n5/17/22: I finally finished how the left and right works in the inventory, I'll work on it more later, though now that im thinking about it, i dont really need the Inventory for 2.0.0 update as the 1.0 inventory still works fine, is bug free as far as i know, and works with what little the demo gives you at that point. I guess i could just migrate over all of my changes into the old screen and call it a day for the inventory, though that'll be for the next update i guess.\n5/21/22: Made attempts to fix Inventory system bug of the combining system. still nothing. Im not sure why it wont work.\n5/26/22: I might be jinxing myself, but i think i finally finished the inventory system! I literally can't think of anything else! WOOOOOOOO! i started to focus on this since april 12th, this is the closest thing i've ever had to a proper scedule for this project of weekly updates. I'll focus on fixing bugs in the area and implementing the new faces in scenes, I've already tried an experiment by changing Niko's eyes to green since it should hopefully look more like niko's actual eyes, i wish i could get something closer more naturally but unless i expand the sprite (which brings in new problems like possibly needing to rebuild the maps. I'll also try color support.\n5/27/22: I went and worked on the SGB border, right now there is a temp one based of an edited image of the window of the World Machine Edition.\n5/28/22: Basic GBC implementation, im experimenting with the color tool and such, I've made a few palletes and such for generic scenes, Right now im planning on making GBC specific scenes to make better use of colorize without making things look worse in the original GameBoy. Maybe there could be a part 2 later today, though that depends on my mood. Also decided to try to implement yellow to niko's eyes but that didn't work for whatever reason. I'll try a bit more later.\n5/28/22 Part 2: I did the Niko eyes thing (Though i'll have to finish it later as i've been working for a few hours, i need to pace myself, i have also implemented a mirror into my game,  the idea just overtook me for some reason, so i did it. It probably looks horrible in DMG since overlaying sprites over another doesn't work properly there, so i will have to implement a color check there. \n5/29/22: More Color support added, Also added checks for color to allow for the best possible experience on both consoles. Though i've likely introduced a bug with the stick, There isn't much of an issue due to the fact you can't save in the Start area.\n5/29/22 part 2: I worked more on color support, oh god the palletes, i've already made so many. And i just realized i'm saving over some of the original gb ones... I'll fix that later. Today just isn't my day tbh. To be specific on what i've worked on, i've added color to some of the lightbulb pickup scene, looks pretty good.\n5/30/22: Oh my god, i wish i had someone else do the coloring for me, like jesus  this is unironcially painful if i want it to look good, i spent like an hour on one just now. Its b2 (b0-2 GBC, right panel) , it took like 8 palletes for that, and lots of funny edits you can't see in color (like using black, the background color on places where you can't see the background, man this would look weird on DMG, not the weirdest as that belongs to wake4 (or 5, they are basically the same) Maybe i'll go and work on something else for now.\n6/1/22: Just a quick and short update, fixed the color of the Start area black, as i accidentaly messed it up. I've made attempts to go and fix the sprites on the stairs, though its only slightly better.\n6/3/22: Minor color touchup to B3, nothing much otherwise.\n6/4/22: More work on b3, sadly might have to go back and edit b2 to be simpler for parity reasons.\n6/6/22: tried to use fix the stairs, so they wont work for a while until i geth them working... I'm genuinely considering making these a cutscene.\n6/8/22: I Went and just turned it into a cutscene, I can't be bothered with this anymore. I've lost to the stairs. i knew this about the stairs, I hope this doesn't keep on happening (homestuck joke) Slightly buggy but i can't care anymore. Maybe i should step away from this project for a bit due to how i have to color the rest of these. I don't really like coloring too much tbh, its interesting but it is mind numbingly painful at times.",
     "_version": "3.0.0",
     "_release": "1",
     "scenes": [
@@ -26206,6 +26206,13 @@
                                                                             "children": {
                                                                                 "true": [
                                                                                     {
+                                                                                        "command": "EVENT_SET_TRUE",
+                                                                                        "args": {
+                                                                                            "variable": "30"
+                                                                                        },
+                                                                                        "id": "afab43ef-89f3-4f33-8d9c-fd34ae0f755f"
+                                                                                    },
+                                                                                    {
                                                                                         "id": "4d393873-6aed-4fcd-9976-180706fba6f8",
                                                                                         "command": "EVENT_SWITCH_SCENE",
                                                                                         "args": {
@@ -26273,7 +26280,7 @@
                     "name": "",
                     "frame": 0,
                     "animate": false,
-                    "spriteSheetId": "76aea42e-750d-4a2b-9a1c-232f39270c96",
+                    "spriteSheetId": "c9131f9f-f48d-44e7-98b0-4194d8ffde1f",
                     "spriteType": "static",
                     "direction": "down",
                     "moveSpeed": 1,
@@ -26288,8 +26295,7 @@
                             "args": {
                                 "text": [
                                     "Hello, This is\nmeant to represent\nMe, Max Nexus!",
-                                    "If you have any\nQuestions, ask\naway!",
-                                    "Note that Im a\nbottle due to \nGBStudio related\nbugs!"
+                                    "If you have any\nQuestions, ask\naway!"
                                 ],
                                 "avatarId": ""
                             }
@@ -27199,6 +27205,28 @@
                                                 "value": 0
                                             }
                                         }
+                                    },
+                                    {
+                                        "id": "df07f101-c8aa-4d2e-a714-19512ed2b0e6",
+                                        "command": "EVENT_SET_VALUE",
+                                        "args": {
+                                            "variable": "29",
+                                            "value": {
+                                                "type": "number",
+                                                "value": 0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "id": "b2b40fc8-c260-4be9-9178-6b59c3430ce6",
+                                        "command": "EVENT_SET_VALUE",
+                                        "args": {
+                                            "variable": "30",
+                                            "value": {
+                                                "type": "number",
+                                                "value": 0
+                                            }
+                                        }
                                     }
                                 ],
                                 "false": [
@@ -27244,7 +27272,7 @@
                             "command": "EVENT_TEXT",
                             "args": {
                                 "text": [
-                                    "GAME VERSION 1.0.0\nDEV ROOM FOR FIRST\nDEMO STUFF."
+                                    "GAME VERSION 1.0.0\nDEV ROOM FOR START AREA"
                                 ],
                                 "avatarId": ""
                             }
@@ -29653,7 +29681,7 @@
                             "command": "EVENT_IF_TRUE",
                             "args": {
                                 "variable": "28",
-                                "__collapseElse": false,
+                                "__collapseElse": true,
                                 "__collapse": false
                             },
                             "children": {
@@ -29666,7 +29694,8 @@
                                             "x": 13,
                                             "y": 10,
                                             "direction": "",
-                                            "fadeSpeed": "2"
+                                            "fadeSpeed": "2",
+                                            "__collapse": true
                                         }
                                     }
                                 ],
@@ -29699,6 +29728,13 @@
                                     }
                                 ]
                             }
+                        },
+                        {
+                            "command": "EVENT_SET_TRUE",
+                            "args": {
+                                "variable": "30"
+                            },
+                            "id": "c755e1bc-51bb-40ee-bc11-422fc5a4f236"
                         }
                     ],
                     "id": "4eec31ae-cba8-42d7-9d6d-391fbc32c522",
@@ -34481,14 +34517,6 @@
             "tileColors": [],
             "script": [
                 {
-                    "command": "EVENT_CALL_CUSTOM_EVENT",
-                    "args": {
-                        "customEventId": "871e135c-43db-4533-86fd-394ae9113d0b",
-                        "$variable[1]$": "1"
-                    },
-                    "id": "b2639972-075b-48b4-8fc8-c5470cd588ea"
-                },
-                {
                     "id": "a8400a8c-623f-4db0-bb67-986828a99ce6",
                     "command": "EVENT_IF_VALUE",
                     "args": {
@@ -34520,6 +34548,98 @@
                             }
                         ]
                     }
+                },
+                {
+                    "command": "EVENT_IF_TRUE",
+                    "args": {
+                        "variable": "30",
+                        "__collapseElse": false,
+                        "__collapse": false
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "command": "EVENT_ACTOR_SET_DIRECTION",
+                                "args": {
+                                    "actorId": "$self$",
+                                    "direction": {
+                                        "type": "direction",
+                                        "value": "right"
+                                    }
+                                },
+                                "id": "5e1ad149-e328-4870-adaa-bae61c116d34"
+                            },
+                            {
+                                "command": "EVENT_ACTOR_MOVE_RELATIVE",
+                                "args": {
+                                    "actorId": "$self$",
+                                    "x": 19,
+                                    "y": 19,
+                                    "moveType": "diagonal",
+                                    "useCollisions": false
+                                },
+                                "id": "1943aa39-5c63-415a-9ae1-86a2cd404783"
+                            }
+                        ],
+                        "false": [
+                            {
+                                "command": "EVENT_ACTOR_SET_DIRECTION",
+                                "args": {
+                                    "actorId": "$self$",
+                                    "direction": {
+                                        "type": "direction",
+                                        "value": "right"
+                                    }
+                                },
+                                "id": "8d771f1a-93db-486e-a5dc-1c0df34aaeb0"
+                            },
+                            {
+                                "command": "EVENT_ACTOR_MOVE_RELATIVE",
+                                "args": {
+                                    "actorId": "$self$",
+                                    "x": -19,
+                                    "y": -19,
+                                    "moveType": "diagonal",
+                                    "useCollisions": false
+                                },
+                                "id": "67b8b3bc-141c-4d85-a61a-1781f77b4685"
+                            },
+                            {
+                                "command": "EVENT_ACTOR_SET_DIRECTION",
+                                "args": {
+                                    "actorId": "$self$",
+                                    "direction": {
+                                        "type": "direction",
+                                        "value": "right"
+                                    }
+                                },
+                                "id": "256c1f04-57f9-4e8e-9524-9d37584206a3"
+                            },
+                            {
+                                "command": "EVENT_ACTOR_MOVE_RELATIVE",
+                                "args": {
+                                    "actorId": "$self$",
+                                    "x": -2,
+                                    "y": 0,
+                                    "moveType": "diagonal",
+                                    "useCollisions": false
+                                },
+                                "id": "746e5583-83e5-4117-8aa8-4a23a2faa3f0"
+                            },
+                            {
+                                "command": "EVENT_ACTOR_SET_DIRECTION",
+                                "args": {
+                                    "actorId": "$self$",
+                                    "direction": {
+                                        "type": "direction",
+                                        "value": "right"
+                                    }
+                                },
+                                "id": "e62c16eb-5197-4aaf-8a80-6d91ce15962e"
+                            }
+                        ]
+                    },
+                    "id": "960f810f-57b5-489b-bc32-d1452303e161"
                 }
             ],
             "playerHit1Script": [],
@@ -34769,7 +34889,7 @@
                             "id": "ae1736f2-e799-4afe-8c61-98d728ef4dda",
                             "command": "EVENT_COMMENT",
                             "args": {
-                                "text": "Yes, i know about the stair bug, i couldnt\nfix it properly, im crying about it too (i spent literal hours on this and this was the best i could achieve)"
+                                "text": "TEMP CUTSCENE BECAUSE I CANT DO THIS ANYMORE WITH THESE BLOODY STAIRS."
                             }
                         }
                     ],
@@ -34815,27 +34935,6 @@
                     "id": "10859466-55d6-4613-967c-492dd5ea4ce2",
                     "x": 4,
                     "y": 4
-                },
-                {
-                    "name": "",
-                    "frame": 0,
-                    "animate": false,
-                    "spriteSheetId": "00b96895-e4c9-45de-927a-917dd58dd8f8",
-                    "direction": "right",
-                    "moveSpeed": 1,
-                    "animSpeed": 15,
-                    "paletteId": "",
-                    "isPinned": false,
-                    "collisionGroup": "",
-                    "script": [],
-                    "startScript": [],
-                    "updateScript": [],
-                    "hit1Script": [],
-                    "hit2Script": [],
-                    "hit3Script": [],
-                    "id": "95cc9eb4-bc2c-4efe-b03c-7094b54d2e49",
-                    "x": 19,
-                    "y": 15
                 }
             ],
             "triggers": [
@@ -34914,32 +35013,52 @@
                 },
                 {
                     "name": "",
-                    "id": "4483d5dc-1578-4a1b-bce6-48bfdcca7cc8",
-                    "x": 14,
-                    "y": 10,
-                    "width": 19,
-                    "height": 1,
+                    "trigger": "walk",
                     "script": [
                         {
-                            "command": "EVENT_REMOVE_INPUT_SCRIPT",
+                            "id": "80dfdc64-4868-4b9a-b8df-04c2c4140199",
+                            "command": "EVENT_IF_VALUE",
                             "args": {
-                                "input": [
-                                    "left"
-                                ]
+                                "variable": "8",
+                                "operator": "==",
+                                "comparator": 8,
+                                "__collapseElse": false
                             },
-                            "id": "0afd1e29-7cba-41dd-9aa7-c75ffb034601"
+                            "children": {
+                                "true": [
+                                    {
+                                        "id": "2dba5fb7-d047-43fe-ac05-99d35739365d",
+                                        "command": "EVENT_SWITCH_SCENE",
+                                        "args": {
+                                            "sceneId": "4de7c841-2268-483c-b9e4-7cbe3b254b23",
+                                            "x": 2,
+                                            "y": 10,
+                                            "direction": "",
+                                            "fadeSpeed": "2"
+                                        }
+                                    }
+                                ],
+                                "false": [
+                                    {
+                                        "id": "1898b695-cebb-446f-b64e-c88457ef4f39",
+                                        "command": "EVENT_SWITCH_SCENE",
+                                        "args": {
+                                            "sceneId": "2f5ac23b-b6d9-473b-b0eb-a6a921b7f384",
+                                            "x": 2,
+                                            "y": 10,
+                                            "direction": "",
+                                            "fadeSpeed": "2"
+                                        }
+                                    }
+                                ]
+                            }
                         }
                     ],
-                    "leaveScript": []
-                },
-                {
-                    "name": "",
-                    "id": "437e8bb0-eb8b-4de4-971c-33baa28633fa",
-                    "x": 15,
-                    "y": 11,
-                    "width": 18,
-                    "height": 1,
-                    "script": [],
+                    "id": "c4d8f318-a430-4725-8789-3a14e8dd9d45",
+                    "x": 33,
+                    "y": 29,
+                    "width": 1,
+                    "height": 5,
                     "leaveScript": []
                 }
             ],
@@ -35523,6 +35642,21 @@
                         "$variable[1]$": "1"
                     },
                     "id": "3a889ae5-f8fd-432b-adf2-808c30ac6572"
+                },
+                {
+                    "command": "EVENT_SET_FALSE",
+                    "args": {
+                        "variable": "30"
+                    },
+                    "id": "ecc52236-da29-43bf-baf5-9aca0247c67f"
+                },
+                {
+                    "command": "EVENT_ACTOR_SET_SPRITE",
+                    "args": {
+                        "actorId": "$self$",
+                        "spriteSheetId": "fcc12505-44cf-4595-94ae-a955dca57387"
+                    },
+                    "id": "7529705d-63bc-496f-bb93-b7a88b055afd"
                 }
             ],
             "playerHit1Script": [],
@@ -36442,6 +36576,13 @@
                         "$variable[1]$": "1"
                     },
                     "id": "6d964883-ccad-41a1-b73e-711c1a1326bb"
+                },
+                {
+                    "command": "EVENT_SET_FALSE",
+                    "args": {
+                        "variable": "30"
+                    },
+                    "id": "e5ca3f9c-719f-49ed-a358-6277ee040cb6"
                 }
             ],
             "playerHit1Script": [],
@@ -41842,6 +41983,59 @@
                     "hit3Script": [],
                     "id": "6148124a-34eb-4995-ba90-0e7478f34ca9",
                     "x": 2,
+                    "y": 5
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "c9131f9f-f48d-44e7-98b0-4194d8ffde1f",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 255,
+                    "paletteId": "f8903b0b-3c0b-4f76-a2b2-f90b240e48c1",
+                    "isPinned": false,
+                    "collisionGroup": "",
+                    "spriteType": "static",
+                    "script": [
+                        {
+                            "id": "c5d836a5-38fa-4ca8-a5f7-fef70d87e17d",
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "Hello, This is\nmeant to represent\nMe, Max Nexus!",
+                                    "If you have any\nQuestions, ask\naway!"
+                                ],
+                                "avatarId": ""
+                            }
+                        },
+                        {
+                            "id": "51fc7a6f-3359-4576-8e50-161fb0b8eaa8",
+                            "command": "EVENT_MENU",
+                            "args": {
+                                "variable": "L1",
+                                "items": 8,
+                                "option1": "NikoSpr",
+                                "option2": "Stairs",
+                                "option3": "Color",
+                                "option4": "Scope v?",
+                                "option5": "",
+                                "option6": "",
+                                "option7": "",
+                                "option8": "",
+                                "cancelOnB": true,
+                                "layout": "dialogue",
+                                "cancelOnLastOption": true
+                            }
+                        }
+                    ],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "43865213-51ab-4384-85ee-8992f02d5c0e",
+                    "x": 8,
                     "y": 5
                 }
             ],
@@ -72752,6 +72946,63 @@
                             "id": "7e88a70b-1920-4756-8f91-1ff6d8f8589d",
                             "frames": [
                                 {
+                                    "id": "4799833f-10db-40a0-8658-1be2b6f1851f",
+                                    "tiles": [
+                                        {
+                                            "id": "5b147fc4-2f99-43b6-92a7-91991cc948c0",
+                                            "x": 0,
+                                            "y": 0,
+                                            "sliceX": 64,
+                                            "sliceY": 0,
+                                            "palette": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "objPalette": "OBP0",
+                                            "paletteIndex": 0,
+                                            "priority": false
+                                        },
+                                        {
+                                            "id": "b1b6dba6-3593-4f28-8937-ad49b6b38c6f",
+                                            "x": 8,
+                                            "y": 0,
+                                            "sliceX": 72,
+                                            "sliceY": 0,
+                                            "palette": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "objPalette": "OBP0",
+                                            "paletteIndex": 0,
+                                            "priority": false
+                                        },
+                                        {
+                                            "id": "c702b571-7eda-49bf-9c5e-bd2bce6a991b",
+                                            "x": 0,
+                                            "y": 0,
+                                            "sliceX": 80,
+                                            "sliceY": 0,
+                                            "palette": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "objPalette": "OBP0",
+                                            "paletteIndex": 0,
+                                            "priority": false
+                                        },
+                                        {
+                                            "id": "02039e04-9928-47df-abc9-28391e5986a7",
+                                            "x": 8,
+                                            "y": 0,
+                                            "sliceX": 88,
+                                            "sliceY": 0,
+                                            "palette": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "objPalette": "OBP0",
+                                            "paletteIndex": 0,
+                                            "priority": false
+                                        }
+                                    ]
+                                },
+                                {
                                     "id": "c9eb8c93-532e-42e5-b787-5af1bc51d79f",
                                     "tiles": [
                                         {
@@ -72860,7 +73111,7 @@
             "boundsX": 0,
             "boundsY": 0,
             "boundsWidth": 16,
-            "boundsHeight": 16,
+            "boundsHeight": 8,
             "animSpeed": 15
         },
         {
@@ -73326,29 +73577,29 @@
                                     "id": "deac6dc0-48f3-42e2-ab18-641f41630a4c",
                                     "tiles": [
                                         {
-                                            "id": "af0627e7-6159-4649-abbb-58066767262e",
-                                            "x": 0,
+                                            "id": "9bc1300f-f4bd-44e6-85e4-593b144f41e4",
+                                            "x": 8,
                                             "y": 0,
-                                            "sliceX": 64,
+                                            "sliceX": 16,
                                             "sliceY": 0,
-                                            "flipX": false,
-                                            "flipY": false,
                                             "palette": 0,
-                                            "paletteIndex": 0,
+                                            "flipX": true,
+                                            "flipY": false,
                                             "objPalette": "OBP0",
+                                            "paletteIndex": 0,
                                             "priority": false
                                         },
                                         {
-                                            "id": "528b9e66-d8bd-4c69-bb05-bdbe9a267a95",
-                                            "x": 8,
+                                            "id": "8236d57e-b428-4028-85b8-d5ff4eae7cad",
+                                            "x": 0,
                                             "y": 0,
-                                            "sliceX": 72,
+                                            "sliceX": 24,
                                             "sliceY": 0,
-                                            "flipX": false,
-                                            "flipY": false,
                                             "palette": 0,
-                                            "paletteIndex": 0,
+                                            "flipX": true,
+                                            "flipY": false,
                                             "objPalette": "OBP0",
+                                            "paletteIndex": 0,
                                             "priority": false
                                         }
                                     ]
@@ -73372,12 +73623,12 @@
                                     "tiles": [
                                         {
                                             "id": "f2bbdea9-5758-4907-bea8-8ba4c5f4305c",
-                                            "x": 0,
+                                            "x": 8,
                                             "y": 0,
                                             "sliceX": 64,
                                             "sliceY": 0,
                                             "palette": 0,
-                                            "flipX": false,
+                                            "flipX": true,
                                             "flipY": false,
                                             "objPalette": "OBP0",
                                             "paletteIndex": 0,
@@ -73385,12 +73636,12 @@
                                         },
                                         {
                                             "id": "39a80cc3-5c66-4061-850f-f95ba88fd99c",
-                                            "x": 8,
+                                            "x": 0,
                                             "y": 0,
                                             "sliceX": 72,
                                             "sliceY": 0,
                                             "palette": 0,
-                                            "flipX": false,
+                                            "flipX": true,
                                             "flipY": false,
                                             "objPalette": "OBP0",
                                             "paletteIndex": 0,
@@ -73444,11 +73695,11 @@
                                     "tiles": [
                                         {
                                             "id": "042c32d7-96c2-4b62-b288-faf7d827eecf",
-                                            "x": 0,
+                                            "x": 8,
                                             "y": 0,
                                             "sliceX": 80,
                                             "sliceY": 0,
-                                            "flipX": false,
+                                            "flipX": true,
                                             "flipY": false,
                                             "palette": 0,
                                             "paletteIndex": 0,
@@ -73457,11 +73708,11 @@
                                         },
                                         {
                                             "id": "eb612222-d758-4f7a-bd2f-2f810ab14c0f",
-                                            "x": 8,
+                                            "x": 0,
                                             "y": 0,
                                             "sliceX": 88,
                                             "sliceY": 0,
-                                            "flipX": false,
+                                            "flipX": true,
                                             "flipY": false,
                                             "palette": 0,
                                             "paletteIndex": 0,
@@ -73475,11 +73726,11 @@
                                     "tiles": [
                                         {
                                             "id": "e5c4a8d9-ce68-47ba-b675-6be9b10f305d",
-                                            "x": 0,
+                                            "x": 8,
                                             "y": 0,
                                             "sliceX": 64,
                                             "sliceY": 0,
-                                            "flipX": false,
+                                            "flipX": true,
                                             "flipY": false,
                                             "palette": 0,
                                             "paletteIndex": 0,
@@ -73488,11 +73739,11 @@
                                         },
                                         {
                                             "id": "be47ed14-7484-4da6-b0a9-b967c2ce6e6a",
-                                            "x": 8,
+                                            "x": 0,
                                             "y": 0,
                                             "sliceX": 72,
                                             "sliceY": 0,
-                                            "flipX": false,
+                                            "flipX": true,
                                             "flipY": false,
                                             "palette": 0,
                                             "paletteIndex": 0,
@@ -73519,29 +73770,29 @@
                                     "id": "6253d5ba-a53d-4a46-84de-88f424f6a10b",
                                     "tiles": [
                                         {
-                                            "id": "3a7f0503-88e6-4dc1-916c-e2408356709d",
-                                            "x": 0,
+                                            "id": "7b7d0946-bff0-4270-b619-1a1390e79642",
+                                            "x": 8,
                                             "y": 0,
-                                            "sliceX": 48,
+                                            "sliceX": 80,
                                             "sliceY": 0,
-                                            "flipX": false,
-                                            "flipY": false,
                                             "palette": 0,
-                                            "paletteIndex": 0,
+                                            "flipX": true,
+                                            "flipY": false,
                                             "objPalette": "OBP0",
+                                            "paletteIndex": 0,
                                             "priority": false
                                         },
                                         {
-                                            "id": "8c236f4c-825c-4ee9-af29-53e2291a651f",
-                                            "x": 8,
+                                            "id": "b8f7c89f-7bb1-4579-a1a2-45ddb5bf0488",
+                                            "x": 0,
                                             "y": 0,
-                                            "sliceX": 56,
+                                            "sliceX": 88,
                                             "sliceY": 0,
-                                            "flipX": false,
-                                            "flipY": false,
                                             "palette": 0,
-                                            "paletteIndex": 0,
+                                            "flipX": true,
+                                            "flipY": false,
                                             "objPalette": "OBP0",
+                                            "paletteIndex": 0,
                                             "priority": false
                                         }
                                     ]
@@ -73550,29 +73801,29 @@
                                     "id": "4981229b-4fda-4aaf-884b-ed244affe8c8",
                                     "tiles": [
                                         {
-                                            "id": "c08f69b7-fe6f-4f8a-bcd4-4915c0519b6b",
-                                            "x": 0,
+                                            "id": "1f097049-a3d4-4428-bead-5b95461ae271",
+                                            "x": 8,
                                             "y": 0,
-                                            "sliceX": 32,
+                                            "sliceX": 0,
                                             "sliceY": 0,
-                                            "flipX": false,
-                                            "flipY": false,
                                             "palette": 0,
-                                            "paletteIndex": 0,
+                                            "flipX": true,
+                                            "flipY": false,
                                             "objPalette": "OBP0",
+                                            "paletteIndex": 0,
                                             "priority": false
                                         },
                                         {
-                                            "id": "c0a7a1dd-577a-4f05-8dcd-7f051653d27e",
-                                            "x": 8,
+                                            "id": "bddfd608-7b44-400f-bc98-db409510f5ec",
+                                            "x": 0,
                                             "y": 0,
-                                            "sliceX": 40,
+                                            "sliceX": 8,
                                             "sliceY": 0,
-                                            "flipX": false,
-                                            "flipY": false,
                                             "palette": 0,
-                                            "paletteIndex": 0,
+                                            "flipX": true,
+                                            "flipY": false,
                                             "objPalette": "OBP0",
+                                            "paletteIndex": 0,
                                             "priority": false
                                         }
                                     ]
@@ -73649,7 +73900,7 @@
                     ]
                 }
             ],
-            "numTiles": 8,
+            "numTiles": 4,
             "canvasWidth": 16,
             "canvasHeight": 16,
             "boundsX": 0,
@@ -85275,6 +85526,18 @@
         {
             "id": "f939d6e9-ac83-468e-8c51-0215c00cf67e__L0",
             "name": "camera turn"
+        },
+        {
+            "id": "30",
+            "name": "Enter Top or bottom stair cutscene"
+        },
+        {
+            "id": "43865213-51ab-4384-85ee-8992f02d5c0e__L1",
+            "name": "Ask Away To Me!"
+        },
+        {
+            "id": "43865213-51ab-4384-85ee-8992f02d5c0e__L0",
+            "name": "Local 0"
         }
     ],
     "engineFieldValues": [
@@ -85316,8 +85579,8 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": "selected",
-        "worldScrollX": 112.80000305175781,
-        "worldScrollY": 387.20001220703125,
+        "worldScrollX": 505.6000061035156,
+        "worldScrollY": 0,
         "zoom": 87.5,
         "customColorsEnabled": true,
         "sgbEnabled": true,
