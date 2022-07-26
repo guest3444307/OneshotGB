@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.8" tiledversion="1.8.5" orientation="orthogonal" renderorder="right-down" width="2" height="2" tilewidth="8" tileheight="8" infinite="0" nextlayerid="2" nextobjectid="1">
+ <tileset firstgid="1" source="../../Experimental Assets/titlescreen gb/Normal GB Temp.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="2" height="2">
+  <data encoding="csv">
+106,107,
+126,127
+</data>
+ </layer>
+</map>
