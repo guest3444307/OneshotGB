@@ -4,11 +4,6 @@ Putting it on github since thats 10x easier than mediafire for anyone to obtain 
 Also served as me trying out git bash (and failing)
 The main branch is where the 2.0.0 demo is currently being worked on
 
-#Credits
-
-OblivionAxis: Created a midi of the barrens, thank you! (if your reading this, sorry for not asking for permission, on your musescore.com page i didn't see a place to email you. if you want me to get rid of the music i will do so as soon as i can): https://musescore.com/user/32724385/scores/7240554
-Midi2mod is good! http://midi2mod.jamespark.ninja/
-
 #Update format
 
 Minor: Bugfixes
