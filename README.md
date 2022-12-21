@@ -13,12 +13,14 @@ Major: Playable content, like a continuation of the story, or a new inventory sy
 
 #2.0.0 demo promises
 
-Improved Inventory system backend since 8 items was about the limit my mind could handle if the nested if statements i used (i was sort of losing my mind)
-Experimental color support!
+Improved Inventory system backend since 8 items was about the limit my mind could handle if the nested if statements i used (i was sort of losing my mind) color support!
 
 #2.1.0 demo promises
 
-Entirety of the Barrens area (big goal but hey! if i never finish it, someone else can since this is a public github page!)
+A Major update which shall feature a rework of the new area's content, like for example
 
+. Trying to get color to work on the Remote control, and removing the color puzzle for the original gameboy (inspiration from World Machine's color blind mode)
+. Generally rethinking the game to work better as a game boy game (localizing to game boy instead of just remaking the pc version for gameboy)
+. Maybe more!
 
 # NOTICE: MAIN BRANCH IS NOT GUARANTEED TO WORK, V2OLD IS
