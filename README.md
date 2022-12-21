@@ -20,7 +20,9 @@ Improved Inventory system backend since 8 items was about the limit my mind coul
 A Major update which shall feature a rework of the new area's content, like for example
 
 . Trying to get color to work on the Remote control, and removing the color puzzle for the original gameboy (inspiration from World Machine's color blind mode)
+
 . Generally rethinking the game to work better as a game boy game (localizing to game boy instead of just remaking the pc version for gameboy)
+
 . Maybe more!
 
 # NOTICE: MAIN BRANCH IS NOT GUARANTEED TO WORK, V2OLD IS
