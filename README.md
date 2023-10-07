@@ -13,8 +13,9 @@ Major: Playable content, like a continuation of the story, or a new inventory sy
 
 #2.0.0 demo promises
 
-Improved Inventory system backend since 8 items was about the limit my mind could handle if the nested if statements i used (i was sort of losing my mind) color support!
-
+Improved Inventory system backend since 8 items was about the limit my mind could handle if the nested if statements i used (i was sort of losing my mind) 
+color support!
+Improved assets (Compared to V1)
 #2.1.0 demo promises
 
 A Major update which shall feature a rework of the new area's content, like for example
