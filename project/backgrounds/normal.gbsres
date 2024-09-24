@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "1287f8d2-a43c-40cf-a3de-233898f6de22",
+  "name": "Normal",
+  "symbol": "bg_normal",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "Normal.png",
+  "tileColors": "",
+  "autoColor": false
+}

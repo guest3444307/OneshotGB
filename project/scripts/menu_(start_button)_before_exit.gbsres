@@ -1,0 +1,165 @@
+{
+  "_resourceType": "script",
+  "id": "871e135c-43db-4533-86fd-394ae9113d0b",
+  "name": "Menu (start button) before exit",
+  "symbol": "script_menu_start_button_be",
+  "description": "The menu, the reason why i use this is because i realised nothing in this script changes to the point id need to change something",
+  "variables": {
+    "V1": {
+      "id": "V1",
+      "name": "Variable B",
+      "passByReference": true
+    }
+  },
+  "actors": {},
+  "script": [
+    {
+      "id": "b12a65cb-64f1-47b4-b0ac-e4f4ab42001a",
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "start"
+        ],
+        "persist": true,
+        "__scriptTabs": "press",
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "id": "af7e0b63-146f-40e2-b8c2-ce96251fe0e8",
+            "command": "EVENT_MENU",
+            "args": {
+              "variable": "V1",
+              "items": 4,
+              "option1": "Items",
+              "option2": "Notes",
+              "option3": "Options",
+              "option4": "Exit",
+              "option5": "Exit",
+              "option6": "",
+              "option7": "",
+              "option8": "",
+              "cancelOnB": true,
+              "layout": "menu",
+              "__collapse": false,
+              "cancelOnLastOption": true
+            }
+          },
+          {
+            "id": "4efb39c7-f539-4dbd-8071-da32f636fd10",
+            "command": "EVENT_IF",
+            "args": {
+              "variable": "V1",
+              "operator": "==",
+              "comparator": 1,
+              "__collapseElse": false,
+              "__collapse": false,
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "V1"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 1
+                }
+              }
+            },
+            "children": {
+              "true": [
+                {
+                  "id": "6b074bed-684b-46e2-af08-1a0e7fc6fdf9",
+                  "command": "EVENT_SCENE_PUSH_STATE",
+                  "args": {
+                    "__comment": false,
+                    "__collapse": false
+                  }
+                },
+                {
+                  "id": "c6f850a3-3679-4191-93fe-c137fdb203ae",
+                  "command": "EVENT_SWITCH_SCENE",
+                  "args": {
+                    "sceneId": "f08b0883-ebc2-4396-b1a8-cab4dba8aa48",
+                    "x": {
+                      "type": "number",
+                      "value": 3
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 13
+                    },
+                    "direction": "right",
+                    "fadeSpeed": "2",
+                    "__collapse": false,
+                    "__comment": true
+                  }
+                },
+                {
+                  "id": "294d3f75-1df3-411e-9773-91e0b40b68e2",
+                  "command": "EVENT_SWITCH_SCENE",
+                  "args": {
+                    "sceneId": "84da39a8-e8f7-4bbd-a29b-444987698ca1",
+                    "x": {
+                      "type": "number",
+                      "value": 6
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 7
+                    },
+                    "direction": "right",
+                    "fadeSpeed": "2",
+                    "__collapse": false
+                  }
+                }
+              ],
+              "false": [
+                {
+                  "id": "46ba5446-2678-4efb-92ff-8ffa6cd7abc0",
+                  "command": "EVENT_IF",
+                  "args": {
+                    "variable": "V1",
+                    "operator": "==",
+                    "comparator": 3,
+                    "__collapseElse": false,
+                    "__collapse": false,
+                    "__comment": true,
+                    "condition": {
+                      "type": "eq",
+                      "valueA": {
+                        "type": "variable",
+                        "value": "V1"
+                      },
+                      "valueB": {
+                        "type": "number",
+                        "value": 3
+                      }
+                    }
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_SAVE_DATA",
+                        "args": {
+                          "saveSlot": 0,
+                          "__scriptTabs": "save"
+                        },
+                        "children": {
+                          "true": []
+                        },
+                        "id": "293f083d-4543-4c22-8791-af199533ee44"
+                      }
+                    ],
+                    "false": []
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

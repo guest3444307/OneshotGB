@@ -1,0 +1,39 @@
+{
+  "_resourceType": "actor",
+  "id": "ce04f604-1808-4562-a5f9-5d285ef36d63",
+  "_index": 4,
+  "symbol": "actor_3",
+  "prefabId": "",
+  "name": "",
+  "x": 19,
+  "y": 16,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "b166b6fa-9418-4943-9572-637dcde6b42f",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 255,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "id": "4e1fb2d2-9b10-4836-a6c0-bc2781e1a1b5",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "[Dusty books.]",
+          "[It's too dark to\nread in here.]"
+        ],
+        "avatarId": ""
+      }
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "7a58f85c-d5b6-423a-b8db-fdee38d3f842",
+  "name": "Pictures/b6",
+  "symbol": "bg_pictures_b6",
+  "width": 40,
+  "height": 30,
+  "imageWidth": 320,
+  "imageHeight": 240,
+  "filename": "Pictures/b6.png",
+  "tileColors": "",
+  "autoColor": false
+}

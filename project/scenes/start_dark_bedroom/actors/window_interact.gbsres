@@ -1,0 +1,282 @@
+{
+  "_resourceType": "actor",
+  "id": "201e3010-4b11-4beb-b4e6-b75e0748e9eb",
+  "_index": 3,
+  "symbol": "actor_window_interact",
+  "prefabId": "",
+  "name": "Window Interact",
+  "x": 21,
+  "y": 15,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "b166b6fa-9418-4943-9572-637dcde6b42f",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 255,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "id": "30ac0399-4809-4696-b2c3-af936606a518",
+      "command": "EVENT_IF",
+      "args": {
+        "variable": "5",
+        "operator": "==",
+        "comparator": 1,
+        "__collapseElse": false,
+        "__collapse": false,
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "5"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        }
+      },
+      "children": {
+        "true": [
+          {
+            "id": "41e57eec-2dd3-4472-8897-64b052af2022",
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "[In the faint\nlight,",
+                "Niko can\nglimpse the\nface of the of the\nremote]",
+                "[All of the\nnumbers except"
+              ],
+              "avatarId": "",
+              "__collapse": true
+            }
+          },
+          {
+            "id": "d22cff11-7c5c-449a-8451-25deeccd41c2",
+            "command": "EVENT_IF",
+            "args": {
+              "variable": "15",
+              "operator": "==",
+              "comparator": "0",
+              "__collapseElse": false,
+              "__collapse": false,
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "15"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 0
+                }
+              }
+            },
+            "children": {
+              "true": [
+                {
+                  "id": "ae7a8419-6c36-41f3-a724-15630ca64c58",
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "A red $11$, a\nyellow $12$ a\ngreen $13$,",
+                      "and a blue $14$ are\nmissing.]",
+                      "[They're marked in\nbright colors.]"
+                    ],
+                    "avatarId": "",
+                    "__collapse": false
+                  }
+                }
+              ],
+              "false": [
+                {
+                  "id": "1ebbb4df-60cf-4b50-ae1f-87d3aa7adf4b",
+                  "command": "EVENT_IF",
+                  "args": {
+                    "variable": "15",
+                    "operator": "==",
+                    "comparator": 1,
+                    "__collapseElse": false,
+                    "__collapse": false,
+                    "condition": {
+                      "type": "eq",
+                      "valueA": {
+                        "type": "variable",
+                        "value": "15"
+                      },
+                      "valueB": {
+                        "type": "number",
+                        "value": 1
+                      }
+                    }
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "id": "c4689750-549c-4996-841a-786379febca5",
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "a green\n$13$, A red $11$ a\nyellow $12$,",
+                            "and a blue $14$ are\nmissing.]",
+                            "[They're marked in\nbright colors.]"
+                          ],
+                          "avatarId": "",
+                          "__collapse": true
+                        }
+                      }
+                    ],
+                    "false": [
+                      {
+                        "id": "9c791709-78e5-485a-b17e-2a2e74dba6f0",
+                        "command": "EVENT_IF",
+                        "args": {
+                          "variable": "15",
+                          "operator": "==",
+                          "comparator": 2,
+                          "__collapseElse": false,
+                          "__collapse": false,
+                          "condition": {
+                            "type": "eq",
+                            "valueA": {
+                              "type": "variable",
+                              "value": "15"
+                            },
+                            "valueB": {
+                              "type": "number",
+                              "value": 2
+                            }
+                          }
+                        },
+                        "children": {
+                          "true": [
+                            {
+                              "id": "457a5538-a393-4d0a-9f5a-e029417e39c9",
+                              "command": "EVENT_TEXT",
+                              "args": {
+                                "text": [
+                                  "A red $11$,a green\n$13$,a blue $14$,",
+                                  "and a yellow $12$\nare missing.]",
+                                  "[They're marked in\nbright colors.]"
+                                ],
+                                "avatarId": ""
+                              }
+                            }
+                          ],
+                          "false": [
+                            {
+                              "id": "5239998e-989d-40c1-887e-e128cc50a6d7",
+                              "command": "EVENT_IF",
+                              "args": {
+                                "variable": "15",
+                                "operator": "==",
+                                "comparator": 3,
+                                "__collapseElse": false,
+                                "__collapse": false,
+                                "condition": {
+                                  "type": "eq",
+                                  "valueA": {
+                                    "type": "variable",
+                                    "value": "15"
+                                  },
+                                  "valueB": {
+                                    "type": "number",
+                                    "value": 3
+                                  }
+                                }
+                              },
+                              "children": {
+                                "true": [
+                                  {
+                                    "id": "bbeee598-4863-4ae8-87d4-7b34e783e358",
+                                    "command": "EVENT_TEXT",
+                                    "args": {
+                                      "text": [
+                                        "a yellow $12$, a\nblue $14$, a green\n$13$,",
+                                        "and a red $11$ are\nmissing.]",
+                                        "[They're marked in\nbright colors.]"
+                                      ],
+                                      "avatarId": ""
+                                    }
+                                  }
+                                ],
+                                "false": [
+                                  {
+                                    "id": "630a483f-4ac9-4599-b281-d0f1b9527ec8",
+                                    "command": "EVENT_IF",
+                                    "args": {
+                                      "variable": "15",
+                                      "operator": "==",
+                                      "comparator": 3,
+                                      "__collapseElse": false,
+                                      "__collapse": false,
+                                      "condition": {
+                                        "type": "eq",
+                                        "valueA": {
+                                          "type": "variable",
+                                          "value": "15"
+                                        },
+                                        "valueB": {
+                                          "type": "number",
+                                          "value": 3
+                                        }
+                                      }
+                                    },
+                                    "children": {
+                                      "true": [
+                                        {
+                                          "id": "6ef02cfa-5172-467c-b2c1-98c8d69c4aa6",
+                                          "command": "EVENT_TEXT",
+                                          "args": {
+                                            "text": [
+                                              "a red $11$, a\nblue $14$, a green\n$13$,",
+                                              "and a a yellow $12$\nare missing.]",
+                                              "[They're marked in\nbright colors.]"
+                                            ],
+                                            "avatarId": ""
+                                          }
+                                        }
+                                      ],
+                                      "false": []
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "false": [
+          {
+            "id": "8a79f2c4-b831-41f2-a7ce-7afc409d0fad",
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "[A soft glowing\nlight",
+                "trickles through\nthe window.]"
+              ],
+              "avatarId": "",
+              "__collapse": true
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

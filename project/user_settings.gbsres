@@ -1,0 +1,34 @@
+{
+  "_resourceType": "settings",
+  "worldScrollX": 470.3999938964844,
+  "worldScrollY": 778.4000244140625,
+  "zoom": 212.5,
+  "navigatorSplitSizes": [
+    30,
+    205,
+    506
+  ],
+  "showNavigator": true,
+  "showCollisions": true,
+  "showConnections": "selected",
+  "previewAsMono": false,
+  "showCollisionSlopeTiles": true,
+  "favoriteEvents": [
+    "EVENT_TEXT",
+    "EVENT_SWITCH_SCENE",
+    "EVENT_SWITCH",
+    "EVENT_IF_VALUE",
+    "EVENT_CALL_CUSTOM_EVENT",
+    "EVENT_IF_COLOR_SUPPORTED",
+    "EVENT_IF_EXPRESSION"
+  ],
+  "debuggerEnabled": false,
+  "debuggerScriptType": "editor",
+  "debuggerVariablesFilter": "all",
+  "debuggerCollapsedPanes": [],
+  "debuggerPauseOnScriptChanged": false,
+  "debuggerPauseOnWatchedVariableChanged": false,
+  "debuggerBreakpoints": [],
+  "debuggerWatchedVariables": [],
+  "openBuildLogOnWarnings": false
+}

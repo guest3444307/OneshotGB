@@ -1,0 +1,34 @@
+{
+  "_resourceType": "scene",
+  "id": "1a13f68a-288a-479f-9848-26e4826fe08f",
+  "_index": 49,
+  "type": "TOPDOWN",
+  "name": "Inventory Tester",
+  "symbol": "scene_inventory_tester",
+  "x": 1512.685686383929,
+  "y": 537.1428571428573,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "tilesetId": "",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "871e135c-43db-4533-86fd-394ae9113d0b",
+        "$variable[V1]$": {
+          "type": "variable",
+          "value": "1"
+        }
+      },
+      "id": "1b1a3e1d-58a9-4f92-a726-d4c9292d1ec3"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "00168+"
+}

@@ -1,0 +1,81 @@
+{
+  "_resourceType": "scene",
+  "id": "9b26a3cc-3639-4b1b-bd8c-1586d7ac3af5",
+  "_index": 48,
+  "type": "PLATFORM",
+  "name": "Basement Stairs OLD",
+  "symbol": "scene_basement_stairs_old",
+  "x": 625.7142857142856,
+  "y": 1718.8571428571424,
+  "width": 50,
+  "height": 40,
+  "backgroundId": "a35a16db-41be-49da-a481-4344242f11e4",
+  "tilesetId": "",
+  "paletteIds": [
+    "31fad0d1-94ff-4fb9-b363-fffb51efe0c2"
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "playerSpriteSheetId": "00b96895-e4c9-45de-927a-917dd58dd8f8",
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "871e135c-43db-4533-86fd-394ae9113d0b",
+        "$variable[V1]$": {
+          "type": "variable",
+          "value": "1"
+        }
+      },
+      "id": "e65dd4a6-779a-422e-9c20-83394edb332a"
+    },
+    {
+      "id": "685727d8-f38b-43cf-8242-00f9ffd93189",
+      "command": "EVENT_IF",
+      "args": {
+        "variable": "8",
+        "operator": "==",
+        "comparator": 8,
+        "__collapseElse": false,
+        "__collapse": false,
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "8"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 8
+          }
+        }
+      },
+      "children": {
+        "true": [
+          {
+            "id": "93f036a4-c3da-4fa6-9270-038a975097a3",
+            "command": "EVENT_PLAYER_SET_SPRITE",
+            "args": {
+              "spriteSheetId": "80885488-8a5f-444f-b0e4-e7c654fcce8a",
+              "persist": true
+            }
+          }
+        ],
+        "false": [
+          {
+            "id": "f3d67804-dfd4-4f2d-8aab-6b5111c2e3af",
+            "command": "EVENT_PLAYER_SET_SPRITE",
+            "args": {
+              "spriteSheetId": "00b96895-e4c9-45de-927a-917dd58dd8f8",
+              "persist": true
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "00169+0f18+001a+0f5+00e+0f4+001b+0f!004+0f!0010+0f!001b+0f!005+0f!00f+0f!001c+0f3+003+0f!00e+0f!001e+0f2+003+0f!00d+0f!001f+0f2+003+0f!00c+0f!0020+0f2+003+0f!00b+0f!0021+0f2+003+0f!00a+0f!0022+0f2+003+0f!009+0f!0023+0f2+003+0f!008+0f!0024+0f2+003+0f!007+0f!0025+0f2+003+0f!006+0f!0026+0f2+003+0f!005+0f!0027+0f2+003+0f!004+0f!0028+0f2+003+0f!003+0f!0029+0f2+003+0f!002+0f!002a+0f2+003+0f!00!0f2+002a+0f2+003+0f!00!0f!002b+0f2+004+0f!002c+0f2+003+0f!002c+0f3+002+0f!002e+0f2+00!0f!002e+0f4+001d1+"
+}

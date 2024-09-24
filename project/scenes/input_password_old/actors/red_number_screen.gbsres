@@ -1,0 +1,87 @@
+{
+  "_resourceType": "actor",
+  "id": "b9525a64-dd7e-45ef-9c54-10f4fe9598d7",
+  "_index": 2,
+  "symbol": "actor_red_number_screen",
+  "prefabId": "",
+  "name": "Red Number Screen",
+  "x": 9,
+  "y": 5,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "99b299f5-75c2-4cd4-b47d-1b243af1d535",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "id": "a069408e-d940-4f61-b8dc-3c06fb7a945b",
+      "command": "EVENT_IF",
+      "args": {
+        "vectorX": "19",
+        "operator": "!=",
+        "vectorY": "11",
+        "__collapseElse": false,
+        "condition": {
+          "type": "ne",
+          "valueA": {
+            "type": "variable",
+            "value": "19"
+          },
+          "valueB": {
+            "type": "variable",
+            "value": "11"
+          }
+        }
+      },
+      "children": {
+        "true": [
+          {
+            "id": "0bba51a7-1335-461d-9307-c682fd4eb994",
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "16",
+              "value": {
+                "type": "false"
+              }
+            }
+          },
+          {
+            "id": "70239ebf-6fb9-4afc-9611-2fdd7f1fef50",
+            "command": "EVENT_ACTOR_SET_FRAME",
+            "args": {
+              "actorId": "$self$",
+              "frame": {
+                "type": "variable",
+                "value": "19"
+              }
+            }
+          }
+        ],
+        "false": [
+          {
+            "id": "36e2c7dc-f975-439b-943a-0997abe59fbd",
+            "command": "EVENT_ACTOR_SET_FRAME",
+            "args": {
+              "actorId": "$self$",
+              "frame": {
+                "type": "variable",
+                "value": "19"
+              }
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

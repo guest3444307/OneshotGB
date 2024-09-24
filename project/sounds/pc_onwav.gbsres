@@ -1,0 +1,8 @@
+{
+  "_resourceType": "sound",
+  "id": "28e10348-5c51-4831-beae-ddc50525f2f3",
+  "name": "pc_on.wav",
+  "symbol": "sound_pc_on_wav",
+  "filename": "pc_on.wav",
+  "type": "wav"
+}

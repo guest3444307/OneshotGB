@@ -1,0 +1,600 @@
+{
+  "_resourceType": "variables",
+  "variables": [
+    {
+      "id": "0",
+      "name": "Game Start",
+      "symbol": "var_game_start"
+    },
+    {
+      "id": "1",
+      "name": "Main Menu",
+      "symbol": "var_main_menu"
+    },
+    {
+      "id": "2",
+      "name": "Game Intro",
+      "symbol": "var_game_intro"
+    },
+    {
+      "id": "3",
+      "name": "REPLACE Remote control item",
+      "symbol": "var_replace_remote_control_"
+    },
+    {
+      "id": "4",
+      "name": "(OUTDATED) Item Slot 1",
+      "symbol": "var_outdated_item_slot_1"
+    },
+    {
+      "id": "5",
+      "name": "Interaction 1",
+      "symbol": "var_interaction_1"
+    },
+    {
+      "id": "6",
+      "name": "Interaction 2",
+      "symbol": "var_interaction_2"
+    },
+    {
+      "id": "7",
+      "name": "REPLACE Start_Game_Stick",
+      "symbol": "var_replace_start_game_stic"
+    },
+    {
+      "id": "8",
+      "name": "Item Slot 1 item",
+      "symbol": "var_item_slot_1_item"
+    },
+    {
+      "id": "9",
+      "name": "Item Slot item 2",
+      "symbol": "var_item_slot_item_2"
+    },
+    {
+      "id": "10",
+      "name": "(OUTDATED) Item Slot 2",
+      "symbol": "var_outdated_item_slot_2"
+    },
+    {
+      "id": "11",
+      "name": "Red Number Remote",
+      "symbol": "var_red_number_remote"
+    },
+    {
+      "id": "12",
+      "name": "Yellow Number Remote",
+      "symbol": "var_yellow_number_remote"
+    },
+    {
+      "id": "13",
+      "name": "Green Number Remote",
+      "symbol": "var_green_number_remote"
+    },
+    {
+      "id": "14",
+      "name": "Blue Number Remote",
+      "symbol": "var_blue_number_remote"
+    },
+    {
+      "id": "15",
+      "name": "Window Read",
+      "symbol": "var_window_read"
+    },
+    {
+      "id": "16",
+      "name": "Password",
+      "symbol": "var_password"
+    },
+    {
+      "id": "17",
+      "name": "Blue Check",
+      "symbol": "var_blue_check"
+    },
+    {
+      "id": "18",
+      "name": "Green Check",
+      "symbol": "var_green_check"
+    },
+    {
+      "id": "19",
+      "name": "Red Check",
+      "symbol": "var_red_check"
+    },
+    {
+      "id": "20",
+      "name": "Yellow Check",
+      "symbol": "var_yellow_check"
+    },
+    {
+      "id": "21",
+      "name": "ComputerStartCheck",
+      "symbol": "var_computerstartcheck"
+    },
+    {
+      "id": "22",
+      "name": "Item Slot 3 (OUTDATED)",
+      "symbol": "var_item_slot_3_outdated_"
+    },
+    {
+      "id": "23",
+      "name": "Item Slot item 3",
+      "symbol": "var_item_slot_item_3"
+    },
+    {
+      "id": "24",
+      "name": "Fire Check Start Living Room Sparking",
+      "symbol": "var_fire_check_start_living"
+    },
+    {
+      "id": "25",
+      "name": "Check Left right 0-3C",
+      "symbol": "var_check_left_right_0_3c"
+    },
+    {
+      "id": "26",
+      "name": "NikoBotStairwell",
+      "symbol": "var_nikobotstairwell"
+    },
+    {
+      "id": "27",
+      "name": "Item Left right 0-2",
+      "symbol": "var_item_left_right_0_2"
+    },
+    {
+      "id": "28",
+      "name": "Start Basement stair open",
+      "symbol": "var_start_basement_stair_op"
+    },
+    {
+      "id": "29",
+      "name": "VariableUpDown 1-12",
+      "symbol": "var_variableupdown_1_12"
+    },
+    {
+      "id": "30",
+      "name": "Enter Top or bottom stair cutscene",
+      "symbol": "var_enter_top_or_bottom_sta"
+    },
+    {
+      "id": "31",
+      "name": "Item Slot item 4",
+      "symbol": "var_item_slot_item_4"
+    },
+    {
+      "id": "32",
+      "name": "Mirror Right Side (UNUSED)",
+      "symbol": "var_mirror_right_side_unuse"
+    },
+    {
+      "id": "33",
+      "name": "Player X",
+      "symbol": "var_player_x"
+    },
+    {
+      "id": "34",
+      "name": "Player Y",
+      "symbol": "var_player_y"
+    },
+    {
+      "id": "35",
+      "name": "Mirror X",
+      "symbol": "var_mirror_x"
+    },
+    {
+      "id": "36",
+      "name": "Mirror Y",
+      "symbol": "var_mirror_y"
+    },
+    {
+      "id": "898198f7-16e7-4ca8-a922-a88c1709f309__L0",
+      "name": "Remote Control Item",
+      "symbol": "var_remote_control_item"
+    },
+    {
+      "id": "1dca4bb1-8352-469f-9b56-aaa12cb3ecb8__L0",
+      "name": "Game Intro",
+      "symbol": "var_game_intro_0"
+    },
+    {
+      "id": "c26eef3b-2db5-4a68-b976-bccb21dc7f06__L0",
+      "name": "Stick check",
+      "symbol": "var_stick_check"
+    },
+    {
+      "id": "1dca4bb1-8352-469f-9b56-aaa12cb3ecb8__L1",
+      "name": "Red Number",
+      "symbol": "var_red_number"
+    },
+    {
+      "id": "1dca4bb1-8352-469f-9b56-aaa12cb3ecb8__L2",
+      "name": "yellow number",
+      "symbol": "var_yellow_number"
+    },
+    {
+      "id": "1dca4bb1-8352-469f-9b56-aaa12cb3ecb8__L3",
+      "name": "Green Number",
+      "symbol": "var_green_number"
+    },
+    {
+      "id": "1dca4bb1-8352-469f-9b56-aaa12cb3ecb8__L4",
+      "name": "Blue Number",
+      "symbol": "var_blue_number"
+    },
+    {
+      "id": "d9b90184-6b5f-4715-ac14-c781013ef35f__L0",
+      "name": "nothing again",
+      "symbol": "var_nothing_again"
+    },
+    {
+      "id": "d9b90184-6b5f-4715-ac14-c781013ef35f__L1",
+      "name": "Nothing",
+      "symbol": "var_nothing"
+    },
+    {
+      "id": "8893dd47-6674-48af-9410-ed04b7dd6bfc__L0",
+      "name": "Number Input",
+      "symbol": "var_number_input"
+    },
+    {
+      "id": "76ca3f39-6062-4b18-aac2-555a34494407__L0",
+      "name": "Failed go back",
+      "symbol": "var_failed_go_back"
+    },
+    {
+      "id": "ef2f5239-f27f-4321-9fe7-7587b016bc8b__L0",
+      "name": "Yes No",
+      "symbol": "var_yes_no"
+    },
+    {
+      "id": "2dd66a2b-ce73-41ea-8d71-d2848a7bab92__L0",
+      "name": "Yes No",
+      "symbol": "var_yes_no_0"
+    },
+    {
+      "id": "48fbac51-b5f9-4e96-869e-7f483dae3ff9__L0",
+      "name": "Local 0",
+      "symbol": "var_local_0"
+    },
+    {
+      "id": "2f7ab78b-6692-4f65-b10c-af6417b7ae66__L0",
+      "name": "Computer Camera Checker",
+      "symbol": "var_computer_camera_checker"
+    },
+    {
+      "id": "aec26fc9-843b-49d9-8b3b-f8b871fcbf54__L0",
+      "name": "Computer open door",
+      "symbol": "var_computer_open_door"
+    },
+    {
+      "id": "21bc8c1d-77d7-4894-bc8f-8ad30bd95a77__L1",
+      "name": "Ask Away To Me!",
+      "symbol": "var_ask_away_to_me_"
+    },
+    {
+      "id": "21bc8c1d-77d7-4894-bc8f-8ad30bd95a77__L0",
+      "name": "Local 0",
+      "symbol": "var_local_1"
+    },
+    {
+      "id": "7b3158bb-dfe4-48af-9d7e-00c52409a0d6__L0",
+      "name": "Computer Checker",
+      "symbol": "var_computer_checker"
+    },
+    {
+      "id": "1200bd36-cb96-46f7-b5c8-a28b28b8497f__L0",
+      "name": "Bottle Check",
+      "symbol": "var_bottle_check"
+    },
+    {
+      "id": "f9f6faff-0524-4a19-b575-69c51c81d9cb__L0",
+      "name": "Niko First Time Hello",
+      "symbol": "var_niko_first_time_hello"
+    },
+    {
+      "id": "b345fc57-f2b2-4546-9aac-992c3b692df9__L0",
+      "name": "Blue",
+      "symbol": "var_blue"
+    },
+    {
+      "id": "0866ad60-494c-4e60-a16b-72a2538fa2c3__L0",
+      "name": "camera turn",
+      "symbol": "var_camera_turn"
+    },
+    {
+      "id": "9ee2a14f-8cb3-4216-821d-4adf22f7e564__L0",
+      "name": "STAIR OPENER",
+      "symbol": "var_stair_opener"
+    },
+    {
+      "id": "79303662-0cf7-4c20-96a3-0a71e07508da__L0",
+      "name": "Firestarter",
+      "symbol": "var_firestarter"
+    },
+    {
+      "id": "2ed571d8-ae1f-436c-80f2-899ad2f19a1e__L5",
+      "name": "RESTEREREERERERERERERERERERERE (IM LOSING MY MIND, not really im just damn bored.)",
+      "symbol": "var_resterereererererererer"
+    },
+    {
+      "id": "f08b0883-ebc2-4396-b1a8-cab4dba8aa48__L5",
+      "name": "NEW INVENTORY CHECK?",
+      "symbol": "var_new_inventory_check_"
+    },
+    {
+      "id": "f08b0883-ebc2-4396-b1a8-cab4dba8aa48__L4",
+      "name": "Choice new inv",
+      "symbol": "var_choice_new_inv"
+    },
+    {
+      "id": "fbce52d3-990c-4729-87a9-90e4147d3239__L0",
+      "name": "Variable replacer",
+      "symbol": "var_variable_replacer"
+    },
+    {
+      "id": "84da39a8-e8f7-4bbd-a29b-444987698ca1__L5",
+      "name": "Item Checker",
+      "symbol": "var_item_checker"
+    },
+    {
+      "id": "b3b239fe-9ae8-401e-955d-9a3be63aaa5e__L0",
+      "name": "UpdateLazy",
+      "symbol": "var_updatelazy"
+    },
+    {
+      "id": "0fe6b38e-be10-4a0a-80a8-84c8c3cd0367__L0",
+      "name": "PlayX",
+      "symbol": "var_playx"
+    },
+    {
+      "id": "0fe6b38e-be10-4a0a-80a8-84c8c3cd0367__L1",
+      "name": "PlayY",
+      "symbol": "var_playy"
+    },
+    {
+      "id": "0fe6b38e-be10-4a0a-80a8-84c8c3cd0367__L2",
+      "name": "Newx",
+      "symbol": "var_newx"
+    },
+    {
+      "id": "0fe6b38e-be10-4a0a-80a8-84c8c3cd0367__L3",
+      "name": "NewY",
+      "symbol": "var_newy"
+    },
+    {
+      "id": "0fe6b38e-be10-4a0a-80a8-84c8c3cd0367__L4",
+      "name": "Direction",
+      "symbol": "var_direction"
+    },
+    {
+      "id": "ddc61ab5-5244-48a6-a2a5-e27f4744deb8__L0",
+      "name": "PlayX",
+      "symbol": "var_playx_0"
+    },
+    {
+      "id": "ddc61ab5-5244-48a6-a2a5-e27f4744deb8__L1",
+      "name": "PlayY",
+      "symbol": "var_playy_0"
+    },
+    {
+      "id": "ddc61ab5-5244-48a6-a2a5-e27f4744deb8__L2",
+      "name": "Newx",
+      "symbol": "var_newx_0"
+    },
+    {
+      "id": "ddc61ab5-5244-48a6-a2a5-e27f4744deb8__L3",
+      "name": "NewY",
+      "symbol": "var_newy_0"
+    },
+    {
+      "id": "ddc61ab5-5244-48a6-a2a5-e27f4744deb8__L4",
+      "name": "Direction",
+      "symbol": "var_direction_0"
+    },
+    {
+      "id": "2bfcad63-212b-4a59-863f-0a0632906a40__L0",
+      "name": "Stick check",
+      "symbol": "var_stick_check_0"
+    },
+    {
+      "id": "f939d6e9-ac83-468e-8c51-0215c00cf67e__L0",
+      "name": "camera turn",
+      "symbol": "var_camera_turn_0"
+    },
+    {
+      "id": "43865213-51ab-4384-85ee-8992f02d5c0e__L1",
+      "name": "Ask Away To Me!",
+      "symbol": "var_ask_away_to_me_0"
+    },
+    {
+      "id": "43865213-51ab-4384-85ee-8992f02d5c0e__L0",
+      "name": "Local 0",
+      "symbol": "var_local_2"
+    },
+    {
+      "id": "4e3c40f7-3c37-4227-894e-abe73f30c9b3__L0",
+      "name": "Remote Control Item",
+      "symbol": "var_remote_control_item_0"
+    },
+    {
+      "id": "e824e1f3-5da6-4191-8cd2-749e43bf0a87__L0",
+      "name": "Remote Control Item",
+      "symbol": "var_remote_control_item_1"
+    },
+    {
+      "id": "269d515f-a8b4-44b5-8ff2-847be0814859__L0",
+      "name": "Remote Control Item",
+      "symbol": "var_remote_control_item_2"
+    },
+    {
+      "id": "b610df23-65dc-44d6-bd39-3a100a4506c7__L0",
+      "name": "Remote Control Item",
+      "symbol": "var_remote_control_item_3"
+    },
+    {
+      "id": "afb4fb09-5d9a-4557-b3a5-c596e729becf__L0",
+      "name": "PlayX",
+      "symbol": "var_playx_1"
+    },
+    {
+      "id": "afb4fb09-5d9a-4557-b3a5-c596e729becf__L1",
+      "name": "PlayY",
+      "symbol": "var_playy_1"
+    },
+    {
+      "id": "afb4fb09-5d9a-4557-b3a5-c596e729becf__L2",
+      "name": "Newx",
+      "symbol": "var_newx_1"
+    },
+    {
+      "id": "afb4fb09-5d9a-4557-b3a5-c596e729becf__L3",
+      "name": "NewY",
+      "symbol": "var_newy_1"
+    },
+    {
+      "id": "afb4fb09-5d9a-4557-b3a5-c596e729becf__L4",
+      "name": "Direction",
+      "symbol": "var_direction_1"
+    },
+    {
+      "id": "8a20cc9a-e282-472a-988a-a34f13dfa505__L0",
+      "name": "Stick check",
+      "symbol": "var_stick_check_1"
+    },
+    {
+      "id": "379b5b52-8985-4dae-b0f6-3488dee00006__L0",
+      "name": "PlayX",
+      "symbol": "var_playx_2"
+    },
+    {
+      "id": "379b5b52-8985-4dae-b0f6-3488dee00006__L1",
+      "name": "PlayY",
+      "symbol": "var_playy_2"
+    },
+    {
+      "id": "379b5b52-8985-4dae-b0f6-3488dee00006__L2",
+      "name": "Newx",
+      "symbol": "var_newx_2"
+    },
+    {
+      "id": "379b5b52-8985-4dae-b0f6-3488dee00006__L3",
+      "name": "NewY",
+      "symbol": "var_newy_2"
+    },
+    {
+      "id": "379b5b52-8985-4dae-b0f6-3488dee00006__L4",
+      "name": "Direction",
+      "symbol": "var_direction_2"
+    },
+    {
+      "id": "cbee16d9-91a9-49d2-8d0d-d4eb839cbbab__L0",
+      "name": "Coming from Right Side",
+      "symbol": "var_coming_from_right_side"
+    },
+    {
+      "id": "1622b865-ecf5-4f53-b462-797c6381bbd4__L0",
+      "name": "Stick check",
+      "symbol": "var_stick_check_2"
+    },
+    {
+      "id": "90a35717-4de1-4659-bca9-00dd1ff3aba4__L0",
+      "name": "CamX",
+      "symbol": "var_camx"
+    },
+    {
+      "id": "90a35717-4de1-4659-bca9-00dd1ff3aba4__L1",
+      "name": "CamY",
+      "symbol": "var_camy"
+    },
+    {
+      "id": "90a35717-4de1-4659-bca9-00dd1ff3aba4__L2",
+      "name": "Bot X",
+      "symbol": "var_bot_x"
+    },
+    {
+      "id": "90a35717-4de1-4659-bca9-00dd1ff3aba4__L3",
+      "name": "Bot Y",
+      "symbol": "var_bot_y"
+    },
+    {
+      "id": "40cbf982-87de-43e9-a77a-30ed3c0e1f09__L0",
+      "name": "CamX",
+      "symbol": "var_camx_0"
+    },
+    {
+      "id": "40cbf982-87de-43e9-a77a-30ed3c0e1f09__L1",
+      "name": "CamY",
+      "symbol": "var_camy_0"
+    },
+    {
+      "id": "40cbf982-87de-43e9-a77a-30ed3c0e1f09__L2",
+      "name": "Bot X",
+      "symbol": "var_bot_x_0"
+    },
+    {
+      "id": "40cbf982-87de-43e9-a77a-30ed3c0e1f09__L3",
+      "name": "Bot Y",
+      "symbol": "var_bot_y_0"
+    },
+    {
+      "id": "4efab1f8-9d96-4539-80fc-9db4a39bf6c0__L0",
+      "name": "CamX",
+      "symbol": "var_camx_1"
+    },
+    {
+      "id": "4efab1f8-9d96-4539-80fc-9db4a39bf6c0__L1",
+      "name": "CamY",
+      "symbol": "var_camy_1"
+    },
+    {
+      "id": "4efab1f8-9d96-4539-80fc-9db4a39bf6c0__L2",
+      "name": "Bot X",
+      "symbol": "var_bot_x_1"
+    },
+    {
+      "id": "4efab1f8-9d96-4539-80fc-9db4a39bf6c0__L3",
+      "name": "Bot Y",
+      "symbol": "var_bot_y_1"
+    },
+    {
+      "id": "1a625fe1-483a-49df-a088-4f8d7e40849d__L0",
+      "name": "CamX",
+      "symbol": "var_camx_2"
+    },
+    {
+      "id": "1a625fe1-483a-49df-a088-4f8d7e40849d__L1",
+      "name": "CamY",
+      "symbol": "var_camy_2"
+    },
+    {
+      "id": "1a625fe1-483a-49df-a088-4f8d7e40849d__L2",
+      "name": "Bot X",
+      "symbol": "var_bot_x_2"
+    },
+    {
+      "id": "1a625fe1-483a-49df-a088-4f8d7e40849d__L3",
+      "name": "Bot Y",
+      "symbol": "var_bot_y_2"
+    },
+    {
+      "id": "b4641182-601b-4b91-bf15-b151c784ca82__L0",
+      "name": "CamX",
+      "symbol": "var_camx_3"
+    },
+    {
+      "id": "b4641182-601b-4b91-bf15-b151c784ca82__L1",
+      "name": "CamY",
+      "symbol": "var_camy_3"
+    },
+    {
+      "id": "b4641182-601b-4b91-bf15-b151c784ca82__L2",
+      "name": "Bot X",
+      "symbol": "var_bot_x_3"
+    },
+    {
+      "id": "b4641182-601b-4b91-bf15-b151c784ca82__L3",
+      "name": "Bot Y",
+      "symbol": "var_bot_y_3"
+    }
+  ]
+}

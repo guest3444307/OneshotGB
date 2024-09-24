@@ -1,0 +1,62 @@
+{
+  "_resourceType": "trigger",
+  "id": "e7ff8d16-408e-4647-bf26-71b1138927ae",
+  "_index": 0,
+  "symbol": "trigger_34",
+  "prefabId": "",
+  "name": "",
+  "x": 1,
+  "y": 10,
+  "width": 1,
+  "height": 1,
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "30",
+        "value": {
+          "type": "false"
+        }
+      },
+      "id": "127ed2e9-7d16-460d-9d91-262331ae2ce4"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "36",
+        "value": {
+          "type": "number",
+          "value": 28
+        }
+      },
+      "id": "4267db21-56c6-4302-926b-ebe7e28eadd0"
+    },
+    {
+      "id": "3b5acd91-8da8-46ba-9e51-2e088854dc12",
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "eed8938f-2d72-4019-aea8-d841d9feca2c",
+        "x": {
+          "type": "number",
+          "value": 32
+        },
+        "y": {
+          "type": "number",
+          "value": 28
+        },
+        "direction": "",
+        "fadeSpeed": "1"
+      }
+    },
+    {
+      "id": "79eef311-3f12-4302-91bf-e43cdbdbb52f",
+      "command": "EVENT_PLAYER_SET_SPRITE",
+      "args": {
+        "spriteSheetId": "00b96895-e4c9-45de-927a-917dd58dd8f8",
+        "persist": false
+      }
+    }
+  ],
+  "leaveScript": []
+}

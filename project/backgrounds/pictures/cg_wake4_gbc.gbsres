@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "c4d757ad-f031-4782-bbce-884baf539f4d",
+  "name": "Pictures/cg_wake4 GBC",
+  "symbol": "bg_pictures_cg_wake4_gbc",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "Pictures/cg_wake4 GBC.png",
+  "tileColors": "01b+02!00!016+00!0113+004+01e+006+01d+008+01b+022+0130+073+013+073+06!006+06!00!06!05!03!04!03!05!00!05!042+07!05!06!00!06!005+06!05!042+03!05!00!034+05!06!002+06!005+05!03!05!032+00!034+05!005+012+002+06!034+002+033+00!06!004+012+001a+024+0010+024+0011+02!0032+",
+  "autoColor": false
+}

@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "c1f412c7-e6d8-407f-9922-2bede049c94a",
+  "name": "Pictures/cg_door1 gb",
+  "symbol": "bg_pictures_cg_door1_gb",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "Pictures/cg_door1 gb.png",
+  "tileColors": "",
+  "autoColor": false
+}

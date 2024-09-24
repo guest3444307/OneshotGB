@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "f83e7e71-8b34-4f4d-87af-e283711560e4",
+  "name": "Pictures/b6 GBC alt",
+  "symbol": "bg_pictures_b6_gbc_alt",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "Pictures/b6 GBC alt.png",
+  "tileColors": "004+065+00e+01!074+012+00d+01!0013+01!0012+012+0012+012+004+04!00c+012+005+044+009+012+005+044+009+013+004+044+008+014+005+04!033+007+014+006+036+004+014+006+036+004+013+005+039+00b+039+00d+01!00b+03!0017+01!0021+",
+  "autoColor": false
+}

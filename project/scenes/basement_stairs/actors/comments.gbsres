@@ -1,0 +1,69 @@
+{
+  "_resourceType": "actor",
+  "id": "10859466-55d6-4613-967c-492dd5ea4ce2",
+  "_index": 1,
+  "symbol": "actor_comments",
+  "prefabId": "",
+  "name": "Comments",
+  "x": 4,
+  "y": 4,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "b166b6fa-9418-4943-9572-637dcde6b42f",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [],
+  "startScript": [],
+  "updateScript": [
+    {
+      "command": "EVENT_IF_INPUT",
+      "args": {
+        "input": [
+          "right"
+        ],
+        "__collapseElse": true,
+        "__collapse": false,
+        "__comment": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_MOVE_RELATIVE",
+            "args": {
+              "actorId": "95cc9eb4-bc2c-4efe-b03c-7094b54d2e49",
+              "x": {
+                "type": "number",
+                "value": -1
+              },
+              "y": {
+                "type": "number",
+                "value": -1
+              },
+              "moveType": "diagonal",
+              "useCollisions": true
+            },
+            "id": "4eee72ac-f997-41ea-9934-107252ab5d63"
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": 0.1
+            },
+            "id": "4648f5aa-fe1c-456b-a560-dd089659ab81"
+          }
+        ],
+        "false": []
+      },
+      "id": "b8571057-c241-40f3-b8e9-197e32303080"
+    }
+  ],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

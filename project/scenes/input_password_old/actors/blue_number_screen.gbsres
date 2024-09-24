@@ -1,0 +1,88 @@
+{
+  "_resourceType": "actor",
+  "id": "d9b90184-6b5f-4715-ac14-c781013ef35f",
+  "_index": 0,
+  "symbol": "actor_blue_number_screen",
+  "prefabId": "",
+  "name": "Blue Number screen",
+  "x": 5,
+  "y": 5,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "99b299f5-75c2-4cd4-b47d-1b243af1d535",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 0.5,
+  "animSpeed": 15,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "id": "437f5084-b3cd-4f05-88e8-5b6d60b60654",
+      "command": "EVENT_IF",
+      "args": {
+        "vectorX": "17",
+        "operator": "!=",
+        "vectorY": "14",
+        "__collapseElse": false,
+        "__collapse": false,
+        "condition": {
+          "type": "ne",
+          "valueA": {
+            "type": "variable",
+            "value": "17"
+          },
+          "valueB": {
+            "type": "variable",
+            "value": "14"
+          }
+        }
+      },
+      "children": {
+        "true": [
+          {
+            "id": "6782b360-c05b-4594-9ae4-0a9021c80519",
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "16",
+              "value": {
+                "type": "false"
+              }
+            }
+          },
+          {
+            "id": "64dadbc1-f6ae-490f-a1fe-8fb9b8e577a3",
+            "command": "EVENT_ACTOR_SET_FRAME",
+            "args": {
+              "actorId": "$self$",
+              "frame": {
+                "type": "variable",
+                "value": "17"
+              }
+            }
+          }
+        ],
+        "false": [
+          {
+            "id": "13760bc6-588a-407b-93f0-c91a2415d023",
+            "command": "EVENT_ACTOR_SET_FRAME",
+            "args": {
+              "actorId": "$self$",
+              "frame": {
+                "type": "variable",
+                "value": "17"
+              }
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "79528b4e-c371-41b3-9f06-379049ebde9d",
+  "name": "inv sys 2",
+  "symbol": "bg_inv_sys_2",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "inv sys 2.png",
+  "tileColors": "",
+  "autoColor": false
+}

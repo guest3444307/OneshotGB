@@ -1,0 +1,155 @@
+{
+  "_resourceType": "script",
+  "id": "d7575eb0-5ce2-439b-a937-bc7dca63a837",
+  "name": "Item Init Inv",
+  "symbol": "script_item_init_inv",
+  "description": "Switch system for variable",
+  "variables": {
+    "V0": {
+      "id": "V0",
+      "name": "Item slot check for item",
+      "passByReference": true
+    }
+  },
+  "actors": {
+    "0": {
+      "id": "0",
+      "name": "Actor A"
+    }
+  },
+  "script": [
+    {
+      "command": "EVENT_SWITCH",
+      "args": {
+        "variable": "V0",
+        "choices": 8,
+        "__collapseCase0": false,
+        "value0": 1,
+        "__collapseCase1": false,
+        "value1": 2,
+        "__collapseCase2": false,
+        "value2": 3,
+        "__collapseCase3": false,
+        "value3": 4,
+        "__collapseCase4": false,
+        "value4": 5,
+        "__collapseCase5": false,
+        "value5": 6,
+        "__collapseCase6": false,
+        "value6": 7,
+        "__collapseCase7": false,
+        "value7": 8,
+        "__collapseCase8": false,
+        "value8": 9,
+        "__collapseCase9": false,
+        "value9": 10,
+        "__collapseCase10": false,
+        "value10": 11,
+        "__collapseCase11": false,
+        "value11": 12,
+        "__collapseCase12": false,
+        "value12": 13,
+        "__collapseCase13": false,
+        "value13": 14,
+        "__collapseCase14": false,
+        "value14": 15,
+        "__collapseCase15": false,
+        "value15": 16,
+        "__collapseElse": false,
+        "__collapse": false
+      },
+      "children": {
+        "true0": [
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "0",
+              "spriteSheetId": "1c82b41d-3a0a-4eec-b69c-16b0f0f60f39"
+            },
+            "id": "97905e20-2121-4b67-b909-24a824ac2976"
+          }
+        ],
+        "true1": [
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "0",
+              "spriteSheetId": "29f27432-e8b7-43bf-bbbd-9c1a09e73ace"
+            },
+            "id": "2df4c8eb-076f-4552-b94b-4bde064d7ddb"
+          }
+        ],
+        "true2": [
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "0",
+              "spriteSheetId": "76aea42e-750d-4a2b-9a1c-232f39270c96"
+            },
+            "id": "94b4f034-a13f-4b65-919a-e0c24d121678"
+          }
+        ],
+        "true3": [
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "0",
+              "spriteSheetId": "2db1fcd9-3d6e-4f65-9d03-aaad706ba658"
+            },
+            "id": "4cfb7ffa-47f5-422f-b094-2a31187b3f43"
+          }
+        ],
+        "true4": [
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "0",
+              "spriteSheetId": "e42c8f9c-a406-4afa-8ec8-c013586963fe"
+            },
+            "id": "3e1ea2f7-9c8e-4795-821f-871159ebe0b9"
+          }
+        ],
+        "true5": [
+          {
+            "id": "cb1711f4-ad61-42a8-9787-1b512c17c654",
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "0",
+              "spriteSheetId": "a5bcd9cf-ebea-4f72-9fe9-4f5d0faa1769"
+            }
+          }
+        ],
+        "true6": [
+          {
+            "id": "78c300d0-d9a8-4e79-b090-95dd99d4c9b8",
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "0",
+              "spriteSheetId": "3196613c-7657-4bb3-9d7c-3b804381acf0"
+            }
+          }
+        ],
+        "true7": [
+          {
+            "id": "89efe1dc-cd99-4a07-bb4d-efcd8e754593",
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "0",
+              "spriteSheetId": "d20826dd-53a1-4a56-b89f-b11a7a1604b9"
+            }
+          }
+        ],
+        "true8": [],
+        "true9": [],
+        "true10": [],
+        "true11": [],
+        "true12": [],
+        "true13": [],
+        "true14": [],
+        "true15": [],
+        "false": []
+      },
+      "id": "3ac78458-d58f-4bee-8b12-eff037b363ad"
+    }
+  ]
+}

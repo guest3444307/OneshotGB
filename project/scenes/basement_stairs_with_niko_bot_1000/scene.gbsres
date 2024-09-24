@@ -1,0 +1,55 @@
+{
+  "_resourceType": "scene",
+  "id": "deb582a7-1860-417d-b43c-833b69bb7760",
+  "_index": 19,
+  "type": "TOPDOWN",
+  "name": "Basement Stairs WITH NIKO BOT 1000",
+  "symbol": "scene_basement_stairs_with_",
+  "x": 1056.0221942071773,
+  "y": 1729.7494126026734,
+  "width": 50,
+  "height": 40,
+  "backgroundId": "a35a16db-41be-49da-a481-4344242f11e4",
+  "tilesetId": "",
+  "paletteIds": [
+    "default-bg-5"
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "script": [
+    {
+      "id": "c3a75eea-a50d-4ce9-8101-0da0deaa3e51",
+      "command": "EVENT_CAMERA_MOVE_TO",
+      "args": {
+        "x": {
+          "type": "number",
+          "value": 4
+        },
+        "y": {
+          "type": "number",
+          "value": 2
+        },
+        "speed": 0
+      }
+    },
+    {
+      "id": "157b0735-351b-4d7d-9a6d-b6cd3159d6a7",
+      "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
+      "args": {
+        "actorId": "$self$"
+      }
+    },
+    {
+      "id": "410e5e4b-546e-4829-95cd-e1e421b3d8ce",
+      "command": "EVENT_ACTOR_SET_SPRITE",
+      "args": {
+        "actorId": "$self$",
+        "spriteSheetId": "b166b6fa-9418-4943-9572-637dcde6b42f"
+      }
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "00169+0f18+001a+0f5+00e+0f4+001b+0f!004+0f!0010+0f!001b+0f!005+0f!00f+0f!001c+0f3+003+0f!00e+0f!001e+0f2+003+0f!00d+0f!001f+0f2+003+0f!00c+0f!0020+0f2+003+0f!00b+0f!0021+0f2+003+0f!00a+0f!0022+0f!004+0f!009+0f!0028+0f!008+0f!0029+0f!007+0f!0026+0f!003+0f!006+0f!0026+0f2+003+0f!005+0f!0027+0f2+003+0f!004+0f!0028+0f2+003+0f!003+0f!0029+0f2+003+0f!002+0f!002a+0f2+003+0f!00!0f2+002a+0f2+003+0f!00!0f!002b+0f2+004+0f!002c+0f2+003+0f!002c+0f3+002+0f!002e+0f2+00!0f!002e+0f4+001d1+"
+}

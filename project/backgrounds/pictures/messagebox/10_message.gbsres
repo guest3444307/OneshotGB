@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "a0cd4924-e364-4d17-8ff3-5d7dc0f34703",
+  "name": "Pictures/Messagebox/10 Message",
+  "symbol": "bg_pictures_messagebox_10_m",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "Pictures/Messagebox/10 Message.png",
+  "tileColors": "",
+  "autoColor": false
+}

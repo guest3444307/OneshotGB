@@ -1,0 +1,8 @@
+{
+  "_resourceType": "sound",
+  "id": "a72feee3-d30e-4c9f-a9d4-84aa7784d3c6",
+  "name": "spark.wav",
+  "symbol": "sound_spark_wav",
+  "filename": "spark.wav",
+  "type": "wav"
+}

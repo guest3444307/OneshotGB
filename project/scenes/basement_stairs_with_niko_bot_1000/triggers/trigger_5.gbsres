@@ -1,0 +1,83 @@
+{
+  "_resourceType": "trigger",
+  "id": "a367bd6d-edef-4a68-a71c-c99a06923c64",
+  "_index": 4,
+  "symbol": "trigger_40",
+  "prefabId": "",
+  "name": "",
+  "x": 21,
+  "y": 18,
+  "width": 1,
+  "height": 1,
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "id": "fdfa83ea-7431-47e4-913c-cd9664b0c9a1",
+      "command": "EVENT_ACTOR_SET_POSITION",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 19
+        },
+        "y": {
+          "type": "number",
+          "value": 18
+        }
+      }
+    },
+    {
+      "id": "0028b606-0573-448c-a099-f685a5b8fd3c",
+      "command": "EVENT_IF",
+      "args": {
+        "variable": "26",
+        "__collapseElse": false,
+        "condition": {
+          "type": "variable",
+          "value": "26"
+        }
+      },
+      "children": {
+        "true": [
+          {
+            "id": "22e0223c-c798-4529-8a3f-c20b53ce38b0",
+            "command": "EVENT_ACTOR_MOVE_RELATIVE",
+            "args": {
+              "actorId": "ea4c7060-fa40-4b22-8fd8-30fa2519b8e9",
+              "x": {
+                "type": "number",
+                "value": 1
+              },
+              "y": {
+                "type": "number",
+                "value": 1
+              },
+              "moveType": "diagonal",
+              "useCollisions": false
+            }
+          }
+        ],
+        "false": [
+          {
+            "id": "563e972b-0303-4d30-b254-afccadf2679c",
+            "command": "EVENT_ACTOR_MOVE_RELATIVE",
+            "args": {
+              "actorId": "ea4c7060-fa40-4b22-8fd8-30fa2519b8e9",
+              "x": {
+                "type": "number",
+                "value": 1
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "moveType": "diagonal",
+              "useCollisions": false
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "leaveScript": []
+}

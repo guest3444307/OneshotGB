@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "d871d5ec-acdc-4173-afe6-d69521e17441",
+  "name": "Pictures/b8 GBC ALT",
+  "symbol": "bg_pictures_b8_gbc_alt",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "Pictures/b8 GBC ALT.png",
+  "tileColors": "00168+",
+  "autoColor": false
+}

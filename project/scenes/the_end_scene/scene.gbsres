@@ -1,0 +1,54 @@
+{
+  "_resourceType": "scene",
+  "id": "f265c0a4-22a9-49c7-996f-532b0331b7d0",
+  "_index": 31,
+  "type": "TOPDOWN",
+  "name": "The End scene!",
+  "symbol": "scene_the_end_scene_",
+  "x": 236.45522719163938,
+  "y": 1084.3563850404578,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "a37932d5-0870-474a-8bec-b0d7e3e0015b",
+  "tilesetId": "",
+  "paletteIds": [
+    "default-bg-3"
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "script": [
+    {
+      "id": "dedd7781-7160-4770-95c1-26bc53221152",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Thank You For\nPlaying!",
+          "Well You're\ngoing to the Dev\nRoom!",
+          "Remember to use\nthe computer to\nsave!"
+        ],
+        "avatarId": "a95aa85b-73a3-4599-8e0b-db5a0b27e21e"
+      }
+    },
+    {
+      "id": "80aa05ff-baeb-4db4-a9f6-a9aa310f4e9b",
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "cee774d2-6838-4c62-a0fd-b319eecbb282",
+        "x": {
+          "type": "number",
+          "value": 2
+        },
+        "y": {
+          "type": "number",
+          "value": 15
+        },
+        "direction": "up",
+        "fadeSpeed": "2"
+      }
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "00e+0f!00af+0f!00a9+"
+}

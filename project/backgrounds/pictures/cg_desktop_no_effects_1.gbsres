@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "aba4289e-a478-449e-8b00-130e66a0548b",
+  "name": "Pictures/cg_desktop_no_effects_1",
+  "symbol": "bg_pictures_cg_desktop_no_e",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "Pictures/cg_desktop_no_effects_1.png",
+  "tileColors": "",
+  "autoColor": false
+}

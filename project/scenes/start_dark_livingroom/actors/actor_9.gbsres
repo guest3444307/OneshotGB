@@ -1,0 +1,38 @@
+{
+  "_resourceType": "actor",
+  "id": "49320521-bd67-4c48-a3b4-a62c24d99ef8",
+  "_index": 10,
+  "symbol": "actor_30",
+  "prefabId": "",
+  "name": "",
+  "x": 31,
+  "y": 20,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "b166b6fa-9418-4943-9572-637dcde6b42f",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "id": "938b7f18-2597-4cf9-9c14-0bf101989133",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "[Just a chair.]"
+        ],
+        "avatarId": ""
+      }
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

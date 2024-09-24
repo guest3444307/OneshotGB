@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "f4be5da0-e3d6-4610-a81e-c50c35dd0c7f",
+  "name": "Pictures/Messagebox/4 Message",
+  "symbol": "bg_pictures_messagebox_4_me",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "Pictures/Messagebox/4 Message.png",
+  "tileColors": "",
+  "autoColor": false
+}

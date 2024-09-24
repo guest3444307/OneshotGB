@@ -1,0 +1,9 @@
+{
+  "_resourceType": "emote",
+  "id": "cb60f4ec-972d-49cb-8961-a8db2bda0a34",
+  "name": "music",
+  "symbol": "emote_music",
+  "width": 16,
+  "height": 16,
+  "filename": "music.png"
+}

@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "6fe83cb1-8166-4e40-a603-05104ccd2389",
+  "name": "normal gb optimized",
+  "symbol": "bg_normal_gb_optimized",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "normal gb optimized.png",
+  "tileColors": "00168+",
+  "autoColor": false
+}

@@ -1,0 +1,284 @@
+{
+  "_resourceType": "actor",
+  "id": "43865213-51ab-4384-85ee-8992f02d5c0e",
+  "_index": 3,
+  "symbol": "actor_36",
+  "prefabId": "",
+  "name": "",
+  "x": 8,
+  "y": 5,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "c9131f9f-f48d-44e7-98b0-4194d8ffde1f",
+  "paletteId": "f8903b0b-3c0b-4f76-a2b2-f90b240e48c1",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 255,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "id": "c5d836a5-38fa-4ca8-a5f7-fef70d87e17d",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Hello, This is\nmeant to represent\nMe, Max Nexus!",
+          "If you have any\nQuestions, ask\naway!",
+          "(MESSAGES MADE\n12/8/23)"
+        ],
+        "avatarId": ""
+      }
+    },
+    {
+      "id": "51fc7a6f-3359-4576-8e50-161fb0b8eaa8",
+      "command": "EVENT_MENU",
+      "args": {
+        "variable": "L1",
+        "items": 8,
+        "option1": "NikoSpr",
+        "option2": "Stairs",
+        "option3": "Color",
+        "option4": "Items",
+        "option5": "Dev Rms",
+        "option6": "Scope",
+        "option7": "Mirror",
+        "option8": "SHHHH!!!",
+        "cancelOnB": true,
+        "layout": "dialogue",
+        "cancelOnLastOption": true
+      }
+    },
+    {
+      "command": "EVENT_IF_EXPRESSION",
+      "args": {
+        "expression": "$L1$ == 1",
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "The sprite is\nbasically the same",
+                "But i've included\ncolored eyes",
+                "for the gameboy\ncolor"
+              ],
+              "avatarId": ""
+            },
+            "id": "5302ee9a-84b5-4d92-b708-d12a2ff8d884"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_IF_EXPRESSION",
+            "args": {
+              "expression": "$L1$ == 2",
+              "__collapseElse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "Yeah, i went back\nto NIKOBOT",
+                      "on this one,\ntaking inspiration",
+                      "from the mirror...",
+                      "It doesn't look\nvery good tbh",
+                      "but stairs suck to\nmake in gbstudio",
+                      "the only smooth\nstairs i've",
+                      "seen are like 50\ntrigger perfectly",
+                      "set up, with\nsimpler solutions",
+                      "having notable \nissues"
+                    ],
+                    "avatarId": "",
+                    "__collapse": true
+                  },
+                  "id": "8ffbcc88-7aef-4b64-a28c-b7a1e1311cc9"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_IF_EXPRESSION",
+                  "args": {
+                    "expression": "$L1$ == 3",
+                    "__collapseElse": false
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "My brother\nsuggested adding",
+                            "full color support\nso uh...",
+                            "Yeah... that was\npainful.",
+                            "But the results\nspeak for",
+                            "themselves i ",
+                            "think!"
+                          ],
+                          "avatarId": ""
+                        },
+                        "id": "66dcdecb-0cb0-429c-b87a-2b5122c460ab"
+                      }
+                    ],
+                    "false": [
+                      {
+                        "command": "EVENT_IF_EXPRESSION",
+                        "args": {
+                          "expression": "$L1$ == 4",
+                          "__collapseElse": false
+                        },
+                        "children": {
+                          "true": [
+                            {
+                              "command": "EVENT_TEXT",
+                              "args": {
+                                "text": [
+                                  "I redid the whole\nbackend here",
+                                  "So adding new\nitems should be",
+                                  "easier and alot\nless messier.",
+                                  "Also i have it set\nup to properly",
+                                  "add in new items\nbeyond 3.",
+                                  "Combining items\nis still the same",
+                                  "but thats fine."
+                                ],
+                                "avatarId": ""
+                              },
+                              "id": "256d2bf7-4bb9-4839-8e77-dc3f4ad8ee18"
+                            }
+                          ],
+                          "false": [
+                            {
+                              "command": "EVENT_IF_EXPRESSION",
+                              "args": {
+                                "expression": "$L1$ == 5",
+                                "__collapseElse": false
+                              },
+                              "children": {
+                                "true": [
+                                  {
+                                    "command": "EVENT_TEXT",
+                                    "args": {
+                                      "text": [
+                                        "Yeah i've added\nnew dev rooms",
+                                        "Check em out, like\ni've added in",
+                                        "some docks,",
+                                        "An inventory\ntester",
+                                        "And a stair test\nroom!"
+                                      ],
+                                      "avatarId": ""
+                                    },
+                                    "id": "bfa04925-7cdc-472b-a607-9ca433ae6598"
+                                  }
+                                ],
+                                "false": [
+                                  {
+                                    "command": "EVENT_IF_EXPRESSION",
+                                    "args": {
+                                      "expression": "$L1$ == 6",
+                                      "__collapseElse": false
+                                    },
+                                    "children": {
+                                      "true": [
+                                        {
+                                          "command": "EVENT_TEXT",
+                                          "args": {
+                                            "text": [
+                                              "I've cut down the\nscope for this",
+                                              "Originally i\nwanted to add in",
+                                              "the barrens but i\nnoticed the issues",
+                                              "in development\nwhich makes things",
+                                              "harder to develop\nproperly.",
+                                              "So i went back to\nfix all this stuff",
+                                              "up, life for\nexample, redoing",
+                                              "the inventory as\nthat was the worst",
+                                              "and most painful\npart of v1 of this",
+                                              "game, Always \nbreaking every",
+                                              "time i do \nsomething.",
+                                              "Luckily it's much\nbetter now!"
+                                            ],
+                                            "avatarId": "",
+                                            "__collapse": true
+                                          },
+                                          "id": "3bdf899f-9637-4607-8507-bd06bfa568c1"
+                                        }
+                                      ],
+                                      "false": [
+                                        {
+                                          "command": "EVENT_IF_EXPRESSION",
+                                          "args": {
+                                            "expression": "$L1$ == 7",
+                                            "__collapseElse": false,
+                                            "__collapse": false
+                                          },
+                                          "children": {
+                                            "true": [
+                                              {
+                                                "command": "EVENT_TEXT",
+                                                "args": {
+                                                  "text": [
+                                                    "The mirror was\nreally cool to ",
+                                                    "finally get\nworking, its neat.",
+                                                    "Basically in color\nmode it a sprite",
+                                                    "above another\nsprite",
+                                                    "It's a bit more\ncomplex than that",
+                                                    "With hiding and\nunhiding sprites",
+                                                    "But yeah, it's\nreally neat,",
+                                                    "download the proj\nfile to see it if",
+                                                    "you want."
+                                                  ],
+                                                  "avatarId": ""
+                                                },
+                                                "id": "aad6f2f7-83e8-412a-9c0e-a85304ea9bdd"
+                                              }
+                                            ],
+                                            "false": [
+                                              {
+                                                "command": "EVENT_TEXT",
+                                                "args": {
+                                                  "text": [
+                                                    "But you came up\nto me?"
+                                                  ],
+                                                  "avatarId": "5515b780-b54b-4621-9de5-f4911e37f9d4"
+                                                },
+                                                "id": "a1136a03-c51c-412f-b9c3-55b82199a8ab"
+                                              }
+                                            ]
+                                          },
+                                          "id": "94ce6cf9-a362-419a-a311-3b2fb528c4c5"
+                                        }
+                                      ]
+                                    },
+                                    "id": "b72f184b-2540-4a6b-9bf6-e3d8b0ff4cfb"
+                                  }
+                                ]
+                              },
+                              "id": "9a29af19-9a2b-460a-a479-bf258b17367a"
+                            }
+                          ]
+                        },
+                        "id": "e8d07339-dcb1-4929-93ae-c920d747ee80"
+                      }
+                    ]
+                  },
+                  "id": "e58f894c-278d-44f8-84b4-30f857113f22"
+                }
+              ]
+            },
+            "id": "e40d613b-ec20-4df0-a579-17ea5941c722"
+          }
+        ]
+      },
+      "id": "e900471a-01fc-4d5c-ae2d-0543aae95304"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

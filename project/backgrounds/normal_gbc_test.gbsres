@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "6d153f15-e065-459d-be1b-da9b5f39aa1d",
+  "name": "Normal GBC test",
+  "symbol": "bg_normal_gbc_test",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "Normal GBC test.png",
+  "tileColors": "",
+  "autoColor": false
+}

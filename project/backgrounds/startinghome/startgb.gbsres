@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "f1a874fc-4f4a-42b3-bf81-0ecd41e1f98c",
+  "name": "StartingHome/StartGB",
+  "symbol": "bg_startinghome_startgb",
+  "width": 40,
+  "height": 30,
+  "imageWidth": 320,
+  "imageHeight": 240,
+  "filename": "StartingHome/StartGB.png",
+  "tileColors": "004b0+",
+  "autoColor": false
+}

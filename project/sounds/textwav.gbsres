@@ -1,0 +1,8 @@
+{
+  "_resourceType": "sound",
+  "id": "3f968aad-318a-4fc9-b3a6-27002aa2a8ce",
+  "name": "text.wav",
+  "symbol": "sound_text_wav",
+  "filename": "text.wav",
+  "type": "wav"
+}

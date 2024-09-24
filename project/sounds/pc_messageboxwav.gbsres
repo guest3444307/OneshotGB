@@ -1,0 +1,8 @@
+{
+  "_resourceType": "sound",
+  "id": "510c42a3-7f2e-4344-a127-63a980b59cac",
+  "name": "pc_messagebox.wav",
+  "symbol": "sound_pc_messagebox_wav",
+  "filename": "pc_messagebox.wav",
+  "type": "wav"
+}

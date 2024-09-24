@@ -1,0 +1,35 @@
+{
+  "_resourceType": "actor",
+  "id": "eb6c0808-eb06-4697-a4f0-d7357448c8fd",
+  "_index": 1,
+  "symbol": "actor_comments_1",
+  "prefabId": "",
+  "name": "Comments",
+  "x": 4,
+  "y": 4,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "b166b6fa-9418-4943-9572-637dcde6b42f",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "id": "fa003816-e3ea-4aab-b158-b88fffbd5409",
+      "command": "EVENT_COMMENT",
+      "args": {
+        "text": "Yes, i know about the stair bug, i couldnt\nfix it properly, im crying about it too (i spent literal hours on this and this was the best i could achieve)"
+      }
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

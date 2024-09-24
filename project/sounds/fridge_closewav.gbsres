@@ -1,0 +1,8 @@
+{
+  "_resourceType": "sound",
+  "id": "0a44bd01-5266-478b-a47f-b23ad0606fac",
+  "name": "fridge_close.wav",
+  "symbol": "sound_fridge_close_wav",
+  "filename": "fridge_close.wav",
+  "type": "wav"
+}

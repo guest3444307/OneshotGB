@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "3db90f4a-e413-41c4-8fde-5b7de60863be",
+  "name": "Menus/NewInvMenu",
+  "symbol": "bg_menus_newinvmenu",
+  "width": 20,
+  "height": 77,
+  "imageWidth": 160,
+  "imageHeight": 616,
+  "filename": "Menus/NewInvMenu.png",
+  "tileColors": "",
+  "autoColor": false
+}

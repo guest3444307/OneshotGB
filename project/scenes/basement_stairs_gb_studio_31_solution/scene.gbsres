@@ -1,0 +1,203 @@
+{
+  "_resourceType": "scene",
+  "id": "14d1346e-4549-4944-9cde-94fb9a53f086",
+  "_index": 53,
+  "type": "TOPDOWN",
+  "name": "Basement Stairs GB Studio 3.1 solution",
+  "symbol": "scene_54",
+  "x": 1041.142857142857,
+  "y": 1341.257114955357,
+  "width": 50,
+  "height": 40,
+  "backgroundId": "a35a16db-41be-49da-a481-4344242f11e4",
+  "tilesetId": "",
+  "paletteIds": [
+    "31fad0d1-94ff-4fb9-b363-fffb51efe0c2"
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "playerSpriteSheetId": "b166b6fa-9418-4943-9572-637dcde6b42f",
+  "script": [
+    {
+      "id": "43726cf1-9b83-4297-87cb-97d1de56f20c",
+      "command": "EVENT_IF",
+      "args": {
+        "variable": "8",
+        "operator": "==",
+        "comparator": 8,
+        "__collapseElse": false,
+        "__collapse": true,
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "8"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 8
+          }
+        }
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "b4641182-601b-4b91-bf15-b151c784ca82",
+              "spriteSheetId": "80885488-8a5f-444f-b0e4-e7c654fcce8a"
+            },
+            "id": "3be68b0f-858e-43b4-a630-b23aa549128c"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "b4641182-601b-4b91-bf15-b151c784ca82",
+              "spriteSheetId": "00b96895-e4c9-45de-927a-917dd58dd8f8"
+            },
+            "id": "1698dbbb-aa26-41ab-86d5-0b729ff81e9c"
+          }
+        ]
+      }
+    },
+    {
+      "command": "EVENT_COMMENT",
+      "args": {
+        "text": "The Room is going to be broken for a bit here The idea is using the original stairs for a NIKOBOT2000 sort of thing with the bot mimicing the player's movement for the stair sections"
+      },
+      "id": "b1131537-6180-467d-bed8-b8785454cc18"
+    },
+    {
+      "command": "EVENT_COMMENT",
+      "args": {
+        "text": "Alright what if i tie this to the player\n\nAlso sidenote explaining this, this was my b"
+      },
+      "id": "9ec66053-8181-42e4-87c3-d430ad8d1f84"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "up",
+          "down"
+        ],
+        "override": true,
+        "__scriptTabs": "press",
+        "__collapse": true
+      },
+      "children": {
+        "true": []
+      },
+      "id": "9058cded-9d32-40fe-90a7-3eb1b99cfeca"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "variable": "36",
+        "operator": ">",
+        "comparator": 16,
+        "__collapseElse": false,
+        "condition": {
+          "type": "gt",
+          "valueA": {
+            "type": "variable",
+            "value": "36"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 16
+          }
+        }
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_SET_DIRECTION",
+            "args": {
+              "actorId": "b4641182-601b-4b91-bf15-b151c784ca82",
+              "direction": {
+                "type": "direction",
+                "value": "left"
+              },
+              "__comment": false,
+              "__collapse": true
+            },
+            "id": "7a12443a-251c-40b0-b317-761b1c8c05de"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_POSITION",
+            "args": {
+              "actorId": "b4641182-601b-4b91-bf15-b151c784ca82",
+              "x": {
+                "type": "number",
+                "value": 32
+              },
+              "y": {
+                "type": "number",
+                "value": 28
+              }
+            },
+            "id": "65034e1b-f7a2-4384-af95-37680d9a4937"
+          },
+          {
+            "command": "EVENT_CAMERA_MOVE_TO",
+            "args": {
+              "x": {
+                "type": "number",
+                "value": 22
+              },
+              "y": {
+                "type": "number",
+                "value": 19
+              },
+              "speed": 0,
+              "__comment": false
+            },
+            "id": "e1c2ae76-c5ae-420a-afed-901648312e57"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_ACTOR_SET_POSITION",
+            "args": {
+              "actorId": "b4641182-601b-4b91-bf15-b151c784ca82",
+              "x": {
+                "type": "number",
+                "value": 32
+              },
+              "y": {
+                "type": "number",
+                "value": 28
+              },
+              "__comment": true
+            },
+            "id": "74c68e27-9d2c-4bdd-acb2-3e711d44e74d"
+          },
+          {
+            "command": "EVENT_CAMERA_MOVE_TO",
+            "args": {
+              "x": {
+                "type": "number",
+                "value": 4
+              },
+              "y": {
+                "type": "number",
+                "value": 2
+              },
+              "speed": 0,
+              "__comment": false
+            },
+            "id": "4bf4fa46-ad41-4417-b163-a596846faf7b"
+          }
+        ]
+      },
+      "id": "8a79161e-605d-4e4c-aac8-fbfff781fe1c"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "0070+0f17+001a+0f19+0018+0f1b+0017+0f1b+0017+0f2+0017+0f2+0018+0f1a+0018+0f2+0011+0f7+0018+0f!0015+0f!001b+0f!0015+0f!001c+0f3+0012+0f!001e+0f2+0011+0f!001f+0f2+0010+0f!0020+0f2+00f+0f!0021+0f2+00e+0f!0022+0f2+00d+0f!0023+0f2+00c+0f!0024+0f2+00b+0f!0025+0f2+00a+0f!0026+0f2+009+0f!0027+0f2+008+0f!0028+0f2+007+0f!0029+0f2+006+0f!002a+0f2+005+0f3+0029+0f2+006+0f!002a+0f2+005+0f!002b+0f2+004+0f!002b+0f3+003+0f!002d+0f2+002+0f!002d+0f5+001d0+"
+}

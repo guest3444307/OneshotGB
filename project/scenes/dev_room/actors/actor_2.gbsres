@@ -1,0 +1,477 @@
+{
+  "_resourceType": "actor",
+  "id": "21bc8c1d-77d7-4894-bc8f-8ad30bd95a77",
+  "_index": 1,
+  "symbol": "actor_16",
+  "prefabId": "",
+  "name": "",
+  "x": 8,
+  "y": 6,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "c9131f9f-f48d-44e7-98b0-4194d8ffde1f",
+  "paletteId": "f8903b0b-3c0b-4f76-a2b2-f90b240e48c1",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 255,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "id": "6a2bd81d-6129-4dbe-bf5a-1109de0d9c33",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Hello, This is\nmeant to represent\nMe, Max Nexus!",
+          "If you have any\nQuestions, ask\naway!",
+          "Note that these\nreponses date from\nV1.0.0 so some of",
+          "them are\ninaccurate to the\ncurrent build",
+          "(messages made\nabt 7/27/21)"
+        ],
+        "avatarId": ""
+      }
+    },
+    {
+      "id": "6b8ecd37-9b64-4d1d-beb2-1dd5dbb196ab",
+      "command": "EVENT_MENU",
+      "args": {
+        "variable": "L1",
+        "items": 8,
+        "option1": "NikoSpr",
+        "option2": "Map",
+        "option3": "Process",
+        "option4": "Tools",
+        "option5": "Learn",
+        "option6": "Insprati",
+        "option7": "Nikobot!",
+        "option8": "Nothing.",
+        "cancelOnB": true,
+        "layout": "dialogue",
+        "cancelOnLastOption": true
+      }
+    },
+    {
+      "id": "52950978-7e33-4807-b0b2-40b783322dbf",
+      "command": "EVENT_IF",
+      "args": {
+        "variable": "L1",
+        "operator": "==",
+        "comparator": 1,
+        "__collapseElse": false,
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "L1"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        }
+      },
+      "children": {
+        "true": [
+          {
+            "id": "142fad20-91a4-440d-a0a4-039586b49309",
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "This is Going to\nbe about the work\non Niko's Sprite.",
+                "This is because i\ncould never get\nthe sprite to look",
+                "any better than it\ncurrently does\nsadly",
+                "This is The Second\nRedesigned sprite\nhere"
+              ],
+              "avatarId": "",
+              "__collapse": true
+            }
+          },
+          {
+            "id": "9db9332b-503c-4102-ac13-070d92b076a2",
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "21bc8c1d-77d7-4894-bc8f-8ad30bd95a77",
+              "spriteSheetId": "9ec5bb92-d82c-4d6b-9b07-13784ce9a4c3",
+              "__collapse": true
+            }
+          },
+          {
+            "id": "63d2b081-9163-40a5-9ca0-e2fca970242f",
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "This is the first,\nthe second is\nslightly(?)\nbetter."
+              ],
+              "avatarId": "",
+              "__collapse": true
+            }
+          },
+          {
+            "id": "2885e8c1-b035-4098-b75d-7d8502dd082c",
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "21bc8c1d-77d7-4894-bc8f-8ad30bd95a77",
+              "spriteSheetId": "b681266b-03e8-4638-a2dc-c85ae1c04979",
+              "__collapse": true
+            }
+          },
+          {
+            "id": "a201f167-5c3c-4f62-85fa-15cc455abb89",
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "The first time i\ntried for Niko is\nthe current one!",
+                "I wish it could\nlook better but im\nworking with very",
+                "little space and\nthis is the best i\ncould do and have",
+                "it still work with\nthe ported maps."
+              ],
+              "avatarId": "",
+              "__collapse": true
+            }
+          }
+        ],
+        "false": [
+          {
+            "id": "d0bda66e-5706-4d76-abec-05e3c3f3e95a",
+            "command": "EVENT_IF",
+            "args": {
+              "variable": "L1",
+              "operator": "==",
+              "comparator": 2,
+              "__collapseElse": false,
+              "__collapse": false,
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "L1"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 2
+                }
+              }
+            },
+            "children": {
+              "true": [
+                {
+                  "id": "200a52ff-5527-4a94-8db6-08837082a882",
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "The Maps arent\nmade with\ntilesets, i just\nedit the maps",
+                      "into the right\nsize which is\nremoving empty\nspace for",
+                      "multiples of 8 and\nusing a calculator\nand dividing the",
+                      "x and y coords by\n1.6 to fit Niko\nProperly",
+                      "It Makes the\ncollision kinda\nbad since the map\nisnt ",
+                      "designed for this\nbut meh. This is a\nproof of concept."
+                    ],
+                    "avatarId": "",
+                    "__collapse": false
+                  }
+                }
+              ],
+              "false": [
+                {
+                  "id": "f57ac4b8-998c-44b4-938e-efb0cd9a7c1e",
+                  "command": "EVENT_IF",
+                  "args": {
+                    "variable": "L1",
+                    "operator": "==",
+                    "comparator": 3,
+                    "__collapseElse": false,
+                    "condition": {
+                      "type": "eq",
+                      "valueA": {
+                        "type": "variable",
+                        "value": "L1"
+                      },
+                      "valueB": {
+                        "type": "number",
+                        "value": 3
+                      }
+                    }
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "id": "0b696e3b-1396-4e99-9361-cab80f3f4445",
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "So yeah baby, im a\nbit of a mess on\nworking on this.",
+                            "Version 1.0.0 is\njust me being a\nbit too tired to",
+                            "get the final\ndetails down,\nbecause honestly\nim worried",
+                            "ill never finish\nthis otherwise, as\nof writing this im",
+                            "worried ill either\nstop working on\nthis for a few\nmore",
+                            "months and it will\ntake till like\nchristmas.",
+                            "Its mainly because\ni cant pace myself\nat a good pace.",
+                            "It's either all i\ndo or i just do\nnothing."
+                          ],
+                          "avatarId": ""
+                        }
+                      }
+                    ],
+                    "false": [
+                      {
+                        "id": "f21257e3-f697-4ac1-b6a6-59ce17f2ba91",
+                        "command": "EVENT_IF",
+                        "args": {
+                          "variable": "L1",
+                          "operator": "==",
+                          "comparator": 4,
+                          "__collapseElse": false,
+                          "condition": {
+                            "type": "eq",
+                            "valueA": {
+                              "type": "variable",
+                              "value": "L1"
+                            },
+                            "valueB": {
+                              "type": "number",
+                              "value": 4
+                            }
+                          }
+                        },
+                        "children": {
+                          "true": [
+                            {
+                              "id": "845aa45f-d2c5-40a5-8448-60983b01e7e4",
+                              "command": "EVENT_TEXT",
+                              "args": {
+                                "text": [
+                                  "GBSTUDIO V2,\nPaint.net to edit\nMapmaker3 the map\nto",
+                                  "be made. I also\nused\nGBSTUDIDOCENTRAL\nfor info and",
+                                  "lurked on the\nGBstudio discord\nabsorbing info."
+                                ],
+                                "avatarId": ""
+                              }
+                            }
+                          ],
+                          "false": [
+                            {
+                              "id": "61c05eb7-e771-44f7-b189-2a63b50dedb6",
+                              "command": "EVENT_IF",
+                              "args": {
+                                "variable": "L1",
+                                "operator": "==",
+                                "comparator": 5,
+                                "__collapseElse": false,
+                                "condition": {
+                                  "type": "eq",
+                                  "valueA": {
+                                    "type": "variable",
+                                    "value": "L1"
+                                  },
+                                  "valueB": {
+                                    "type": "number",
+                                    "value": 5
+                                  }
+                                }
+                              },
+                              "children": {
+                                "true": [
+                                  {
+                                    "id": "316967cd-5cd5-42f5-86a7-9f7b944aadc7",
+                                    "command": "EVENT_TEXT",
+                                    "args": {
+                                      "text": [
+                                        "This is actually\nmy first GBSTUDIO\nProject!"
+                                      ],
+                                      "avatarId": ""
+                                    }
+                                  },
+                                  {
+                                    "id": "97d58c65-3046-4ea7-bfbf-7582f11cdf8e",
+                                    "command": "EVENT_SOUND_PLAY_EFFECT",
+                                    "args": {
+                                      "type": "beep",
+                                      "pitch": 6,
+                                      "frequency": 200,
+                                      "duration": 0.5,
+                                      "wait": true,
+                                      "__collapse": true
+                                    }
+                                  },
+                                  {
+                                    "id": "55878d0e-59d5-446f-b5ff-847f10fe99be",
+                                    "command": "EVENT_SOUND_PLAY_EFFECT",
+                                    "args": {
+                                      "type": "beep",
+                                      "pitch": 4,
+                                      "frequency": 200,
+                                      "duration": 0.5,
+                                      "wait": true,
+                                      "__collapse": true
+                                    }
+                                  },
+                                  {
+                                    "id": "dbc20093-9383-4583-b7cd-867f461ebe4d",
+                                    "command": "EVENT_SOUND_PLAY_EFFECT",
+                                    "args": {
+                                      "type": "beep",
+                                      "pitch": 8,
+                                      "frequency": 200,
+                                      "duration": 0.5,
+                                      "wait": true,
+                                      "__collapse": true
+                                    }
+                                  },
+                                  {
+                                    "id": "65b9c776-2c43-456f-b9b5-cdb75f39276e",
+                                    "command": "EVENT_TEXT",
+                                    "args": {
+                                      "text": [
+                                        "Please pretend\nthat was a cheer",
+                                        "Please dont judge\nthe musically\nimpaired...",
+                                        "I hope to make\nmore games as its\nsomething i think",
+                                        "i'd like to do,\nits just im\nterrible at pacing\nmyself",
+                                        "I hope i make more\nprojects even if\nthey arent on",
+                                        "GBSTUDIO"
+                                      ],
+                                      "avatarId": "",
+                                      "__collapse": false
+                                    }
+                                  }
+                                ],
+                                "false": [
+                                  {
+                                    "id": "2a40bfe3-01c3-482b-8bf6-315b482051e0",
+                                    "command": "EVENT_IF",
+                                    "args": {
+                                      "variable": "L1",
+                                      "operator": "==",
+                                      "comparator": 6,
+                                      "__collapseElse": false,
+                                      "condition": {
+                                        "type": "eq",
+                                        "valueA": {
+                                          "type": "variable",
+                                          "value": "L1"
+                                        },
+                                        "valueB": {
+                                          "type": "number",
+                                          "value": 6
+                                        }
+                                      }
+                                    },
+                                    "children": {
+                                      "true": [
+                                        {
+                                          "id": "912b284f-fb70-46f3-9021-d0d1e62bee25",
+                                          "command": "EVENT_TEXT",
+                                          "args": {
+                                            "text": [
+                                              "what inspired me\nto do this is\nthat i wanted to\nlearn",
+                                              "GBstudio and doing\na project like\nthis while not a",
+                                              "good idea, its\ncould work. And\nthats because\nwhile",
+                                              "There were some\ncomplex things to\nkeep track of,",
+                                              "The game lends\nwell to the\nengine, since its\na",
+                                              "adventure puzzle\nsort of game. The\nreason why its a\nbad",
+                                              "choice is that it\nwould take a long\ntime to get a",
+                                              "finished product,\nlike it takes 30\nmins to 1 hr to\nmake",
+                                              "a picture and\nabout 1 hr to\nconvert a map to\nniko sized",
+                                              "and color in the\nmap properly, and\nthe tile limit.",
+                                              "It wasnt the\nhardest work\noverall. just took\na long",
+                                              "amount of time to\nlearn and fix\nmistakes."
+                                            ],
+                                            "avatarId": ""
+                                          }
+                                        }
+                                      ],
+                                      "false": [
+                                        {
+                                          "id": "5151bbb7-201b-4f16-8483-2818b27093e2",
+                                          "command": "EVENT_IF",
+                                          "args": {
+                                            "variable": "L1",
+                                            "operator": "==",
+                                            "comparator": 7,
+                                            "__collapseElse": false,
+                                            "condition": {
+                                              "type": "eq",
+                                              "valueA": {
+                                                "type": "variable",
+                                                "value": "L1"
+                                              },
+                                              "valueB": {
+                                                "type": "number",
+                                                "value": 7
+                                              }
+                                            }
+                                          },
+                                          "children": {
+                                            "true": [
+                                              {
+                                                "id": "899af64b-ba90-4976-968e-8edbde2a491b",
+                                                "command": "EVENT_TEXT",
+                                                "args": {
+                                                  "text": [
+                                                    "Nikobot was a dumb\nidea, where i\nwanted to avoid",
+                                                    "THE STAIR ISSUE"
+                                                  ],
+                                                  "avatarId": ""
+                                                }
+                                              },
+                                              {
+                                                "id": "bef4f043-541b-4a7d-8152-969f560d9fa9",
+                                                "command": "EVENT_SOUND_PLAY_EFFECT",
+                                                "args": {
+                                                  "type": "beep",
+                                                  "pitch": 5,
+                                                  "frequency": 200,
+                                                  "duration": 2,
+                                                  "wait": true
+                                                }
+                                              },
+                                              {
+                                                "id": "7f3b39e7-f389-4dae-b5e3-4222ef9cb5ab",
+                                                "command": "EVENT_TEXT",
+                                                "args": {
+                                                  "text": [
+                                                    "I think that sorta\nsound like a gasp.",
+                                                    "I basically tried\nto fix the issue\nwhere standing\nstill",
+                                                    "on the stairs and\nthen going up\ndoesnt work",
+                                                    "Unless you go down\nand",
+                                                    "then up for it\nto hopefully work.",
+                                                    "So i had NIKOBOT\n1000 to try and\nfix this since",
+                                                    "You can move the\ncamera (manually)",
+                                                    "and i could move\nsprites by\ntriggers",
+                                                    "so i hoped to make\na sprite move by\nthe player",
+                                                    "pressing buttons,\nIt sort of worked\nbut it was",
+                                                    "very noticeable\nhow unnatural it\nwas so i gave up\n):"
+                                                  ],
+                                                  "avatarId": ""
+                                                }
+                                              }
+                                            ],
+                                            "false": []
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

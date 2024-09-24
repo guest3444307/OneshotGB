@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "6367c893-822e-46f7-b84a-2b042ab5dd81",
+  "name": "Pictures/b7",
+  "symbol": "bg_pictures_b7",
+  "width": 40,
+  "height": 30,
+  "imageWidth": 320,
+  "imageHeight": 240,
+  "filename": "Pictures/b7.png",
+  "tileColors": "",
+  "autoColor": false
+}

@@ -1,0 +1,38 @@
+{
+  "_resourceType": "actor",
+  "id": "7fc6a6d1-1316-409c-bdac-580ea727907f",
+  "_index": 3,
+  "symbol": "actor_18",
+  "prefabId": "",
+  "name": "",
+  "x": 12,
+  "y": 6,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "fcc12505-44cf-4595-94ae-a955dca57387",
+  "paletteId": "default-bg-5",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 255,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "id": "6153d978-41b3-47f6-9c39-b146e84a93da",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "I can never leave\nyou Max, i am\neternal"
+        ],
+        "avatarId": ""
+      }
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

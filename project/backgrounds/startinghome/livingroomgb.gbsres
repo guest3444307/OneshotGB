@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "41d43b28-ecdf-48d6-b454-0d71fcf4a782",
+  "name": "StartingHome/LivingRoomGB",
+  "symbol": "bg_startinghome_livingroomg",
+  "width": 52,
+  "height": 30,
+  "imageWidth": 416,
+  "imageHeight": 240,
+  "filename": "StartingHome/LivingRoomGB.png",
+  "tileColors": "00618+",
+  "autoColor": false
+}

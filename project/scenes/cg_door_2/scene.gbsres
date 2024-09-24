@@ -1,0 +1,42 @@
+{
+  "_resourceType": "scene",
+  "id": "fbb541a5-3e25-461d-8e7c-216e64a064cd",
+  "_index": 30,
+  "type": "TOPDOWN",
+  "name": "cg_door 2",
+  "symbol": "scene_cg_door_2",
+  "x": 237.81262484573435,
+  "y": 896.2032717554,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "95024504-f055-4a14-bde1-60622066ffd5",
+  "tilesetId": "",
+  "paletteIds": [
+    "31fad0d1-94ff-4fb9-b363-fffb51efe0c2"
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "script": [
+    {
+      "id": "3a6eb2ad-9789-4518-99e0-0cb03185cf9c",
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "f265c0a4-22a9-49c7-996f-532b0331b7d0",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": "6"
+      }
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "00aa+0f!0061+0f!0034+0f!0026+"
+}
