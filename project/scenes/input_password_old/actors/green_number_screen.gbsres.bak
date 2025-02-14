@@ -1,0 +1,124 @@
+{
+  "_resourceType": "actor",
+  "id": "42827a41-7835-4940-97c8-73c4f9ed9a6b",
+  "_index": 1,
+  "symbol": "actor_green_number_screen",
+  "prefabId": "",
+  "name": "Green Number screen",
+  "x": 7,
+  "y": 5,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "99b299f5-75c2-4cd4-b47d-1b243af1d535",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "id": "5fa07052-be45-4a73-9572-e3e84329bb43",
+      "command": "EVENT_IF",
+      "args": {
+        "vectorX": "18",
+        "operator": "!=",
+        "vectorY": "13",
+        "__collapseElse": false,
+        "condition": {
+          "type": "ne",
+          "valueA": {
+            "type": "variable",
+            "value": "18"
+          },
+          "valueB": {
+            "type": "variable",
+            "value": "13"
+          }
+        }
+      },
+      "children": {
+        "true": [
+          {
+            "id": "fe1a01d0-14d8-4e4a-b456-2a9341079807",
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "16",
+              "value": {
+                "type": "false"
+              }
+            }
+          },
+          {
+            "id": "1654eb63-b9a2-4485-9ac9-5e5fba39b37c",
+            "command": "EVENT_ACTOR_SET_FRAME",
+            "args": {
+              "actorId": "$self$",
+              "frame": {
+                "type": "variable",
+                "value": "18"
+              }
+            }
+          }
+        ],
+        "false": [
+          {
+            "id": "1b0e1d27-f8c0-43e8-b8eb-741dd7564f88",
+            "command": "EVENT_ACTOR_SET_FRAME",
+            "args": {
+              "actorId": "$self$",
+              "frame": {
+                "type": "variable",
+                "value": "18"
+              }
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "startScript": [
+    {
+      "id": "5975dd20-6c47-4843-b6f5-0d1aa5acf3a6",
+      "command": "EVENT_IF",
+      "args": {
+        "vectorX": "L0",
+        "operator": "!=",
+        "vectorY": "14",
+        "__collapseElse": false,
+        "condition": {
+          "type": "ne",
+          "valueA": {
+            "type": "variable",
+            "value": "L0"
+          },
+          "valueB": {
+            "type": "variable",
+            "value": "14"
+          }
+        }
+      },
+      "children": {
+        "true": [
+          {
+            "id": "7051d533-d6b3-45d9-bc6a-874200496b2f",
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "L1",
+              "value": {
+                "type": "false"
+              }
+            }
+          }
+        ],
+        "false": []
+      }
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

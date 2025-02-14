@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "bff1ab89-9108-484a-9930-bbc6683182aa",
+  "name": "Pictures/b7 GB alt",
+  "symbol": "bg_pictures_b7_gb_alt",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "Pictures/b7 GB alt.png",
+  "tileColors": "004+025+00e+017+00d+01!0013+01!0012+012+00!01!0010+01!0012+012+0012+012+007+01!002+03!007+013+004+013+03!008+014+007+03!002+032+004+012+00!01!007+033+00!03!004+014+007+034+005+014+008+032+0015+05!03!003b+03!0017+",
+  "autoColor": false
+}

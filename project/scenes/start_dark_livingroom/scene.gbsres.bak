@@ -1,0 +1,123 @@
+{
+  "_resourceType": "scene",
+  "id": "f9f6faff-0524-4a19-b575-69c51c81d9cb",
+  "_index": 14,
+  "type": "TOPDOWN",
+  "name": "Start Dark LivingRoom",
+  "symbol": "scene_start_dark_livingroom",
+  "x": 212.34866275557107,
+  "y": 644.1089443534493,
+  "width": 52,
+  "height": 30,
+  "backgroundId": "41d43b28-ecdf-48d6-b454-0d71fcf4a782",
+  "tilesetId": "",
+  "paletteIds": [
+    "31fad0d1-94ff-4fb9-b363-fffb51efe0c2"
+  ],
+  "spritePaletteIds": [
+    "",
+    "db49da66-75a4-44ba-af31-b9a41022131c"
+  ],
+  "autoFadeSpeed": 1,
+  "autoFadeEventCollapse": true,
+  "script": [
+    {
+      "id": "d655dbc6-8034-4ecc-9780-af5516e06228",
+      "command": "EVENT_IF",
+      "args": {
+        "variable": "L0",
+        "__collapseElse": false,
+        "__collapse": false,
+        "condition": {
+          "type": "variable",
+          "value": "L0"
+        }
+      },
+      "children": {
+        "true": [],
+        "false": [
+          {
+            "id": "104dbd31-7b56-4ac3-875f-8cd7caf5c602",
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Helloooo?\n..anyone?"
+              ],
+              "avatarId": "fde66e32-0d8e-47c4-badd-7455f3499612"
+            }
+          },
+          {
+            "id": "9186fcb7-7fa7-473c-bc7e-87359a2e508c",
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "L0",
+              "value": {
+                "type": "true"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "ab866a93-9898-4de2-89fb-8c80a4e6e667",
+      "command": "EVENT_IF",
+      "args": {
+        "variable": "8",
+        "operator": "==",
+        "comparator": 8,
+        "__collapseElse": false,
+        "__collapse": true,
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "8"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 8
+          }
+        }
+      },
+      "children": {
+        "true": [
+          {
+            "id": "082322a6-d14e-49cb-bb29-4c8e51e30f5b",
+            "command": "EVENT_PLAYER_SET_SPRITE",
+            "args": {
+              "spriteSheetId": "80e3c3db-38da-48e9-bd21-7d09280dbbf2",
+              "persist": true
+            }
+          }
+        ],
+        "false": [
+          {
+            "id": "67c8cec9-1907-4e0c-b37a-8c89de96c386",
+            "command": "EVENT_PLAYER_SET_SPRITE",
+            "args": {
+              "spriteSheetId": "fcc12505-44cf-4595-94ae-a955dca57387",
+              "persist": true
+            }
+          }
+        ]
+      }
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "871e135c-43db-4533-86fd-394ae9113d0b",
+        "__collapse": true,
+        "$variable[V1]$": {
+          "type": "variable",
+          "value": "1"
+        }
+      },
+      "id": "688ce68d-46ae-42c9-88b0-2ca6d264d663"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "00180+0f!00!0f!002f+0f5+003+0f2+002+0f!00!0f!0024+0f4+00!0fb+0022+0f4+009+0f!00!0f!00!0f!0020+0f3+00!0f2+00d+0f4+001d+0f!006+0f2+00d+0f!001d+0f!00e+0f9+001c+0f6+009+0f6+0023+0f2+00!0f2+006+0f4+00!0f!0024+0f7+003+0f4+00!0f!0027+0f!002+0f!008+0f!002a+0f!008+0f!002a+0f!008+0f!002a+0f!008+0f!002a+0fa+002a+0f!00187+"
+}

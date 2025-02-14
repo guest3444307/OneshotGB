@@ -1,0 +1,101 @@
+{
+  "_resourceType": "actor",
+  "id": "462e60c3-27dc-4c88-aafe-2e1b8f509068",
+  "_index": 1,
+  "symbol": "actor_green",
+  "prefabId": "",
+  "name": "green",
+  "x": 4,
+  "y": 5,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "99b299f5-75c2-4cd4-b47d-1b243af1d535",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 255,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "id": "917fea94-4a9b-4ab5-b82e-97c94f978023",
+      "command": "EVENT_IF",
+      "args": {
+        "vectorX": "20",
+        "operator": "!=",
+        "vectorY": "12",
+        "__collapseElse": false,
+        "condition": {
+          "type": "ne",
+          "valueA": {
+            "type": "variable",
+            "value": "20"
+          },
+          "valueB": {
+            "type": "variable",
+            "value": "12"
+          }
+        }
+      },
+      "children": {
+        "true": [
+          {
+            "id": "343c58d2-c388-4324-8ad1-eb921e237d4e",
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "16",
+              "value": {
+                "type": "false"
+              }
+            }
+          },
+          {
+            "id": "3f0909b6-6ee8-4708-ad3c-b719e6428892",
+            "command": "EVENT_ACTOR_SET_FRAME",
+            "args": {
+              "actorId": "$self$",
+              "frame": {
+                "type": "variable",
+                "value": "20"
+              }
+            }
+          }
+        ],
+        "false": [
+          {
+            "id": "a27a9d89-0b66-4eeb-be4f-0eddc19cb503",
+            "command": "EVENT_ACTOR_SET_FRAME",
+            "args": {
+              "actorId": "$self$",
+              "frame": {
+                "type": "variable",
+                "value": "20"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "fc5aa5da-ffe6-4efb-9a31-5a88dc1c441f",
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "persist": false,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": []
+      }
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

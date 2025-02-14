@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "5908895a-312a-4554-9480-9bcccefeba53",
+  "name": "New folder/Bathroom",
+  "symbol": "bg_new_folder_bathroom",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "New folder/Bathroom.png",
+  "tileColors": "",
+  "autoColor": false
+}

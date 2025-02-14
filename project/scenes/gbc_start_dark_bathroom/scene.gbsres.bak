@@ -1,0 +1,55 @@
+{
+  "_resourceType": "scene",
+  "id": "466e84d2-9cb9-4136-a82c-06ca6fd37980",
+  "_index": 39,
+  "type": "TOPDOWN",
+  "name": "GBC Start Dark Bathroom",
+  "symbol": "scene_gbc_start_dark_bathro",
+  "x": 60.666666666666664,
+  "y": 578.4380954560784,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "31f4af77-e228-46d8-9507-faebdaf4cd78",
+  "tilesetId": "",
+  "paletteIds": [
+    "31fad0d1-94ff-4fb9-b363-fffb51efe0c2"
+  ],
+  "spritePaletteIds": [
+    "",
+    "db49da66-75a4-44ba-af31-b9a41022131c",
+    "ae62883a-e6c9-4574-96b5-ed5b9a869345"
+  ],
+  "autoFadeSpeed": null,
+  "autoFadeEventCollapse": true,
+  "playerSpriteSheetId": "cc2d1064-9c39-4f19-abcd-155208afee76",
+  "script": [
+    {
+      "command": "EVENT_PALETTE_SET_SPRITE",
+      "args": {
+        "palette0": "keep",
+        "palette1": "keep",
+        "palette2": "b5829ad4-74a3-4a05-8645-1ad0a554d864",
+        "palette3": "keep",
+        "palette4": "keep",
+        "palette5": "keep",
+        "palette6": "keep",
+        "palette7": "keep",
+        "__collapse": true,
+        "__comment": false
+      },
+      "id": "aeac2533-5c46-4aae-a8e0-ce8aa8fe09ae"
+    },
+    {
+      "command": "EVENT_FADE_IN",
+      "args": {
+        "speed": "2",
+        "__collapse": true
+      },
+      "id": "bd45fa7d-423b-41f2-9aca-3f7e7e2b7352"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "0049+0f!00c+0f9+00b+0f2+006+0f!00b+0f2+006+0f!00b+0f2+005+0f3+00a+0f!006+0f3+00a+0f!006+0f2+00b+0f!007+0f!00b+0f9+00b+0f!0071+"
+}

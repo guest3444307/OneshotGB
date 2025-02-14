@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "7de6bc7c-d0d8-4417-b235-db53d1dc9411",
+  "name": "Pictures/cg_wake4 GB",
+  "symbol": "bg_pictures_cg_wake4_gb",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "Pictures/cg_wake4 GB.png",
+  "tileColors": "002+01f+005+01f+005+01d+008+01e+006+0144+032+013+00f+033+0013+03!004a+024+0010+024+0011+02!0032+",
+  "autoColor": false
+}

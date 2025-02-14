@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "d71f2f09-b7bd-45dc-b5fa-98fcfe420a02",
+  "name": "Pictures/Messagebox/windows message full color",
+  "symbol": "bg_pictures_messagebox_wind",
+  "width": 5,
+  "height": 4,
+  "imageWidth": 43,
+  "imageHeight": 35,
+  "filename": "Pictures/Messagebox/windows message full color.png",
+  "tileColors": "",
+  "autoColor": false
+}

@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "43e6402e-6717-419c-89af-bf4d54cd1f53",
+  "name": "Pictures/b7 GBc alt",
+  "symbol": "bg_pictures_b7_gbc_alt",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "Pictures/b7 GBc alt.png",
+  "tileColors": "004+025+00e+012+043+012+00d+01!00!043+00f+01!00!044+00d+012+002+044+00c+01!003+045+00a+012+004+045+009+012+004+045+009+013+003+045+032+007+013+005+04!035+005+014+006+036+004+014+005+037+004+014+005+037+042+00b+037+003+04!0050+",
+  "autoColor": false
+}

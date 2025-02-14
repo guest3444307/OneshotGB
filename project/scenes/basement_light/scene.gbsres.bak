@@ -1,0 +1,54 @@
+{
+  "_resourceType": "scene",
+  "id": "4de7c841-2268-483c-b9e4-7cbe3b254b23",
+  "_index": 18,
+  "type": "TOPDOWN",
+  "name": "basement light",
+  "symbol": "scene_basement_light",
+  "x": 1081.945721607669,
+  "y": 905.9155806016263,
+  "width": 31,
+  "height": 18,
+  "backgroundId": "cde839de-bd40-4e16-945a-2b6e1fb2bfdc",
+  "tilesetId": "",
+  "paletteIds": [
+    "31fad0d1-94ff-4fb9-b363-fffb51efe0c2"
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "script": [
+    {
+      "id": "2a134247-3556-451b-b815-88ec6d404b82",
+      "command": "EVENT_PLAYER_SET_SPRITE",
+      "args": {
+        "spriteSheetId": "80e3c3db-38da-48e9-bd21-7d09280dbbf2",
+        "persist": true
+      }
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "871e135c-43db-4533-86fd-394ae9113d0b",
+        "$variable[V1]$": {
+          "type": "variable",
+          "value": "1"
+        }
+      },
+      "id": "6d964883-ccad-41a1-b73e-711c1a1326bb"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "30",
+        "value": {
+          "type": "false"
+        }
+      },
+      "id": "e5ca3f9c-719f-49ed-a358-6277ee040cb6"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "00f8+0f3f+001d+0f20+00a+0fc+00a4+"
+}

@@ -1,0 +1,33 @@
+{
+  "_resourceType": "engineFieldValues",
+  "engineFieldValues": [
+    {
+      "id": "fade_style",
+      "value": 1
+    },
+    {
+      "id": "topdown_grid",
+      "value": 8
+    },
+    {
+      "id": "plat_run_vel",
+      "value": 6400
+    },
+    {
+      "id": "plat_walk_vel",
+      "value": 3200
+    },
+    {
+      "id": "plat_jump_vel",
+      "value": 1
+    },
+    {
+      "id": "plat_grav",
+      "value": 8192
+    },
+    {
+      "id": "plat_hold_grav",
+      "value": 8192
+    }
+  ]
+}

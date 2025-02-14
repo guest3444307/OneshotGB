@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "12108aa8-6855-4d9c-b43d-ba3a015801c5",
+  "name": "Menus/Item Screen TEMP",
+  "symbol": "bg_menus_item_screen_temp",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "Menus/Item Screen TEMP.png",
+  "tileColors": "",
+  "autoColor": false
+}

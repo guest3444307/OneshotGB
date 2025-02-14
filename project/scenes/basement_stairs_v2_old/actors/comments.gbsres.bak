@@ -1,0 +1,75 @@
+{
+  "_resourceType": "actor",
+  "id": "9aca0922-f673-411b-8edc-45b3473ee9c2",
+  "_index": 1,
+  "symbol": "actor_52",
+  "prefabId": "",
+  "name": "Comments",
+  "x": 4,
+  "y": 4,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "b166b6fa-9418-4943-9572-637dcde6b42f",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "id": "c711cc27-ab2f-41f6-99b6-7efd6a4e0001",
+      "command": "EVENT_COMMENT",
+      "args": {
+        "text": "TEMP CUTSCENE BECAUSE I CANT DO THIS ANYMORE WITH THESE BLOODY STAIRS."
+      }
+    }
+  ],
+  "startScript": [],
+  "updateScript": [
+    {
+      "command": "EVENT_IF_INPUT",
+      "args": {
+        "input": [
+          "right"
+        ],
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_MOVE_RELATIVE",
+            "args": {
+              "actorId": "95cc9eb4-bc2c-4efe-b03c-7094b54d2e49",
+              "x": {
+                "type": "number",
+                "value": -1
+              },
+              "y": {
+                "type": "number",
+                "value": -1
+              },
+              "moveType": "diagonal",
+              "useCollisions": true
+            },
+            "id": "0df42c46-f282-4b8e-b42b-63072a9627f1"
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": 0.1
+            },
+            "id": "0949c3e5-ecea-4a1b-ab05-492b64485df1"
+          }
+        ],
+        "false": []
+      },
+      "id": "97e812e1-3f1b-4bbd-954e-dc3f01bb12f5"
+    }
+  ],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

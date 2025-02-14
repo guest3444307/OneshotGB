@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "4a858735-0f8d-4685-bbbd-4f3fad16a78e",
+  "name": "Pictures/b6 GB alt",
+  "symbol": "bg_pictures_b6_gb_alt",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "Pictures/b6 GB alt.png",
+  "tileColors": "00ac+013+00f+035+01!00d+01!036+00d+037+00d+027+00d+027+001c+01!0037+",
+  "autoColor": false
+}

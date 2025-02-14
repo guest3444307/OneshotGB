@@ -1,0 +1,8 @@
+{
+  "_resourceType": "sound",
+  "id": "612ab4dc-842e-4b93-af0a-16f5b8bf0b74",
+  "name": "pc_off.wav",
+  "symbol": "sound_pc_off_wav",
+  "filename": "pc_off.wav",
+  "type": "wav"
+}

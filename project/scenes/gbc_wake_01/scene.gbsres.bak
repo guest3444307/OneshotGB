@@ -1,0 +1,65 @@
+{
+  "_resourceType": "scene",
+  "id": "b4a8a93e-c19f-4c79-bfb6-7a1c2e7fdd78",
+  "_index": 34,
+  "type": "TOPDOWN",
+  "name": "GBC Wake 01",
+  "symbol": "scene_gbc_wake_01",
+  "x": 1277.142857142857,
+  "y": 30,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "6b3c9fe9-54a7-4fa9-ae18-91a5bf78bc7c",
+  "tilesetId": "",
+  "paletteIds": [
+    "e5b78ef4-a03b-4bca-9091-c3a53a1b9bd4",
+    "d1210d6f-2a2b-4906-a761-403bbd6338bd",
+    "e17c5a13-15e1-45af-91fb-7cc076b544b1"
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "fc4f479d-7cdc-4ddd-9d14-8ee149f163af"
+    },
+    {
+      "id": "7d3b944b-cf3b-469e-9169-92a717521651",
+      "command": "EVENT_SET_TIMER_SCRIPT",
+      "args": {
+        "duration": 0.5,
+        "__scriptTabs": "end",
+        "__collapse": false,
+        "timer": 1
+      },
+      "children": {
+        "script": [
+          {
+            "id": "e5aba9ba-bd54-4c58-9258-5fbc6d5e39a2",
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "b7910a91-c70e-4900-8fa0-bb4d8441c6ff",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": "1"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "00168+"
+}

@@ -1,0 +1,70 @@
+{
+  "_resourceType": "scene",
+  "id": "da5516dc-3e7c-4cb2-a3c2-ec3fe16ead97",
+  "_index": 36,
+  "type": "TOPDOWN",
+  "name": "GBC Wake 03",
+  "symbol": "scene_gbc_wake_03",
+  "x": 1630.933349609375,
+  "y": 30,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "555a4df6-bfb5-4268-bf31-7e5463924f44",
+  "tilesetId": "",
+  "paletteIds": [
+    "e5b78ef4-a03b-4bca-9091-c3a53a1b9bd4",
+    "d1210d6f-2a2b-4906-a761-403bbd6338bd",
+    "e17c5a13-15e1-45af-91fb-7cc076b544b1",
+    "167d33ea-9972-4128-ba8f-d362491f6adb",
+    "05e3093b-9f8f-473c-bae1-83361d4d3125",
+    "7047443d-4f20-4025-81d3-9de3574baaef",
+    "bc6a6157-c9d8-4727-a8e7-cabbdb417c6d",
+    "6d3b6d35-5783-4949-85ff-b188a5453f14"
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "9fcf9986-a210-46b3-9b13-2083a0141fd4"
+    },
+    {
+      "id": "efb30074-bda9-44e4-b42c-a8b8d13696a6",
+      "command": "EVENT_SET_TIMER_SCRIPT",
+      "args": {
+        "duration": 0.25,
+        "__scriptTabs": "end",
+        "timer": 1
+      },
+      "children": {
+        "script": [
+          {
+            "id": "74162cdd-90e4-466c-a39f-dcd13146c064",
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "c7742580-5d21-460e-b65a-841cc8fc6f2d",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": "2",
+              "__collapse": false
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": ""
+}

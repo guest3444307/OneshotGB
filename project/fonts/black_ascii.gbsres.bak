@@ -1,0 +1,10 @@
+{
+  "_resourceType": "font",
+  "id": "bb6d3ff7-18b6-45f6-8653-2ebe16f8ddde",
+  "name": "Black Ascii",
+  "symbol": "font_ascii",
+  "width": 128,
+  "height": 112,
+  "filename": "ascii.png",
+  "mapping": {}
+}

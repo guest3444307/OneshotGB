@@ -1,0 +1,38 @@
+{
+  "_resourceType": "actor",
+  "id": "bba5b64f-2b4b-469b-8ba5-332020102819",
+  "_index": 7,
+  "symbol": "actor_28",
+  "prefabId": "",
+  "name": "",
+  "x": 26,
+  "y": 19,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "b166b6fa-9418-4943-9572-637dcde6b42f",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "id": "1dd7e956-651d-4fb3-815f-bacd040080e8",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "[The sink won't\nturn on.]"
+        ],
+        "avatarId": ""
+      }
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

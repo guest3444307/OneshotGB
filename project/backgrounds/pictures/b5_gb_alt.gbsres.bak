@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "e8801bf0-ae20-4372-8e3d-65f7e169c6d3",
+  "name": "Pictures/b5 GB alt",
+  "symbol": "bg_pictures_b5_gb_alt",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "Pictures/b5 GB alt.png",
+  "tileColors": "004+025+0015f+",
+  "autoColor": false
+}

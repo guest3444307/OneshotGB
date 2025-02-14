@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "249f71a2-dead-4722-a900-2d379160a9f4",
+  "name": "Pictures/cg_wake5",
+  "symbol": "bg_pictures_cg_wake5",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "Pictures/cg_wake5.png",
+  "tileColors": "",
+  "autoColor": false
+}

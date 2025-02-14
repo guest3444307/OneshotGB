@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "11d8df32-6c07-4a07-ba36-f046386bd555",
+  "name": "StartingHome/Tiled/starttiles",
+  "symbol": "bg_startinghome_tiled_start_0",
+  "width": 9,
+  "height": 7,
+  "imageWidth": 72,
+  "imageHeight": 56,
+  "filename": "StartingHome/Tiled/starttiles.png",
+  "tileColors": "",
+  "autoColor": false
+}

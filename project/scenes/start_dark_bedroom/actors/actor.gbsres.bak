@@ -1,0 +1,162 @@
+{
+  "_resourceType": "actor",
+  "id": "7b3158bb-dfe4-48af-9d7e-00c52409a0d6",
+  "_index": 1,
+  "symbol": "actor_1",
+  "prefabId": "",
+  "name": "",
+  "x": 17,
+  "y": 16,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "9d915669-f12d-425a-9c95-a23fe9998d04",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 255,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "id": "100a236a-0f7a-4073-ab36-8d7f0e435e16",
+      "command": "EVENT_IF",
+      "args": {
+        "variable": "21",
+        "__collapseElse": false,
+        "condition": {
+          "type": "variable",
+          "value": "21"
+        }
+      },
+      "children": {
+        "true": [
+          {
+            "id": "b490db70-4b3f-44d6-966a-7f4ab22f9eca",
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "It won't turn\non."
+              ],
+              "avatarId": "aacc558a-2de7-4199-aa46-15b7f52630f2"
+            }
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "28e10348-5c51-4831-beae-ddc50525f2f3",
+              "priority": "medium",
+              "pitch": 4,
+              "frequency": 200,
+              "duration": 0.5,
+              "wait": true,
+              "effect": 0
+            },
+            "id": "03f28e9f-a209-48f2-b506-a49b9e6322dc"
+          },
+          {
+            "id": "23363e45-df58-4d46-b121-13a638ad9843",
+            "command": "EVENT_SCENE_PUSH_STATE",
+            "args": {}
+          },
+          {
+            "id": "8df5d244-65fd-4c6c-8455-33f944116679",
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "b345fc57-f2b2-4546-9aac-992c3b692df9",
+              "x": {
+                "type": "number",
+                "value": 14
+              },
+              "y": {
+                "type": "number",
+                "value": 3
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "startScript": [],
+  "updateScript": [
+    {
+      "id": "6a4a0480-02d1-438d-9e45-785af3abbad8",
+      "command": "EVENT_IF",
+      "args": {
+        "variable": "21",
+        "__collapseElse": false,
+        "condition": {
+          "type": "variable",
+          "value": "21"
+        }
+      },
+      "children": {
+        "true": [
+          {
+            "id": "a7a7e9cf-9096-4fe2-8ff4-6a334550089a",
+            "command": "EVENT_IF",
+            "args": {
+              "variable": "L0",
+              "__collapseElse": false,
+              "__collapse": false,
+              "condition": {
+                "type": "variable",
+                "value": "L0"
+              }
+            },
+            "children": {
+              "true": [],
+              "false": [
+                {
+                  "command": "EVENT_SOUND_PLAY_EFFECT",
+                  "args": {
+                    "type": "612ab4dc-842e-4b93-af0a-16f5b8bf0b74",
+                    "priority": "medium",
+                    "pitch": 4,
+                    "frequency": 200,
+                    "duration": 0.5,
+                    "wait": true,
+                    "effect": 0
+                  },
+                  "id": "d4421629-0099-4b9c-988e-2c1582e2e3e3"
+                },
+                {
+                  "id": "89a2e5a1-1f92-4b81-b6de-c45348b918b5",
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "[Niko hears the\nsound of a door\nunlocking.]"
+                    ],
+                    "avatarId": "",
+                    "__collapse": true
+                  }
+                },
+                {
+                  "id": "7f2789ce-c12f-463b-b982-950e4cc00f0e",
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "L0",
+                    "__collapse": true,
+                    "value": {
+                      "type": "true"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "false": []
+      }
+    }
+  ],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

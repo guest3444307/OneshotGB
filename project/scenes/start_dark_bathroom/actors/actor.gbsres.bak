@@ -1,0 +1,251 @@
+{
+  "_resourceType": "actor",
+  "id": "c26eef3b-2db5-4a68-b976-bccb21dc7f06",
+  "_index": 0,
+  "symbol": "actor_7",
+  "prefabId": "",
+  "name": "",
+  "x": 12,
+  "y": 8,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "5012b671-42b2-46c4-b8ff-870d807a57a6",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 255,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "id": "cd879c6d-79df-491f-b323-15a06c335fe6",
+      "command": "EVENT_IF",
+      "args": {
+        "variable": "L0",
+        "__collapseElse": false,
+        "__collapse": false,
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "L0"
+          },
+          "valueB": {
+            "type": "false"
+          }
+        }
+      },
+      "children": {
+        "true": [
+          {
+            "id": "d74fa1cb-bc1f-4397-9cf0-fcddce53e3bf",
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "[A withered plant\nsits here, stiff\nand dry.]",
+                "[A branch snaps\noff]"
+              ],
+              "avatarId": "",
+              "__collapse": false
+            }
+          },
+          {
+            "id": "87f7a81f-249b-489c-95a1-1606ba8c43d7",
+            "command": "EVENT_IF",
+            "args": {
+              "variable": "8",
+              "operator": "==",
+              "comparator": 0,
+              "__collapseElse": false,
+              "__collapse": true,
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "8"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 0
+                }
+              }
+            },
+            "children": {
+              "true": [
+                {
+                  "id": "3f61abad-6c0d-44e9-8f77-480bd0f852ca",
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "4",
+                    "__collapse": true,
+                    "value": {
+                      "type": "true"
+                    }
+                  }
+                },
+                {
+                  "id": "ef4821c9-6254-42bc-8311-a15289be5e22",
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "8",
+                    "value": {
+                      "type": "number",
+                      "value": 2
+                    }
+                  }
+                }
+              ],
+              "false": [
+                {
+                  "id": "4250a0fd-aaef-48b8-9d8f-af61dd525d82",
+                  "command": "EVENT_IF",
+                  "args": {
+                    "variable": "10",
+                    "operator": "==",
+                    "comparator": "0",
+                    "__collapseElse": false,
+                    "__collapse": false,
+                    "condition": {
+                      "type": "eq",
+                      "valueA": {
+                        "type": "variable",
+                        "value": "10"
+                      },
+                      "valueB": {
+                        "type": "number",
+                        "value": 0
+                      }
+                    }
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "id": "140b6811-1cdd-496c-b872-c4bbbcf55de9",
+                        "command": "EVENT_SET_VALUE",
+                        "args": {
+                          "variable": "9",
+                          "value": {
+                            "type": "number",
+                            "value": 2
+                          },
+                          "__collapse": false
+                        }
+                      },
+                      {
+                        "id": "e4f762da-fad5-445d-909d-5cc7fb479cce",
+                        "command": "EVENT_SET_VALUE",
+                        "args": {
+                          "variable": "10",
+                          "__collapse": false,
+                          "value": {
+                            "type": "true"
+                          }
+                        }
+                      }
+                    ],
+                    "false": [
+                      {
+                        "id": "1965b5fe-2041-4707-98d8-84c5f258eebd",
+                        "command": "EVENT_IF",
+                        "args": {
+                          "variable": "22",
+                          "operator": "==",
+                          "comparator": "0",
+                          "__collapseElse": false,
+                          "__collapse": false,
+                          "condition": {
+                            "type": "eq",
+                            "valueA": {
+                              "type": "variable",
+                              "value": "22"
+                            },
+                            "valueB": {
+                              "type": "number",
+                              "value": 0
+                            }
+                          }
+                        },
+                        "children": {
+                          "true": [
+                            {
+                              "id": "653a410b-7dbf-499e-891e-0cb2a7b707fb",
+                              "command": "EVENT_SET_VALUE",
+                              "args": {
+                                "variable": "22",
+                                "__collapse": false,
+                                "value": {
+                                  "type": "true"
+                                }
+                              }
+                            },
+                            {
+                              "id": "f46a9090-26be-4788-9561-0e3b63185932",
+                              "command": "EVENT_SET_VALUE",
+                              "args": {
+                                "variable": "23",
+                                "value": {
+                                  "type": "number",
+                                  "value": 2
+                                },
+                                "__collapse": false
+                              }
+                            }
+                          ],
+                          "false": []
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "fe5518fc-2d37-4878-bbd9-e35a92c001eb",
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "L0",
+              "__collapse": false,
+              "value": {
+                "type": "true"
+              }
+            }
+          },
+          {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "44a5405f-df7f-4f35-a9c4-0a4c88b24c62",
+              "priority": "medium",
+              "pitch": 4,
+              "frequency": 200,
+              "duration": 0.5,
+              "wait": true,
+              "effect": 0
+            },
+            "id": "2b4e7a2b-5da6-4cde-b812-5314f70aadff"
+          }
+        ],
+        "false": [
+          {
+            "id": "488867c9-3a9d-49be-914d-88bf083e2aab",
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "[There is no need\nto do anything\nelse to it.]"
+              ],
+              "avatarId": "",
+              "__collapse": true
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

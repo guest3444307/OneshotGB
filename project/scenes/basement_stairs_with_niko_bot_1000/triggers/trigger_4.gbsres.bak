@@ -1,0 +1,83 @@
+{
+  "_resourceType": "trigger",
+  "id": "86c04fb4-b8a3-493b-b188-fc27baf3d67a",
+  "_index": 3,
+  "symbol": "trigger_39",
+  "prefabId": "",
+  "name": "",
+  "x": 18,
+  "y": 18,
+  "width": 1,
+  "height": 1,
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "id": "16f14b3d-046e-4a77-8782-e6b148b96b3b",
+      "command": "EVENT_ACTOR_SET_POSITION",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 19
+        },
+        "y": {
+          "type": "number",
+          "value": 18
+        }
+      }
+    },
+    {
+      "id": "69de0117-1d67-4982-8194-33a636e88ea9",
+      "command": "EVENT_IF",
+      "args": {
+        "variable": "26",
+        "__collapseElse": false,
+        "condition": {
+          "type": "variable",
+          "value": "26"
+        }
+      },
+      "children": {
+        "true": [
+          {
+            "id": "67c2ab7b-48a2-4151-af25-1d37d5435332",
+            "command": "EVENT_ACTOR_MOVE_RELATIVE",
+            "args": {
+              "actorId": "ea4c7060-fa40-4b22-8fd8-30fa2519b8e9",
+              "x": {
+                "type": "number",
+                "value": -1
+              },
+              "y": {
+                "type": "number",
+                "value": -1
+              },
+              "moveType": "diagonal",
+              "useCollisions": false
+            }
+          }
+        ],
+        "false": [
+          {
+            "id": "c1fddb6b-e0fc-441a-b3ea-115fd08d9d68",
+            "command": "EVENT_ACTOR_MOVE_RELATIVE",
+            "args": {
+              "actorId": "ea4c7060-fa40-4b22-8fd8-30fa2519b8e9",
+              "x": {
+                "type": "number",
+                "value": -1
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "moveType": "diagonal",
+              "useCollisions": false
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "leaveScript": []
+}

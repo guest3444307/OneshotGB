@@ -1,0 +1,36 @@
+{
+  "_resourceType": "scene",
+  "id": "0e207b7b-ffc5-4e11-982f-82690eb266ac",
+  "_index": 9,
+  "type": "TOPDOWN",
+  "name": "Start Dark Bathroom",
+  "symbol": "scene_start_dark_bathroom",
+  "x": 60,
+  "y": 413.80097219681534,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "31f4af77-e228-46d8-9507-faebdaf4cd78",
+  "tilesetId": "",
+  "paletteIds": [
+    "31fad0d1-94ff-4fb9-b363-fffb51efe0c2"
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "871e135c-43db-4533-86fd-394ae9113d0b",
+        "$variable[V1]$": {
+          "type": "variable",
+          "value": "1"
+        }
+      },
+      "id": "f6c75325-0569-41d1-b6fe-82de2ba5accc"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "0049+0f!00c+0f9+00b+0f!006+0f!00c+0f!006+0f2+00b+0fa+00a+0f!006+0f3+00a+0f!006+0f2+00b+0f!007+0f!00b+0f9+00b+0f!0071+"
+}

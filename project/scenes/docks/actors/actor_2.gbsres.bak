@@ -1,0 +1,47 @@
+{
+  "_resourceType": "actor",
+  "id": "7ebe959a-5858-4e56-9cee-c4605a6a05f3",
+  "_index": 1,
+  "symbol": "actor_57",
+  "prefabId": "",
+  "name": "",
+  "x": 19,
+  "y": 30,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "a2f0897c-d935-4bbf-bbda-b80ad8164edb",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "This was a test of\na newer method",
+          "to make these maps\nI've explained",
+          "these already in \nthe V2 Room.",
+          "This room was made\nso fast, you'd",
+          "not believe it.",
+          "Also this room\nuses one of Niko's",
+          "pallete in a CG",
+          "Also this is 149\ntiles, mainly",
+          "because i wanted\nto keep the",
+          "complex floor."
+        ],
+        "avatarId": ""
+      },
+      "id": "cfbaf288-97e8-40ec-9695-7b3076c613df"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

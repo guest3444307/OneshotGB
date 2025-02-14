@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "981dc17e-3c95-4381-90f6-c8e5efeaf703",
+  "name": "Pictures/cg_desktop",
+  "symbol": "bg_pictures_cg_desktop",
+  "width": 20,
+  "height": 15,
+  "imageWidth": 160,
+  "imageHeight": 120,
+  "filename": "Pictures/cg_desktop.png",
+  "tileColors": "",
+  "autoColor": false
+}

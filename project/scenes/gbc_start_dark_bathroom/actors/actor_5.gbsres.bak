@@ -1,0 +1,38 @@
+{
+  "_resourceType": "actor",
+  "id": "d823796f-6751-4e95-a207-29e40eae0961",
+  "_index": 4,
+  "symbol": "actor_43",
+  "prefabId": "",
+  "name": "",
+  "x": 7,
+  "y": 10,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "b166b6fa-9418-4943-9572-637dcde6b42f",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 255,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "id": "2c8fbf21-c1ca-4a76-8511-f866dd17bcd7",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "[The tub won't\nrun.]"
+        ],
+        "avatarId": ""
+      }
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

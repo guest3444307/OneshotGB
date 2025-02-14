@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "a35a16db-41be-49da-a481-4344242f11e4",
+  "name": "New folder/WIP/Basement Stairs GB",
+  "symbol": "bg_new_folder_wip_basement__2",
+  "width": 50,
+  "height": 40,
+  "imageWidth": 400,
+  "imageHeight": 320,
+  "filename": "New folder/WIP/Basement Stairs GB.png",
+  "tileColors": "007d0+",
+  "autoColor": false
+}

@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "a37932d5-0870-474a-8bec-b0d7e3e0015b",
+  "name": "Louis Endscreen",
+  "symbol": "bg_louis_endscreen",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "Louis Endscreen.png",
+  "tileColors": "",
+  "autoColor": false
+}

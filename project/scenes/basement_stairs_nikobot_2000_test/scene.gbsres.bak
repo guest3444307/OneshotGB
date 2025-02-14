@@ -1,0 +1,77 @@
+{
+  "_resourceType": "scene",
+  "id": "df50a084-9b96-4490-bbed-cad93167d1eb",
+  "_index": 52,
+  "type": "TOPDOWN",
+  "name": "Basement Stairs NIKOBOT 2000 TEST",
+  "symbol": "scene_53",
+  "x": 605.1618884858635,
+  "y": 1348.1524135044644,
+  "width": 50,
+  "height": 40,
+  "backgroundId": "a35a16db-41be-49da-a481-4344242f11e4",
+  "tilesetId": "",
+  "paletteIds": [
+    "31fad0d1-94ff-4fb9-b363-fffb51efe0c2"
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "playerSpriteSheetId": "00b96895-e4c9-45de-927a-917dd58dd8f8",
+  "script": [
+    {
+      "id": "58ab0574-7ab0-496e-bd06-293e383dad91",
+      "command": "EVENT_IF",
+      "args": {
+        "variable": "8",
+        "operator": "==",
+        "comparator": 8,
+        "__collapseElse": false,
+        "__collapse": true,
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "8"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 8
+          }
+        }
+      },
+      "children": {
+        "true": [
+          {
+            "id": "2694ef0a-a511-4c96-8b3c-5db37ec6b214",
+            "command": "EVENT_PLAYER_SET_SPRITE",
+            "args": {
+              "spriteSheetId": "80885488-8a5f-444f-b0e4-e7c654fcce8a",
+              "persist": true
+            }
+          }
+        ],
+        "false": [
+          {
+            "id": "87e15f45-76e4-4439-8ce1-884faa63ce49",
+            "command": "EVENT_PLAYER_SET_SPRITE",
+            "args": {
+              "spriteSheetId": "00b96895-e4c9-45de-927a-917dd58dd8f8",
+              "persist": true
+            }
+          }
+        ]
+      }
+    },
+    {
+      "command": "EVENT_COMMENT",
+      "args": {
+        "text": "The Room is going to be broken for a bit here The idea is using the original stairs for a NIKOBOT2000 sort of thing with the bot mimicing the player's movement for the stair sections"
+      },
+      "id": "eaa69dc4-150a-462d-8a9e-b7b8f1b0153c"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "0070+0f17+001a+0f19+0018+0f1b+0017+0f1b+0017+0f2+0017+0f2+0018+0f1a+0018+0f2+0011+0f7+0018+0f!0015+0f!001b+0f!0015+0f!001c+0f3+0012+0f!001e+0f2+0011+0f!001f+0f2+0010+0f!0020+0f2+00f+0f!0021+0f2+00e+0f!0022+0f2+00d+0f!0023+0f2+00c+0f!0024+0f2+00b+0f!0025+0f2+00a+0f!0026+0f2+009+0f!0027+0f2+008+0f!0028+0f2+007+0f!0029+0f2+006+0f!002a+0f2+005+0f3+0029+0f2+006+0f!002a+0f2+005+0f!002b+0f2+004+0f!002b+0f3+003+0f!002d+0f2+002+0f!002d+0f5+001d0+"
+}

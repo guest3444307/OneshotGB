@@ -1,0 +1,37 @@
+{
+  "_resourceType": "scene",
+  "id": "2a7da5e8-69f2-4f83-a6a4-d38abddb3dca",
+  "_index": 32,
+  "type": "TOPDOWN",
+  "name": "[POWER OFF]",
+  "symbol": "scene_power_off_",
+  "x": 1289.9056231782754,
+  "y": 533,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "85e39429-9954-4e3a-91d5-2d14d7a85ce5",
+  "tilesetId": "",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "script": [
+    {
+      "id": "346e6c61-f8a7-49e6-b926-ca37ba34925d",
+      "command": "EVENT_COMMENT",
+      "args": {
+        "text": "Power off"
+      }
+    },
+    {
+      "id": "b11c5320-0ef8-49f2-b692-8fe97a45e167",
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      }
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": ""
+}

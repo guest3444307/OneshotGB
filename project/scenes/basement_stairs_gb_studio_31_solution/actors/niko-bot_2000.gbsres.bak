@@ -1,0 +1,256 @@
+{
+  "_resourceType": "actor",
+  "id": "b4641182-601b-4b91-bf15-b151c784ca82",
+  "_index": 2,
+  "symbol": "actor_62",
+  "prefabId": "",
+  "name": "Niko-Bot 2000",
+  "x": 13,
+  "y": 10,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "00b96895-e4c9-45de-927a-917dd58dd8f8",
+  "paletteId": "",
+  "direction": "right",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "isPinned": false,
+  "persistent": true,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [],
+  "startScript": [
+    {
+      "command": "EVENT_CAMERA_MOVE_TO",
+      "args": {
+        "x": {
+          "type": "number",
+          "value": 4
+        },
+        "y": {
+          "type": "number",
+          "value": 2
+        },
+        "speed": 0,
+        "__comment": true
+      },
+      "id": "49f56963-70a7-4da1-9642-394024e05517"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "36",
+        "value": {
+          "type": "number",
+          "value": 10
+        },
+        "__comment": true
+      },
+      "id": "c3017062-a8a0-4cf1-b4ce-eb1b7d35e1b8"
+    }
+  ],
+  "updateScript": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "33",
+        "value": {
+          "type": "property",
+          "target": "undefined",
+          "property": "xpos"
+        }
+      },
+      "id": "b0d5492d-f4d8-4cd4-a786-6066a439ae0f"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "34",
+        "value": {
+          "type": "property",
+          "target": "undefined",
+          "property": "xpos"
+        }
+      },
+      "id": "4e77cb17-9c7c-4ec2-a551-0d7da5d45fc0"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "L2",
+        "value": {
+          "type": "property",
+          "target": "undefined",
+          "property": "xpos"
+        }
+      },
+      "id": "2e101747-00b2-4b02-a053-4c58d43c65e3"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "L3",
+        "value": {
+          "type": "property",
+          "target": "undefined",
+          "property": "ypos"
+        }
+      },
+      "id": "5c6a6f23-1f64-4f6d-87fd-00765753469c"
+    },
+    {
+      "command": "EVENT_VARIABLE_MATH_EVALUATE",
+      "args": {
+        "variable": "L0",
+        "expression": "$L2$ - 10"
+      },
+      "id": "a6930925-1fcd-4a71-ab98-e76a1a898221"
+    },
+    {
+      "command": "EVENT_VARIABLE_MATH_EVALUATE",
+      "args": {
+        "variable": "L1",
+        "expression": "$L3$ - 8"
+      },
+      "id": "be94d0fb-eefb-40e2-9853-b6a29c90a586"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "34",
+        "value": {
+          "type": "property",
+          "target": "undefined",
+          "property": "ypos"
+        },
+        "__collapse": true,
+        "__comment": true
+      },
+      "id": "bf3fe02b-7b6b-460a-b15a-b433a0a6293e"
+    },
+    {
+      "command": "EVENT_GBVM_SCRIPT",
+      "args": {
+        "script": "VM_UNLOCK",
+        "__comment": true
+      },
+      "id": "3150ba33-a94c-4591-9db3-157506f95d86"
+    },
+    {
+      "command": "EVENT_CAMERA_MOVE_TO",
+      "args": {
+        "x": {
+          "type": "variable",
+          "value": "L0"
+        },
+        "y": {
+          "type": "variable",
+          "value": "L1"
+        },
+        "speed": 1,
+        "__comment": true
+      },
+      "id": "b547c242-5db3-4073-87ae-d72fe7415c8b"
+    },
+    {
+      "command": "EVENT_IF_EXPRESSION",
+      "args": {
+        "expression": "$33$ >= 15",
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_VARIABLE_MATH_EVALUATE",
+            "args": {
+              "variable": "36",
+              "expression": "10 + ($33$ - 14)"
+            },
+            "id": "3158618d-3bb6-4f68-8797-bcff745d990a"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "36",
+              "value": {
+                "type": "number",
+                "value": 10
+              }
+            },
+            "id": "dc26ef49-4593-4fa8-b478-08ad8886c706"
+          }
+        ]
+      },
+      "id": "b048f3a6-809e-4677-ad15-f6318da8319c"
+    },
+    {
+      "command": "EVENT_GBVM_SCRIPT",
+      "args": {
+        "script": "VM_UNLOCK"
+      },
+      "id": "ecc028e1-b899-49ca-9c8c-90d80f4391af"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "property",
+          "target": "player",
+          "property": "xpos"
+        },
+        "y": {
+          "type": "variable",
+          "value": "36"
+        },
+        "moveType": "diagonal",
+        "useCollisions": false,
+        "__collapse": false
+      },
+      "id": "9599673b-a60e-4460-9f3d-6d28f439c4b2"
+    },
+    {
+      "command": "EVENT_GBVM_SCRIPT",
+      "args": {
+        "script": "VM_UNLOCK"
+      },
+      "id": "54b9fa22-29a4-4508-89db-bb940efb42bf"
+    },
+    {
+      "command": "EVENT_CAMERA_MOVE_TO",
+      "args": {
+        "x": {
+          "type": "variable",
+          "value": "L0"
+        },
+        "y": {
+          "type": "variable",
+          "value": "L1"
+        },
+        "speed": 0,
+        "__comment": false
+      },
+      "id": "136978c5-449e-4184-8a2a-66464b7fab3b"
+    },
+    {
+      "command": "EVENT_GBVM_SCRIPT",
+      "args": {
+        "script": "VM_UNLOCK"
+      },
+      "id": "6c1f14f8-960f-4c43-96bf-b3ad41333618"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 1
+      },
+      "id": "897b5f31-afa8-40f0-86ea-b9af01bebeb9"
+    }
+  ],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

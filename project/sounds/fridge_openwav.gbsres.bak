@@ -1,0 +1,8 @@
+{
+  "_resourceType": "sound",
+  "id": "1faa9dee-cf67-4819-afe7-0356f69b316f",
+  "name": "fridge_open.wav",
+  "symbol": "sound_fridge_open_wav",
+  "filename": "fridge_open.wav",
+  "type": "wav"
+}

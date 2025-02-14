@@ -1,0 +1,38 @@
+{
+  "_resourceType": "actor",
+  "id": "931a022c-76bb-4d93-be46-b1a8e664932c",
+  "_index": 1,
+  "symbol": "actor_39",
+  "prefabId": "",
+  "name": "",
+  "x": 10,
+  "y": 8,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "5012b671-42b2-46c4-b8ff-870d807a57a6",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "[A pair of \nluminous, yellow \neyes stares back \nat Niko.]"
+        ],
+        "avatarId": ""
+      },
+      "id": "72c4e3ca-12f8-4a89-bbaf-bb506dc1b865"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

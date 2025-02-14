@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "1456b057-a06b-44cf-afe6-f0000a1174ca",
+  "name": "New folder/WIP/Bathroom",
+  "symbol": "bg_new_folder_wip_bathroom",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "New folder/WIP/Bathroom.png",
+  "tileColors": "00168+",
+  "autoColor": false
+}

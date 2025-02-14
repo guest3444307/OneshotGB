@@ -1,0 +1,48 @@
+{
+  "_resourceType": "actor",
+  "id": "6fc4c8ab-82dc-47d6-96ca-978827ba4315",
+  "_index": 2,
+  "symbol": "actor_9",
+  "prefabId": "",
+  "name": "",
+  "x": 10,
+  "y": 8,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "5012b671-42b2-46c4-b8ff-870d807a57a6",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 255,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "id": "6e1b0481-49c7-4c82-a086-c0b3921b02b2",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "[A Carpet Is on\nthe wall]"
+        ],
+        "avatarId": ""
+      }
+    },
+    {
+      "id": "10388b4e-cc6e-434b-80d3-67fe0ce71954",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "?"
+        ],
+        "avatarId": "5515b780-b54b-4621-9de5-f4911e37f9d4"
+      }
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

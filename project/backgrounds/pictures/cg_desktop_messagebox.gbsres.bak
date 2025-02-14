@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "f4961e2e-2d5a-468f-a441-bc11cd86a982",
+  "name": "Pictures/cg_desktop_messagebox",
+  "symbol": "bg_pictures_cg_desktop_mess",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "Pictures/cg_desktop_messagebox.png",
+  "tileColors": "",
+  "autoColor": false
+}

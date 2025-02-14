@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "d5b982c1-2847-4873-996b-baf2a66487a4",
+  "name": "Barrens/DocksGB",
+  "symbol": "bg_barrens_docksgb",
+  "width": 63,
+  "height": 80,
+  "imageWidth": 504,
+  "imageHeight": 640,
+  "filename": "Barrens/DocksGB.png",
+  "tileColors": "",
+  "autoColor": false
+}

@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "505ceb9e-30a9-4462-ac12-cadd1e96a812",
+  "name": "Start_dark",
+  "symbol": "bg_start_dark",
+  "width": 24,
+  "height": 21,
+  "imageWidth": 192,
+  "imageHeight": 168,
+  "filename": "Start_dark.png",
+  "tileColors": "",
+  "autoColor": false
+}

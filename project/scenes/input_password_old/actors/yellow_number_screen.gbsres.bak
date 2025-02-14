@@ -1,0 +1,87 @@
+{
+  "_resourceType": "actor",
+  "id": "76ca3f39-6062-4b18-aac2-555a34494407",
+  "_index": 3,
+  "symbol": "actor_yellow_number_screen",
+  "prefabId": "",
+  "name": "Yellow Number Screen",
+  "x": 11,
+  "y": 5,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "99b299f5-75c2-4cd4-b47d-1b243af1d535",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "id": "62c14cbd-e02d-4c67-8e94-a61f620060b3",
+      "command": "EVENT_IF",
+      "args": {
+        "vectorX": "20",
+        "operator": "!=",
+        "vectorY": "12",
+        "__collapseElse": false,
+        "condition": {
+          "type": "ne",
+          "valueA": {
+            "type": "variable",
+            "value": "20"
+          },
+          "valueB": {
+            "type": "variable",
+            "value": "12"
+          }
+        }
+      },
+      "children": {
+        "true": [
+          {
+            "id": "305be4c5-a37c-411b-876f-42086fb9892d",
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "16",
+              "value": {
+                "type": "false"
+              }
+            }
+          },
+          {
+            "id": "b76f2c72-15d9-4a42-812f-4b21bce8a662",
+            "command": "EVENT_ACTOR_SET_FRAME",
+            "args": {
+              "actorId": "$self$",
+              "frame": {
+                "type": "variable",
+                "value": "20"
+              }
+            }
+          }
+        ],
+        "false": [
+          {
+            "id": "074f2d4c-ff6b-40c9-8c7e-0767dac1aa4c",
+            "command": "EVENT_ACTOR_SET_FRAME",
+            "args": {
+              "actorId": "$self$",
+              "frame": {
+                "type": "variable",
+                "value": "20"
+              }
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

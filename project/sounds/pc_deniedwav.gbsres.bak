@@ -1,0 +1,8 @@
+{
+  "_resourceType": "sound",
+  "id": "608807f9-2760-4af5-9434-6b0b63e06de4",
+  "name": "pc_denied.wav",
+  "symbol": "sound_pc_denied_wav",
+  "filename": "pc_denied.wav",
+  "type": "wav"
+}

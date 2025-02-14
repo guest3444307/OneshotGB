@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "5a31bfb8-4a81-4319-a5d7-5cb0aa1bc7cc",
+  "_index": 28,
+  "type": "TOPDOWN",
+  "name": "DEV ROOM 2",
+  "symbol": "scene_dev_room_2",
+  "x": 1087.3213144866627,
+  "y": 35.75115255559541,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "3be7a1d1-dcb3-40c2-912e-c46d2bb55338",
+  "tilesetId": "",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": ""
+}

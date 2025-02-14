@@ -1,0 +1,89 @@
+{
+  "_resourceType": "scene",
+  "id": "fd8247a8-0265-4bbc-aecc-65ecae869645",
+  "_index": 42,
+  "type": "TOPDOWN",
+  "name": "b5 gbc",
+  "symbol": "scene_b5_gbc",
+  "x": 1833.2105680596892,
+  "y": 1220.3428431919644,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "88df0a34-65c4-4d5c-a652-4d6aed5bcd52",
+  "tilesetId": "",
+  "paletteIds": [
+    "a30e4af9-5b7d-4d41-b3b0-0da9fb5efd88",
+    "cae70412-f6ef-43f7-9a02-6a1ed594424e",
+    "2cebc764-7591-45a1-b8fc-92ec0e0cd19d",
+    "9756ac2a-018e-4dd8-af4f-b94cc5ad9ebd",
+    "106f4fdd-b844-4094-8faf-bc4318e4fb65",
+    "4c24ef0f-45b2-49f2-8411-2c5112ce66c6"
+  ],
+  "spritePaletteIds": [
+    "",
+    "db49da66-75a4-44ba-af31-b9a41022131c",
+    "d1210d6f-2a2b-4906-a761-403bbd6338bd"
+  ],
+  "autoFadeSpeed": 1,
+  "script": [
+    {
+      "id": "05f5bbd3-aa2a-4a7d-8df5-58582e4c1b0e",
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "start"
+        ],
+        "persist": false,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": []
+      }
+    },
+    {
+      "id": "43669aeb-402b-43ef-bf46-d700cbf30f15",
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "persist": false,
+        "__scriptTabs": "press",
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "id": "4ea7682a-61f7-454a-9d31-f72b295cfbed",
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "59664869-4a75-4b88-9fc4-ec60d82f11c2",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": "1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "70e5a233-ba7d-4cbf-a092-b3dcde83c9a6",
+      "command": "EVENT_PLAYER_SET_SPRITE",
+      "args": {
+        "spriteSheetId": "b166b6fa-9418-4943-9572-637dcde6b42f",
+        "persist": false
+      }
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": ""
+}

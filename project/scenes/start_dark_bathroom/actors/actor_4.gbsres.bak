@@ -1,0 +1,38 @@
+{
+  "_resourceType": "actor",
+  "id": "7185dbf4-068b-4908-8438-01f4428a7261",
+  "_index": 3,
+  "symbol": "actor_10",
+  "prefabId": "",
+  "name": "",
+  "x": 8,
+  "y": 8,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "5012b671-42b2-46c4-b8ff-870d807a57a6",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 255,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "id": "69360699-ae4e-4f29-89bb-f375173a682a",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "[There's no water\nin the toilet.]"
+        ],
+        "avatarId": ""
+      }
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

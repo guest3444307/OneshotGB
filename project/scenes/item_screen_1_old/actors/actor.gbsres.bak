@@ -1,0 +1,179 @@
+{
+  "_resourceType": "actor",
+  "id": "cfb149a7-275a-45be-afd9-4299f256d46c",
+  "_index": 4,
+  "symbol": "actor_6",
+  "prefabId": "",
+  "name": "",
+  "x": 3,
+  "y": 8,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "11b5452b-187c-43a3-afb1-a1f4f74ffda2",
+  "paletteId": "",
+  "direction": "up",
+  "moveSpeed": 1,
+  "animSpeed": 255,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [],
+  "startScript": [
+    {
+      "id": "cdbcf3fc-73a4-4b52-a946-71ad92534b85",
+      "command": "EVENT_SET_TIMER_SCRIPT",
+      "args": {
+        "duration": 0.25,
+        "__scriptTabs": "end",
+        "__collapse": true,
+        "__comment": true,
+        "timer": 1
+      },
+      "children": {
+        "script": [
+          {
+            "id": "75d7c7d2-540b-492c-a0d2-d774b4d1f890",
+            "command": "EVENT_TIMER_RESTART",
+            "args": {
+              "__collapse": true,
+              "timer": 1
+            }
+          },
+          {
+            "id": "a04db96b-47a3-4e2b-babe-c313a28c1812",
+            "command": "EVENT_TIMER_DISABLE",
+            "args": {
+              "timer": 1
+            }
+          },
+          {
+            "id": "41f32d28-b4b9-49c5-8c93-4e4d87010ea9",
+            "command": "EVENT_SET_TIMER_SCRIPT",
+            "args": {
+              "duration": 0.5,
+              "__scriptTabs": "end",
+              "__collapse": false,
+              "timer": 1
+            },
+            "children": {
+              "script": [
+                {
+                  "id": "2ceeb011-950c-4255-b52d-ad167cfb8354",
+                  "command": "EVENT_ACTOR_SET_POSITION_RELATIVE",
+                  "args": {
+                    "actorId": "$self$",
+                    "x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": -1
+                    },
+                    "__collapse": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "a8d948e8-ea2d-432e-9060-0319254b5d41",
+            "command": "EVENT_SET_TIMER_SCRIPT",
+            "args": {
+              "duration": 0.5,
+              "__scriptTabs": "end",
+              "__collapse": true,
+              "timer": 1
+            },
+            "children": {
+              "script": [
+                {
+                  "id": "19643caf-2c41-4a28-bc51-832cd9836aa3",
+                  "command": "EVENT_ACTOR_SET_POSITION_RELATIVE",
+                  "args": {
+                    "actorId": "$self$",
+                    "x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 1
+                    },
+                    "__collapse": true
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "updateScript": [
+    {
+      "id": "3fd4a504-c710-4b61-b50a-31a35e7c2c5e",
+      "command": "EVENT_ACTOR_SET_DIRECTION",
+      "args": {
+        "actorId": "$self$",
+        "direction": {
+          "type": "direction",
+          "value": "up"
+        },
+        "__collapse": true
+      }
+    },
+    {
+      "id": "51a8e81b-6637-4998-952c-737e9020a15a",
+      "command": "EVENT_ACTOR_SET_POSITION_RELATIVE",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": -1
+        },
+        "__collapse": true
+      }
+    },
+    {
+      "id": "0c642544-eb92-4531-9743-a929f765d2bb",
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 0.5,
+        "__collapse": true
+      }
+    },
+    {
+      "id": "fb389e5e-bdaf-4fec-8ea6-6635325903aa",
+      "command": "EVENT_ACTOR_SET_POSITION_RELATIVE",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 1
+        },
+        "__collapse": true
+      }
+    },
+    {
+      "id": "cb73ed4e-4316-42b5-9fd9-1ec190e07187",
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 0.5,
+        "__collapse": true
+      }
+    }
+  ],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

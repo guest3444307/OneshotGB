@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "31f4af77-e228-46d8-9507-faebdaf4cd78",
+  "name": "bathroomnew",
+  "symbol": "bg_bathroomnew",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "bathroomnew.png",
+  "tileColors": "00168+",
+  "autoColor": false
+}

@@ -1,0 +1,215 @@
+{
+  "_resourceType": "scene",
+  "id": "f939d6e9-ac83-468e-8c51-0215c00cf67e",
+  "_index": 47,
+  "type": "TOPDOWN",
+  "name": "b0-2 GBC",
+  "symbol": "scene_b0_2_gbc",
+  "x": 1840,
+  "y": 1048,
+  "width": 60,
+  "height": 18,
+  "backgroundId": "e12a5e5a-d525-4315-955e-b6b8fc925799",
+  "tilesetId": "",
+  "paletteIds": [
+    "a30e4af9-5b7d-4d41-b3b0-0da9fb5efd88",
+    "9595e57e-a3d3-447d-b1de-846ee3574d06",
+    "cae70412-f6ef-43f7-9a02-6a1ed594424e",
+    "6ee68782-0284-4c13-9e81-9e267b066ba6",
+    "2ca33f5c-5bf8-4c15-9898-e4a8e7b14fb0",
+    "d7f7c476-4641-4b1d-9ffb-590a8c604425",
+    "adfa5686-a1d4-4111-8714-f95040a5bed0",
+    "6ab3c3e4-3569-4ee3-a139-52e413bfc000"
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "d7f443b9-bb4e-462e-86fd-32ba13ee4e1a"
+    },
+    {
+      "id": "6cf3267a-16d4-428d-bcb7-5d20ea4232f2",
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "start"
+        ],
+        "persist": false,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": []
+      }
+    },
+    {
+      "id": "74bf720f-8a23-4ba3-9253-41e18ac94c07",
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "persist": false,
+        "__scriptTabs": "press",
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "id": "797d759f-dcd9-49df-b468-5f43eec88ba9",
+            "command": "EVENT_IF",
+            "args": {
+              "variable": "L0",
+              "operator": "==",
+              "comparator": "0",
+              "__collapseElse": false,
+              "__collapse": false,
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "L0"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 0
+                }
+              }
+            },
+            "children": {
+              "true": [
+                {
+                  "id": "736fd168-9024-4ffa-927d-8cd4e059e946",
+                  "command": "EVENT_CAMERA_MOVE_TO",
+                  "args": {
+                    "x": {
+                      "type": "number",
+                      "value": 20
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "speed": 0
+                  }
+                },
+                {
+                  "id": "4e789925-091c-47fb-9606-0068275bbfca",
+                  "command": "EVENT_INC_VALUE",
+                  "args": {
+                    "variable": "L0"
+                  }
+                },
+                {
+                  "id": "ed2e5d60-4f39-41d6-b0ca-fa4d843a517a",
+                  "command": "EVENT_WAIT",
+                  "args": {
+                    "time": 0.5
+                  }
+                }
+              ],
+              "false": [
+                {
+                  "id": "11e7a74a-469d-4ac9-be25-f2bc181c2104",
+                  "command": "EVENT_IF",
+                  "args": {
+                    "variable": "L0",
+                    "operator": "==",
+                    "comparator": 1,
+                    "__collapseElse": false,
+                    "condition": {
+                      "type": "eq",
+                      "valueA": {
+                        "type": "variable",
+                        "value": "L0"
+                      },
+                      "valueB": {
+                        "type": "number",
+                        "value": 1
+                      }
+                    }
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "id": "4be310a9-872c-47bf-a279-b8c532d112e4",
+                        "command": "EVENT_CAMERA_MOVE_TO",
+                        "args": {
+                          "x": {
+                            "type": "number",
+                            "value": 40
+                          },
+                          "y": {
+                            "type": "number",
+                            "value": 0
+                          },
+                          "speed": 0
+                        }
+                      },
+                      {
+                        "id": "c99f8ac9-0073-4e22-ac6c-700f7651cc04",
+                        "command": "EVENT_INC_VALUE",
+                        "args": {
+                          "variable": "L0"
+                        }
+                      },
+                      {
+                        "id": "36311710-1821-4ae2-97f8-4e6627124604",
+                        "command": "EVENT_WAIT",
+                        "args": {
+                          "time": 0.5
+                        }
+                      }
+                    ],
+                    "false": [
+                      {
+                        "id": "d491b58f-c493-4008-8f0b-4ef18b4bde5c",
+                        "command": "EVENT_SWITCH_SCENE",
+                        "args": {
+                          "sceneId": "85fbfff5-cd79-4bbb-a4c5-9487753b8d33",
+                          "x": {
+                            "type": "number",
+                            "value": 0
+                          },
+                          "y": {
+                            "type": "number",
+                            "value": 0
+                          },
+                          "direction": "",
+                          "fadeSpeed": "1",
+                          "__collapse": false
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "d0a89dce-ce68-47f0-8f8f-1ee8264a9ee2",
+                  "command": "EVENT_CAMERA_MOVE_TO",
+                  "args": {
+                    "x": {
+                      "type": "number",
+                      "value": 40
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "speed": 0
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "00438+"
+}

@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "524a7f66-234c-4f89-8442-355563a430af",
+  "name": "Pictures/b3 GB alt",
+  "symbol": "bg_pictures_b3_gb_alt",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "Pictures/b3 GB alt.png",
+  "tileColors": "004+026+00c+018+00c+013+0012+012+0011+012+0012+012+0011+012+0011+03!013+0010+03!013+03!006+03!013+00!03!003+03!013+03!005+016+004+03!013+005+017+004+014+005+017+004+014+005+017+00a+03!002+016+0041+01!0013+",
+  "autoColor": false
+}

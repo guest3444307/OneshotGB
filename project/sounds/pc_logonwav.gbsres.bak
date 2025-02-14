@@ -1,0 +1,8 @@
+{
+  "_resourceType": "sound",
+  "id": "5e539246-bc42-4388-b070-8aeb5d5dc5be",
+  "name": "pc_logon.wav",
+  "symbol": "sound_pc_logon_wav",
+  "filename": "pc_logon.wav",
+  "type": "wav"
+}

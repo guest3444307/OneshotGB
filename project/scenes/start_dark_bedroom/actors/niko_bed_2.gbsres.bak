@@ -1,0 +1,48 @@
+{
+  "_resourceType": "actor",
+  "id": "8eeadd53-0c30-4360-960d-8fcdb8cd090f",
+  "_index": 0,
+  "symbol": "actor_niko_bed_2",
+  "prefabId": "",
+  "name": "Niko Bed 2",
+  "x": 14,
+  "y": 18,
+  "frame": 1,
+  "animate": false,
+  "spriteSheetId": "5277a19e-1260-4c10-a80a-2f67db5b9e90",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 255,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "id": "1d991f90-2b65-4652-b5e7-d1667d8d9bb8",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "[Niko just woke up\nhere.]"
+        ],
+        "avatarId": ""
+      }
+    }
+  ],
+  "startScript": [
+    {
+      "id": "1950f00f-451e-4e52-8acd-b9d09ed2598d",
+      "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": false,
+        "__comment": false
+      }
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

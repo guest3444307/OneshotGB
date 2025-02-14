@@ -5,7 +5,7 @@ Also served as me trying out git bash (and failing)
 The main branch is where the 2.0.0 demo is currently being worked on
 
 # Credits:
-XXOs: I edited their cover of My Burden is Light https://musescore.com/user/28404833/scores/7453154
+<a href="https://chromonym.neocities.org/">Cyan</a>: I edited their cover of My Burden is Light https://musescore.com/user/28404833/scores/7453154
 
 # Update format
 

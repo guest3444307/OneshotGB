@@ -1,0 +1,84 @@
+{
+  "_resourceType": "scene",
+  "id": "dddb1e75-2378-43e4-82cf-194ddfdce7e1",
+  "_index": 24,
+  "type": "TOPDOWN",
+  "name": "b6",
+  "symbol": "scene_b6",
+  "x": 1826.5672970278804,
+  "y": 869.8921178305982,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "4a858735-0f8d-4685-bbbd-4f3fad16a78e",
+  "tilesetId": "",
+  "paletteIds": [
+    "7ee9da1b-0ed6-4ee9-bf10-31c680558320",
+    "9595e57e-a3d3-447d-b1de-846ee3574d06",
+    "932f9a8b-af6d-4d6d-ad3a-7c7125599ce1",
+    "4c24ef0f-45b2-49f2-8411-2c5112ce66c6"
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "script": [
+    {
+      "id": "f39fb21a-981a-48f8-a0b7-310697288e53",
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "start"
+        ],
+        "persist": false,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": []
+      }
+    },
+    {
+      "id": "051cb805-9a34-4e7c-b3f9-ec703c552013",
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "persist": false,
+        "__scriptTabs": "press",
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "id": "c5fb8a4f-3752-475d-8e5a-d28c1dec6f42",
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "c7b27412-4edb-42cb-b21b-420d17aee4ca",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": "1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "c0cbe352-fe52-4ff0-879b-ee856b028154",
+      "command": "EVENT_PLAYER_SET_SPRITE",
+      "args": {
+        "spriteSheetId": "b166b6fa-9418-4943-9572-637dcde6b42f",
+        "persist": false,
+        "__collapse": true
+      }
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": ""
+}

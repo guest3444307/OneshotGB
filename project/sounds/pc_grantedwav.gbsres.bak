@@ -1,0 +1,8 @@
+{
+  "_resourceType": "sound",
+  "id": "5661c6a9-88ec-4408-8ba1-db86438f36d0",
+  "name": "pc_granted.wav",
+  "symbol": "sound_pc_granted_wav",
+  "filename": "pc_granted.wav",
+  "type": "wav"
+}

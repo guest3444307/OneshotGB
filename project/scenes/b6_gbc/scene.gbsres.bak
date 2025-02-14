@@ -1,0 +1,90 @@
+{
+  "_resourceType": "scene",
+  "id": "59664869-4a75-4b88-9fc4-ec60d82f11c2",
+  "_index": 43,
+  "type": "TOPDOWN",
+  "name": "b6 gbc",
+  "symbol": "scene_b6_gbc",
+  "x": 2005.3785574776784,
+  "y": 1219.2714146205358,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "f83e7e71-8b34-4f4d-87af-e283711560e4",
+  "tilesetId": "",
+  "paletteIds": [
+    "a30e4af9-5b7d-4d41-b3b0-0da9fb5efd88",
+    "cae70412-f6ef-43f7-9a02-6a1ed594424e",
+    "932f9a8b-af6d-4d6d-ad3a-7c7125599ce1",
+    "11105b01-b499-45c5-91d5-a4b93792935b",
+    "521b2b88-3c84-4558-b0fd-6f6820a1e4ff",
+    "6ab3c3e4-3569-4ee3-a139-52e413bfc000",
+    "2cebc764-7591-45a1-b8fc-92ec0e0cd19d",
+    "9756ac2a-018e-4dd8-af4f-b94cc5ad9ebd"
+  ],
+  "spritePaletteIds": [
+    "4131e65d-0bf8-462d-b69a-c25430fdd18a"
+  ],
+  "autoFadeSpeed": 1,
+  "script": [
+    {
+      "id": "9229031f-cf01-4d84-9b05-02620ec3b2a3",
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "start"
+        ],
+        "persist": false,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": []
+      }
+    },
+    {
+      "id": "2949930a-d4a3-446c-93a8-71e80a7d2bf9",
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "persist": false,
+        "__scriptTabs": "press",
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "id": "7dcbe476-2665-4610-ae4c-ddf86aec15a1",
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "cdac2dee-52fc-4342-ad75-414cbda9d38c",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": "1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "9fd52c09-823d-4974-9028-98ea674e5327",
+      "command": "EVENT_PLAYER_SET_SPRITE",
+      "args": {
+        "spriteSheetId": "b166b6fa-9418-4943-9572-637dcde6b42f",
+        "persist": false,
+        "__collapse": true
+      }
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": ""
+}

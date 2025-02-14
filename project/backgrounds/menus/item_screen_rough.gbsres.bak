@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "a844d98e-6f6b-447f-98f6-35decd96fabd",
+  "name": "Menus/Item Screen Rough",
+  "symbol": "bg_menus_item_screen_rough",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "Menus/Item Screen Rough.png",
+  "tileColors": "",
+  "autoColor": false
+}

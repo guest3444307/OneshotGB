@@ -1,0 +1,39 @@
+{
+  "_resourceType": "actor",
+  "id": "baa4796a-0364-4fbb-b7e4-012d66cb2966",
+  "_index": 5,
+  "symbol": "actor_20",
+  "prefabId": "",
+  "name": "",
+  "x": 14,
+  "y": 15,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "a2f0897c-d935-4bbf-bbda-b80ad8164edb",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "id": "146fff34-c32c-4fd0-8fc0-6235fe29d341",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "GAME VERSION 2.0.0\nDEV ROOM FOR \nSTART AREA",
+          "ROOM CREATED IN\nVERSION 1.0.0"
+        ],
+        "avatarId": ""
+      }
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}
