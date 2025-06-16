@@ -1,12 +1,13 @@
 {
   "_resourceType": "settings",
-  "worldScrollX": 470.3999938964844,
-  "worldScrollY": 778.4000244140625,
-  "zoom": 212.5,
+  "worldScrollX": 204.8000030517578,
+  "worldScrollY": 698.4000244140625,
+  "zoom": 487.5,
   "navigatorSplitSizes": [
+    652,
     30,
-    205,
-    506
+    30,
+    30
   ],
   "showNavigator": true,
   "showCollisions": true,
@@ -22,7 +23,7 @@
     "EVENT_IF_COLOR_SUPPORTED",
     "EVENT_IF_EXPRESSION"
   ],
-  "debuggerEnabled": false,
+  "debuggerEnabled": true,
   "debuggerScriptType": "editor",
   "debuggerVariablesFilter": "all",
   "debuggerCollapsedPanes": [],

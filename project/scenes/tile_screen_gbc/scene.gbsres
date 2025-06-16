@@ -9,20 +9,20 @@
   "y": 31.684210526315788,
   "width": 20,
   "height": 18,
-  "backgroundId": "64fd8017-eb42-4165-84bc-0788d9861f30",
+  "backgroundId": "5154bdfa-af2f-4730-a005-1dca2a375008",
   "tilesetId": "",
   "paletteIds": [
-    "9fa73d7f-a771-413e-afb8-0581ba434a86",
-    "1d3f8cca-354f-4ee3-9aac-97dd40eb82e4",
-    "3cbf6f1f-3283-4177-81f9-d7c282e7be00",
-    "05e3093b-9f8f-473c-bae1-83361d4d3125",
-    "ad9a8671-b9eb-47c4-a8b0-359e03b4f036",
-    "80663678-4c19-4021-92d4-3d6110f100a3",
-    "e0934bf6-55ab-4986-8a67-bbf5bf0aebe1",
-    "3d216cad-0e83-47a5-84e5-c2d5accf4849"
+    "2c6c63ff-92e0-4074-8403-8fdd55b75a12",
+    "652eb8bd-419e-4647-8b0b-c74d0236dd38",
+    "24c19a1e-d3a1-47ac-9f5a-cc759b1c85c6",
+    "a9de5776-30b0-4bac-a55b-84bbdd38efb6",
+    "31ddeb42-bd77-4850-9185-8b9ad18ef1da",
+    "409633b6-6d3a-452c-8d20-323f55222b78",
+    "46295608-4d1f-46fa-a13f-9c18c07de8bd",
+    "546898d2-bd53-4171-b595-cd87883eb0a4"
   ],
   "spritePaletteIds": [
-    "377ccd3a-3d9e-4ba4-b6ba-9ed2a3b7c723",
+    "2fd475af-d8ae-46b2-ba81-05508532d320",
     "",
     "",
     "3d216cad-0e83-47a5-84e5-c2d5accf4849"
