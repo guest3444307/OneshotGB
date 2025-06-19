@@ -24,7 +24,7 @@
       "args": {
         "variable": "2",
         "__collapseElse": true,
-        "__collapse": false,
+        "__collapse": true,
         "condition": {
           "type": "eq",
           "valueA": {
@@ -416,7 +416,7 @@
       "args": {
         "customEventId": "871e135c-43db-4533-86fd-394ae9113d0b",
         "__name": "Menu (start button) before exit",
-        "__collapse": true,
+        "__collapse": false,
         "__comment": false,
         "$variable[V1]$": {
           "type": "variable",
@@ -601,7 +601,7 @@
       "args": {
         "actorId": "$self$",
         "speed": 1,
-        "__collapse": true
+        "__collapse": false
       },
       "id": "951297bf-96cf-47fd-8bbb-a5b1220aa4c9"
     },
@@ -609,7 +609,8 @@
       "command": "EVENT_MUSIC_PLAY",
       "args": {
         "musicId": "14d8b1bf-a14d-48e2-a204-529b8625a8c5",
-        "__comment": true
+        "__comment": true,
+        "__collapse": true
       },
       "id": "d2b35d44-e63f-406d-90fe-b9f9ead932af"
     }
