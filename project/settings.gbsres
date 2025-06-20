@@ -59,7 +59,7 @@
   "customControlsSelect": [],
   "colorMode": "mixed",
   "generateDebugFilesEnabled": false,
-  "compilerPreset": 100000,
+  "compilerPreset": 1000,
   "scriptEventPresets": {},
   "scriptEventDefaultPresets": {}
 }

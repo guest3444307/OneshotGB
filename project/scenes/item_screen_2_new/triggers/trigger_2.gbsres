@@ -51,7 +51,7 @@
         "operator": "==",
         "comparator": 2,
         "__collapseElse": true,
-        "__collapse": false,
+        "__collapse": true,
         "condition": {
           "type": "eq",
           "valueA": {
