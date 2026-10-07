@@ -5,6 +5,7 @@
   "symbol": "actor_52",
   "prefabId": "",
   "name": "Comments",
+  "coordinateType": "tiles",
   "x": 4,
   "y": 4,
   "frame": 0,
@@ -17,6 +18,7 @@
   "isPinned": false,
   "persistent": false,
   "collisionGroup": "",
+  "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
   "script": [
     {
@@ -52,14 +54,25 @@
                 "value": -1
               },
               "moveType": "diagonal",
-              "useCollisions": true
+              "useCollisions": true,
+              "collideWith": [
+                "walls",
+                "actors"
+              ]
             },
             "id": "0df42c46-f282-4b8e-b42b-63072a9627f1"
           },
           {
             "command": "EVENT_WAIT",
             "args": {
-              "time": 0.1
+              "time": {
+                "type": "number",
+                "value": 0.1
+              },
+              "frames": {
+                "type": "number",
+                "value": 30
+              }
             },
             "id": "0949c3e5-ecea-4a1b-ab05-492b64485df1"
           }

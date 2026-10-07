@@ -5,6 +5,7 @@
   "symbol": "actor_red_number_screen",
   "prefabId": "",
   "name": "Red Number Screen",
+  "coordinateType": "tiles",
   "x": 9,
   "y": 5,
   "frame": 0,
@@ -17,6 +18,7 @@
   "isPinned": false,
   "persistent": false,
   "collisionGroup": "",
+  "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
   "script": [
     {

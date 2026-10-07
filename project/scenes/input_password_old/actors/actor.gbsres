@@ -5,6 +5,7 @@
   "symbol": "actor_12",
   "prefabId": "",
   "name": "",
+  "coordinateType": "tiles",
   "x": 17,
   "y": 10,
   "frame": 0,
@@ -17,6 +18,7 @@
   "isPinned": false,
   "persistent": false,
   "collisionGroup": "",
+  "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
   "script": [
     {
@@ -300,7 +302,14 @@
       "id": "7b6faf50-f7c2-4b83-bf51-5c72b39d5597",
       "command": "EVENT_WAIT",
       "args": {
-        "time": 1
+        "time": {
+          "type": "number",
+          "value": 1
+        },
+        "frames": {
+          "type": "number",
+          "value": 30
+        }
       }
     },
     {
@@ -318,7 +327,14 @@
       "id": "d7fe1125-9650-41e9-a3f8-b3a71f23ce01",
       "command": "EVENT_WAIT",
       "args": {
-        "time": 1
+        "time": {
+          "type": "number",
+          "value": 1
+        },
+        "frames": {
+          "type": "number",
+          "value": 30
+        }
       }
     },
     {
@@ -336,7 +352,14 @@
       "id": "07603f33-e94a-459c-bac7-afc00550e6ff",
       "command": "EVENT_WAIT",
       "args": {
-        "time": 1
+        "time": {
+          "type": "number",
+          "value": 1
+        },
+        "frames": {
+          "type": "number",
+          "value": 30
+        }
       }
     },
     {
@@ -354,7 +377,14 @@
       "id": "9000b309-7e08-463a-b780-3a0755f2cc95",
       "command": "EVENT_WAIT",
       "args": {
-        "time": 1
+        "time": {
+          "type": "number",
+          "value": 1
+        },
+        "frames": {
+          "type": "number",
+          "value": 30
+        }
       }
     }
   ],

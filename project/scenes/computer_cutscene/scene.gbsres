@@ -11,6 +11,7 @@
   "height": 18,
   "backgroundId": "d4fa3a86-e8d8-4656-bbfb-04d73d37918a",
   "tilesetId": "",
+  "colorModeOverride": "none",
   "paletteIds": [
     "434311dc-110e-43d0-9483-4a56e90ab082"
   ],
@@ -72,8 +73,15 @@
       "id": "0e60859f-a4fd-4ab7-bcd3-3f43e755bfe3",
       "command": "EVENT_WAIT",
       "args": {
-        "time": 0.167,
-        "__collapse": true
+        "time": {
+          "type": "number",
+          "value": 0.167
+        },
+        "__collapse": true,
+        "frames": {
+          "type": "number",
+          "value": 30
+        }
       }
     },
     {
@@ -160,7 +168,14 @@
                   "id": "04920665-a054-4433-8814-b66e071e99cb",
                   "command": "EVENT_WAIT",
                   "args": {
-                    "time": 0.3
+                    "time": {
+                      "type": "number",
+                      "value": 0.3
+                    },
+                    "frames": {
+                      "type": "number",
+                      "value": 30
+                    }
                   }
                 },
                 {
@@ -242,7 +257,14 @@
                         "id": "7a1a3bb9-df69-441c-880f-7d8056c26a05",
                         "command": "EVENT_WAIT",
                         "args": {
-                          "time": 0.3
+                          "time": {
+                            "type": "number",
+                            "value": 0.3
+                          },
+                          "frames": {
+                            "type": "number",
+                            "value": 30
+                          }
                         }
                       },
                       {
@@ -324,7 +346,14 @@
                               "id": "f9a0aa64-31ff-4517-84ae-8e7183ec8bd9",
                               "command": "EVENT_WAIT",
                               "args": {
-                                "time": 0.3
+                                "time": {
+                                  "type": "number",
+                                  "value": 0.3
+                                },
+                                "frames": {
+                                  "type": "number",
+                                  "value": 30
+                                }
                               }
                             },
                             {
@@ -406,7 +435,14 @@
                                     "id": "63121623-7919-4bd5-9c4b-9f65303c4125",
                                     "command": "EVENT_WAIT",
                                     "args": {
-                                      "time": 0.3
+                                      "time": {
+                                        "type": "number",
+                                        "value": 0.3
+                                      },
+                                      "frames": {
+                                        "type": "number",
+                                        "value": 30
+                                      }
                                     }
                                   },
                                   {
@@ -488,7 +524,14 @@
                                           "id": "569ac5c6-dd14-410a-82ec-05e8ff5da6e5",
                                           "command": "EVENT_WAIT",
                                           "args": {
-                                            "time": 0.3
+                                            "time": {
+                                              "type": "number",
+                                              "value": 0.3
+                                            },
+                                            "frames": {
+                                              "type": "number",
+                                              "value": 30
+                                            }
                                           }
                                         },
                                         {
@@ -570,7 +613,14 @@
                                                 "id": "c7ca00f8-502b-40b1-af2f-f34e122d4013",
                                                 "command": "EVENT_WAIT",
                                                 "args": {
-                                                  "time": 0.3
+                                                  "time": {
+                                                    "type": "number",
+                                                    "value": 0.3
+                                                  },
+                                                  "frames": {
+                                                    "type": "number",
+                                                    "value": 30
+                                                  }
                                                 }
                                               },
                                               {

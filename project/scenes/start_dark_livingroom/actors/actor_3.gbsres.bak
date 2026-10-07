@@ -294,17 +294,66 @@
         ],
         "false": [
           {
-            "id": "d4ac6643-0cf3-40af-8676-7b45c85cf966",
-            "command": "EVENT_TEXT",
+            "command": "EVENT_IF",
             "args": {
-              "text": [
-                "[The wood in the\nfireplace has\nnever been used\nbefore.]",
-                "[Perhaps it could\nbe lit.]"
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "L0"
+                },
+                "valueB": {
+                  "type": "true"
+                }
+              },
+              "__collapseElse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "[The flames are \ndim but \ncomforting.]"
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30,
+                    "__collapse": false
+                  },
+                  "id": "985c5e18-4238-4561-8c1c-f854d16d4fbd"
+                }
               ],
-              "avatarId": "",
-              "__collapse": false,
-              "__section": "text"
-            }
+              "false": [
+                {
+                  "id": "d4ac6643-0cf3-40af-8676-7b45c85cf966",
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "[The wood in the\nfireplace has\nnever been used\nbefore.]",
+                      "[Perhaps it could\nbe lit.]"
+                    ],
+                    "avatarId": "",
+                    "__collapse": false,
+                    "__section": "text"
+                  }
+                }
+              ]
+            },
+            "id": "021007cf-a7b7-4d93-a842-67d55439e3f8"
           }
         ]
       }

@@ -184,7 +184,7 @@
         "operator": "==",
         "comparator": 3,
         "__collapseElse": true,
-        "__collapse": true,
+        "__collapse": false,
         "condition": {
           "type": "eq",
           "valueA": {

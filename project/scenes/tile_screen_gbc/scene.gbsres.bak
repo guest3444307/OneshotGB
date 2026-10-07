@@ -24,8 +24,12 @@
   "spritePaletteIds": [
     "2fd475af-d8ae-46b2-ba81-05508532d320",
     "",
-    "",
-    "3d216cad-0e83-47a5-84e5-c2d5accf4849"
+    "2fd475af-d8ae-46b2-ba81-05508532d320",
+    "2fd475af-d8ae-46b2-ba81-05508532d320",
+    "2fd475af-d8ae-46b2-ba81-05508532d320",
+    "2fd475af-d8ae-46b2-ba81-05508532d320",
+    "2fd475af-d8ae-46b2-ba81-05508532d320",
+    "2fd475af-d8ae-46b2-ba81-05508532d320"
   ],
   "autoFadeSpeed": 1,
   "autoFadeEventCollapse": true,
@@ -42,7 +46,7 @@
         "palette6": "keep",
         "palette7": "keep",
         "__comment": true,
-        "__collapse": true
+        "__collapse": false
       },
       "id": "a37cb1b5-49db-4564-b019-31882af734bf"
     },
@@ -57,12 +61,26 @@
       "id": "5685d2e6-f034-4160-b933-5b672b4113af"
     },
     {
+      "command": "EVENT_SHOW_SPRITES",
+      "args": {
+        "__collapse": true
+      },
+      "id": "75fc5453-520d-42cf-b59b-1857cae6566d"
+    },
+    {
       "command": "EVENT_ACTOR_DEACTIVATE",
       "args": {
         "actorId": "$self$",
         "__collapse": true
       },
       "id": "45bc08e3-31ad-4902-8f5e-14d64fb78345"
+    },
+    {
+      "command": "EVENT_ACTOR_ACTIVATE",
+      "args": {
+        "actorId": "42040d1f-95a1-4815-8ce7-06c9a6868471"
+      },
+      "id": "8765a7fe-d0c9-44c9-a078-259810f8f3ef"
     },
     {
       "id": "a61fd376-8812-49e0-ae28-2b80592d52bb",
@@ -80,7 +98,8 @@
         "option8": "",
         "cancelOnB": false,
         "layout": "menu",
-        "__collapse": true
+        "__collapse": true,
+        "__comment": false
       }
     },
     {

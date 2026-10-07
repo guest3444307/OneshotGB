@@ -47,7 +47,8 @@
         },
         "moveType": "horizontal",
         "useCollisions": false,
-        "__comment": true
+        "__comment": true,
+        "collideWith": []
       },
       "id": "5cfe3011-a14b-43fd-807a-d9d1e5acf793"
     },

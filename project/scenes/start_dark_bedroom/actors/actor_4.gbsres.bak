@@ -28,7 +28,9 @@
         "condition": {
           "type": "variable",
           "value": "21"
-        }
+        },
+        "__collapse": true,
+        "__comment": true
       },
       "children": {
         "true": [
@@ -101,7 +103,7 @@
         "operator": "==",
         "comparator": 1,
         "__collapseElse": false,
-        "__collapse": false,
+        "__collapse": true,
         "condition": {
           "type": "eq",
           "valueA": {
@@ -112,7 +114,8 @@
             "type": "number",
             "value": 1
           }
-        }
+        },
+        "__comment": false
       },
       "children": {
         "true": [
@@ -134,7 +137,7 @@
               "variable": "5",
               "operator": "==",
               "comparator": 2,
-              "__collapseElse": true,
+              "__collapseElse": false,
               "__collapse": false,
               "condition": {
                 "type": "eq",
@@ -156,7 +159,7 @@
                   "args": {
                     "actorId": "$self$",
                     "spriteSheetId": "29f27432-e8b7-43bf-bbbd-9c1a09e73ace",
-                    "__collapse": true
+                    "__collapse": false
                   }
                 }
               ],
@@ -169,7 +172,7 @@
                     "operator": "==",
                     "comparator": 3,
                     "__collapseElse": false,
-                    "__collapse": true,
+                    "__collapse": false,
                     "condition": {
                       "type": "eq",
                       "valueA": {
@@ -203,7 +206,7 @@
                           "operator": "==",
                           "comparator": 4,
                           "__collapseElse": false,
-                          "__collapse": true,
+                          "__collapse": false,
                           "condition": {
                             "type": "eq",
                             "valueA": {
@@ -224,7 +227,7 @@
                               "args": {
                                 "actorId": "$self$",
                                 "spriteSheetId": "2db1fcd9-3d6e-4f65-9d03-aaad706ba658",
-                                "__collapse": true
+                                "__collapse": false
                               }
                             }
                           ],
@@ -237,7 +240,7 @@
                                 "operator": "==",
                                 "comparator": 5,
                                 "__collapseElse": true,
-                                "__collapse": true,
+                                "__collapse": false,
                                 "condition": {
                                   "type": "eq",
                                   "valueA": {

@@ -5,6 +5,7 @@
   "symbol": "actor_41",
   "prefabId": "",
   "name": "Toilet mirror",
+  "coordinateType": "tiles",
   "x": 10,
   "y": 7,
   "frame": 0,
@@ -17,6 +18,7 @@
   "isPinned": true,
   "persistent": false,
   "collisionGroup": "",
+  "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
   "script": [],
   "startScript": [
@@ -60,7 +62,8 @@
         },
         "moveType": "horizontal",
         "useCollisions": false,
-        "__comment": true
+        "__comment": true,
+        "collideWith": []
       },
       "id": "6ddc9978-ccb0-4078-9224-7f6cfb664ff2"
     },

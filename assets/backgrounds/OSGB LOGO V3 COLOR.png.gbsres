@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "5154bdfa-af2f-4730-a005-1dca2a375008",
+  "name": "OSGB LOGO V3 COLOR",
+  "symbol": "bg_image_1_",
+  "tileColors": "0090+044+03!00f+045+03!00!035+008+042+022+042+03a+004+03!00!02!03d+008c+",
+  "filename": "OSGB LOGO V3 COLOR.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "autoColor": false
+}

@@ -26,7 +26,7 @@
         "operator": "==",
         "comparator": 8,
         "__collapseElse": false,
-        "__collapse": true,
+        "__collapse": false,
         "condition": {
           "type": "eq",
           "valueA": {
@@ -45,7 +45,7 @@
             "command": "EVENT_ACTOR_SET_SPRITE",
             "args": {
               "actorId": "90a35717-4de1-4659-bca9-00dd1ff3aba4",
-              "spriteSheetId": "80885488-8a5f-444f-b0e4-e7c654fcce8a"
+              "spriteSheetId": "80e3c3db-38da-48e9-bd21-7d09280dbbf2"
             },
             "id": "3a11320b-2495-4f5b-94ed-fe8da8532dd7"
           }
@@ -55,7 +55,7 @@
             "command": "EVENT_ACTOR_SET_SPRITE",
             "args": {
               "actorId": "90a35717-4de1-4659-bca9-00dd1ff3aba4",
-              "spriteSheetId": "00b96895-e4c9-45de-927a-917dd58dd8f8"
+              "spriteSheetId": "fcc12505-44cf-4595-94ae-a955dca57387"
             },
             "id": "f78e7860-ac32-4a8e-98ce-10e24f7eba22"
           }
@@ -66,5 +66,6 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "collisions": "0070+0f17+001a+0f19+0018+0f1b+0017+0f1b+0017+0f2+0017+0f2+0018+0f1a+0018+0f2+0011+0f7+0018+0f!0015+0f!001b+0f!0015+0f!001c+0f3+30!0011+0f!001e+0f2+30!0010+0f!001f+0f2+30!00f+0f!0020+0f2+30!00e+0f!0021+0f2+30!00d+0f!0022+0f2+30!00c+0f!0023+0f2+30!00b+0f!0024+0f2+30!00a+0f!0025+0f2+30!009+0f!0026+0f2+30!008+0f!0027+0f2+30!007+0f!0028+0f2+30!006+0f!0029+0f2+30!005+0f!002a+0f2+30!004+0f3+0029+0f2+30!005+0f!002a+0f2+30!004+0f!002b+0f2+30!003+0f!002b+0f3+30!002+0f!002d+0f2+002+0f!002d+0f5+001d0+"
+  "collisions": "0070+0f17+001a+0f19+0018+0f1b+0017+0f1b+0017+0f2+0017+0f2+0018+0f1a+0018+0f2+0011+0f7+0018+0f!0015+0f!001b+0f!0015+0f!001c+0f3+30!0011+0f!001e+0f2+30!0010+0f!001f+0f2+30!00f+0f!0020+0f2+30!00e+0f!0021+0f2+30!00d+0f!0022+0f2+30!00c+0f!0023+0f2+30!00b+0f!0024+0f2+30!00a+0f!0025+0f2+30!009+0f!0026+0f2+30!008+0f!0027+0f2+30!007+0f!0028+0f2+30!006+0f!0029+0f2+30!005+0f!002a+0f2+30!004+0f3+0029+0f2+30!005+0f!002a+0f2+30!004+0f!002b+0f2+30!003+0f!002b+0f3+30!002+0f!002d+0f2+002+0f!002d+0f5+001d0+",
+  "autoFadeEventCollapse": true
 }

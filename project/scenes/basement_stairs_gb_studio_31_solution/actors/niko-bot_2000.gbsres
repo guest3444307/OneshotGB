@@ -5,6 +5,7 @@
   "symbol": "actor_62",
   "prefabId": "",
   "name": "Niko-Bot 2000",
+  "coordinateType": "tiles",
   "x": 13,
   "y": 10,
   "frame": 0,
@@ -17,6 +18,7 @@
   "isPinned": false,
   "persistent": true,
   "collisionGroup": "",
+  "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
   "script": [],
   "startScript": [
@@ -207,7 +209,8 @@
         },
         "moveType": "diagonal",
         "useCollisions": false,
-        "__collapse": false
+        "__collapse": false,
+        "collideWith": []
       },
       "id": "9599673b-a60e-4460-9f3d-6d28f439c4b2"
     },

@@ -33,7 +33,8 @@
         },
         "moveType": "horizontal",
         "useCollisions": false,
-        "__collapse": false
+        "__collapse": false,
+        "collideWith": []
       },
       "id": "20730131-fb25-4fca-94f5-223626acad57"
     }

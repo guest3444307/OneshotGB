@@ -1,20 +1,25 @@
 {
   "_resourceType": "actor",
   "id": "026480f4-024f-4d87-87f9-17070998ddca",
+  "_index": 1,
+  "symbol": "actor_53",
+  "prefabId": "",
   "name": "",
+  "coordinateType": "tiles",
+  "x": 7,
+  "y": 9,
   "frame": 0,
   "animate": false,
   "spriteSheetId": "86e85654-f413-45a5-b68e-ee8b9b6f25dd",
-  "prefabId": "",
+  "paletteId": "",
   "direction": "down",
   "moveSpeed": 1,
   "animSpeed": 255,
-  "paletteId": "",
   "isPinned": false,
   "persistent": false,
   "collisionGroup": "",
+  "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
-  "symbol": "actor_53",
   "script": [],
   "startScript": [
     {
@@ -32,8 +37,5 @@
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
-  "hit3Script": [],
-  "x": 7,
-  "y": 9,
-  "_index": 1
+  "hit3Script": []
 }

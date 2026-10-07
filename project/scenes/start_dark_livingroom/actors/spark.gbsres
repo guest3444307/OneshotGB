@@ -5,6 +5,7 @@
   "symbol": "actor_spark",
   "prefabId": "",
   "name": "spark",
+  "coordinateType": "tiles",
   "x": 28,
   "y": 12,
   "frame": 0,
@@ -17,6 +18,7 @@
   "isPinned": false,
   "persistent": false,
   "collisionGroup": "",
+  "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
   "script": [
     {

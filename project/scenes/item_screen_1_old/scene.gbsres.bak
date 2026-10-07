@@ -935,7 +935,7 @@
       "args": {
         "variable": "22",
         "__collapseElse": true,
-        "__collapse": false,
+        "__collapse": true,
         "condition": {
           "type": "variable",
           "value": "22"

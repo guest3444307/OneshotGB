@@ -8,9 +8,9 @@
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
-  "animSpeed": 15,
+  "animSpeed": 255,
   "paletteId": "",
-  "isPinned": true,
+  "isPinned": false,
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
@@ -18,18 +18,13 @@
   "script": [],
   "startScript": [
     {
-      "command": "EVENT_PALETTE_SET_SPRITE",
+      "command": "EVENT_ACTOR_SET_SPRITE",
       "args": {
-        "palette0": "2fd475af-d8ae-46b2-ba81-05508532d320",
-        "palette1": "keep",
-        "palette2": "keep",
-        "palette3": "keep",
-        "palette4": "keep",
-        "palette5": "keep",
-        "palette6": "keep",
-        "palette7": "keep"
+        "actorId": "$self$",
+        "spriteSheetId": "86e85654-f413-45a5-b68e-ee8b9b6f25dd",
+        "__comment": true
       },
-      "id": "5d6664cd-257c-43f6-b10c-353ec2fd8460"
+      "id": "f84f0f19-c8dc-4b52-9196-b8bb3fe648a2"
     }
   ],
   "updateScript": [],

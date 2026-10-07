@@ -31,7 +31,7 @@
       "command": "EVENT_COMMENT",
       "args": {
         "text": "This will be where the rework will be held at as a experiemental version",
-        "__collapse": true
+        "__collapse": false
       },
       "id": "340bd49c-e804-4765-9dd0-019c6bb678c1"
     },
@@ -62,7 +62,7 @@
             "args": {
               "customEventId": "d7575eb0-5ce2-439b-a937-bc7dca63a837",
               "$actor[0]$": "798b8669-db7a-4e05-b9e8-26c847b2accf",
-              "__collapse": false,
+              "__collapse": true,
               "$variable[V0]$": {
                 "type": "variable",
                 "value": "8"
@@ -89,7 +89,7 @@
         "variable": "9",
         "operator": ">",
         "comparator": "0",
-        "__collapseElse": false,
+        "__collapseElse": true,
         "__collapse": true,
         "condition": {
           "type": "gt",
@@ -247,7 +247,7 @@
           "type": "number",
           "value": 0
         },
-        "__collapse": true
+        "__collapse": false
       }
     },
     {
@@ -258,7 +258,7 @@
           "type": "number",
           "value": 1
         },
-        "__collapse": true
+        "__collapse": false
       },
       "id": "c46d09d1-8897-4632-9821-0e40f9caa801"
     },
@@ -270,7 +270,7 @@
         "operator": "==",
         "comparator": 0,
         "__collapseElse": false,
-        "__collapse": true,
+        "__collapse": false,
         "__comment": true,
         "condition": {
           "type": "eq",
@@ -414,7 +414,7 @@
         ],
         "override": true,
         "__scriptTabs": "press",
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -456,7 +456,7 @@
               "__collapseCase15": false,
               "value15": 16,
               "__collapseElse": false,
-              "__collapse": false
+              "__collapse": true
             },
             "children": {
               "true0": [
@@ -1517,7 +1517,7 @@
                   "command": "EVENT_COMMENT",
                   "args": {
                     "text": "Checks to see which item slots are in use to change so i dont change 18 slots at once!",
-                    "__collapse": true
+                    "__collapse": false
                   },
                   "id": "c73836a3-9176-4065-a320-c186b6ef2c6a"
                 },
@@ -1535,7 +1535,7 @@
                           "operator": ">",
                           "comparator": 0,
                           "__collapseElse": true,
-                          "__collapse": true,
+                          "__collapse": false,
                           "condition": {
                             "type": "gt",
                             "valueA": {
@@ -1575,7 +1575,7 @@
                           "operator": ">",
                           "comparator": 0,
                           "__collapseElse": false,
-                          "__collapse": true,
+                          "__collapse": false,
                           "condition": {
                             "type": "gt",
                             "valueA": {
@@ -1615,12 +1615,12 @@
                           "operator": ">",
                           "comparator": 0,
                           "__collapseElse": true,
-                          "__collapse": true,
+                          "__collapse": false,
                           "condition": {
                             "type": "gt",
                             "valueA": {
                               "type": "variable",
-                              "value": "8"
+                              "value": "23"
                             },
                             "valueB": {
                               "type": "number",
@@ -1665,7 +1665,7 @@
               "operator": "==",
               "comparator": 1,
               "__collapseElse": false,
-              "__collapse": true,
+              "__collapse": false,
               "__comment": true,
               "condition": {
                 "type": "eq",
