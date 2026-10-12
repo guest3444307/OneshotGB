@@ -1,7 +1,7 @@
 {
   "_resourceType": "actor",
-  "id": "6ccaa4ac-4c0e-4a38-832a-2fff63e3909a",
-  "name": "",
+  "id": "42f4fbb7-928e-4abe-934f-37f81d99c68e",
+  "name": "Yellow",
   "frame": 0,
   "animate": false,
   "spriteSheetId": "cd69af7f-f3e8-42fe-949f-19f1213b40b1",
@@ -15,7 +15,7 @@
   "collisionGroup": "",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
-  "symbol": "actor_64",
+  "symbol": "actor_63",
   "script": [],
   "startScript": [],
   "updateScript": [],
@@ -23,7 +23,7 @@
   "hit2Script": [],
   "hit3Script": [],
   "coordinateType": "tiles",
-  "x": 13,
+  "x": 9,
   "y": 3,
-  "_index": 2
+  "_index": 1
 }

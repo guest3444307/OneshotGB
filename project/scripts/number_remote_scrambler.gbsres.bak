@@ -1,0 +1,238 @@
+{
+  "_resourceType": "script",
+  "id": "bc787ff9-0401-4ce9-a196-fc260e757ccc",
+  "name": "Number Remote Scrambler",
+  "description": "I have to do this for each number, so yeah, 4 copies of this",
+  "variables": {
+    "V0": {
+      "id": "V0",
+      "name": "RandomNumRemote",
+      "passByReference": true
+    }
+  },
+  "actors": {
+    "0": {
+      "id": "0",
+      "name": "numberPlacement"
+    }
+  },
+  "symbol": "script_7",
+  "script": [
+    {
+      "command": "EVENT_ACTOR_SET_FRAME",
+      "args": {
+        "actorId": "$self$",
+        "frame": {
+          "type": "variable",
+          "value": "V0"
+        }
+      },
+      "id": "c12a47fe-a21d-4c5f-8a15-dd084c91dab8"
+    },
+    {
+      "command": "EVENT_SWITCH",
+      "args": {
+        "variable": "V0",
+        "choices": 9,
+        "__collapseCase0": false,
+        "__collapseCase1": false,
+        "__collapseCase2": false,
+        "__collapseCase3": false,
+        "__collapseCase4": false,
+        "__collapseCase5": false,
+        "__collapseCase6": false,
+        "__collapseCase7": false,
+        "__collapseCase8": false,
+        "__collapseCase9": false,
+        "__collapseCase10": false,
+        "__collapseCase11": false,
+        "__collapseCase12": false,
+        "__collapseCase13": false,
+        "__collapseCase14": false,
+        "__collapseCase15": false,
+        "__collapseElse": false,
+        "__collapse": true
+      },
+      "children": {
+        "true0": [
+          {
+            "command": "EVENT_ACTOR_SET_POSITION",
+            "args": {
+              "actorId": "0",
+              "x": {
+                "type": "number",
+                "value": 5
+              },
+              "y": {
+                "type": "number",
+                "value": 3
+              }
+            },
+            "id": "e3102466-b1af-43b1-aa01-d515f3735529"
+          }
+        ],
+        "true1": [
+          {
+            "command": "EVENT_ACTOR_SET_POSITION",
+            "args": {
+              "actorId": "0",
+              "x": {
+                "type": "number",
+                "value": 9
+              },
+              "y": {
+                "type": "number",
+                "value": 3
+              }
+            },
+            "id": "179bdba9-326f-443e-91c7-26552729eef4"
+          }
+        ],
+        "true2": [
+          {
+            "command": "EVENT_ACTOR_SET_POSITION",
+            "args": {
+              "actorId": "0",
+              "x": {
+                "type": "number",
+                "value": 13
+              },
+              "y": {
+                "type": "number",
+                "value": 3
+              }
+            },
+            "id": "ae7edb5e-e05e-4c39-9d14-cd65b9fc9f15"
+          }
+        ],
+        "true3": [
+          {
+            "command": "EVENT_ACTOR_SET_POSITION",
+            "args": {
+              "actorId": "0",
+              "x": {
+                "type": "number",
+                "value": 5
+              },
+              "y": {
+                "type": "number",
+                "value": 7
+              }
+            },
+            "id": "301e78cb-b4a8-451b-96d6-c2bfa1b9aa62"
+          }
+        ],
+        "true4": [
+          {
+            "command": "EVENT_ACTOR_SET_POSITION",
+            "args": {
+              "actorId": "0",
+              "x": {
+                "type": "number",
+                "value": 9
+              },
+              "y": {
+                "type": "number",
+                "value": 7
+              }
+            },
+            "id": "eb14dd2b-95a6-4a31-8e77-93f73aa3ee4a"
+          }
+        ],
+        "true5": [
+          {
+            "command": "EVENT_ACTOR_SET_POSITION",
+            "args": {
+              "actorId": "0",
+              "x": {
+                "type": "number",
+                "value": 13
+              },
+              "y": {
+                "type": "number",
+                "value": 7
+              }
+            },
+            "id": "a88a2a30-2141-4d43-b457-0477ed56f1d6"
+          }
+        ],
+        "true6": [
+          {
+            "command": "EVENT_ACTOR_SET_POSITION",
+            "args": {
+              "actorId": "0",
+              "x": {
+                "type": "number",
+                "value": 5
+              },
+              "y": {
+                "type": "number",
+                "value": 11
+              }
+            },
+            "id": "c9a6d725-0071-43b9-8106-8980c92cd894"
+          }
+        ],
+        "true7": [
+          {
+            "command": "EVENT_ACTOR_SET_POSITION",
+            "args": {
+              "actorId": "0",
+              "x": {
+                "type": "number",
+                "value": 9
+              },
+              "y": {
+                "type": "number",
+                "value": 11
+              }
+            },
+            "id": "905fd9e4-3641-47b6-b987-e939a528b29f"
+          }
+        ],
+        "true8": [
+          {
+            "command": "EVENT_ACTOR_SET_POSITION",
+            "args": {
+              "actorId": "0",
+              "x": {
+                "type": "number",
+                "value": 13
+              },
+              "y": {
+                "type": "number",
+                "value": 11
+              }
+            },
+            "id": "06ca99c0-6949-4ce5-826f-aab8ee8e3d6f"
+          }
+        ],
+        "true9": [],
+        "true10": [],
+        "true11": [],
+        "true12": [],
+        "true13": [],
+        "true14": [],
+        "true15": [],
+        "false": [
+          {
+            "command": "EVENT_ACTOR_SET_POSITION",
+            "args": {
+              "actorId": "0",
+              "x": {
+                "type": "number",
+                "value": 9
+              },
+              "y": {
+                "type": "number",
+                "value": 15
+              }
+            },
+            "id": "d9a43b37-b7ca-4d6c-b5bb-a70ee3adde1f"
+          }
+        ]
+      },
+      "id": "69dcd390-e18a-47cf-9bea-923494fae701"
+    }
+  ]
+}

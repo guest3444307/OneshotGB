@@ -272,6 +272,11 @@
             }
           },
           {
+            "command": "EVENT_RNG_SEED",
+            "args": {},
+            "id": "c2789ee6-edf2-4fcd-8c89-717089caf456"
+          },
+          {
             "id": "a82f3b59-1ac2-4685-b1c8-b890b6ccae48",
             "command": "EVENT_VARIABLE_MATH",
             "args": {
@@ -287,6 +292,11 @@
             }
           },
           {
+            "command": "EVENT_RNG_SEED",
+            "args": {},
+            "id": "ba2ae9b5-4d2c-414c-beed-320caf0c05f8"
+          },
+          {
             "id": "a8037813-e143-44ed-8be7-e38d44626fe2",
             "command": "EVENT_VARIABLE_MATH",
             "args": {
@@ -298,7 +308,7 @@
               "minValue": "0",
               "maxValue": 9,
               "clamp": false,
-              "__collapse": true
+              "__collapse": false
             }
           },
           {
@@ -308,10 +318,15 @@
                 "type": "expression",
                 "value": "$11$ == $12$"
               },
-              "__collapse": true
+              "__collapse": false
             },
             "children": {
               "true": [
+                {
+                  "command": "EVENT_RNG_SEED",
+                  "args": {},
+                  "id": "1096dc6f-d56d-481c-990c-a027e0cd5dc1"
+                },
                 {
                   "id": "fb46110c-074d-45c2-a6cd-c447d83c9c80",
                   "command": "EVENT_VARIABLE_MATH",
@@ -324,12 +339,17 @@
                     "minValue": "0",
                     "maxValue": 9,
                     "clamp": false,
-                    "__collapse": true
+                    "__collapse": false
                   }
                 }
               ]
             },
             "id": "206d2552-f22d-45d5-865e-c8b96a6394de"
+          },
+          {
+            "command": "EVENT_RNG_SEED",
+            "args": {},
+            "id": "e40fcfe0-ee4b-4035-b02a-0da8dfb27c4b"
           },
           {
             "id": "12e9ad32-a932-40d7-8a2f-e297aaa506e2",
@@ -343,7 +363,7 @@
               "minValue": "0",
               "maxValue": 9,
               "clamp": false,
-              "__collapse": true
+              "__collapse": false
             }
           },
           {
@@ -353,10 +373,15 @@
                 "type": "expression",
                 "value": "($11$ || $12$) == $13$"
               },
-              "__collapse": true
+              "__collapse": false
             },
             "children": {
               "true": [
+                {
+                  "command": "EVENT_RNG_SEED",
+                  "args": {},
+                  "id": "43fa104d-d9e3-45af-b0ac-bcfdd7224731"
+                },
                 {
                   "id": "f5bb43c4-cff3-4219-9fd4-df8ba841485b",
                   "command": "EVENT_VARIABLE_MATH",
@@ -377,6 +402,11 @@
             "id": "827b0646-38e7-402c-9f95-39ccaabfca77"
           },
           {
+            "command": "EVENT_RNG_SEED",
+            "args": {},
+            "id": "1afc827c-6317-4cc0-ba98-75cc0038fe25"
+          },
+          {
             "id": "29708908-5138-45c2-9138-542e34493fe0",
             "command": "EVENT_VARIABLE_MATH",
             "args": {
@@ -388,7 +418,7 @@
               "minValue": "0",
               "maxValue": 9,
               "clamp": false,
-              "__collapse": false
+              "__collapse": true
             }
           },
           {
@@ -398,10 +428,15 @@
                 "type": "expression",
                 "value": "($11$ || $12$ || $13$) == $14$"
               },
-              "__collapse": true
+              "__collapse": false
             },
             "children": {
               "true": [
+                {
+                  "command": "EVENT_RNG_SEED",
+                  "args": {},
+                  "id": "d50df673-14e3-467f-b08e-a47d381db882"
+                },
                 {
                   "id": "abb1b530-246c-42c5-aff9-67e2c89cf5e8",
                   "command": "EVENT_VARIABLE_MATH",

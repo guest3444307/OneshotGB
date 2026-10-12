@@ -3,7 +3,7 @@
   "id": "5152803e-eaf4-4365-8334-d1c35528f026",
   "name": "Item Interactable INV",
   "symbol": "script_item_interactable_in",
-  "description": "For specifically interactions",
+  "description": "For specifically interactions\n\nNOTE: Maybe make Variants later to not do the extra stuff?",
   "variables": {
     "V0": {
       "id": "V0",

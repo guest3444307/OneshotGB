@@ -33,7 +33,7 @@
       "args": {
         "variable": "V0",
         "choices": 8,
-        "__collapseCase0": true,
+        "__collapseCase0": false,
         "value0": {
           "type": "number",
           "value": 1

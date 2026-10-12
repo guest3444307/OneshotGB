@@ -1,0 +1,111 @@
+{
+  "_resourceType": "scene",
+  "id": "7292d8c3-d523-4065-b7f5-25b2a06043c4",
+  "_index": 54,
+  "name": "TV Remote Start",
+  "backgroundId": "034149db-01f2-46d5-9339-1bd7d114d862",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00168+",
+  "autoFadeSpeed": 2,
+  "symbol": "scene_55",
+  "x": 912,
+  "y": 208,
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "bc787ff9-0401-4ce9-a196-fc260e757ccc",
+        "$variable[V0]$": {
+          "type": "variable",
+          "value": "11"
+        },
+        "$actor[0]$": "41a490b9-2e0f-4a0d-ae4b-e84c28dd27fb",
+        "__collapse": false
+      },
+      "id": "07b5b505-f0fb-48e6-9c27-c44df23c1c13"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "bc787ff9-0401-4ce9-a196-fc260e757ccc",
+        "$variable[V0]$": {
+          "type": "variable",
+          "value": "12"
+        },
+        "$actor[0]$": "42f4fbb7-928e-4abe-934f-37f81d99c68e",
+        "__collapse": false
+      },
+      "id": "7ea5a8bf-ee96-4d68-8942-c178c8220cc0"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "bc787ff9-0401-4ce9-a196-fc260e757ccc",
+        "$variable[V0]$": {
+          "type": "variable",
+          "value": "13"
+        },
+        "$actor[0]$": "6ccaa4ac-4c0e-4a38-832a-2fff63e3909a",
+        "__collapse": false
+      },
+      "id": "0ffbadf4-446c-4ea8-af40-443ef663e1f1"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "bc787ff9-0401-4ce9-a196-fc260e757ccc",
+        "$variable[V0]$": {
+          "type": "variable",
+          "value": "14"
+        },
+        "$actor[0]$": "2050ceb1-f4be-4ecb-a70c-6b196edbaa9d",
+        "__collapse": false
+      },
+      "id": "75fde080-6704-4ee4-a269-e4f834356860"
+    },
+    {
+      "id": "8e9bedb9-95be-4294-a892-58ed3d7246d3",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "[They're marked in\nbright colors.]"
+        ],
+        "avatarId": "",
+        "__collapse": false,
+        "__section": "text"
+      }
+    },
+    {
+      "command": "EVENT_IF_INPUT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SCENE_POP_STATE",
+            "args": {
+              "fadeSpeed": "2"
+            },
+            "id": "e7351de8-9bc7-4d4c-aa99-395c550a8309"
+          }
+        ],
+        "false": []
+      },
+      "id": "2f7501f6-4c23-48a3-b3f4-b1e0aae1ac11"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "autoFadeEventCollapse": false
+}

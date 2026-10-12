@@ -223,7 +223,7 @@
               "operator": "==",
               "vectorY": "14",
               "__collapseElse": true,
-              "__collapse": true,
+              "__collapse": false,
               "condition": {
                 "type": "eq",
                 "valueA": {

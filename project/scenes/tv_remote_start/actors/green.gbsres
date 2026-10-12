@@ -1,7 +1,7 @@
 {
   "_resourceType": "actor",
-  "id": "41a490b9-2e0f-4a0d-ae4b-e84c28dd27fb",
-  "name": "",
+  "id": "6ccaa4ac-4c0e-4a38-832a-2fff63e3909a",
+  "name": "Green",
   "frame": 0,
   "animate": false,
   "spriteSheetId": "cd69af7f-f3e8-42fe-949f-19f1213b40b1",
@@ -15,7 +15,7 @@
   "collisionGroup": "",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
-  "symbol": "actor_58",
+  "symbol": "actor_64",
   "script": [],
   "startScript": [],
   "updateScript": [],
@@ -23,7 +23,7 @@
   "hit2Script": [],
   "hit3Script": [],
   "coordinateType": "tiles",
-  "x": 5,
+  "x": 13,
   "y": 3,
-  "_index": 0
+  "_index": 2
 }

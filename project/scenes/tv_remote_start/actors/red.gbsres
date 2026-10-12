@@ -1,0 +1,45 @@
+{
+  "_resourceType": "actor",
+  "id": "41a490b9-2e0f-4a0d-ae4b-e84c28dd27fb",
+  "name": "Red",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "cd69af7f-f3e8-42fe-949f-19f1213b40b1",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 255,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "symbol": "actor_58",
+  "script": [],
+  "startScript": [
+    {
+      "command": "EVENT_PALETTE_SET_SPRITE",
+      "args": {
+        "palette0": "keep",
+        "palette1": "keep",
+        "palette2": "keep",
+        "palette3": "keep",
+        "palette4": "2c6c63ff-92e0-4074-8403-8fdd55b75a12",
+        "palette5": "keep",
+        "palette6": "keep",
+        "palette7": "keep",
+        "__collapse": false
+      },
+      "id": "3b6a3de5-68a9-42a2-8c2b-aa8f47226e7f"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "coordinateType": "tiles",
+  "x": 5,
+  "y": 3,
+  "_index": 0
+}

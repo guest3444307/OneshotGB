@@ -6,7 +6,7 @@
   "prefabId": "",
   "name": "Window Interact",
   "coordinateType": "tiles",
-  "x": 21,
+  "x": 22,
   "y": 15,
   "frame": 0,
   "animate": false,
@@ -54,7 +54,20 @@
                 "[All of the\nnumbers except"
               ],
               "avatarId": "",
-              "__collapse": true
+              "__collapse": true,
+              "__comment": true
+            }
+          },
+          {
+            "id": "6482c0cb-ac3b-474c-bd99-ccb4a4d59a1c",
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "[In the faint light, Niko\ncan now see the remote.]",
+                "[Most of the numbers\nare missing except...]"
+              ],
+              "avatarId": "",
+              "__collapse": false
             }
           },
           {
@@ -76,7 +89,8 @@
                   "type": "number",
                   "value": 0
                 }
-              }
+              },
+              "__comment": true
             },
             "children": {
               "true": [
@@ -257,6 +271,28 @@
                 }
               ]
             }
+          },
+          {
+            "command": "EVENT_SCENE_PUSH_STATE",
+            "args": {},
+            "id": "ce00b2de-4aa2-42bc-8373-00856686b40a"
+          },
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "7292d8c3-d523-4065-b7f5-25b2a06043c4",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "6d94f2a8-216d-4cf2-9a0f-a613ad3fef5e"
           }
         ],
         "false": [
