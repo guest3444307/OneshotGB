@@ -136,7 +136,7 @@
                       "[Niko hears the\nsound of a door\nunlocking.]"
                     ],
                     "avatarId": "",
-                    "__collapse": true
+                    "__collapse": false
                   }
                 },
                 {
@@ -144,7 +144,7 @@
                   "command": "EVENT_SET_VALUE",
                   "args": {
                     "variable": "L0",
-                    "__collapse": true,
+                    "__collapse": false,
                     "value": {
                       "type": "true"
                     }

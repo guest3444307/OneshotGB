@@ -25,7 +25,7 @@
       "args": {
         "variable": "2",
         "__collapseElse": true,
-        "__collapse": true,
+        "__collapse": false,
         "condition": {
           "type": "eq",
           "valueA": {
@@ -283,7 +283,7 @@
               "minValue": "0",
               "maxValue": 9,
               "clamp": false,
-              "__collapse": true
+              "__collapse": false
             }
           },
           {
@@ -302,6 +302,36 @@
             }
           },
           {
+            "command": "EVENT_LOOP_WHILE",
+            "args": {
+              "condition": {
+                "type": "expression",
+                "value": "$11$ == $12$"
+              },
+              "__collapse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "id": "fb46110c-074d-45c2-a6cd-c447d83c9c80",
+                  "command": "EVENT_VARIABLE_MATH",
+                  "args": {
+                    "vectorX": "12",
+                    "operation": "set",
+                    "other": "rnd",
+                    "vectorY": "L0",
+                    "value": "1",
+                    "minValue": "0",
+                    "maxValue": 9,
+                    "clamp": false,
+                    "__collapse": true
+                  }
+                }
+              ]
+            },
+            "id": "206d2552-f22d-45d5-865e-c8b96a6394de"
+          },
+          {
             "id": "12e9ad32-a932-40d7-8a2f-e297aaa506e2",
             "command": "EVENT_VARIABLE_MATH",
             "args": {
@@ -317,6 +347,36 @@
             }
           },
           {
+            "command": "EVENT_LOOP_WHILE",
+            "args": {
+              "condition": {
+                "type": "expression",
+                "value": "($11$ || $12$) == $13$"
+              },
+              "__collapse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "id": "f5bb43c4-cff3-4219-9fd4-df8ba841485b",
+                  "command": "EVENT_VARIABLE_MATH",
+                  "args": {
+                    "vectorX": "13",
+                    "operation": "set",
+                    "other": "rnd",
+                    "vectorY": "L0",
+                    "value": "1",
+                    "minValue": "0",
+                    "maxValue": 9,
+                    "clamp": false,
+                    "__collapse": false
+                  }
+                }
+              ]
+            },
+            "id": "827b0646-38e7-402c-9f95-39ccaabfca77"
+          },
+          {
             "id": "29708908-5138-45c2-9138-542e34493fe0",
             "command": "EVENT_VARIABLE_MATH",
             "args": {
@@ -328,8 +388,38 @@
               "minValue": "0",
               "maxValue": 9,
               "clamp": false,
-              "__collapse": true
+              "__collapse": false
             }
+          },
+          {
+            "command": "EVENT_LOOP_WHILE",
+            "args": {
+              "condition": {
+                "type": "expression",
+                "value": "($11$ || $12$ || $13$) == $14$"
+              },
+              "__collapse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "id": "abb1b530-246c-42c5-aff9-67e2c89cf5e8",
+                  "command": "EVENT_VARIABLE_MATH",
+                  "args": {
+                    "vectorX": "14",
+                    "operation": "set",
+                    "other": "rnd",
+                    "vectorY": "L0",
+                    "value": "1",
+                    "minValue": "0",
+                    "maxValue": 9,
+                    "clamp": false,
+                    "__collapse": false
+                  }
+                }
+              ]
+            },
+            "id": "217f6adc-3854-4597-ba77-bc6dbabf3e4f"
           },
           {
             "id": "4f0c0a62-cbef-43d8-97ab-c0af70b2ec04",
@@ -343,7 +433,7 @@
               "minValue": "0",
               "maxValue": 3,
               "clamp": false,
-              "__collapse": true
+              "__collapse": false
             }
           },
           {

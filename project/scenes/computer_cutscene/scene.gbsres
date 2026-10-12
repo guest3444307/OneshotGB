@@ -93,7 +93,8 @@
         "frequency": 200,
         "duration": 0.5,
         "wait": true,
-        "effect": 0
+        "effect": 0,
+        "__collapse": true
       },
       "id": "23c7b920-10d3-42bb-90ac-8ad336cf7055"
     },

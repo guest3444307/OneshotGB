@@ -12,6 +12,14 @@
   "prefabScriptOverrides": {},
   "script": [
     {
+      "command": "EVENT_GBVM_SCRIPT",
+      "args": {
+        "__collapse": false,
+        "script": "VM_UNLOCK"
+      },
+      "id": "cdf5c7ef-17b7-4b45-9133-811602b8d7c6"
+    },
+    {
       "command": "EVENT_ACTOR_SHOW",
       "args": {
         "actorId": "24398b46-99f0-40a9-8922-768b20bc67b1"
@@ -24,14 +32,6 @@
         "actorId": "4907d7a8-4ac2-41b1-90ef-cb90cc1b7bbe"
       },
       "id": "534682a4-e326-4675-a4b9-0ceaa34a2cda"
-    },
-    {
-      "command": "EVENT_GBVM_SCRIPT",
-      "args": {
-        "__collapse": false,
-        "script": "VM_UNLOCK"
-      },
-      "id": "cdf5c7ef-17b7-4b45-9133-811602b8d7c6"
     },
     {
       "command": "EVENT_ACTOR_MOVE_TO",

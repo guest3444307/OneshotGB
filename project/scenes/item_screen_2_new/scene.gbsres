@@ -43,7 +43,7 @@
         "operator": ">",
         "comparator": "0",
         "__collapseElse": false,
-        "__collapse": true,
+        "__collapse": false,
         "condition": {
           "type": "gt",
           "valueA": {
@@ -91,7 +91,7 @@
         "operator": ">",
         "comparator": "0",
         "__collapseElse": true,
-        "__collapse": true,
+        "__collapse": false,
         "condition": {
           "type": "gt",
           "valueA": {
@@ -213,7 +213,7 @@
         ],
         "persist": false,
         "__scriptTabs": "press",
-        "__collapse": true,
+        "__collapse": false,
         "override": true
       },
       "children": {

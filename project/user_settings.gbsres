@@ -2,18 +2,19 @@
   "_resourceType": "settings",
   "worldScrollX": 0,
   "worldScrollY": 0,
-  "zoom": 87.5,
+  "zoom": 25,
   "navigatorSplitSizes": [
-    119,
+    206,
+    30,
     205,
-    205,
-    205
+    30,
+    257
   ],
   "showNavigator": true,
   "showCollisions": true,
   "showConnections": "selected",
   "showSceneScreenGrid": false,
-  "previewAsMono": false,
+  "previewAsMono": true,
   "showCollisionSlopeTiles": true,
   "favoriteEvents": [
     "EVENT_TEXT",
@@ -24,7 +25,7 @@
     "EVENT_IF_COLOR_SUPPORTED",
     "EVENT_IF_EXPRESSION"
   ],
-  "debuggerEnabled": true,
+  "debuggerEnabled": false,
   "debuggerScriptType": "editor",
   "debuggerVariablesFilter": "all",
   "debuggerCollapsedPanes": [],
