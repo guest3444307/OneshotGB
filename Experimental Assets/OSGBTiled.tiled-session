@@ -1,0 +1,36 @@
+{
+    "activeFile": "",
+    "expandedProjectPaths": [
+    ],
+    "fileStates": {
+        "2 Demo imports/livingroom/tiled(1).tmx": {
+            "scale": 2.0872596153846152,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 208.16768398019119,
+                "y": 119.77427156512725
+            }
+        },
+        "2 Demo imports/livingroom/tiled(1).tmx#tiles": {
+            "scaleInDock": 1
+        },
+        "DocksGB/tiled.tmx": {
+            "scale": 1.257265625,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 251.736779966445,
+                "y": 613.2355682594916
+            }
+        },
+        "DocksGB/tiled.tmx#tiles": {
+            "scaleInDock": 1
+        }
+    },
+    "openFiles": [
+    ],
+    "project": "OSGBTiled.tiled-project",
+    "recentFiles": [
+        "DocksGB/tiled.tmx",
+        "2 Demo imports/livingroom/tiled(1).tmx"
+    ]
+}
