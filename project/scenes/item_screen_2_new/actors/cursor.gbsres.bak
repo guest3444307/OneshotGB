@@ -5,6 +5,7 @@
   "symbol": "actor_cursor",
   "prefabId": "",
   "name": "Cursor",
+  "coordinateType": "tiles",
   "x": 3,
   "y": 8,
   "frame": 0,
@@ -17,6 +18,7 @@
   "isPinned": false,
   "persistent": false,
   "collisionGroup": "",
+  "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
   "script": [],
   "startScript": [],
@@ -91,8 +93,15 @@
       "id": "f0faeebb-38fb-4ca4-a00f-c5545ea8cda0",
       "command": "EVENT_WAIT",
       "args": {
-        "time": 0.5,
-        "__collapse": true
+        "time": {
+          "type": "number",
+          "value": 0.5
+        },
+        "__collapse": true,
+        "frames": {
+          "type": "number",
+          "value": 30
+        }
       }
     },
     {
@@ -115,8 +124,15 @@
       "id": "06d81d33-60b9-4827-8771-ae42c6b9a056",
       "command": "EVENT_WAIT",
       "args": {
-        "time": 0.5,
-        "__collapse": true
+        "time": {
+          "type": "number",
+          "value": 0.5
+        },
+        "__collapse": true,
+        "frames": {
+          "type": "number",
+          "value": 30
+        }
       }
     }
   ],

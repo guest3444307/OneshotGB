@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "176ec51c-57eb-47fe-a3de-fafc1eed2dc5",
+  "name": "Normal GB Temp",
+  "symbol": "bg_normal_gb_temp",
+  "tileColors": "",
+  "filename": "Normal GB Temp.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "autoColor": false
+}

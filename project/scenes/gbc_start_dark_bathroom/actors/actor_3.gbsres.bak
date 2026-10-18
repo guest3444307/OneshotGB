@@ -5,6 +5,7 @@
   "symbol": "actor_40",
   "prefabId": "",
   "name": "",
+  "coordinateType": "tiles",
   "x": 12,
   "y": 6,
   "frame": 0,
@@ -17,6 +18,7 @@
   "isPinned": false,
   "persistent": false,
   "collisionGroup": "",
+  "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
   "script": [],
   "startScript": [
@@ -198,7 +200,11 @@
         },
         "moveType": "horizontal",
         "useCollisions": true,
-        "__collapse": false
+        "__collapse": false,
+        "collideWith": [
+          "walls",
+          "actors"
+        ]
       },
       "id": "ed67106a-2449-41b5-8e0b-da0d3cef6a08"
     },

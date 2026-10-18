@@ -32,7 +32,8 @@
           "value": 5
         },
         "moveType": "horizontal",
-        "useCollisions": false
+        "useCollisions": false,
+        "collideWith": []
       },
       "id": "52509d7a-2640-4917-b03e-f295756d5a63"
     }

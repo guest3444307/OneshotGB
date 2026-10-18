@@ -1,0 +1,9 @@
+{
+  "_resourceType": "emote",
+  "id": "de74c9fb-c7bb-488a-90bd-aec8f924ddfd",
+  "name": "question",
+  "symbol": "emote_question",
+  "width": 16,
+  "height": 16,
+  "filename": "question.png"
+}

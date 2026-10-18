@@ -1,7 +1,7 @@
 {
   "_resourceType": "settings",
-  "worldScrollX": 269.6000061035156,
-  "worldScrollY": 670.4000244140625,
+  "worldScrollX": 974.4000244140625,
+  "worldScrollY": 92,
   "zoom": 150,
   "navigatorSplitSizes": [
     206,
@@ -25,7 +25,7 @@
     "EVENT_IF_COLOR_SUPPORTED",
     "EVENT_IF_EXPRESSION"
   ],
-  "debuggerEnabled": true,
+  "debuggerEnabled": false,
   "debuggerScriptType": "editor",
   "debuggerVariablesFilter": "all",
   "debuggerCollapsedPanes": [],

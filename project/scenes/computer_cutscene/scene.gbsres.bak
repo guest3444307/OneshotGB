@@ -26,7 +26,8 @@
           "start"
         ],
         "persist": false,
-        "__scriptTabs": "press"
+        "__scriptTabs": "press",
+        "__collapse": true
       },
       "children": {
         "true": []

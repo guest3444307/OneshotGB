@@ -15,7 +15,7 @@
     },
     {
       "id": "plat_walk_vel",
-      "value": 3200
+      "value": 3645
     },
     {
       "id": "plat_jump_vel",
@@ -23,7 +23,7 @@
     },
     {
       "id": "plat_grav",
-      "value": 8192
+      "value": 4055
     },
     {
       "id": "plat_hold_grav",
@@ -56,6 +56,34 @@
     {
       "id": "FEAT_PLATFORM_KNOCKBACK",
       "value": 0
+    },
+    {
+      "id": "FEAT_ADVENTURE_DASH",
+      "value": 0
+    },
+    {
+      "id": "FEAT_ADVENTURE_KNOCKBACK",
+      "value": 1
+    },
+    {
+      "id": "FEAT_PLATFORM_JUMP",
+      "value": 0
+    },
+    {
+      "id": "FEAT_PLATFORM_DASH",
+      "value": 0
+    },
+    {
+      "id": "FEAT_PLATFORM_BLANK",
+      "value": 0
+    },
+    {
+      "id": "FEAT_PLATFORM_RUN",
+      "value": 0
+    },
+    {
+      "id": "FEAT_PLATFORM_SLOPES",
+      "value": 1
     }
   ]
 }

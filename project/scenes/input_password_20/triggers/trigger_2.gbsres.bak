@@ -6,7 +6,7 @@
   "prefabId": "",
   "name": "",
   "x": 16,
-  "y": 2,
+  "y": 3,
   "width": 2,
   "height": 3,
   "prefabScriptOverrides": {},
@@ -65,7 +65,7 @@
         "operator": "==",
         "comparator": "0",
         "__collapseElse": false,
-        "__collapse": false,
+        "__collapse": true,
         "__comment": false,
         "condition": {
           "type": "eq",

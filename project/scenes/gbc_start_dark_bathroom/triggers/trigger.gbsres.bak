@@ -33,7 +33,8 @@
         },
         "moveType": "horizontal",
         "useCollisions": false,
-        "__comment": true
+        "__comment": true,
+        "collideWith": []
       },
       "id": "5ea25673-4c9a-497a-bfca-976b90d83d79"
     },
@@ -92,7 +93,8 @@
                 "value": 7
               },
               "moveType": "horizontal",
-              "useCollisions": false
+              "useCollisions": false,
+              "collideWith": []
             },
             "id": "1a32487e-dd07-401e-a5d4-d6d98db0eea8"
           }

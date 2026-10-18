@@ -596,5 +596,6 @@
       "name": "Bot Y",
       "symbol": "var_bot_y_3"
     }
-  ]
+  ],
+  "constants": []
 }

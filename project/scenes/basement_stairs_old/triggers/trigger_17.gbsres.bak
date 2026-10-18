@@ -64,7 +64,8 @@
                 "value": 1
               },
               "moveType": "diagonal",
-              "useCollisions": false
+              "useCollisions": false,
+              "collideWith": []
             }
           }
         ],
@@ -122,7 +123,8 @@
                       "value": -1
                     },
                     "moveType": "diagonal",
-                    "useCollisions": false
+                    "useCollisions": false,
+                    "collideWith": []
                   }
                 }
               ],
@@ -169,7 +171,8 @@
                           },
                           "moveType": "diagonal",
                           "useCollisions": false,
-                          "__comment": true
+                          "__comment": true,
+                          "collideWith": []
                         }
                       }
                     ],

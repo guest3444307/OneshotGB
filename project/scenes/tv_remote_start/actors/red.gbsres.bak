@@ -17,7 +17,23 @@
   "prefabScriptOverrides": {},
   "symbol": "actor_58",
   "script": [],
-  "startScript": [],
+  "startScript": [
+    {
+      "command": "EVENT_PALETTE_SET_SPRITE",
+      "args": {
+        "palette0": "keep",
+        "palette1": "keep",
+        "palette2": "keep",
+        "palette3": "keep",
+        "palette4": "2c6c63ff-92e0-4074-8403-8fdd55b75a12",
+        "palette5": "keep",
+        "palette6": "keep",
+        "palette7": "keep",
+        "__collapse": false
+      },
+      "id": "3b6a3de5-68a9-42a2-8c2b-aa8f47226e7f"
+    }
+  ],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],

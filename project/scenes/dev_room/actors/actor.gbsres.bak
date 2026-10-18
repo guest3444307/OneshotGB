@@ -37,7 +37,8 @@
         "option8": "",
         "cancelOnB": true,
         "layout": "dialogue",
-        "cancelOnLastOption": true
+        "cancelOnLastOption": true,
+        "__collapse": true
       }
     },
     {

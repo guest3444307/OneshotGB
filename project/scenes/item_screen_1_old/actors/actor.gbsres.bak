@@ -5,6 +5,7 @@
   "symbol": "actor_6",
   "prefabId": "",
   "name": "",
+  "coordinateType": "tiles",
   "x": 3,
   "y": 8,
   "frame": 0,
@@ -17,6 +18,7 @@
   "isPinned": false,
   "persistent": false,
   "collisionGroup": "",
+  "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
   "script": [],
   "startScript": [
@@ -144,8 +146,15 @@
       "id": "0c642544-eb92-4531-9743-a929f765d2bb",
       "command": "EVENT_WAIT",
       "args": {
-        "time": 0.5,
-        "__collapse": true
+        "time": {
+          "type": "number",
+          "value": 0.5
+        },
+        "__collapse": true,
+        "frames": {
+          "type": "number",
+          "value": 30
+        }
       }
     },
     {
@@ -168,8 +177,15 @@
       "id": "cb73ed4e-4316-42b5-9fd9-1ec190e07187",
       "command": "EVENT_WAIT",
       "args": {
-        "time": 0.5,
-        "__collapse": true
+        "time": {
+          "type": "number",
+          "value": 0.5
+        },
+        "__collapse": true,
+        "frames": {
+          "type": "number",
+          "value": 30
+        }
       }
     }
   ],

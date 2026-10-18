@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "36fad9cb-b9cb-49e2-b80b-a058a644d686",
+  "name": "Oneshot/Starting Home/Puzzle/tvRemote",
+  "symbol": "bg_oneshot_starting_home_pu",
+  "tileColors": "",
+  "filename": "Oneshot/Starting Home/Puzzle/tvRemote.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144
+}

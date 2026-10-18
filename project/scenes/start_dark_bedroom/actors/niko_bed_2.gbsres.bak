@@ -5,6 +5,7 @@
   "symbol": "actor_niko_bed_2",
   "prefabId": "",
   "name": "Niko Bed 2",
+  "coordinateType": "tiles",
   "x": 14,
   "y": 18,
   "frame": 1,
@@ -17,6 +18,7 @@
   "isPinned": false,
   "persistent": false,
   "collisionGroup": "",
+  "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
   "script": [
     {

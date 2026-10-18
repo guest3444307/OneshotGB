@@ -21,7 +21,7 @@
     {
       "command": "EVENT_ACTOR_SET_FRAME",
       "args": {
-        "actorId": "$self$",
+        "actorId": "0",
         "frame": {
           "type": "variable",
           "value": "V0"

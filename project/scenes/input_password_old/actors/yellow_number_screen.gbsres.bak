@@ -5,6 +5,7 @@
   "symbol": "actor_yellow_number_screen",
   "prefabId": "",
   "name": "Yellow Number Screen",
+  "coordinateType": "tiles",
   "x": 11,
   "y": 5,
   "frame": 0,
@@ -17,6 +18,7 @@
   "isPinned": false,
   "persistent": false,
   "collisionGroup": "",
+  "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
   "script": [
     {

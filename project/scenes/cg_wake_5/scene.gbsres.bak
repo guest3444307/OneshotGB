@@ -86,7 +86,7 @@
               ],
               "persist": true,
               "__scriptTabs": "press",
-              "__collapse": false
+              "__collapse": true
             },
             "children": {
               "true": [
@@ -118,7 +118,7 @@
                     "operator": "==",
                     "comparator": 1,
                     "__collapseElse": false,
-                    "__collapse": false,
+                    "__collapse": true,
                     "condition": {
                       "type": "eq",
                       "valueA": {
