@@ -33,7 +33,7 @@
         "palette5": "keep",
         "palette6": "keep",
         "palette7": "keep",
-        "__collapse": true
+        "__collapse": false
       },
       "id": "602a74fb-a750-4a72-a496-20df9d280e45"
     }

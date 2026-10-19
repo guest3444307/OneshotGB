@@ -84,6 +84,14 @@
     {
       "id": "FEAT_PLATFORM_SLOPES",
       "value": 1
+    },
+    {
+      "id": "ENABLE_FLICKER_FEATURE",
+      "value": 0
+    },
+    {
+      "id": "ENABLE_SORTY_FEATURE",
+      "value": 1
     }
   ]
 }

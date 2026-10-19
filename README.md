@@ -1,33 +1,35 @@
 # OneshotGB
-Oneshot GB now in github!
-Putting it on github since thats 10x easier than mediafire for anyone to obtain and it would make it easier to work on the project for me.
-Also served as me trying out git bash (and failing)
-The main branch is where the 2.0.0 demo is currently being worked on
+Oneshot for the GameBoy, made in GBStudio, currently 4.3.2  
+The main branch is where the 3.0.0 demo is currently being worked on, older builds are in other branches  
 
 # Credits:
 <a href="https://cyan.pet/">Cyan</a>: I edited their cover of My Burden is Light https://musescore.com/user/28404833/scores/7453154
 
 # Update format
+This project uses semantic version numbers for releases X.X.X  
 
-Minor: Bugfixes
-Moderate:New visual content, little to no new content, Aka nothing playable
-Working Progress: Working on content which once finished, will be considered "Major"
-Major: Playable content, like a continuation of the story, or a new inventory system
+Major: Major underlying changes in development either programmically or planning wise. For example, changing the underlying system for inventory management or developing Game Boy Color support  
+Minor: New content, but nothing that changes the underlying purpose of the project or the backend significantly, for example, adding in a new puzzle.  
+Minor: Bugfixes  
 
-# 2.0.0 demo promises
 
-Improved Inventory system backend since 8 items was about the limit my mind could handle if the nested if statements i used (i was sort of losing my mind) 
-color support!
-Improved assets (Compared to V1)
+# 3.0.0 demo promises
 
-# 2.1.0 demo promises
+A Major update which shall feature a rework of the starting area's content, like for example  
 
-A Major update which shall feature a rework of the new area's content, like for example
+. Trying to get color to work on the Remote control, and removing the color puzzle for the original gameboy (inspiration from World Machine's color blind mode)  
 
-. Trying to get color to work on the Remote control, and removing the color puzzle for the original gameboy (inspiration from World Machine's color blind mode)
+. Generally rethinking the game to work better as a game boy game (localizing to game boy instead of just remaking the pc version for gameboy)  
 
-. Generally rethinking the game to work better as a game boy game (localizing to game boy instead of just remaking the pc version for gameboy)
+. Polishing visuals, like for example, overworld sprites. They need to be setup properly instead of using default brown.  
 
-. Maybe more!
+. Building the underlying save system the rest of the game will use  
 
-# NOTICE: MAIN BRANCH IS NOT GUARANTEED TO WORK, V2OLD IS
+. Have player name input at start (will come in later!)  
+
+. Rework PC cutscene (Current GBStudio sorta glitches now, where before flashed white when teleporting camera. Plus i set it up badly to begin with.  
+
+. Probably more!  
+
+# NOTICE: MAIN BRANCH IS NOT GUARANTEED TO WORK AS IT'S THE DEVELOPMENT BRANCH, 3.1 BACKUP IS BASICALLY 2.0.0, V2OLD IS 1.0.0
+(v2 old gets it's name from GBStudio V2Beta5)

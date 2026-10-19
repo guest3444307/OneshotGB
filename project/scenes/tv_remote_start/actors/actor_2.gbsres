@@ -16,19 +16,7 @@
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
   "symbol": "actor_66",
-  "script": [
-    {
-      "command": "EVENT_ACTOR_SET_FRAME",
-      "args": {
-        "actorId": "$self$",
-        "frame": {
-          "type": "number",
-          "value": 11
-        }
-      },
-      "id": "65f31e46-3c89-49c2-916a-5c6eefd4bd5c"
-    }
-  ],
+  "script": [],
   "startScript": [],
   "updateScript": [],
   "hit1Script": [],

@@ -17,7 +17,33 @@
   "prefabScriptOverrides": {},
   "symbol": "actor_67",
   "script": [],
-  "startScript": [],
+  "startScript": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "BL"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "f1dc0d9d-f99a-45f2-b3d7-a14e164be323"
+    }
+  ],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],

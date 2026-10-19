@@ -371,7 +371,7 @@
             "args": {
               "condition": {
                 "type": "expression",
-                "value": "($11$ || $12$) == $13$"
+                "value": "$11$ == $13$ || $12$ == $13$"
               },
               "__collapse": false
             },
@@ -426,7 +426,7 @@
             "args": {
               "condition": {
                 "type": "expression",
-                "value": "($11$ || $12$ || $13$) == $14$"
+                "value": "$11$ == $14$ || $12$ == $14$|| $13$ == $14$"
               },
               "__collapse": false
             },

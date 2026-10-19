@@ -17,7 +17,33 @@
   "prefabScriptOverrides": {},
   "symbol": "actor_64",
   "script": [],
-  "startScript": [],
+  "startScript": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "GR"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "c27cbe08-4de4-4559-b29d-002e7d9688c4"
+    }
+  ],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],

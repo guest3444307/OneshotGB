@@ -27,7 +27,7 @@
       "args": {
         "actorId": "$self$",
         "__collapse": false,
-        "__comment": true
+        "__comment": false
       },
       "id": "d128e7a7-e82f-4c79-9415-97f16118730e"
     },
@@ -46,6 +46,24 @@
         "__comment": false
       },
       "id": "b62ad5e4-c807-4f7d-b867-4c834510cbaf"
+    },
+    {
+      "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "9e20b116-5006-4c54-9040-1f0029881470"
+    },
+    {
+      "command": "EVENT_SET_ACTOR_ACTIVE_INDEX",
+      "args": {
+        "actorId": "$self$",
+        "activeIdx": {
+          "type": "number",
+          "value": 255
+        }
+      },
+      "id": "3331805a-ce28-457a-9c62-de84eb172c6a"
     }
   ],
   "updateScript": [

@@ -35,7 +35,7 @@
         "palette5": "keep",
         "palette6": "keep",
         "palette7": "keep",
-        "__collapse": true,
+        "__collapse": false,
         "__comment": false
       },
       "id": "aeac2533-5c46-4aae-a8e0-ce8aa8fe09ae"
@@ -52,5 +52,5 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "collisions": "0049+0f!00c+0f9+00b+0f2+006+0f!00b+0f2+006+0f!00b+0f2+005+0f3+00a+0f!006+0f3+00a+0f!006+0f2+00b+0f!007+0f!00b+0f9+00b+0f!0071+"
+  "collisions": "0056+0f7+00d+0f!0013+0f!0013+0f!006+0f!00c+0f!006+0f!00c+0f!006+0f!00c+0f!0013+0f8+007e+"
 }

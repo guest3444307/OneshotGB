@@ -16,60 +16,34 @@
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
   "symbol": "actor_58",
-  "script": [],
-  "startScript": [
+  "script": [
     {
-      "command": "EVENT_PALETTE_SET_SPRITE",
+      "command": "EVENT_TEXT",
       "args": {
-        "palette0": "keep",
-        "palette1": "keep",
-        "palette2": "keep",
-        "palette3": "2c6c63ff-92e0-4074-8403-8fdd55b75a12",
-        "palette4": "690f4af6-b433-49bc-b731-5b11acc493e3",
-        "palette5": "f6a351e5-1a95-4dd4-a7ba-af30e13af560",
-        "palette6": "22ab4a3d-8e6b-49d8-9838-21b2ad100f54",
-        "palette7": "keep",
-        "__collapse": false
+        "text": [
+          "RED"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
       },
-      "id": "3b6a3de5-68a9-42a2-8c2b-aa8f47226e7f"
-    },
-    {
-      "command": "EVENT_ACTOR_SET_STATE",
-      "args": {
-        "actorId": "$self$",
-        "spriteStateId": "Palette5",
-        "loopAnim": true
-      },
-      "id": "f1a3f7a5-5fd5-452e-8b9a-5454f57ed786"
-    },
-    {
-      "command": "EVENT_ACTOR_SET_STATE",
-      "args": {
-        "actorId": "42f4fbb7-928e-4abe-934f-37f81d99c68e",
-        "spriteStateId": "",
-        "loopAnim": true
-      },
-      "id": "336107c6-7632-4585-9e23-692841010330"
-    },
-    {
-      "command": "EVENT_ACTOR_SET_STATE",
-      "args": {
-        "actorId": "6ccaa4ac-4c0e-4a38-832a-2fff63e3909a",
-        "spriteStateId": "Palette7",
-        "loopAnim": true
-      },
-      "id": "f6575327-e22d-4218-b7d4-4ad242977463"
-    },
-    {
-      "command": "EVENT_ACTOR_SET_STATE",
-      "args": {
-        "actorId": "2050ceb1-f4be-4ecb-a70c-6b196edbaa9d",
-        "spriteStateId": "Palette6",
-        "loopAnim": true
-      },
-      "id": "e4140c26-e0e1-4eb8-8664-f1ca51ada19a"
+      "id": "71ec69cc-ca34-4e30-9858-77e502f91b39"
     }
   ],
+  "startScript": [],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
