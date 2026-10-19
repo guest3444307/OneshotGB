@@ -157,6 +157,13 @@
       "id": "75fde080-6704-4ee4-a269-e4f834356860"
     },
     {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "cfa704e3-b03b-4548-a2ce-f29832726d85"
+    },
+    {
       "id": "8e9bedb9-95be-4294-a892-58ed3d7246d3",
       "command": "EVENT_TEXT",
       "args": {
@@ -169,12 +176,13 @@
       }
     },
     {
-      "command": "EVENT_IF_INPUT",
+      "command": "EVENT_SET_INPUT_SCRIPT",
       "args": {
         "input": [
           "a"
         ],
-        "__collapseElse": true
+        "override": true,
+        "__scriptTabs": "press"
       },
       "children": {
         "true": [
@@ -183,12 +191,11 @@
             "args": {
               "fadeSpeed": "2"
             },
-            "id": "e7351de8-9bc7-4d4c-aa99-395c550a8309"
+            "id": "a48e0f2b-ec9f-4cc5-99d3-45f11416da6a"
           }
-        ],
-        "false": []
+        ]
       },
-      "id": "2f7501f6-4c23-48a3-b3f4-b1e0aae1ac11"
+      "id": "c9730ade-21e5-4dbe-b710-f1af4677b987"
     }
   ],
   "playerHit1Script": [],

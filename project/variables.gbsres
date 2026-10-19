@@ -203,8 +203,8 @@
     },
     {
       "id": "1dca4bb1-8352-469f-9b56-aaa12cb3ecb8__L1",
-      "name": "Red Number",
-      "symbol": "var_red_number"
+      "name": "Number Hold (Formerly Red)",
+      "symbol": "var_number_hold_formerly_re"
     },
     {
       "id": "1dca4bb1-8352-469f-9b56-aaa12cb3ecb8__L2",
@@ -595,6 +595,11 @@
       "id": "b4641182-601b-4b91-bf15-b151c784ca82__L3",
       "name": "Bot Y",
       "symbol": "var_bot_y_3"
+    },
+    {
+      "id": "1dca4bb1-8352-469f-9b56-aaa12cb3ecb8__L5",
+      "name": "DMG loop",
+      "symbol": "var_dmg_loop"
     }
   ],
   "constants": []

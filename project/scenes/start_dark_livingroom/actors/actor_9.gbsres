@@ -6,8 +6,8 @@
   "prefabId": "",
   "name": "",
   "coordinateType": "tiles",
-  "x": 31,
-  "y": 20,
+  "x": 49,
+  "y": 26,
   "frame": 0,
   "animate": false,
   "spriteSheetId": "b166b6fa-9418-4943-9572-637dcde6b42f",
@@ -26,7 +26,8 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "[Just a chair.]"
+          "[Just a chair.]",
+          "Lost in the Voice\nGaster Deltarune"
         ],
         "avatarId": ""
       }

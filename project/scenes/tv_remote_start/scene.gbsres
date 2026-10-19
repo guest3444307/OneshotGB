@@ -157,11 +157,19 @@
       "id": "75fde080-6704-4ee4-a269-e4f834356860"
     },
     {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "cfa704e3-b03b-4548-a2ce-f29832726d85"
+    },
+    {
       "id": "8e9bedb9-95be-4294-a892-58ed3d7246d3",
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "[They're marked in\nbright colors.]"
+          "[They're marked in\nbright colors.]",
+          "$14$ $13$ $11$ $12$"
         ],
         "avatarId": "",
         "__collapse": false,
