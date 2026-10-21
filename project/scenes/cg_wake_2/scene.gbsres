@@ -2,7 +2,7 @@
   "_resourceType": "scene",
   "id": "2a26a686-20cf-4a44-8745-9bd9d766696f",
   "_index": 3,
-  "type": "TOPDOWN",
+  "type": "ADVENTURE",
   "name": "Cg_wake_2",
   "symbol": "scene_cg_wake_2",
   "x": 240.60007505082754,

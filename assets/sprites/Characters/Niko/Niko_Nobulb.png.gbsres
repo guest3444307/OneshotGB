@@ -2,7 +2,7 @@
   "_resourceType": "sprite",
   "id": "fcc12505-44cf-4595-94ae-a955dca57387",
   "name": "Characters\\Niko\\Niko_Nobulb",
-  "symbol": "sprite_characters_niko_niko_1",
+  "symbol": "sprite_characters_niko_niko_2",
   "states": [
     {
       "id": "377502af-449b-40a0-82f9-20aa0dc74e05",
@@ -111,23 +111,23 @@
               "id": "2d563e58-35e7-4bc9-b477-7ef622fef10c",
               "tiles": [
                 {
-                  "id": "4e877226-8611-4743-85b3-0f446b316e09",
+                  "id": "daadf868-626f-4513-9acc-311f6a59b4c5",
                   "x": 0,
                   "y": 0,
-                  "sliceX": 0,
+                  "sliceX": 128,
                   "sliceY": 0,
+                  "palette": 0,
                   "flipX": false,
                   "flipY": false,
-                  "palette": 0,
-                  "paletteIndex": 0,
                   "objPalette": "OBP0",
+                  "paletteIndex": 0,
                   "priority": false
                 },
                 {
-                  "id": "a747cc1f-6ec5-4d83-bed0-81c95ce66874",
+                  "id": "059cc41a-7d2a-4b06-95cd-860f5784dbaa",
                   "x": 8,
                   "y": 0,
-                  "sliceX": 24,
+                  "sliceX": 136,
                   "sliceY": 0,
                   "palette": 0,
                   "flipX": false,
@@ -139,7 +139,7 @@
                 {
                   "id": "43cbb9a1-125c-4745-8d20-e4972823b16e",
                   "x": 4,
-                  "y": 0,
+                  "y": -1,
                   "sliceX": 120,
                   "sliceY": 0,
                   "palette": 0,
@@ -357,7 +357,7 @@
                 {
                   "id": "78423625-73e4-41b6-9138-6072d972e64f",
                   "x": 4,
-                  "y": 0,
+                  "y": -1,
                   "sliceX": 120,
                   "sliceY": 0,
                   "palette": 0,
@@ -401,7 +401,7 @@
                 {
                   "id": "b85e4b6d-9cc1-46d2-807a-d698778c9e6c",
                   "x": 4,
-                  "y": 0,
+                  "y": -1,
                   "sliceX": 120,
                   "sliceY": 0,
                   "palette": 0,
@@ -418,7 +418,7 @@
       ]
     }
   ],
-  "numTiles": 12,
+  "numTiles": 13,
   "canvasOriginX": 0,
   "canvasOriginY": 0,
   "canvasWidth": 16,
@@ -429,7 +429,7 @@
   "boundsHeight": 8,
   "animSpeed": 15,
   "filename": "Characters/Niko/Niko_Nobulb.png",
-  "width": 128,
+  "width": 160,
   "height": 16,
-  "checksum": "c485a0230dabeac6ab749f1110afb6611ce1cac9"
+  "checksum": "633d8dad7a7a0541b288c5f98c3693d863f5973a"
 }
