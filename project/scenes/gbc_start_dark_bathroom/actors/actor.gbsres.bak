@@ -6,7 +6,7 @@
   "prefabId": "",
   "name": "",
   "coordinateType": "tiles",
-  "x": 10,
+  "x": 12,
   "y": 7,
   "frame": 0,
   "animate": false,
@@ -28,7 +28,7 @@
         "palette0": "keep",
         "palette1": "keep",
         "palette2": "keep",
-        "palette3": "ae62883a-e6c9-4574-96b5-ed5b9a869345",
+        "palette3": "31fad0d1-94ff-4fb9-b363-fffb51efe0c2",
         "palette4": "keep",
         "palette5": "keep",
         "palette6": "keep",
@@ -36,6 +36,24 @@
         "__collapse": false
       },
       "id": "602a74fb-a750-4a72-a496-20df9d280e45"
+    },
+    {
+      "command": "EVENT_SET_ACTOR_ACTIVE_INDEX",
+      "args": {
+        "actorId": "$self$",
+        "activeIdx": {
+          "type": "number",
+          "value": 255
+        }
+      },
+      "id": "ef69c661-ad4a-4ee6-b511-7c31eec72557"
+    },
+    {
+      "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "07f4cee1-a66c-4d3c-8312-427126c982db"
     }
   ],
   "updateScript": [

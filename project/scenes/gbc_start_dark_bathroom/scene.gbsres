@@ -9,7 +9,7 @@
   "y": 578.4380954560784,
   "width": 20,
   "height": 18,
-  "backgroundId": "31f4af77-e228-46d8-9507-faebdaf4cd78",
+  "backgroundId": "14e0f7b8-c3cc-42fc-850f-734af3c37fdb",
   "tilesetId": "",
   "colorModeOverride": "none",
   "paletteIds": [
@@ -18,18 +18,23 @@
   "spritePaletteIds": [
     "",
     "db49da66-75a4-44ba-af31-b9a41022131c",
-    "ae62883a-e6c9-4574-96b5-ed5b9a869345"
+    "31fad0d1-94ff-4fb9-b363-fffb51efe0c2",
+    "",
+    "",
+    "",
+    "",
+    ""
   ],
   "autoFadeSpeed": null,
   "autoFadeEventCollapse": true,
-  "playerSpriteSheetId": "cc2d1064-9c39-4f19-abcd-155208afee76",
+  "playerSpriteSheetId": "fcc12505-44cf-4595-94ae-a955dca57387",
   "script": [
     {
       "command": "EVENT_PALETTE_SET_SPRITE",
       "args": {
         "palette0": "keep",
         "palette1": "keep",
-        "palette2": "b5829ad4-74a3-4a05-8645-1ad0a554d864",
+        "palette2": "31fad0d1-94ff-4fb9-b363-fffb51efe0c2",
         "palette3": "keep",
         "palette4": "keep",
         "palette5": "keep",
@@ -52,5 +57,5 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "collisions": "0056+0f7+00d+0f2+0012+0f2+0012+0f2+005+0f!00c+0f!006+0f!00c+0f!006+0f!00c+0f!0013+0f8+007e+"
+  "collisions": "0049+0f!00c+0f9+00b+0f!0013+0f!007+0f!00b+0f2+006+0f2+00a+0f!006+0f3+00a+0f!006+0f2+00b+0f!007+0f!00b+0f9+00b+0f!0071+"
 }

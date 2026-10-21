@@ -1,0 +1,102 @@
+{
+  "_resourceType": "sprite",
+  "id": "a61752ef-4e80-4945-b1cb-f1043cdb4981",
+  "name": "StartingHome/MirrorCarpet",
+  "symbol": "sprite_startinghome_mirrorc",
+  "states": [
+    {
+      "id": "b146080e-2a9c-4a68-8027-4c2692958785",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": false,
+      "animations": [
+        {
+          "id": "6236ab95-d54b-4191-9aa3-78129aaf286d",
+          "frames": [
+            {
+              "id": "ac21913a-c465-4884-8e8f-4b2d37ee9507",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "58ad627a-cb89-40ec-a930-070718506858",
+          "frames": [
+            {
+              "id": "1f5ad4cc-f40a-4835-b350-ae4730753dc9",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "593923dc-9d10-4c73-a583-35bf2e32c114",
+          "frames": [
+            {
+              "id": "e9ce6c54-4eb2-49bc-86be-4ede57087661",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "568a04d3-bbf4-4565-9e04-91b6a593404f",
+          "frames": [
+            {
+              "id": "206389ce-2eec-4030-ab98-c2dc04c1ac2c",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "6e45a956-97ca-425c-a63d-10635a4b508d",
+          "frames": [
+            {
+              "id": "00d302a8-18b2-4e2d-acee-55fd2d4c9020",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "4a29db6a-a61a-453b-98f8-61381f42fad5",
+          "frames": [
+            {
+              "id": "2ffcc402-ed0e-449b-9f94-45e2eeaa3eac",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "3db2b127-2c51-4232-94a7-7e4e5af703ed",
+          "frames": [
+            {
+              "id": "331a69b1-aab2-45e5-adaa-96ebd6d6698f",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "1bd5bf9a-7f24-461c-bfe3-d78c59329659",
+          "frames": [
+            {
+              "id": "e8987e41-c05c-4e7f-a3f7-a3cc09fa5fb6",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "StartingHome/MirrorCarpet.png",
+  "width": 8,
+  "height": 16,
+  "checksum": "4dc6eaee101c1e1c751a19c43dc69df08e30e115"
+}

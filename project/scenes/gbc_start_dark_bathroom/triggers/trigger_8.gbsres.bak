@@ -6,7 +6,7 @@
   "prefabId": "",
   "name": "",
   "x": 11,
-  "y": 13,
+  "y": 10,
   "width": 1,
   "height": 1,
   "prefabScriptOverrides": {},
@@ -18,20 +18,6 @@
         "script": "VM_UNLOCK"
       },
       "id": "e5d75c0f-bf0c-4635-aabc-5c22252751f2"
-    },
-    {
-      "command": "EVENT_ACTOR_HIDE",
-      "args": {
-        "actorId": "4907d7a8-4ac2-41b1-90ef-cb90cc1b7bbe"
-      },
-      "id": "eafa6e7d-dd13-4444-8d55-39a8518acca0"
-    },
-    {
-      "command": "EVENT_ACTOR_SHOW",
-      "args": {
-        "actorId": "24398b46-99f0-40a9-8922-768b20bc67b1"
-      },
-      "id": "98368839-2bf2-4432-b975-11ca33032af4"
     },
     {
       "command": "EVENT_ACTOR_MOVE_TO",

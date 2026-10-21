@@ -1,12 +1,12 @@
 {
   "_resourceType": "trigger",
-  "id": "95ca9a1f-027d-4e3a-af54-a0ef0d93e2e8",
+  "id": "f3dd8283-2300-4135-8676-86bd9905b79e",
   "_index": 9,
-  "symbol": "trigger_52",
+  "symbol": "trigger_79",
   "prefabId": "",
   "name": "",
-  "x": 8,
-  "y": 13,
+  "x": 12,
+  "y": 9,
   "width": 1,
   "height": 1,
   "prefabScriptOverrides": {},
@@ -17,7 +17,7 @@
         "__collapse": false,
         "script": "VM_UNLOCK"
       },
-      "id": "4e22138d-56b1-481a-bbbb-02e5ddfe5607"
+      "id": "1e252203-fe81-494b-8ae7-af00afbefdc1"
     },
     {
       "command": "EVENT_ACTOR_MOVE_TO",
@@ -25,7 +25,7 @@
         "actorId": "ddc61ab5-5244-48a6-a2a5-e27f4744deb8",
         "x": {
           "type": "number",
-          "value": 8
+          "value": 12
         },
         "y": {
           "type": "number",
@@ -33,19 +33,19 @@
         },
         "moveType": "horizontal",
         "useCollisions": false,
+        "__comment": true,
         "collideWith": []
       },
-      "id": "ac311ad8-8e6b-416d-b0ed-0c48d0b645ee"
+      "id": "83473e9f-6856-470e-bf7f-83e20f3fa684"
     },
     {
-      "command": "EVENT_TEXT",
+      "command": "EVENT_ACTOR_SET_SPRITE",
       "args": {
-        "text": [
-          "lefter"
-        ],
-        "avatarId": ""
+        "actorId": "24398b46-99f0-40a9-8922-768b20bc67b1",
+        "spriteSheetId": "ba4aa881-f192-4dcf-afa1-f9e4c5d461e7",
+        "__comment": true
       },
-      "id": "a172c003-87b1-4e9e-aca9-f12a61f25751"
+      "id": "f41e33e0-8a42-4a8c-956a-8e1673a6f053"
     }
   ],
   "leaveScript": []

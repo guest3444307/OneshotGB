@@ -499,7 +499,7 @@
                       "type": "number",
                       "value": 1
                     },
-                    "__collapse": true
+                    "__collapse": false
                   },
                   "children": {
                     "true": [
@@ -525,7 +525,7 @@
                           "closeButton": "a",
                           "closeDelayTime": 0.5,
                           "closeDelayFrames": 30,
-                          "__comment": false
+                          "__comment": true
                         },
                         "id": "3ffd5c76-51f8-41d5-8354-4002191e06ef"
                       },

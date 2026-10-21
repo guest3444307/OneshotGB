@@ -1,12 +1,12 @@
 {
   "_resourceType": "trigger",
-  "id": "f42597c2-78eb-41c2-96a1-18b1e1e055ab",
-  "_index": 12,
-  "symbol": "trigger_55",
-  "prefabId": "",
+  "id": "0b8e6bbd-f3df-42ee-8566-6b1fcf5306dd",
   "name": "",
+  "prefabId": "",
+  "_index": 12,
+  "symbol": "trigger_51",
   "x": 7,
-  "y": 10,
+  "y": 9,
   "width": 1,
   "height": 1,
   "prefabScriptOverrides": {},
@@ -14,10 +14,10 @@
     {
       "command": "EVENT_GBVM_SCRIPT",
       "args": {
-        "__collapse": true,
+        "__collapse": false,
         "script": "VM_UNLOCK"
       },
-      "id": "edbbaeb2-fa1e-4555-917b-5a03f8991724"
+      "id": "c251b08f-14f6-41a6-9805-9b0df8c5bdd6"
     },
     {
       "command": "EVENT_ACTOR_MOVE_TO",
@@ -25,7 +25,7 @@
         "actorId": "ddc61ab5-5244-48a6-a2a5-e27f4744deb8",
         "x": {
           "type": "number",
-          "value": 7
+          "value": 9
         },
         "y": {
           "type": "number",
@@ -33,11 +33,61 @@
         },
         "moveType": "horizontal",
         "useCollisions": false,
-        "__collapse": false,
+        "__comment": true,
         "collideWith": []
       },
-      "id": "20730131-fb25-4fca-94f5-223626acad57"
+      "id": "598648f5-4703-451a-aeb1-1361ac9b77c2"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_SPRITE",
+      "args": {
+        "actorId": "24398b46-99f0-40a9-8922-768b20bc67b1",
+        "spriteSheetId": "5ebdbddc-3882-42f4-8560-4e9f76ac40f2",
+        "__comment": true
+      },
+      "id": "b4f9c47b-1d66-44d0-b2c0-4c1dcd5c1cee"
     }
   ],
-  "leaveScript": []
+  "leaveScript": [
+    {
+      "command": "EVENT_IF_ACTOR_AT_POSITION",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 8
+        },
+        "y": {
+          "type": "number",
+          "value": 11
+        },
+        "__collapseElse": true,
+        "__comment": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "actorId": "ddc61ab5-5244-48a6-a2a5-e27f4744deb8",
+              "x": {
+                "type": "number",
+                "value": 8
+              },
+              "y": {
+                "type": "number",
+                "value": 7
+              },
+              "moveType": "horizontal",
+              "useCollisions": false,
+              "collideWith": []
+            },
+            "id": "88f12c6a-e0fd-4d29-ba6e-7420a00ca29a"
+          }
+        ],
+        "false": []
+      },
+      "id": "78f4a1fe-c7c9-45c8-bd10-cfd526bcb340"
+    }
+  ]
 }

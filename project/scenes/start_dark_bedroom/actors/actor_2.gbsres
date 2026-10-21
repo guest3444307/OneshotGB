@@ -82,7 +82,7 @@
         "operator": "==",
         "comparator": 0,
         "__collapseElse": false,
-        "__collapse": true,
+        "__collapse": false,
         "condition": {
           "type": "eq",
           "valueA": {
@@ -97,17 +97,6 @@
       },
       "children": {
         "true": [
-          {
-            "id": "6b30895e-6bc8-4f86-bf56-5ef1d7aa543d",
-            "command": "EVENT_SET_VALUE",
-            "args": {
-              "variable": "4",
-              "__collapse": false,
-              "value": {
-                "type": "true"
-              }
-            }
-          },
           {
             "id": "b28361fe-7ad5-4f65-9742-5faa1bf528b6",
             "command": "EVENT_SET_VALUE",
@@ -145,17 +134,6 @@
             "children": {
               "true": [
                 {
-                  "id": "316014ad-0ac7-4f91-8b53-1ffb024d231a",
-                  "command": "EVENT_SET_VALUE",
-                  "args": {
-                    "variable": "10",
-                    "__collapse": false,
-                    "value": {
-                      "type": "true"
-                    }
-                  }
-                },
-                {
                   "id": "0d7681c5-8272-4bf3-898e-8fe3da7110c9",
                   "command": "EVENT_SET_VALUE",
                   "args": {
@@ -192,17 +170,6 @@
                   },
                   "children": {
                     "true": [
-                      {
-                        "id": "548d581a-fd8d-461a-ac85-f447a9cdc052",
-                        "command": "EVENT_SET_VALUE",
-                        "args": {
-                          "variable": "22",
-                          "__collapse": false,
-                          "value": {
-                            "type": "true"
-                          }
-                        }
-                      },
                       {
                         "id": "97a0d2eb-8097-4ab1-af92-34d3e919f026",
                         "command": "EVENT_SET_VALUE",

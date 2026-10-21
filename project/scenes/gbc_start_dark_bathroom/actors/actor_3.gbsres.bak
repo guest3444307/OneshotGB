@@ -10,7 +10,7 @@
   "y": 6,
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "cc2d1064-9c39-4f19-abcd-155208afee76",
+  "spriteSheetId": "903e3432-3ab4-492e-8780-3d84d5b9fb77",
   "paletteId": "",
   "direction": "left",
   "moveSpeed": 1,
@@ -136,7 +136,7 @@
         "operator": "==",
         "comparator": 10,
         "__collapseElse": false,
-        "__collapse": false,
+        "__collapse": true,
         "condition": {
           "type": "eq",
           "valueA": {
@@ -216,9 +216,10 @@
         "useCollisions": true,
         "__collapse": false,
         "collideWith": [
-          "walls",
-          "actors"
-        ]
+          "actors",
+          "walls"
+        ],
+        "__section": "options"
       },
       "id": "ed67106a-2449-41b5-8e0b-da0d3cef6a08"
     },
@@ -231,7 +232,7 @@
           "value": "up"
         },
         "__collapseElse": false,
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [

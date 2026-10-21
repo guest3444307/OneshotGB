@@ -61,7 +61,7 @@
               "operator": "==",
               "comparator": 0,
               "__collapseElse": false,
-              "__collapse": true,
+              "__collapse": false,
               "condition": {
                 "type": "eq",
                 "valueA": {
@@ -76,17 +76,6 @@
             },
             "children": {
               "true": [
-                {
-                  "id": "3f61abad-6c0d-44e9-8f77-480bd0f852ca",
-                  "command": "EVENT_SET_VALUE",
-                  "args": {
-                    "variable": "4",
-                    "__collapse": true,
-                    "value": {
-                      "type": "true"
-                    }
-                  }
-                },
                 {
                   "id": "ef4821c9-6254-42bc-8311-a15289be5e22",
                   "command": "EVENT_SET_VALUE",
@@ -134,17 +123,6 @@
                           },
                           "__collapse": false
                         }
-                      },
-                      {
-                        "id": "e4f762da-fad5-445d-909d-5cc7fb479cce",
-                        "command": "EVENT_SET_VALUE",
-                        "args": {
-                          "variable": "10",
-                          "__collapse": false,
-                          "value": {
-                            "type": "true"
-                          }
-                        }
                       }
                     ],
                     "false": [
@@ -171,17 +149,6 @@
                         },
                         "children": {
                           "true": [
-                            {
-                              "id": "653a410b-7dbf-499e-891e-0cb2a7b707fb",
-                              "command": "EVENT_SET_VALUE",
-                              "args": {
-                                "variable": "22",
-                                "__collapse": false,
-                                "value": {
-                                  "type": "true"
-                                }
-                              }
-                            },
                             {
                               "id": "f46a9090-26be-4788-9561-0e3b63185932",
                               "command": "EVENT_SET_VALUE",

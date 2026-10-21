@@ -1,12 +1,12 @@
 {
   "_resourceType": "trigger",
-  "id": "443fab0b-8ae9-42e6-936e-fb414b4154e4",
+  "id": "cbee16d9-91a9-49d2-8d0d-d4eb839cbbab",
   "_index": 4,
-  "symbol": "trigger_47",
+  "symbol": "trigger_49",
   "prefabId": "",
   "name": "",
-  "x": 9,
-  "y": 11,
+  "x": 11,
+  "y": 9,
   "width": 1,
   "height": 1,
   "prefabScriptOverrides": {},
@@ -14,10 +14,10 @@
     {
       "command": "EVENT_GBVM_SCRIPT",
       "args": {
-        "__collapse": true,
+        "__collapse": false,
         "script": "VM_UNLOCK"
       },
-      "id": "dbc07858-3fc0-41e0-8dfa-b3c73eae310a"
+      "id": "cdf5c7ef-17b7-4b45-9133-811602b8d7c6"
     },
     {
       "command": "EVENT_ACTOR_MOVE_TO",
@@ -25,17 +25,27 @@
         "actorId": "ddc61ab5-5244-48a6-a2a5-e27f4744deb8",
         "x": {
           "type": "number",
-          "value": 9
+          "value": 11
         },
         "y": {
           "type": "number",
-          "value": 5
+          "value": 7
         },
         "moveType": "horizontal",
         "useCollisions": false,
+        "__comment": true,
         "collideWith": []
       },
-      "id": "019362d2-429d-4fda-b1a9-d2f2f7844136"
+      "id": "5cfe3011-a14b-43fd-807a-d9d1e5acf793"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_SPRITE",
+      "args": {
+        "actorId": "24398b46-99f0-40a9-8922-768b20bc67b1",
+        "spriteSheetId": "ba4aa881-f192-4dcf-afa1-f9e4c5d461e7",
+        "__comment": true
+      },
+      "id": "4fbb0036-d0c4-469d-b0af-432105ce33b6"
     }
   ],
   "leaveScript": []

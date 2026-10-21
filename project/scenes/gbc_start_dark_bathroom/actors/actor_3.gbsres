@@ -10,7 +10,7 @@
   "y": 6,
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "cc2d1064-9c39-4f19-abcd-155208afee76",
+  "spriteSheetId": "903e3432-3ab4-492e-8780-3d84d5b9fb77",
   "paletteId": "",
   "direction": "left",
   "moveSpeed": 1,
@@ -44,6 +44,17 @@
         "vectorY": "L1"
       },
       "id": "4f2d1a5a-789d-4b10-a60d-9e39eee84265"
+    },
+    {
+      "command": "EVENT_SET_ACTOR_ACTIVE_INDEX",
+      "args": {
+        "actorId": "$self$",
+        "activeIdx": {
+          "type": "number",
+          "value": 5
+        }
+      },
+      "id": "9f8dcc72-4e39-443c-9272-b697b6d319d0"
     },
     {
       "command": "EVENT_IF",
@@ -216,9 +227,10 @@
         "useCollisions": true,
         "__collapse": false,
         "collideWith": [
+          "actors",
           "walls"
         ],
-        "__section": "movement"
+        "__section": "options"
       },
       "id": "ed67106a-2449-41b5-8e0b-da0d3cef6a08"
     },

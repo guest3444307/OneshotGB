@@ -46,20 +46,6 @@
         "__comment": true
       },
       "id": "2eb6ec36-4bf2-46dc-b790-240799657521"
-    },
-    {
-      "command": "EVENT_ACTOR_HIDE",
-      "args": {
-        "actorId": "24398b46-99f0-40a9-8922-768b20bc67b1"
-      },
-      "id": "39dc8bbd-3e25-4a93-9d20-95107ab01eb5"
-    },
-    {
-      "command": "EVENT_ACTOR_SHOW",
-      "args": {
-        "actorId": "4907d7a8-4ac2-41b1-90ef-cb90cc1b7bbe"
-      },
-      "id": "aa66a9d3-afa1-4e2d-bf1a-c70224d3c64d"
     }
   ],
   "leaveScript": []

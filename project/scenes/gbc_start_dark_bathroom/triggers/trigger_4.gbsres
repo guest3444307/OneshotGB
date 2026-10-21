@@ -20,20 +20,6 @@
       "id": "16a2c412-fac6-4889-be3b-a8d9aa6ad745"
     },
     {
-      "command": "EVENT_ACTOR_HIDE",
-      "args": {
-        "actorId": "24398b46-99f0-40a9-8922-768b20bc67b1"
-      },
-      "id": "460b533e-611a-49ef-b666-a68505eeb9e2"
-    },
-    {
-      "command": "EVENT_ACTOR_SHOW",
-      "args": {
-        "actorId": "4907d7a8-4ac2-41b1-90ef-cb90cc1b7bbe"
-      },
-      "id": "5f545a80-7159-4fff-87af-f254a8bec764"
-    },
-    {
       "command": "EVENT_ACTOR_MOVE_TO",
       "args": {
         "actorId": "ddc61ab5-5244-48a6-a2a5-e27f4744deb8",

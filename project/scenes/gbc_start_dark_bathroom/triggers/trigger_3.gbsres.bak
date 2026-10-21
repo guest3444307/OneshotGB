@@ -53,13 +53,6 @@
         "actorId": "24398b46-99f0-40a9-8922-768b20bc67b1"
       },
       "id": "197f68ff-eea4-4179-80d2-bca8e71f310a"
-    },
-    {
-      "command": "EVENT_ACTOR_SHOW",
-      "args": {
-        "actorId": "4907d7a8-4ac2-41b1-90ef-cb90cc1b7bbe"
-      },
-      "id": "b85fd71c-b356-4954-ae56-951ad25c0e05"
     }
   ],
   "leaveScript": []
