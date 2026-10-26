@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "f9f6faff-0524-4a19-b575-69c51c81d9cb",
-  "_index": 14,
+  "_index": 12,
   "type": "TOPDOWN",
   "name": "Start Dark LivingRoom",
   "symbol": "scene_start_dark_livingroom",
@@ -13,7 +13,14 @@
   "tilesetId": "",
   "colorModeOverride": "none",
   "paletteIds": [
-    "31fad0d1-94ff-4fb9-b363-fffb51efe0c2"
+    "31fad0d1-94ff-4fb9-b363-fffb51efe0c2",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
   ],
   "spritePaletteIds": [
     "",

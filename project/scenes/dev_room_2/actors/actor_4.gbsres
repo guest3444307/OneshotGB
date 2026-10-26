@@ -204,7 +204,7 @@
                                               "Luckily it's much\nbetter now!"
                                             ],
                                             "avatarId": "",
-                                            "__collapse": true
+                                            "__collapse": false
                                           },
                                           "id": "3bdf899f-9637-4607-8507-bd06bfa568c1"
                                         }

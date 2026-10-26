@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "dfd76697-bfca-41b6-91dc-92300f122229",
-  "_index": 50,
+  "_index": 46,
   "type": "TOPDOWN",
   "name": "Tile Screen GBC",
   "symbol": "scene_tile_screen_gbc",
@@ -62,28 +62,6 @@
       "id": "5685d2e6-f034-4160-b933-5b672b4113af"
     },
     {
-      "command": "EVENT_SHOW_SPRITES",
-      "args": {
-        "__collapse": true
-      },
-      "id": "75fc5453-520d-42cf-b59b-1857cae6566d"
-    },
-    {
-      "command": "EVENT_ACTOR_DEACTIVATE",
-      "args": {
-        "actorId": "$self$",
-        "__collapse": true
-      },
-      "id": "45bc08e3-31ad-4902-8f5e-14d64fb78345"
-    },
-    {
-      "command": "EVENT_ACTOR_ACTIVATE",
-      "args": {
-        "actorId": "42040d1f-95a1-4815-8ce7-06c9a6868471"
-      },
-      "id": "8765a7fe-d0c9-44c9-a078-259810f8f3ef"
-    },
-    {
       "id": "a61fd376-8812-49e0-ae28-2b80592d52bb",
       "command": "EVENT_MENU",
       "args": {
@@ -102,6 +80,29 @@
         "__collapse": true,
         "__comment": false
       }
+    },
+    {
+      "command": "EVENT_SHOW_SPRITES",
+      "args": {
+        "__collapse": true
+      },
+      "id": "75fc5453-520d-42cf-b59b-1857cae6566d"
+    },
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": true
+      },
+      "id": "45bc08e3-31ad-4902-8f5e-14d64fb78345"
+    },
+    {
+      "command": "EVENT_ACTOR_ACTIVATE",
+      "args": {
+        "actorId": "42040d1f-95a1-4815-8ce7-06c9a6868471",
+        "__collapse": true
+      },
+      "id": "8765a7fe-d0c9-44c9-a078-259810f8f3ef"
     },
     {
       "id": "75536b5e-9fbf-4405-b3ae-728f65cca874",

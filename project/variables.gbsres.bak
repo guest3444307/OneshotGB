@@ -23,8 +23,8 @@
     },
     {
       "id": "4",
-      "name": "(OUTDATED) Item Slot 1",
-      "symbol": "var_outdated_item_slot_1"
+      "name": "(UNUSED)",
+      "symbol": "var_unused_"
     },
     {
       "id": "5",
@@ -49,7 +49,7 @@
     {
       "id": "9",
       "name": "Item Slot item 2",
-      "symbol": "var_item_slot_item_2"
+      "symbol": "var_item_slot_item_0"
     },
     {
       "id": "10",
@@ -203,8 +203,8 @@
     },
     {
       "id": "1dca4bb1-8352-469f-9b56-aaa12cb3ecb8__L1",
-      "name": "Red Number",
-      "symbol": "var_red_number"
+      "name": "Number Hold (Formerly Red)",
+      "symbol": "var_number_hold_formerly_re"
     },
     {
       "id": "1dca4bb1-8352-469f-9b56-aaa12cb3ecb8__L2",
@@ -595,6 +595,26 @@
       "id": "b4641182-601b-4b91-bf15-b151c784ca82__L3",
       "name": "Bot Y",
       "symbol": "var_bot_y_3"
+    },
+    {
+      "id": "1dca4bb1-8352-469f-9b56-aaa12cb3ecb8__L5",
+      "name": "DMG loop",
+      "symbol": "var_dmg_loop"
+    },
+    {
+      "id": "334941cf-d5f4-4859-9312-7e60ce93bc5e__L0",
+      "name": "Remote Control Item",
+      "symbol": "var_remote_control_item_4"
+    },
+    {
+      "id": "292175d1-d223-4c67-9c18-745b29307a2e__L0",
+      "name": "Remote Control Item",
+      "symbol": "var_remote_control_item_5"
+    },
+    {
+      "id": "e415679e-fc7d-46cb-b395-ce0b2c5a0f1e__L0",
+      "name": "Remote Control Item",
+      "symbol": "var_remote_control_item_6"
     }
   ],
   "constants": []

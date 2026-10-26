@@ -5,17 +5,33 @@
   "type": "TOPDOWN",
   "name": "Start Dark BedRoom",
   "symbol": "scene_start_dark_bedroom",
-  "x": 234.05939971102237,
-  "y": 370.343188882686,
+  "x": 232,
+  "y": 368,
   "width": 40,
   "height": 30,
   "backgroundId": "f1a874fc-4f4a-42b3-bf81-0ecd41e1f98c",
   "tilesetId": "",
   "colorModeOverride": "none",
   "paletteIds": [
-    "31fad0d1-94ff-4fb9-b363-fffb51efe0c2"
+    "bf6d2213-fe8b-4a73-9b48-9a80db21b967",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
   ],
-  "spritePaletteIds": [],
+  "spritePaletteIds": [
+    "dbbfe5c0-d167-4143-9393-552b54321888",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
   "autoFadeSpeed": 1,
   "playerSpriteSheetId": "fcc12505-44cf-4595-94ae-a955dca57387",
   "script": [

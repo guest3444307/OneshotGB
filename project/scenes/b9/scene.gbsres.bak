@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "2e1789f5-2c46-472a-b0b2-0eca345c024c",
-  "_index": 27,
+  "_index": 24,
   "type": "TOPDOWN",
   "name": "b9",
   "symbol": "scene_b9",
@@ -254,7 +254,7 @@
                     ],
                     "persist": true,
                     "__scriptTabs": "press",
-                    "__collapse": true
+                    "__collapse": false
                   },
                   "children": {
                     "true": [

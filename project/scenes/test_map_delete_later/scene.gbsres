@@ -1,0 +1,32 @@
+{
+  "_resourceType": "scene",
+  "id": "602d9c34-84ab-4521-be15-796e997de3ca",
+  "_index": 48,
+  "name": "test map delete later",
+  "backgroundId": "d36ba94c-f9c7-454b-b631-35ab1a13715a",
+  "tilesetId": "",
+  "width": 50,
+  "height": 30,
+  "type": "TOPDOWN",
+  "colorModeOverride": "none",
+  "paletteIds": [
+    "dbbfe5c0-d167-4143-9393-552b54321888",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "spritePaletteIds": [],
+  "collisions": "005dc+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_49",
+  "x": 544,
+  "y": 1040,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

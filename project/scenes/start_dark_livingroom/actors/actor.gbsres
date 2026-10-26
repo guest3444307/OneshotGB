@@ -77,17 +77,6 @@
             "children": {
               "true": [
                 {
-                  "id": "7422f555-59c0-4fcd-acf7-dfc800e97593",
-                  "command": "EVENT_SET_VALUE",
-                  "args": {
-                    "variable": "4",
-                    "__collapse": false,
-                    "value": {
-                      "type": "true"
-                    }
-                  }
-                },
-                {
                   "id": "dc57f38d-d0c4-43ee-b166-bd0badfa4662",
                   "command": "EVENT_SET_VALUE",
                   "args": {

@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "2e1789f5-2c46-472a-b0b2-0eca345c024c",
-  "_index": 27,
+  "_index": 24,
   "type": "TOPDOWN",
   "name": "b9",
   "symbol": "scene_b9",
@@ -96,18 +96,7 @@
         }
       },
       "children": {
-        "true": [
-          {
-            "id": "af053ad3-8ba2-47e2-854b-aa50334be02f",
-            "command": "EVENT_SET_VALUE",
-            "args": {
-              "variable": "4",
-              "value": {
-                "type": "false"
-              }
-            }
-          }
-        ],
+        "true": [],
         "false": [
           {
             "id": "33b9eae4-927f-4b45-95e0-41dd7f3257b3",
@@ -202,17 +191,6 @@
                   }
                 }
               ]
-            }
-          },
-          {
-            "id": "87d61189-85a0-44d4-9bfa-62bae35ac215",
-            "command": "EVENT_SET_VALUE",
-            "args": {
-              "variable": "4",
-              "__collapse": true,
-              "value": {
-                "type": "true"
-              }
             }
           }
         ]

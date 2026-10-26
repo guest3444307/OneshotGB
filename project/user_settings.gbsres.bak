@@ -1,8 +1,8 @@
 {
   "_resourceType": "settings",
-  "worldScrollX": 1088,
-  "worldScrollY": 6910.39990234375,
-  "zoom": 1087.5,
+  "worldScrollX": 564,
+  "worldScrollY": 824,
+  "zoom": 150,
   "navigatorSplitSizes": [
     30,
     205,
@@ -14,7 +14,7 @@
   "showCollisions": true,
   "showConnections": "selected",
   "showSceneScreenGrid": false,
-  "previewAsMono": true,
+  "previewAsMono": false,
   "showCollisionSlopeTiles": true,
   "favoriteEvents": [
     "EVENT_TEXT",

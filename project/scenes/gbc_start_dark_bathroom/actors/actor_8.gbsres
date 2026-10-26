@@ -19,15 +19,35 @@
   "script": [],
   "startScript": [
     {
-      "command": "EVENT_SET_ACTOR_ACTIVE_INDEX",
+      "command": "EVENT_IF_COLOR_SUPPORTED",
       "args": {
-        "actorId": "$self$",
-        "activeIdx": {
-          "type": "number",
-          "value": 1
-        }
+        "__collapseElse": false
       },
-      "id": "30b3ffaf-4ebf-4793-814b-3ec433721409"
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_ACTOR_ACTIVE_INDEX",
+            "args": {
+              "actorId": "$self$",
+              "activeIdx": {
+                "type": "number",
+                "value": 1
+              }
+            },
+            "id": "30b3ffaf-4ebf-4793-814b-3ec433721409"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_ACTOR_HIDE",
+            "args": {
+              "actorId": "$self$"
+            },
+            "id": "6b7b42ea-6ca2-4ad1-962f-95ec1107fd39"
+          }
+        ]
+      },
+      "id": "f38f8c73-d52b-4b17-9139-e4f1bc018169"
     }
   ],
   "updateScript": [],

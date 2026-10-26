@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "cbf72c4e-e53e-4918-97af-2807b9708d5e",
-  "_index": 12,
+  "_index": 10,
   "type": "TOPDOWN",
   "name": "Computer Cutscene 2",
   "symbol": "scene_computer_cutscene_2",
@@ -897,7 +897,7 @@
                                                         ],
                                                         "persist": true,
                                                         "__scriptTabs": "press",
-                                                        "__collapse": true
+                                                        "__collapse": false
                                                       },
                                                       "children": {
                                                         "true": [

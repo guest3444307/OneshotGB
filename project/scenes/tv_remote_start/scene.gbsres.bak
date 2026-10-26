@@ -168,7 +168,8 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "[They're marked in\nbright colors.]"
+          "[They're marked in\nbright colors.]",
+          "$14$ $13$ $11$ $12$"
         ],
         "avatarId": "",
         "__collapse": false,

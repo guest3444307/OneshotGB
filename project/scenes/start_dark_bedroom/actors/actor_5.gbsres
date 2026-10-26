@@ -67,7 +67,7 @@
             "args": {
               "variable": "21",
               "__collapseElse": true,
-              "__collapse": true,
+              "__collapse": false,
               "condition": {
                 "type": "variable",
                 "value": "21"
@@ -141,16 +141,6 @@
             "id": "5d7d5979-b4b3-4e2c-a836-ad0b9bff5735"
           },
           {
-            "command": "EVENT_SET_VALUE",
-            "args": {
-              "variable": "4",
-              "value": {
-                "type": "true"
-              }
-            },
-            "id": "13d76c58-2acb-4b37-a7e4-9ee7f81a1861"
-          },
-          {
             "command": "EVENT_PLAYER_SET_SPRITE",
             "args": {
               "spriteSheetId": "80e3c3db-38da-48e9-bd21-7d09280dbbf2",
@@ -211,16 +201,6 @@
               }
             },
             "id": "1904244b-ab24-44e2-a9ec-dbde57874723"
-          },
-          {
-            "command": "EVENT_SET_VALUE",
-            "args": {
-              "variable": "22",
-              "value": {
-                "type": "true"
-              }
-            },
-            "id": "d854dbcb-e30e-4688-a21b-659db27cc4b1"
           }
         ],
         "false": []

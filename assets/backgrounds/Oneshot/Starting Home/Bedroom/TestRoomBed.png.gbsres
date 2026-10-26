@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "d36ba94c-f9c7-454b-b631-35ab1a13715a",
+  "name": "Oneshot/Starting Home/Bedroom/TestRoomBed",
+  "symbol": "bg_oneshot_starting_home_be_0",
+  "tileColors": "",
+  "filename": "Oneshot/Starting Home/Bedroom/TestRoomBed.png",
+  "width": 50,
+  "height": 30,
+  "imageWidth": 400,
+  "imageHeight": 240
+}

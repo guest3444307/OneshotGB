@@ -61,7 +61,7 @@
               "operator": "==",
               "comparator": 0,
               "__collapseElse": false,
-              "__collapse": true,
+              "__collapse": false,
               "condition": {
                 "type": "eq",
                 "valueA": {
@@ -76,17 +76,6 @@
             },
             "children": {
               "true": [
-                {
-                  "id": "93219218-ebb5-4b83-8687-c8463fd8b9c6",
-                  "command": "EVENT_SET_VALUE",
-                  "args": {
-                    "variable": "4",
-                    "__collapse": true,
-                    "value": {
-                      "type": "true"
-                    }
-                  }
-                },
                 {
                   "id": "c50ae426-6b9d-4f44-b17b-b5cb89328248",
                   "command": "EVENT_SET_VALUE",
@@ -113,7 +102,7 @@
                       "type": "eq",
                       "valueA": {
                         "type": "variable",
-                        "value": "10"
+                        "value": "9"
                       },
                       "valueB": {
                         "type": "number",
@@ -134,17 +123,6 @@
                           },
                           "__collapse": false
                         }
-                      },
-                      {
-                        "id": "caaddc39-8e15-498e-a7c1-b14244412a75",
-                        "command": "EVENT_SET_VALUE",
-                        "args": {
-                          "variable": "10",
-                          "__collapse": false,
-                          "value": {
-                            "type": "true"
-                          }
-                        }
                       }
                     ],
                     "false": [
@@ -161,7 +139,7 @@
                             "type": "eq",
                             "valueA": {
                               "type": "variable",
-                              "value": "22"
+                              "value": "23"
                             },
                             "valueB": {
                               "type": "number",
@@ -171,17 +149,6 @@
                         },
                         "children": {
                           "true": [
-                            {
-                              "id": "776e323c-54cf-4144-8457-32a2567cf443",
-                              "command": "EVENT_SET_VALUE",
-                              "args": {
-                                "variable": "22",
-                                "__collapse": false,
-                                "value": {
-                                  "type": "true"
-                                }
-                              }
-                            },
                             {
                               "id": "a70543cf-3cc8-4708-b3ad-9482d6b1e981",
                               "command": "EVENT_SET_VALUE",

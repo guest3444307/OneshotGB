@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "cbf72c4e-e53e-4918-97af-2807b9708d5e",
-  "_index": 12,
+  "_index": 10,
   "type": "TOPDOWN",
   "name": "Computer Cutscene 2",
   "symbol": "scene_computer_cutscene_2",
@@ -753,18 +753,7 @@
                                                   }
                                                 },
                                                 "children": {
-                                                  "true": [
-                                                    {
-                                                      "id": "48c0b020-2044-4c25-8e10-98858044aa0a",
-                                                      "command": "EVENT_SET_VALUE",
-                                                      "args": {
-                                                        "variable": "4",
-                                                        "value": {
-                                                          "type": "false"
-                                                        }
-                                                      }
-                                                    }
-                                                  ],
+                                                  "true": [],
                                                   "false": [
                                                     {
                                                       "id": "45e2f7a6-4642-4488-ac2e-5fe4d77e530a",
@@ -788,18 +777,7 @@
                                                         }
                                                       },
                                                       "children": {
-                                                        "true": [
-                                                          {
-                                                            "id": "cb7713b6-f79a-4ac7-8e22-053239aa67a0",
-                                                            "command": "EVENT_SET_VALUE",
-                                                            "args": {
-                                                              "variable": "10",
-                                                              "value": {
-                                                                "type": "false"
-                                                              }
-                                                            }
-                                                          }
-                                                        ],
+                                                        "true": [],
                                                         "false": [
                                                           {
                                                             "id": "f1846270-a6d7-45c7-9ca6-1ffb37b1d8da",
@@ -822,53 +800,11 @@
                                                               }
                                                             },
                                                             "children": {
-                                                              "true": [
-                                                                {
-                                                                  "id": "73e8cf86-2f98-4a1b-a163-c0eac68ddefb",
-                                                                  "command": "EVENT_SET_VALUE",
-                                                                  "args": {
-                                                                    "variable": "22",
-                                                                    "value": {
-                                                                      "type": "false"
-                                                                    }
-                                                                  }
-                                                                }
-                                                              ],
-                                                              "false": [
-                                                                {
-                                                                  "id": "ef7c382a-87d8-4a8c-aed7-61df09e809d3",
-                                                                  "command": "EVENT_SET_VALUE",
-                                                                  "args": {
-                                                                    "variable": "22",
-                                                                    "value": {
-                                                                      "type": "true"
-                                                                    }
-                                                                  }
-                                                                }
-                                                              ]
-                                                            }
-                                                          },
-                                                          {
-                                                            "id": "77b7f693-8385-43ac-94fb-2055dee66901",
-                                                            "command": "EVENT_SET_VALUE",
-                                                            "args": {
-                                                              "variable": "10",
-                                                              "value": {
-                                                                "type": "true"
-                                                              }
+                                                              "true": [],
+                                                              "false": []
                                                             }
                                                           }
                                                         ]
-                                                      }
-                                                    },
-                                                    {
-                                                      "id": "ca1f7c64-cf44-414a-8459-db6c34dc8b82",
-                                                      "command": "EVENT_SET_VALUE",
-                                                      "args": {
-                                                        "variable": "4",
-                                                        "value": {
-                                                          "type": "true"
-                                                        }
                                                       }
                                                     }
                                                   ]

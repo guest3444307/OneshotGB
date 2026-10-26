@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "dfd76697-bfca-41b6-91dc-92300f122229",
-  "_index": 50,
+  "_index": 46,
   "type": "TOPDOWN",
   "name": "Tile Screen GBC",
   "symbol": "scene_tile_screen_gbc",
@@ -348,6 +348,14 @@
           }
         ]
       }
+    },
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": false
+      },
+      "id": "8be24440-bb41-4e9d-9350-df7a27dc0d25"
     },
     {
       "id": "d8aa5c2e-6a62-4328-a84a-fda384006f33",

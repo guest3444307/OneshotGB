@@ -57,5 +57,5 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "collisions": "0049+0f!00c+0f9+00b+0f!006+0f!00c+0f!006+0f2+00b+0fa+00a+0f!006+0f3+00a+0f!006+0f2+00b+0f!007+0f!00b+0f9+00b+0f!0071+"
+  "collisions": "0049+0f!00c+0f9+00b+0f!0013+0f!007+0f!00b+0f2+006+0f2+00a+0f!006+0f3+00a+0f!006+0f2+00b+0f!007+0f!00b+0f9+00b+0f!0071+"
 }

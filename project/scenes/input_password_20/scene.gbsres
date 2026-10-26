@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "b345fc57-f2b2-4546-9aac-992c3b692df9",
-  "_index": 15,
+  "_index": 13,
   "type": "TOPDOWN",
   "name": "Input Password 2.0",
   "symbol": "scene_input_password_2_0",
@@ -36,6 +36,15 @@
       }
     },
     {
+      "command": "EVENT_COMMENT",
+      "args": {
+        "text": [
+          "This could probably be changed to a local variable"
+        ]
+      },
+      "id": "37949600-3e5d-40d5-ba5d-c6d4eb79852f"
+    },
+    {
       "id": "76fbdf67-0a45-4fb7-a9b6-389a9020ef87",
       "command": "EVENT_SET_VALUE",
       "args": {
@@ -44,7 +53,7 @@
           "type": "number",
           "value": 0
         },
-        "__collapse": true
+        "__collapse": false
       }
     },
     {
@@ -68,7 +77,7 @@
               "operator": "==",
               "comparator": 12,
               "__collapseElse": false,
-              "__collapse": true,
+              "__collapse": false,
               "condition": {
                 "type": "eq",
                 "valueA": {
@@ -104,7 +113,7 @@
                     "operator": "==",
                     "comparator": 12,
                     "__collapseElse": false,
-                    "__collapse": true,
+                    "__collapse": false,
                     "condition": {
                       "type": "eq",
                       "valueA": {
@@ -223,7 +232,7 @@
               "operator": "==",
               "vectorY": "14",
               "__collapseElse": true,
-              "__collapse": false,
+              "__collapse": true,
               "condition": {
                 "type": "eq",
                 "valueA": {
@@ -673,5 +682,6 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "collisions": "00168+"
+  "collisions": "00168+",
+  "autoFadeEventCollapse": true
 }
