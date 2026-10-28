@@ -3,10 +3,10 @@
   "id": "0d42cf21-d567-4b33-923b-c5e13f05b86f",
   "name": "Oneshot/Starting Home/Bedroom/rm_2_start",
   "symbol": "bg_oneshot_starting_home_be",
-  "tileColors": "",
+  "tileColors": "004b0+",
   "filename": "Oneshot/Starting Home/Bedroom/rm_2_start.png",
-  "width": 50,
+  "width": 40,
   "height": 30,
-  "imageWidth": 400,
+  "imageWidth": 320,
   "imageHeight": 240
 }

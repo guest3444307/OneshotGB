@@ -1,8 +1,8 @@
 {
-    "activeFile": "C:/Users/guest_hjtv54o/Desktop/agg/Data/Tiled/Tilesets/red_factory_interior.tsx",
+    "activeFile": "C:/Users/guest_hjtv54o/Desktop/Evil lab where i torture Tiled/rm_2_start.tmx",
     "expandedProjectPaths": [
-        "Rooms",
-        "."
+        ".",
+        "Rooms"
     ],
     "file.lastUsedOpenFilter": "All Files (*)",
     "fileStates": {
@@ -17,15 +17,31 @@
         "2 Demo imports/livingroom/tiled(1).tmx#tiles": {
             "scaleInDock": 1
         },
+        "C:/Users/guest_hjtv54o/Desktop/Evil lab where i torture Tiled/rm_2_start.tmx": {
+            "scale": 8,
+            "selectedLayer": 7,
+            "viewCenter": {
+                "x": 156.1875,
+                "y": 158.3125
+            }
+        },
         "C:/Users/guest_hjtv54o/Desktop/Evil lab where i torture Tiled/start.tsx": {
             "dynamicWrapping": false,
-            "scaleInEditor": 1
+            "scaleInDock": 4,
+            "scaleInEditor": 8
+        },
+        "C:/Users/guest_hjtv54o/Desktop/Tilesets/passages.tsx": {
+            "scaleInDock": 16
         },
         "C:/Users/guest_hjtv54o/Desktop/Tilesets/start.tsx": {
             "scaleInDock": 1
         },
         "C:/Users/guest_hjtv54o/Desktop/Tilesets/systemtags.tsx": {
-            "dynamicWrapping": true
+            "dynamicWrapping": true,
+            "scaleInDock": 16
+        },
+        "C:/Users/guest_hjtv54o/Desktop/Tilesets/terrain_tag.tsx": {
+            "scaleInDock": 1
         },
         "C:/Users/guest_hjtv54o/Desktop/agg/Data/Tiled/Maps/004 Elevator 1.tmx": {
             "scale": 0.3265625,
@@ -209,13 +225,13 @@
     "last.externalTilesetPath": "C:/Users/guest_hjtv54o/Desktop/Evil lab where i torture Tiled",
     "last.imagePath": "C:/Users/guest_hjtv54o/Desktop/Evil lab where i torture Tiled",
     "openFiles": [
-        "C:/Users/guest_hjtv54o/Desktop/agg/Data/Tiled/Maps/rm_181_bathroom.tmx",
-        "C:/Users/guest_hjtv54o/Desktop/agg/Data/Tiled/Maps/rm_113_kip.tmx",
-        "C:/Users/guest_hjtv54o/Desktop/agg/Data/Tiled/Tilesets/red_factory_interior.tsx"
+        "C:/Users/guest_hjtv54o/Desktop/Evil lab where i torture Tiled/rm_2_start.tmx",
+        "C:/Users/guest_hjtv54o/Desktop/Evil lab where i torture Tiled/start.tsx"
     ],
     "project": "OSGBTiled.tiled-project",
     "recentFiles": [
         "C:/Users/guest_hjtv54o/Desktop/Evil lab where i torture Tiled/start.tsx",
+        "C:/Users/guest_hjtv54o/Desktop/Evil lab where i torture Tiled/rm_2_start.tmx",
         "C:/Users/guest_hjtv54o/Desktop/agg/Data/Tiled/Maps/rm_181_bathroom.tmx",
         "C:/Users/guest_hjtv54o/Desktop/agg/Data/Tiled/Maps/rm_113_kip.tmx",
         "C:/Users/guest_hjtv54o/Desktop/agg/Data/Tiled/Tilesets/red_factory_interior.tsx",
@@ -225,8 +241,7 @@
         "C:/Users/guest_hjtv54o/Desktop/agg/Data/Tiled/Maps/004 Elevator 1.tmx",
         "C:/Users/guest_hjtv54o/Desktop/agg/Data/Tiled/Maps/rm_182_livingroom.tmx",
         "C:/Users/guest_hjtv54o/Documents/rpgmaker to tiled/startBed.tmx",
-        "C:/Users/guest_hjtv54o/Desktop/agg/Data/Tiled/Maps/rm_50_stairwell.tmx",
-        "C:/Users/guest_hjtv54o/Documents/rpgmaker to tiled/untitled.tsx"
+        "C:/Users/guest_hjtv54o/Desktop/agg/Data/Tiled/Maps/rm_50_stairwell.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
